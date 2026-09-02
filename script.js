@@ -26,11 +26,13 @@ const monturas = [
         color: [
             "Cafe",
             "Negro",
+            "Carey"
         ],
 
         categorias: [
             "rayban",
             "clasicas",
+            "sol",
             "unisex"
         ],
 
@@ -63,7 +65,9 @@ const monturas = [
 
         categorias: [
             "rayban",
-            "modernas"
+            "clasicas",
+            "sol",
+            "unisex"
         ],
 
         imagenes: [
@@ -97,7 +101,8 @@ const monturas = [
         categorias: [
             "rayban",
             "deportivas",
-            "unisex"
+            "unisex",
+            "sol"
         ],
 
         imagenes: [
@@ -118,19 +123,19 @@ const monturas = [
 
         marca: "Ray-Ban",
 
-        nombre: "Ray-Ban JUSTIN",
+        nombre: "Ray-Ban CAT-EYE",
 
         referencia: "RB004",
 
         color: [
-            "Azul",
-            "Negro"
+            "Carey",
         ],
 
         categorias: [
             "rayban",
             "deportivas",
-            "unisex"
+            "mujer",
+            "sol"
         ],
 
         imagenes: [
@@ -147,19 +152,19 @@ const monturas = [
 
         marca: "Ray-Ban",
 
-        nombre: "Ray-Ban JUSTIN",
+        nombre: "Ray-Ban ICONS",
 
         referencia: "RB005",
 
         color: [
-            "Azul",
-            "Negro"
+            "Negro",
         ],
 
         categorias: [
             "rayban",
-            "deportivas",
-            "unisex"
+            "clasicas",
+            "unisex",
+            "sol"
         ],
 
         imagenes: [
@@ -176,18 +181,19 @@ const monturas = [
 
         marca: "Ray-Ban",
 
-        nombre: "Ray-Ban JUSTIN",
+        nombre: "Ray-Ban PILLOW",
 
         referencia: "RB006",
 
         color: [
-            "Azul",
+            "Morado",
             "Negro"
         ],
 
         categorias: [
             "rayban",
             "deportivas",
+            "sol",
             "unisex"
         ],
 
@@ -212,14 +218,15 @@ const monturas = [
         referencia: "RB007",
 
         color: [
-            "Azul",
-            "Negro"
+            "Naranja",
+            "Cafe"
         ],
 
         categorias: [
             "rayban",
             "deportivas",
-            "unisex"
+            "unisex",
+            "sol"
         ],
 
         imagenes: [
@@ -238,19 +245,19 @@ const monturas = [
 
         marca: "Ray-Ban",
 
-        nombre: "Ray-Ban JUSTIN",
+        nombre: "Ray-Ban ICONS",
 
         referencia: "RB008",
 
         color: [
-            "Azul",
-            "Negro"
+            "Dorado",
         ],
 
         categorias: [
             "rayban",
             "deportivas",
-            "unisex"
+            "unisex",
+            "sol"
         ],
 
         imagenes: [
@@ -267,19 +274,19 @@ const monturas = [
 
         marca: "Ray-Ban",
 
-        nombre: "Ray-Ban AVIATOR",
+        nombre: "Ray-Ban ICONS",
 
         referencia: "RB009",
 
         color: [
-            "Azul",
-            "Negro"
+            "Gris",
         ],
 
         categorias: [
             "rayban",
             "deportivas",
-            "unisex"
+            "unisex",
+            "sol"
         ],
 
         imagenes: [
@@ -301,14 +308,14 @@ const monturas = [
         referencia: "RB010",
 
         color: [
-            "Azul",
-            "Negro"
+            "Negro",
         ],
 
         categorias: [
             "rayban",
             "deportivas",
-            "unisex"
+            "unisex",
+            "sol"
         ],
 
         imagenes: [
@@ -330,14 +337,14 @@ const monturas = [
         referencia: "RB011",
 
         color: [
-            "Azul",
-            "Negro"
+            "Negro",
         ],
 
         categorias: [
             "rayban",
             "deportivas",
-            "unisex"
+            "unisex",
+            "sol"
         ],
 
         imagenes: [
@@ -354,19 +361,19 @@ const monturas = [
 
         marca: "Ray-Ban",
 
-        nombre: "Ray-Ban 3 PIEZAS",
+        nombre: "Ray-Ban CLASSIC",
 
         referencia: "RB012",
 
         color: [
-            "Azul",
-            "Negro"
+            "Negro",
         ],
 
         categorias: [
             "rayban",
             "deportivas",
-            "unisex"
+            "unisex",
+            "sol"
         ],
 
         imagenes: [
@@ -383,19 +390,19 @@ const monturas = [
 
         marca: "Ray-Ban",
 
-        nombre: "Ray-Ban JUSTIN",
+        nombre: "Ray-Ban FERRARI",
 
         referencia: "RB013",
 
         color: [
-            "Azul",
-            "Negro"
+            "Carey",
         ],
 
         categorias: [
             "rayban",
             "deportivas",
-            "unisex"
+            "unisex",
+            "sol"
         ],
 
         imagenes: [
@@ -412,24 +419,24 @@ const monturas = [
 
         marca: "Ray-Ban",
 
-        nombre: "Ray-Ban JUSTIN",
+        nombre: "Ray-Ban ICONS",
 
         referencia: "RB014",
 
         color: [
-            "Azul",
-            "Negro"
+            "Dorado",
         ],
 
         categorias: [
             "rayban",
             "deportivas",
-            "unisex"
+            "unisex",
+            "sol"
         ],
 
         imagenes: [
-            "imagenes/monturas/rayban/rb0.jpeg",
-            "imagenes/monturas/rayban/rb0.jpeg"
+            "imagenes/monturas/rayban/rb047.jpeg",
+            "imagenes/monturas/rayban/rb048.jpeg"
         ],
 
         estado: "Últimas unidades"
@@ -439,26 +446,25 @@ const monturas = [
     {
         id:15,
 
-        marca: "Ray-Ban",
+        marca: "Oakley",
 
-        nombre: "Ray-Ban JUSTIN",
+        nombre: "Oakley PRISMA",
 
-        referencia: "RB015",
+        referencia: "OK001",
 
         color: [
-            "Azul",
             "Negro"
         ],
 
         categorias: [
-            "rayban",
-            "deportivas",
-            "unisex"
+            "oakley",
+            "oftalmica",
+            "hombre"
         ],
 
         imagenes: [
-            "imagenes/monturas/rayban/rb0.jpeg",
-            "imagenes/monturas/rayban/rb0.jpeg"
+            "imagenes/monturas/oakley/ok001.jpeg",
+            "imagenes/monturas/oakley/ok002.jpeg"
         ],
 
         estado: "Últimas unidades"
@@ -468,26 +474,25 @@ const monturas = [
     {
         id:16,
 
-        marca: "Ray-Ban",
+        marca: "Oakley",
 
-        nombre: "Ray-Ban JUSTIN",
+        nombre: "Oakley PRISMA",
 
-        referencia: "RB016",
+        referencia: "OK002",
 
         color: [
-            "Azul",
-            "Negro"
+            "Gris"
         ],
 
         categorias: [
-            "rayban",
-            "deportivas",
+            "oakley",
+            "oftalmica",
             "unisex"
         ],
 
         imagenes: [
-            "imagenes/monturas/rayban/rb0.jpeg",
-            "imagenes/monturas/rayban/rb0.jpeg"
+            "imagenes/monturas/oakley/ok003.jpeg",
+            "imagenes/monturas/oakley/ok004.jpeg"
         ],
 
         estado: "Últimas unidades"
@@ -497,26 +502,26 @@ const monturas = [
     {
         id:17,
 
-        marca: "Ray-Ban",
+        marca: "Oakley",
 
-        nombre: "Ray-Ban JUSTIN",
+        nombre: "Oakley PRISMA",
 
-        referencia: "RB017",
+        referencia: "OK003",
 
         color: [
-            "Azul",
-            "Negro"
+            "Rojo"
         ],
 
         categorias: [
-            "rayban",
-            "deportivas",
-            "unisex"
+            "oakley",
+            "3piezas",
+            "oftalmica",
+            "hombre"
         ],
 
         imagenes: [
-            "imagenes/monturas/rayban/rb0.jpeg",
-            "imagenes/monturas/rayban/rb0.jpeg"
+            "imagenes/monturas/oakley/ok005.jpeg",
+            "imagenes/monturas/oakley/ok006.jpeg"
         ],
 
         estado: "Últimas unidades"
@@ -526,26 +531,26 @@ const monturas = [
     {
         id:18,
 
-        marca: "Ray-Ban",
+        marca: "Oakley",
 
-        nombre: "Ray-Ban JUSTIN",
+        nombre: "Oakley PRISMA",
 
-        referencia: "RB018",
+        referencia: "OK004",
 
         color: [
-            "Azul",
-            "Negro"
+            "Azul"
         ],
 
         categorias: [
-            "rayban",
-            "deportivas",
-            "unisex"
+            "oakley",
+            "3piezas",
+            "oftalmica",
+            "hombre"
         ],
 
         imagenes: [
-            "imagenes/monturas/rayban/rb0.jpeg",
-            "imagenes/monturas/rayban/rb0.jpeg"
+            "imagenes/monturas/oakley/ok007.jpeg",
+            "imagenes/monturas/oakley/ok008.jpeg"
         ],
 
         estado: "Últimas unidades"
@@ -555,26 +560,26 @@ const monturas = [
     {
         id:19,
 
-        marca: "Ray-Ban",
+        marca: "Oakley",
 
-        nombre: "Ray-Ban JUSTIN",
+        nombre: "Oakley PRISMA",
 
-        referencia: "RB019",
+        referencia: "OK005",
 
         color: [
-            "Azul",
-            "Negro"
+            "Verde"
         ],
 
         categorias: [
-            "rayban",
+            "oakley",
             "deportivas",
+            "oftalmica",
             "unisex"
         ],
 
         imagenes: [
-            "imagenes/monturas/rayban/rb0.jpeg",
-            "imagenes/monturas/rayban/rb0.jpeg"
+            "imagenes/monturas/oakley/ok009.jpeg",
+            "imagenes/monturas/oakley/ok010.jpeg"
         ],
 
         estado: "Últimas unidades"
@@ -584,26 +589,25 @@ const monturas = [
     {
         id:20,
 
-        marca: "Ray-Ban",
+        marca: "Oakley",
 
-        nombre: "Ray-Ban JUSTIN",
+        nombre: "Oakley PRISMA",
 
-        referencia: "RB020",
+        referencia: "OK006",
 
         color: [
-            "Azul",
-            "Negro"
+            "Cafe"
         ],
 
         categorias: [
-            "rayban",
-            "deportivas",
+            "oakley",
+            "oftalmica",
             "unisex"
         ],
 
         imagenes: [
-            "imagenes/monturas/rayban/rb0.jpeg",
-            "imagenes/monturas/rayban/rb0.jpeg"
+            "imagenes/monturas/oakley/ok011.jpeg",
+            "imagenes/monturas/oakley/ok012.jpeg"
         ],
 
         estado: "Últimas unidades"
@@ -613,26 +617,25 @@ const monturas = [
     {
         id:21,
 
-        marca: "Ray-Ban",
+        marca: "Oakley",
 
-        nombre: "Ray-Ban JUSTIN",
+        nombre: "Oakley PRISMA",
 
-        referencia: "RB004",
+        referencia: "OK007",
 
         color: [
             "Azul",
-            "Negro"
         ],
 
         categorias: [
-            "rayban",
-            "deportivas",
-            "unisex"
+            "oakley",
+            "oftalmica",
+            "hombre"
         ],
 
         imagenes: [
-            "imagenes/monturas/rayban/rb0.jpeg",
-            "imagenes/monturas/rayban/rb0.jpeg"
+            "imagenes/monturas/oakley/ok013.jpeg",
+            "imagenes/monturas/oakley/ok014.jpeg"
         ],
 
         estado: "Últimas unidades"
@@ -642,26 +645,27 @@ const monturas = [
     {
         id:22,
 
-        marca: "Ray-Ban",
+        marca: "Oakley",
 
-        nombre: "Ray-Ban JUSTIN",
+        nombre: "Oakley PRISMA",
 
-        referencia: "RB004",
+        referencia: "OK008",
 
         color: [
-            "Azul",
-            "Negro"
+            "Gris"
         ],
 
         categorias: [
-            "rayban",
-            "deportivas",
-            "unisex"
+            "oakley",
+            "3piezas",
+            "oftalmica",
+            "foto-cromatico",
+            "hombre"
         ],
 
         imagenes: [
-            "imagenes/monturas/rayban/rb0.jpeg",
-            "imagenes/monturas/rayban/rb0.jpeg"
+            "imagenes/monturas/oakley/ok015.jpeg",
+            "imagenes/monturas/oakley/ok016.jpeg"
         ],
 
         estado: "Últimas unidades"
@@ -671,26 +675,27 @@ const monturas = [
     {
         id:23,
 
-        marca: "Ray-Ban",
+        marca: "Oakley",
 
-        nombre: "Ray-Ban JUSTIN",
+        nombre: "Oakley PRISMA",
 
-        referencia: "RB004",
+        referencia: "OK009",
 
         color: [
             "Azul",
-            "Negro"
         ],
 
         categorias: [
-            "rayban",
-            "deportivas",
-            "unisex"
+            "oakley",
+            "3piezas",
+            "oftalmica",
+            "foto-cromatico",
+            "hombre"
         ],
 
         imagenes: [
-            "imagenes/monturas/rayban/rb0.jpeg",
-            "imagenes/monturas/rayban/rb0.jpeg"
+            "imagenes/monturas/oakley/ok017.jpeg",
+            "imagenes/monturas/oakley/ok018.jpeg"
         ],
 
         estado: "Últimas unidades"
@@ -700,26 +705,541 @@ const monturas = [
     {
         id:24,
 
-        marca: "Ray-Ban",
+        marca: "Oakley",
 
-        nombre: "Ray-Ban JUSTIN",
+        nombre: "Oakley PRISMA",
 
-        referencia: "RB004",
+        referencia: "OK010",
 
         color: [
-            "Azul",
+            "Rojo"
+        ],
+
+        categorias: [
+            "oakley",
+            "3piezas",
+            "oftalmica",
+            "foto-cromatico",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/oakley/ok019.jpeg",
+            "imagenes/monturas/oakley/ok020.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:25,
+
+        marca: "Oakley",
+
+        nombre: "Oakley PRISMA",
+
+        referencia: "OK011",
+
+        color: [
+            "Verde"
+        ],
+
+        categorias: [
+            "oakley",
+            "oftalmica",
+            "moderna",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/oakley/ok021.jpeg",
+            "imagenes/monturas/oakley/ok022.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:25,
+
+        marca: "Oakley",
+
+        nombre: "Oakley PRISMA",
+
+        referencia: "OK012",
+
+        color: [
             "Negro"
         ],
 
         categorias: [
-            "rayban",
-            "deportivas",
-            "unisex"
+            "oakley",
+            "oftalmica",
+            "moderna",
+            "hombre"
         ],
 
         imagenes: [
-            "imagenes/monturas/rayban/rb0.jpeg",
-            "imagenes/monturas/rayban/rb0.jpeg"
+            "imagenes/monturas/oakley/ok023.jpeg",
+            "imagenes/monturas/oakley/ok024.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:26,
+
+        marca: "Oakley",
+
+        nombre: "Oakley PRISMA",
+
+        referencia: "OK013",
+
+        color: [
+            "Naranja"
+        ],
+
+        categorias: [
+            "oakley",
+            "sol",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/oakley/ok025.jpeg",
+            "imagenes/monturas/oakley/ok026.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:27,
+
+        marca: "Oakley",
+
+        nombre: "Oakley PRISMA",
+
+        referencia: "OK014",
+
+        color: [
+            "Verde"
+        ],
+
+        categorias: [
+            "oakley",
+            "moderna",
+            "oftalmica",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/oakley/ok027.jpeg",
+            "imagenes/monturas/oakley/ok028.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:28,
+
+        marca: "Oakley",
+
+        nombre: "Oakley PRISMA",
+
+        referencia: "OK015",
+
+        color: [
+            "Azul",
+        ],
+
+        categorias: [
+            "oakley",
+            "oftalmica",
+            "moderna",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/oakley/ok029.jpeg",
+            "imagenes/monturas/oakley/ok030.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:29,
+
+        marca: "Oakley",
+
+        nombre: "Oakley PRISMA",
+
+        referencia: "OK016",
+
+        color: [
+            "Traslucido",
+        ],
+
+        categorias: [
+            "oakley",
+            "deportivas",
+            "sol",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/oakley/ok031.jpeg",
+            "imagenes/monturas/oakley/ok032.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:30,
+
+        marca: "Oakley",
+
+        nombre: "Oakley PRISMA",
+
+        referencia: "OK017",
+
+        color: [
+            "Blanco",
+        ],
+
+        categorias: [
+            "oakley",
+            "deportivas",
+            "sol",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/oakley/ok033.jpeg",
+            "imagenes/monturas/oakley/ok034.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:31,
+
+        marca: "Oakley",
+
+        nombre: "Oakley PRISMA",
+
+        referencia: "OK018",
+
+        color: [
+            "Morado",
+        ],
+
+        categorias: [
+            "oakley",
+            "3piezas",
+            "sol",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/oakley/ok035.jpeg",
+            "imagenes/monturas/oakley/ok036.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:32,
+
+        marca: "Oakley",
+
+        nombre: "Oakley PRISMA",
+
+        referencia: "OK019",
+
+        color: [
+            "Negro",
+            "Rojo"
+        ],
+
+        categorias: [
+            "oakley",
+            "moderna",
+            "oftalmica",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/oakley/ok037.jpeg",
+            "imagenes/monturas/oakley/ok038.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:33,
+
+        marca: "Oakley",
+
+        nombre: "Oakley PRISMA",
+
+        referencia: "OK020",
+
+        color: [
+            "Dorado"
+        ],
+
+        categorias: [
+            "oakley",
+            "3piezas",
+            "foto-cromatico",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/oakley/ok039.jpeg",
+            "imagenes/monturas/oakley/ok040.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:34,
+
+        marca: "Oakley",
+
+        nombre: "Oakley PRISMA",
+
+        referencia: "OK021",
+
+        color: [
+            "Rojo",
+        ],
+
+        categorias: [
+            "oakley",
+            "oftalmica",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/oakley/ok041.jpeg",
+            "imagenes/monturas/oakley/ok042.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:35,
+
+        marca: "Oakley",
+
+        nombre: "Oakley PRISMA",
+
+        referencia: "OK022",
+
+        color: [
+            "Cafe"
+        ],
+
+        categorias: [
+            "oakley",
+            "oftalmica",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/oakley/ok043.jpeg",
+            "imagenes/monturas/oakley/ok044.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:36,
+
+        marca: "Oakley",
+
+        nombre: "Oakley PRISMA",
+
+        referencia: "OK023",
+
+        color: [
+            "Cafe",
+        ],
+
+        categorias: [
+            "oakley",
+            "oftalmica",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/oakley/ok045.jpeg",
+            "imagenes/monturas/oakley/ok046.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:37,
+
+        marca: "Oakley",
+
+        nombre: "Oakley PRISMA",
+
+        referencia: "OK024",
+
+        color: [
+            "Azul",
+        ],
+
+        categorias: [
+            "oakley",
+            "oftalmica",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/oakley/ok047.jpeg",
+            "imagenes/monturas/oakley/ok048.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:38,
+
+        marca: "Oakley",
+
+        nombre: "Oakley PRISMA",
+
+        referencia: "OK025",
+
+        color: [
+            "Gris",
+        ],
+
+        categorias: [
+            "oakley",
+            "oftalmica",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/oakley/ok049.jpeg",
+            "imagenes/monturas/oakley/ok050.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:39,
+
+        marca: "Oakley",
+
+        nombre: "Oakley PRISMA",
+
+        referencia: "OK026",
+
+        color: [
+            "Negro",
+        ],
+
+        categorias: [
+            "oakley",
+            "oftalmica",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/oakley/ok051.jpeg",
+            "imagenes/monturas/oakley/ok052.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:40,
+
+        marca: "Oakley",
+
+        nombre: "Oakley PRISMA",
+
+        referencia: "OK027",
+
+        color: [
+            "Gris",
+        ],
+
+        categorias: [
+            "oakley",
+            "oftalmica",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/oakley/ok053.jpeg",
+            "imagenes/monturas/oakley/ok054.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:41,
+
+        marca: "Oakley",
+
+        nombre: "Oakley PRISMA",
+
+        referencia: "OK028",
+
+        color: [
+            "Cafe",
+        ],
+
+        categorias: [
+            "oakley",
+            "oftalmica",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/oakley/ok055.jpeg",
+            "imagenes/monturas/oakley/ok056.jpeg"
         ],
 
         estado: "Últimas unidades"
