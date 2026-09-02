@@ -1243,6 +1243,519 @@ const monturas = [
         ],
 
         estado: "Últimas unidades"
+    },
+
+
+    {
+        id:42,
+
+        marca: "Lacoste",
+
+        nombre: "Lacoste",
+
+        referencia: "LC001",
+
+        color: [
+            "Azul",
+        ],
+
+        categorias: [
+            "lacoste",
+            "oftalmica",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/lacoste/lc001.jpeg",
+            "imagenes/monturas/lacoste/lc002.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:43,
+
+        marca: "Lacoste",
+
+        nombre: "Lacoste",
+
+        referencia: "LC002",
+
+        color: [
+            "Negro",
+        ],
+
+        categorias: [
+            "lacoste",
+            "oftalmica",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/lacoste/lc003.jpeg",
+            "imagenes/monturas/lacoste/lc004.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:44,
+
+        marca: "Lacoste",
+
+        nombre: "Lacoste",
+
+        referencia: "LC003",
+
+        color: [
+            "Verde",
+        ],
+
+        categorias: [
+            "lacoste",
+            "oftalmica",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/lacoste/lc005.jpeg",
+            "imagenes/monturas/lacoste/lc006.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:45,
+
+        marca: "Lacoste",
+
+        nombre: "Lacoste",
+
+        referencia: "LC004",
+
+        color: [
+            "Carey",
+        ],
+
+        categorias: [
+            "lacoste",
+            "oftalmica",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/lacoste/lc007.jpeg",
+            "imagenes/monturas/lacoste/lc008.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:46,
+
+        marca: "Lacoste",
+
+        nombre: "Lacoste",
+
+        referencia: "LC005",
+
+        color: [
+            "Azul",
+        ],
+
+        categorias: [
+            "lacoste",
+            "oftalmica",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/lacoste/lc009.jpeg",
+            "imagenes/monturas/lacoste/lc010.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:47,
+
+        marca: "Diesel",
+
+        nombre: "Diesel",
+
+        referencia: "DS001",
+
+        color: [
+            "Verde",
+        ],
+
+        categorias: [
+            "diesel",
+            "oftalmica",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/diesel/ds001.jpeg",
+            "imagenes/monturas/diesel/ds002.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:48,
+
+        marca: "Diesel",
+
+        nombre: "Diesel",
+
+        referencia: "DS002",
+
+        color: [
+            "Negra",
+        ],
+
+        categorias: [
+            "diesel",
+            "oftalmica",
+            "moderna",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/diesel/ds003.jpeg",
+            "imagenes/monturas/diesel/ds004.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:49,
+
+        marca: "Diesel",
+
+        nombre: "Diesel",
+
+        referencia: "DS003",
+
+        color: [
+            "Cristal",
+        ],
+
+        categorias: [
+            "diesel",
+            "oftalmica",
+            "unisex"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/diesel/ds005.jpeg",
+            "imagenes/monturas/diesel/ds006.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:50,
+
+        marca: "Diesel",
+
+        nombre: "Diesel",
+
+        referencia: "DS004",
+
+        color: [
+            "Azul",
+        ],
+
+        categorias: [
+            "diesel",
+            "oftalmica",
+            "moderna",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/diesel/ds007.jpeg",
+            "imagenes/monturas/diesel/ds008.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:51,
+
+        marca: "Diesel",
+
+        nombre: "Diesel",
+
+        referencia: "DS005",
+
+        color: [
+            "Traslucido rojo",
+        ],
+
+        categorias: [
+            "diesel",
+            "oftalmica",
+            "moderna",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/diesel/ds009.jpeg",
+            "imagenes/monturas/diesel/ds010.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:52,
+
+        marca: "Nike",
+
+        nombre: "Nike",
+
+        referencia: "NK001",
+
+        color: [
+            "Azul",
+        ],
+
+        categorias: [
+            "nike",
+            "oftalmica",
+            "deportiva",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/nike/nk001.jpeg",
+            "imagenes/monturas/nike/nk002.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:53,
+
+        marca: "Nike",
+
+        nombre: "Nike",
+
+        referencia: "NK002",
+
+        color: [
+            "Traslucido rojo",
+        ],
+
+        categorias: [
+            "nike",
+            "oftalmica",
+            "deportiva",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/nike/nk003.jpeg",
+            "imagenes/monturas/nike/nk004.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:54,
+
+        marca: "Nike",
+
+        nombre: "Nike",
+
+        referencia: "NK003",
+
+        color: [
+            "Gris",
+        ],
+
+        categorias: [
+            "nike",
+            "oftalmica",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/nike/nk005.jpeg",
+            "imagenes/monturas/nike/nk006.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:55,
+
+        marca: "Nike",
+
+        nombre: "Nike",
+
+        referencia: "NK004",
+
+        color: [
+            "Azul",
+        ],
+
+        categorias: [
+            "nike",
+            "oftalmica",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/nike/nk007.jpeg",
+            "imagenes/monturas/nike/nk008.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:56,
+
+        marca: "Tommy Hilfiger",
+
+        nombre: "Tommy Hilfiger",
+
+        referencia: "TM001",
+
+        color: [
+            "Verde",
+        ],
+
+        categorias: [
+            "tommy hilfiger",
+            "oftalmica",
+            "moderna",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/tommy/tm001.jpeg",
+            "imagenes/monturas/tommy/tm002.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:57,
+
+        marca: "Tommy Hilfiger",
+
+        nombre: "Tommy Hilfiger",
+
+        referencia: "TM002",
+
+        color: [
+            "Azul",
+        ],
+
+        categorias: [
+            "tommy hilfiger",
+            "oftalmica",
+            "moderna",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/tommy/tm003.jpeg",
+            "imagenes/monturas/tommy/tm004.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:58,
+
+        marca: "Tommy Hilfiger",
+
+        nombre: "Tommy Hilfiger",
+
+        referencia: "TM003",
+
+        color: [
+            "Azul",
+        ],
+
+        categorias: [
+            "tommy hilfiger",
+            "oftalmica",
+            "moderna",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/tommy/tm005.jpeg",
+            "imagenes/monturas/tommy/tm006.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:59,
+
+        marca: "Tommy Hilfiger",
+
+        nombre: "Tommy Hilfiger",
+
+        referencia: "TM004",
+
+        color: [
+            "Verde",
+        ],
+
+        categorias: [
+            "tommy hilfiger",
+            "oftalmica",
+            "moderna",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/tommy/tm007.jpeg",
+            "imagenes/monturas/tommy/tm008.jpeg"
+        ],
+
+        estado: "Últimas unidades"
     }
     
 
