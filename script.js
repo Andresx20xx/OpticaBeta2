@@ -2290,6 +2290,234 @@ const monturas = [
         ],
 
         estado: "Últimas unidades"
+    },
+
+
+    {
+        id:77,
+
+        marca: "Prada",
+
+        nombre: "Prada",
+
+        referencia: "PD011",
+
+        color: [
+            "Cristal",
+        ],
+
+        categorias: [
+            "prada",
+            "oftalmica",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/prada/pd021.jpeg",
+            "imagenes/monturas/prada/pd022.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:78,
+
+        marca: "Prada",
+
+        nombre: "Prada",
+
+        referencia: "PD012",
+
+        color: [
+            "Negro",
+        ],
+
+        categorias: [
+            "prada",
+            "oftalmica",
+            "hombre",
+            "mujer",
+            "unisex"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/prada/pd023.jpeg",
+            "imagenes/monturas/prada/pd024.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:79,
+
+        marca: "Otras marcas",
+
+        nombre: "Christian Dior",
+
+        referencia: "OM001",
+
+        color: [
+            "Carey",
+        ],
+
+        categorias: [
+            "otras marcas",
+            "oftalmica",
+            "hombre",
+            "mujer",
+            "unisex"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/otras marcas/om001.jpeg",
+            "imagenes/monturas/otras marcas/om002.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:80,
+
+        marca: "Otras marcas",
+
+        nombre: "HUGO BOSS",
+
+        referencia: "OM002",
+
+        color: [
+            "metalico",
+        ],
+
+        categorias: [
+            "otras marcas",
+            "oftalmica",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/otras marcas/om003.jpeg",
+            "imagenes/monturas/otras marcas/om004.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:81,
+
+        marca: "Otras marcas",
+
+        nombre: "Dolce & Gabbana",
+
+        referencia: "OM003",
+
+        color: [
+            "Cafe",
+        ],
+
+        categorias: [
+            "otras marcas",
+            "oftalmica",
+            "mujer"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/otras marcas/om005.jpeg",
+            "imagenes/monturas/otras marcas/om006.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:82,
+
+        marca: "Otras marcas",
+
+        nombre: "PHILIPP PLEIN",
+
+        referencia: "OM004",
+
+        color: [
+            "Negro",
+        ],
+
+        categorias: [
+            "otras marcas",
+            "oftalmica",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/otras marcas/om007.jpeg",
+            "imagenes/monturas/otras marcas/om008.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:83,
+
+        marca: "Otras marcas",
+
+        nombre: "Chromehearts",
+
+        referencia: "OM005",
+
+        color: [
+            "Cristal",
+        ],
+
+        categorias: [
+            "otras marcas",
+            "oftalmica",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/otras marcas/om009.jpeg",
+            "imagenes/monturas/otras marcas/om010.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:84,
+
+        marca: "Otras marcas",
+
+        nombre: "Burberry",
+
+        referencia: "OM006",
+
+        color: [
+            "Carey",
+        ],
+
+        categorias: [
+            "otras marcas",
+            "oftalmica",
+            "mujer"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/otras marcas/om011.jpeg",
+            "imagenes/monturas/otras marcas/om012.jpeg"
+        ],
+
+        estado: "Últimas unidades"
     }
     
 
