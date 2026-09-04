@@ -33,7 +33,9 @@ const monturas = [
             "rayban",
             "clasicas",
             "sol",
-            "unisex"
+            "unisex",
+            "hombre",
+            "mujer"
         ],
 
         imagenes: [
@@ -67,7 +69,9 @@ const monturas = [
             "rayban",
             "clasicas",
             "sol",
-            "unisex"
+            "unisex",
+            "hombre",
+            "mujer"
         ],
 
         imagenes: [
@@ -102,6 +106,8 @@ const monturas = [
             "rayban",
             "deportivas",
             "unisex",
+            "hombre",
+            "mujer",
             "sol"
         ],
 
@@ -164,6 +170,8 @@ const monturas = [
             "rayban",
             "clasicas",
             "unisex",
+            "hombre",
+            "mujer",
             "sol"
         ],
 
@@ -194,7 +202,9 @@ const monturas = [
             "rayban",
             "deportivas",
             "sol",
-            "unisex"
+            "unisex",
+            "hombre",
+            "mujer"
         ],
 
         imagenes: [
@@ -226,6 +236,8 @@ const monturas = [
             "rayban",
             "deportivas",
             "unisex",
+            "hombre",
+            "mujer",
             "sol"
         ],
 
@@ -257,6 +269,8 @@ const monturas = [
             "rayban",
             "deportivas",
             "unisex",
+            "hombre",
+            "mujer",
             "sol"
         ],
 
@@ -286,6 +300,8 @@ const monturas = [
             "rayban",
             "deportivas",
             "unisex",
+            "hombre",
+            "mujer",
             "sol"
         ],
 
@@ -315,6 +331,8 @@ const monturas = [
             "rayban",
             "deportivas",
             "unisex",
+            "hombre",
+            "mujer",
             "sol"
         ],
 
@@ -344,6 +362,8 @@ const monturas = [
             "rayban",
             "deportivas",
             "unisex",
+            "hombre",
+            "mujer",
             "sol"
         ],
 
@@ -373,6 +393,8 @@ const monturas = [
             "rayban",
             "deportivas",
             "unisex",
+            "hombre",
+            "mujer",
             "sol"
         ],
 
@@ -402,6 +424,8 @@ const monturas = [
             "rayban",
             "deportivas",
             "unisex",
+            "hombre",
+            "mujer",
             "sol"
         ],
 
@@ -431,6 +455,8 @@ const monturas = [
             "rayban",
             "deportivas",
             "unisex",
+            "mujer",
+            "hombre",
             "sol"
         ],
 
@@ -448,7 +474,7 @@ const monturas = [
 
         marca: "Oakley",
 
-        nombre: "Oakley PRISMA",
+        nombre: "Oakley",
 
         referencia: "OK001",
 
@@ -476,7 +502,7 @@ const monturas = [
 
         marca: "Oakley",
 
-        nombre: "Oakley PRISMA",
+        nombre: "Oakley",
 
         referencia: "OK002",
 
@@ -487,6 +513,8 @@ const monturas = [
         categorias: [
             "oakley",
             "oftalmica",
+            "hombre",
+            "mujer",
             "unisex"
         ],
 
@@ -504,7 +532,7 @@ const monturas = [
 
         marca: "Oakley",
 
-        nombre: "Oakley PRISMA",
+        nombre: "Oakley 3 piezas",
 
         referencia: "OK003",
 
@@ -533,7 +561,7 @@ const monturas = [
 
         marca: "Oakley",
 
-        nombre: "Oakley PRISMA",
+        nombre: "Oakley 3 piezas",
 
         referencia: "OK004",
 
@@ -562,7 +590,7 @@ const monturas = [
 
         marca: "Oakley",
 
-        nombre: "Oakley PRISMA",
+        nombre: "Oakley",
 
         referencia: "OK005",
 
@@ -574,6 +602,8 @@ const monturas = [
             "oakley",
             "deportivas",
             "oftalmica",
+            "hombre",
+            "mujer",
             "unisex"
         ],
 
@@ -591,7 +621,7 @@ const monturas = [
 
         marca: "Oakley",
 
-        nombre: "Oakley PRISMA",
+        nombre: "Oakley",
 
         referencia: "OK006",
 
@@ -602,6 +632,8 @@ const monturas = [
         categorias: [
             "oakley",
             "oftalmica",
+            "hombre",
+            "mujer",
             "unisex"
         ],
 
@@ -619,7 +651,7 @@ const monturas = [
 
         marca: "Oakley",
 
-        nombre: "Oakley PRISMA",
+        nombre: "Oakley",
 
         referencia: "OK007",
 
@@ -647,7 +679,7 @@ const monturas = [
 
         marca: "Oakley",
 
-        nombre: "Oakley PRISMA",
+        nombre: "Oakley 3 piezas",
 
         referencia: "OK008",
 
@@ -677,7 +709,7 @@ const monturas = [
 
         marca: "Oakley",
 
-        nombre: "Oakley PRISMA",
+        nombre: "Oakley 3 piezas",
 
         referencia: "OK009",
 
@@ -707,7 +739,7 @@ const monturas = [
 
         marca: "Oakley",
 
-        nombre: "Oakley PRISMA",
+        nombre: "Oakley 3 piezas",
 
         referencia: "OK010",
 
@@ -737,7 +769,7 @@ const monturas = [
 
         marca: "Oakley",
 
-        nombre: "Oakley PRISMA",
+        nombre: "Oakley",
 
         referencia: "OK011",
 
@@ -766,7 +798,7 @@ const monturas = [
 
         marca: "Oakley",
 
-        nombre: "Oakley PRISMA",
+        nombre: "Oakley",
 
         referencia: "OK012",
 
@@ -823,7 +855,7 @@ const monturas = [
 
         marca: "Oakley",
 
-        nombre: "Oakley PRISMA",
+        nombre: "Oakley",
 
         referencia: "OK014",
 
@@ -852,7 +884,7 @@ const monturas = [
 
         marca: "Oakley",
 
-        nombre: "Oakley PRISMA",
+        nombre: "Oakley",
 
         referencia: "OK015",
 
@@ -881,7 +913,7 @@ const monturas = [
 
         marca: "Oakley",
 
-        nombre: "Oakley PRISMA",
+        nombre: "Oakley",
 
         referencia: "OK016",
 
@@ -910,7 +942,7 @@ const monturas = [
 
         marca: "Oakley",
 
-        nombre: "Oakley PRISMA",
+        nombre: "Oakley",
 
         referencia: "OK017",
 
@@ -968,7 +1000,7 @@ const monturas = [
 
         marca: "Oakley",
 
-        nombre: "Oakley PRISMA",
+        nombre: "Oakley",
 
         referencia: "OK019",
 
@@ -998,7 +1030,7 @@ const monturas = [
 
         marca: "Oakley",
 
-        nombre: "Oakley PRISMA",
+        nombre: "Oakley 3 piezas",
 
         referencia: "OK020",
 
@@ -1027,7 +1059,7 @@ const monturas = [
 
         marca: "Oakley",
 
-        nombre: "Oakley PRISMA",
+        nombre: "Oakley",
 
         referencia: "OK021",
 
@@ -1055,7 +1087,7 @@ const monturas = [
 
         marca: "Oakley",
 
-        nombre: "Oakley PRISMA",
+        nombre: "Oakley",
 
         referencia: "OK022",
 
@@ -1083,7 +1115,7 @@ const monturas = [
 
         marca: "Oakley",
 
-        nombre: "Oakley PRISMA",
+        nombre: "Oakley",
 
         referencia: "OK023",
 
@@ -1111,7 +1143,7 @@ const monturas = [
 
         marca: "Oakley",
 
-        nombre: "Oakley PRISMA",
+        nombre: "Oakley",
 
         referencia: "OK024",
 
@@ -1139,7 +1171,7 @@ const monturas = [
 
         marca: "Oakley",
 
-        nombre: "Oakley PRISMA",
+        nombre: "Oakley",
 
         referencia: "OK025",
 
@@ -1167,7 +1199,7 @@ const monturas = [
 
         marca: "Oakley",
 
-        nombre: "Oakley PRISMA",
+        nombre: "Oakley",
 
         referencia: "OK026",
 
@@ -1195,7 +1227,7 @@ const monturas = [
 
         marca: "Oakley",
 
-        nombre: "Oakley PRISMA",
+        nombre: "Oakley",
 
         referencia: "OK027",
 
@@ -1223,7 +1255,7 @@ const monturas = [
 
         marca: "Oakley",
 
-        nombre: "Oakley PRISMA",
+        nombre: "Oakley",
 
         referencia: "OK028",
 
@@ -1459,6 +1491,8 @@ const monturas = [
         categorias: [
             "diesel",
             "oftalmica",
+            "hombre",
+            "mujer",
             "unisex"
         ],
 
@@ -1753,6 +1787,506 @@ const monturas = [
         imagenes: [
             "imagenes/monturas/tommy/tm007.jpeg",
             "imagenes/monturas/tommy/tm008.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:60,
+
+        marca: "Wanderth",
+
+        nombre: "Wanderth",
+
+        referencia: "WD001",
+
+        color: [
+            "Gris",
+        ],
+
+        categorias: [
+            "wanderth",
+            "sol",
+            "moderna",
+            "mujer"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/wanderth/wd001.jpeg",
+            "imagenes/monturas/wanderth/wd002.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:61,
+
+        marca: "Wanderth",
+
+        nombre: "Wanderth",
+
+        referencia: "WD002",
+
+        color: [
+            "Cafe",
+        ],
+
+        categorias: [
+            "wanderth",
+            "oftalmica",
+            "moderna",
+            "mujer"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/wanderth/wd003.jpeg",
+            "imagenes/monturas/wanderth/wd004.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:62,
+
+        marca: "Wanderth",
+
+        nombre: "Wanderth",
+
+        referencia: "WD003",
+
+        color: [
+            "Beige",
+        ],
+
+        categorias: [
+            "wanderth",
+            "sol",
+            "moderna",
+            "mujer"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/wanderth/wd005.jpeg",
+            "imagenes/monturas/wanderth/wd006.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:63,
+
+        marca: "Wanderth",
+
+        nombre: "Wanderth",
+
+        referencia: "WD004",
+
+        color: [
+            "Metalica",
+        ],
+
+        categorias: [
+            "wanderth",
+            "sol",
+            "moderna",
+            "unisex",
+            "mujer",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/wanderth/wd007.jpeg",
+            "imagenes/monturas/wanderth/wd008.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:64,
+
+        marca: "Wanderth",
+
+        nombre: "Wanderth",
+
+        referencia: "WD005",
+
+        color: [
+            "Azul",
+        ],
+
+        categorias: [
+            "wanderth",
+            "oftalmica",
+            "moderna",
+            "unisex",
+            "mujer",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/wanderth/wd009.jpeg",
+            "imagenes/monturas/wanderth/wd010.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:65,
+
+        marca: "Wanderth",
+
+        nombre: "Wanderth",
+
+        referencia: "WD006",
+
+        color: [
+            "Rosa",
+        ],
+
+        categorias: [
+            "wanderth",
+            "oftalmica",
+            "mujer"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/wanderth/wd011.jpeg",
+            "imagenes/monturas/wanderth/wd012.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:66,
+
+        marca: "Wanderth",
+
+        nombre: "Wanderth",
+
+        referencia: "WD007",
+
+        color: [
+            "Rojo",
+        ],
+
+        categorias: [
+            "wanderth",
+            "sol",
+            "deportiva",
+            "hombre",
+            "mujer",
+            "unisex"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/wanderth/wd013.jpeg",
+            "imagenes/monturas/wanderth/wd014.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:67,
+
+        marca: "Prada",
+
+        nombre: "Prada",
+
+        referencia: "PD001",
+
+        color: [
+            "Verde",
+        ],
+
+        categorias: [
+            "prada",
+            "sol",
+            "hombre",
+            "mujer",
+            "unisex"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/prada/pd001.jpeg",
+            "imagenes/monturas/prada/pd002.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:68,
+
+        marca: "Prada",
+
+        nombre: "Prada",
+
+        referencia: "PD002",
+
+        color: [
+            "Gris",
+        ],
+
+        categorias: [
+            "prada",
+            "sol",
+            "moderna",
+            "hombre",
+            "mujer",
+            "unisex"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/prada/pd003.jpeg",
+            "imagenes/monturas/prada/pd004.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:69,
+
+        marca: "Prada",
+
+        nombre: "Prada",
+
+        referencia: "PD003",
+
+        color: [
+            "Verde",
+        ],
+
+        categorias: [
+            "prada",
+            "sol",
+            "hombre",
+            "mujer",
+            "unisex"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/prada/pd005.jpeg",
+            "imagenes/monturas/prada/pd006.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:70,
+
+        marca: "Prada",
+
+        nombre: "Prada",
+
+        referencia: "PD004",
+
+        color: [
+            "Dorado",
+        ],
+
+        categorias: [
+            "prada",
+            "sol",
+            "mujer"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/prada/pd007.jpeg",
+            "imagenes/monturas/prada/pd008.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:71,
+
+        marca: "Prada",
+
+        nombre: "Prada",
+
+        referencia: "PD005",
+
+        color: [
+            "Gris",
+        ],
+
+        categorias: [
+            "prada",
+            "oftalmica",
+            "moderna",
+            "mujer"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/prada/pd009.jpeg",
+            "imagenes/monturas/prada/pd010.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:72,
+
+        marca: "Prada",
+
+        nombre: "Prada",
+
+        referencia: "PD006",
+
+        color: [
+            "Rosa",
+        ],
+
+        categorias: [
+            "prada",
+            "oftalmica",
+            "mujer"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/prada/pd011.jpeg",
+            "imagenes/monturas/prada/pd012.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:73,
+
+        marca: "Prada",
+
+        nombre: "Prada",
+
+        referencia: "PD007",
+
+        color: [
+            "Dorado",
+        ],
+
+        categorias: [
+            "prada",
+            "sol",
+            "hombre",
+            "mujer",
+            "unisex"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/prada/pd013.jpeg",
+            "imagenes/monturas/prada/pd014.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:74,
+
+        marca: "Prada",
+
+        nombre: "Prada",
+
+        referencia: "PD008",
+
+        color: [
+            "Blanco",
+        ],
+
+        categorias: [
+            "prada",
+            "oftalmica",
+            "mujer"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/prada/pd015.jpeg",
+            "imagenes/monturas/prada/pd016.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:75,
+
+        marca: "Prada",
+
+        nombre: "Prada",
+
+        referencia: "PD009",
+
+        color: [
+            "Beige",
+        ],
+
+        categorias: [
+            "prada",
+            "oftalmica",
+            "mujer"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/prada/pd017.jpeg",
+            "imagenes/monturas/prada/pd018.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:76,
+
+        marca: "Prada",
+
+        nombre: "Prada",
+
+        referencia: "PD010",
+
+        color: [
+            "Carey",
+        ],
+
+        categorias: [
+            "prada",
+            "oftalmica",
+            "hombre",
+            "mujer",
+            "unisex"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/prada/pd019.jpeg",
+            "imagenes/monturas/prada/pd020.jpeg"
         ],
 
         estado: "Últimas unidades"
