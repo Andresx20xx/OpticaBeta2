@@ -1579,7 +1579,7 @@ const monturas = [
         categorias: [
             "nike",
             "oftalmica",
-            "deportiva",
+            "deportivas",
             "hombre"
         ],
 
@@ -1608,7 +1608,7 @@ const monturas = [
         categorias: [
             "nike",
             "oftalmica",
-            "deportiva",
+            "deportivas",
             "hombre"
         ],
 
@@ -1986,7 +1986,7 @@ const monturas = [
         categorias: [
             "wanderth",
             "sol",
-            "deportiva",
+            "deportivas",
             "hombre",
             "mujer",
             "unisex"
@@ -2515,6 +2515,712 @@ const monturas = [
         imagenes: [
             "imagenes/monturas/otras marcas/om011.jpeg",
             "imagenes/monturas/otras marcas/om012.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:85,
+
+        marca: "Otras marcas",
+
+        nombre: "Burberry",
+
+        referencia: "OM007",
+
+        color: [
+            "Negro",
+        ],
+
+        categorias: [
+            "otras marcas",
+            "oftalmica",
+            "mujer"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/otras marcas/om013.jpeg",
+            "imagenes/monturas/otras marcas/om014.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:86,
+
+        marca: "Otras marcas",
+
+        nombre: "MIU-MIU",
+
+        referencia: "OM008",
+
+        color: [
+            "Negro",
+        ],
+
+        categorias: [
+            "otras marcas",
+            "oftalmica",
+            "mujer"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/otras marcas/om015.jpeg",
+            "imagenes/monturas/otras marcas/om016.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:87,
+
+        marca: "Otras marcas",
+
+        nombre: "Michael Kors",
+
+        referencia: "OM009",
+
+        color: [
+            "Carey",
+        ],
+
+        categorias: [
+            "otras marcas",
+            "oftalmica",
+            "mujer"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/otras marcas/om017.jpeg",
+            "imagenes/monturas/otras marcas/om018.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:88,
+
+        marca: "Otras marcas",
+
+        nombre: "Michael Kors",
+
+        referencia: "OM010",
+
+        color: [
+            "Carey",
+        ],
+
+        categorias: [
+            "otras marcas",
+            "oftalmica",
+            "mujer"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/otras marcas/om019.jpeg",
+            "imagenes/monturas/otras marcas/om020.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:89,
+
+        marca: "Otras marcas",
+
+        nombre: "Michael Kors",
+
+        referencia: "OM011",
+
+        color: [
+            "Carey",
+        ],
+
+        categorias: [
+            "otras marcas",
+            "oftalmica",
+            "mujer"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/otras marcas/om021.jpeg",
+            "imagenes/monturas/otras marcas/om022.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:90,
+
+        marca: "Otras marcas",
+
+        nombre: "Bulgari",
+
+        referencia: "OM012",
+
+        color: [
+            "Carey",
+        ],
+
+        categorias: [
+            "otras marcas",
+            "oftalmica",
+            "mujer"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/otras marcas/om023.jpeg",
+            "imagenes/monturas/otras marcas/om024.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:91,
+
+        marca: "Otras marcas",
+
+        nombre: "Versace",
+
+        referencia: "OM013",
+
+        color: [
+            "Carey",
+        ],
+
+        categorias: [
+            "otras marcas",
+            "oftalmica",
+            "mujer"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/otras marcas/om025.jpeg",
+            "imagenes/monturas/otras marcas/om026.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:92,
+
+        marca: "Otras marcas",
+
+        nombre: "HUGO BOSS",
+
+        referencia: "OM014",
+
+        color: [
+            "Gris Humo",
+        ],
+
+        categorias: [
+            "otras marcas",
+            "oftalmica",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/otras marcas/om027.jpeg",
+            "imagenes/monturas/otras marcas/om028.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:93,
+
+        marca: "Otras marcas",
+
+        nombre: "PUMA",
+
+        referencia: "OM015",
+
+        color: [
+            "Verde",
+        ],
+
+        categorias: [
+            "otras marcas",
+            "oftalmica",
+            "deportivas",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/otras marcas/om029.jpeg",
+            "imagenes/monturas/otras marcas/om030.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:94,
+
+        marca: "Otras marcas",
+
+        nombre: "PUMA",
+
+        referencia: "OM016",
+
+        color: [
+            "Gris",
+        ],
+
+        categorias: [
+            "otras marcas",
+            "oftalmica",
+            "deportivas",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/otras marcas/om031.jpeg",
+            "imagenes/monturas/otras marcas/om032.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:95,
+
+        marca: "Otras marcas",
+
+        nombre: "Tiffany & Co",
+
+        referencia: "OM017",
+
+        color: [
+            "Negro",
+        ],
+
+        categorias: [
+            "otras marcas",
+            "oftalmica",
+            "mujer"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/otras marcas/om033.jpeg",
+            "imagenes/monturas/otras marcas/om034.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:96,
+
+        marca: "Otras marcas",
+
+        nombre: "GUCCI",
+
+        referencia: "OM018",
+
+        color: [
+            "Carey",
+        ],
+
+        categorias: [
+            "otras marcas",
+            "oftalmica",
+            "mujer"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/otras marcas/om035.jpeg",
+            "imagenes/monturas/otras marcas/om036.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:97,
+
+        marca: "Otras marcas",
+
+        nombre: "GUCCI",
+
+        referencia: "OM019",
+
+        color: [
+            "Dorado",
+        ],
+
+        categorias: [
+            "otras marcas",
+            "oftalmica",
+            "unisex",
+            "hombre",
+            "mujer"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/otras marcas/om037.jpeg",
+            "imagenes/monturas/otras marcas/om038.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:98,
+
+        marca: "Otras marcas",
+
+        nombre: "GUCCI",
+
+        referencia: "OM020",
+
+        color: [
+            "Carey",
+        ],
+
+        categorias: [
+            "otras marcas",
+            "oftalmica",
+            "mujer"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/otras marcas/om039.jpeg",
+            "imagenes/monturas/otras marcas/om040.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:99,
+
+        marca: "Otras marcas",
+
+        nombre: "GUCCI",
+
+        referencia: "OM021",
+
+        color: [
+            "Rosa",
+        ],
+
+        categorias: [
+            "otras marcas",
+            "oftalmica",
+            "mujer"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/otras marcas/om041.jpeg",
+            "imagenes/monturas/otras marcas/om042.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:100,
+
+        marca: "Otras marcas",
+
+        nombre: "NASA",
+
+        referencia: "OM022",
+
+        color: [
+            "Blanca-azul",
+        ],
+
+        categorias: [
+            "otras marcas",
+            "oftalmica",
+            "unisex",
+            "hombre",
+            "mujer"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/otras marcas/om043.jpeg",
+            "imagenes/monturas/otras marcas/om044.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:101,
+
+        marca: "Otras marcas",
+
+        nombre: "Mount Blanc",
+
+        referencia: "OM023",
+
+        color: [
+            "Negro",
+        ],
+
+        categorias: [
+            "otras marcas",
+            "oftalmica",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/otras marcas/om045.jpeg",
+            "imagenes/monturas/otras marcas/om046.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:102,
+
+        marca: "Otras marcas",
+
+        nombre: "Versace",
+
+        referencia: "OM024",
+
+        color: [
+            "Carey",
+        ],
+
+        categorias: [
+            "otras marcas",
+            "oftalmica",
+            "mujer"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/otras marcas/om047.jpeg",
+            "imagenes/monturas/otras marcas/om048.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:103,
+
+        marca: "Otras marcas",
+
+        nombre: "CHANEL",
+
+        referencia: "OM025",
+
+        color: [
+            "Rojo",
+        ],
+
+        categorias: [
+            "otras marcas",
+            "oftalmica",
+            "mujer"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/otras marcas/om049.jpeg",
+            "imagenes/monturas/otras marcas/om050.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:104,
+
+        marca: "Otras marcas",
+
+        nombre: "Christian Dior",
+
+        referencia: "OM026",
+
+        color: [
+            "Carey",
+        ],
+
+        categorias: [
+            "otras marcas",
+            "oftalmica",
+            "mujer"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/otras marcas/om051.jpeg",
+            "imagenes/monturas/otras marcas/om052.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:105,
+
+        marca: "Otras marcas",
+
+        nombre: "Christian Dior",
+
+        referencia: "OM027",
+
+        color: [
+            "Rojo",
+        ],
+
+        categorias: [
+            "otras marcas",
+            "oftalmica",
+            "mujer"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/otras marcas/om053.jpeg",
+            "imagenes/monturas/otras marcas/om054.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:106,
+
+        marca: "Otras marcas",
+
+        nombre: "Celine Dion",
+
+        referencia: "OM028",
+
+        color: [
+            "Carey",
+        ],
+
+        categorias: [
+            "otras marcas",
+            "oftalmica",
+            "mujer"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/otras marcas/om055.jpeg",
+            "imagenes/monturas/otras marcas/om056.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:107,
+
+        marca: "Otras marcas",
+
+        nombre: "Calvin Klein",
+
+        referencia: "OM029",
+
+        color: [
+            "Verde",
+        ],
+
+        categorias: [
+            "otras marcas",
+            "oftalmica",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/otras marcas/om057.jpeg",
+            "imagenes/monturas/otras marcas/om058.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:108,
+
+        marca: "Otras marcas",
+
+        nombre: "Dolce & Gabbana",
+
+        referencia: "OM030",
+
+        color: [
+            "Negro",
+        ],
+
+        categorias: [
+            "otras marcas",
+            "oftalmica",
+            "Mujer"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/otras marcas/om059.jpeg",
+            "imagenes/monturas/otras marcas/om060.jpeg"
+        ],
+
+        estado: "Últimas unidades"
+    },
+
+
+    {
+        id:109,
+
+        marca: "Otras marcas",
+
+        nombre: "Marc Jacobs",
+
+        referencia: "OM031",
+
+        color: [
+            "Negro",
+        ],
+
+        categorias: [
+            "otras marcas",
+            "oftalmica",
+            "hombre"
+        ],
+
+        imagenes: [
+            "imagenes/monturas/otras marcas/om061.jpeg",
+            "imagenes/monturas/otras marcas/om062.jpeg"
         ],
 
         estado: "Últimas unidades"
