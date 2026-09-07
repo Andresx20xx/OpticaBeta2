@@ -2338,4 +2338,424 @@ const monturas = [
 
     estado: "Últimas unidades",
   },
+
+  {
+    id: 111,
+
+    marca: "Cartier",
+
+    nombre: "Cartier",
+
+    referencia: "CA001",
+
+    color: ["Rosa"],
+
+    categorias: ["cartier", "oftalmica", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/cartier/ca001.jpeg",
+      "imagenes/monturas/cartier/ca002.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 112,
+
+    marca: "Cartier",
+
+    nombre: "Cartier",
+
+    referencia: "CA002",
+
+    color: ["Beige"],
+
+    categorias: ["cartier", "oftalmica", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/cartier/ca003.jpeg",
+      "imagenes/monturas/cartier/ca004.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 113,
+
+    marca: "Cartier",
+
+    nombre: "Cartier",
+
+    referencia: "CA003",
+
+    color: ["Vinotinto"],
+
+    categorias: ["cartier", "sol", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/cartier/ca005.jpeg",
+      "imagenes/monturas/cartier/ca006.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 114,
+
+    marca: "Cartier",
+
+    nombre: "Cartier",
+
+    referencia: "CA004",
+
+    color: ["verde"],
+
+    categorias: ["cartier", "sol", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/cartier/ca007.jpeg",
+      "imagenes/monturas/cartier/ca008.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 115,
+
+    marca: "Cartier",
+
+    nombre: "Cartier 3 Piezas",
+
+    referencia: "CA005",
+
+    color: ["Metalico"],
+
+    categorias: ["cartier", "unisex", "hombre", "3piezas", "oftalmica", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/cartier/ca009.jpeg",
+      "imagenes/monturas/cartier/ca010.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 116,
+
+    marca: "Cartier",
+
+    nombre: "Cartier 3 Piezas",
+
+    referencia: "CA006",
+
+    color: ["Negro"],
+
+    categorias: ["cartier", "sol", "3piezas", "hombre", "unisex", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/cartier/ca011.jpeg",
+      "imagenes/monturas/cartier/ca012.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 117,
+
+    marca: "Cartier",
+
+    nombre: "Cartier 3 Piezas",
+
+    referencia: "CA007",
+
+    color: ["Dorado"],
+
+    categorias: ["cartier", "oftalmica", "3piezas", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/cartier/ca013.jpeg",
+      "imagenes/monturas/cartier/ca014.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 118,
+
+    marca: "Cartier",
+
+    nombre: "Cartier",
+
+    referencia: "CA008",
+
+    color: ["Cafe"],
+
+    categorias: ["cartier", "sol", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/cartier/ca015.jpeg",
+      "imagenes/monturas/cartier/ca016.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 119,
+
+    marca: "Cartier",
+
+    nombre: "Cartier 3 Piezas",
+
+    referencia: "CA009",
+
+    color: ["Dorada"],
+
+    categorias: ["cartier", "3piezas", "sol", "unisex", "hombre", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/cartier/ca017.jpeg",
+      "imagenes/monturas/cartier/ca018.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 120,
+
+    marca: "Cartier",
+
+    nombre: "Cartier",
+
+    referencia: "CA010",
+
+    color: ["Beige"],
+
+    categorias: ["cartier", "sol", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/cartier/ca019.jpeg",
+      "imagenes/monturas/cartier/ca020.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 121,
+
+    marca: "Cartier",
+
+    nombre: "Cartier 3 Piezas",
+
+    referencia: "CA011",
+
+    color: ["Dorada"],
+
+    categorias: ["cartier", "3piezas", "sol", "unisex", "hombre", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/cartier/ca021.jpeg",
+      "imagenes/monturas/cartier/ca022.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 122,
+
+    marca: "Cartier",
+
+    nombre: "Cartier",
+
+    referencia: "CA012",
+
+    color: ["Verde"],
+
+    categorias: ["cartier", "sol", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/cartier/ca023.jpeg",
+      "imagenes/monturas/cartier/ca024.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 123,
+
+    marca: "Cartier",
+
+    nombre: "Cartier 3 Piezas",
+
+    referencia: "CA013",
+
+    color: ["Metalica"],
+
+    categorias: ["cartier", "unisex", "hombre", "3piezas", "oftalmica", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/cartier/ca025.jpeg",
+      "imagenes/monturas/cartier/ca026.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 124,
+
+    marca: "Cartier",
+
+    nombre: "Cartier",
+
+    referencia: "CA014",
+
+    color: ["Metalica"],
+
+    categorias: ["cartier", "moderna", "unisex", "hombre", "sol", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/cartier/ca027.jpeg",
+      "imagenes/monturas/cartier/ca028.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 125,
+
+    marca: "Cartier",
+
+    nombre: "Cartier 3 Piezas",
+
+    referencia: "CA015",
+
+    color: ["Dorada"],
+
+    categorias: ["cartier", "unisex", "hombre", "sol", "3piezas", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/cartier/ca029.jpeg",
+      "imagenes/monturas/cartier/ca030.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 126,
+
+    marca: "Cartier",
+
+    nombre: "Cartier",
+
+    referencia: "CA016",
+
+    color: ["Metalica"],
+
+    categorias: ["cartier", "oftalmica", "unisex", "hombre", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/cartier/ca031.jpeg",
+      "imagenes/monturas/cartier/ca032.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 127,
+
+    marca: "Cartier",
+
+    nombre: "Cartier 3 Piezas",
+
+    referencia: "CA017",
+
+    color: ["Negro"],
+
+    categorias: ["cartier", "foto-cromatico", "3piezas", "unisex", "hombre", "sol", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/cartier/ca033.jpeg",
+      "imagenes/monturas/cartier/ca034.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 128,
+
+    marca: "Cartier",
+
+    nombre: "Cartier 3 Piezas",
+
+    referencia: "CA018",
+
+    color: ["Dorado"],
+
+    categorias: ["cartier", "3piezas", "oftalmica", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/cartier/ca035.jpeg",
+      "imagenes/monturas/cartier/ca036.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 129,
+
+    marca: "Cartier",
+
+    nombre: "Cartier 3 Piezas",
+
+    referencia: "CA019",
+
+    color: ["Metalica"],
+
+    categorias: ["cartier", "3piezas", "hombre", "unisex", "oftalmica", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/cartier/ca037.jpeg",
+      "imagenes/monturas/cartier/ca038.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 130,
+
+    marca: "Cartier",
+
+    nombre: "Cartier 3 Piezas",
+
+    referencia: "CA020",
+
+    color: ["Metalica"],
+
+    categorias: ["cartier", "3piezas", "oftalmica", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/cartier/ca039.jpeg",
+      "imagenes/monturas/cartier/ca040.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
 ];

@@ -27,6 +27,7 @@ const mapaColores = {
   morado: "#7c4dff",
   naranja: "#ff8a3d",
   negra: "#15171c",
+  vinotinto: "#641e1a",
   negro: "#15171c",
   rojo: "#e6453c",
   rosa: "#ff8fb3",
@@ -135,17 +136,17 @@ function iniciarMarquee() {
 
   const logos = {
     "Ray-Ban": "imagenes/logos/rayban.png",
-    "Oakley": "imagenes/logos/oakley.png",
-    "Cartier": "imagenes/logos/cartier.png",
-    "Wanderth": "imagenes/logos/wanderth.png",
-    "Lacoste": "imagenes/logos/lacoste.png",
+    Oakley: "imagenes/logos/oakley.png",
+    Cartier: "imagenes/logos/cartier.png",
+    Wanderth: "imagenes/logos/wanderth.png",
+    Lacoste: "imagenes/logos/lacoste.png",
     "Celine Dion": "imagenes/logos/celine-dion.png",
-    "Gucci": "imagenes/logos/gucci.png",
-    "Prada": "imagenes/logos/prada.png",
-    "Eyeon": "imagenes/logos/eyeon.png",
-    "Diesel": "imagenes/logos/diesel.png",
-    "Nike": "imagenes/logos/nike.png",
-    "Tommy Hilfiger": "imagenes/logos/tommy.png"
+    Gucci: "imagenes/logos/gucci.png",
+    Prada: "imagenes/logos/prada.png",
+    Eyeon: "imagenes/logos/eyeon.png",
+    Diesel: "imagenes/logos/diesel.png",
+    Nike: "imagenes/logos/nike.png",
+    "Tommy Hilfiger": "imagenes/logos/tommy.png",
   };
 
   const grupo = marcas
@@ -192,6 +193,37 @@ function animarContador(elemento) {
   requestAnimationFrame(tick);
 }
 
+/* =====================================
+   ACTUALIZAR CONTADOR DE MONTURAS
+===================================== */
+
+function actualizarContadorMonturas() {
+  const contador = document.querySelector(".stat-numero[data-contador]");
+
+  if (!contador) return;
+
+  contador.dataset.hasta = monturas.length;
+}
+
+/* =====================================
+   ACTUALIZAR CONTADOR DE MARCAS
+===================================== */
+
+function actualizarContadorMarcas() {
+  const contadores = document.querySelectorAll(".stat-numero[data-contador]");
+
+  if (contadores.length < 2) return;
+
+  const marcasUnicas = [
+    ...new Set(
+      monturas
+        .map((m) => m.marca)
+        .filter((marca) => marca && marca !== "Otras marcas"),
+    ),
+  ];
+
+  contadores[1].dataset.hasta = marcasUnicas.length;
+}
 /* =====================================
    SCROLL REVEAL + DISPARO DE CONTADORES
 ===================================== */
@@ -693,6 +725,8 @@ document.getElementById("anio").textContent = new Date().getFullYear();
    INICIAR PÁGINA
 ===================================== */
 
+actualizarContadorMarcas();
+actualizarContadorMonturas();
 iniciarMarquee();
 crearFiltros();
 actualizarFavoritos();

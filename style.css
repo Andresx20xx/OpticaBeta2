@@ -489,7 +489,7 @@ html.js-reveal [data-reveal].visible {
     100deg,
     rgba(5, 8, 15, 0.97) 0%,
     rgba(5, 8, 15, 0.85) 25%,
-    rgba(5, 8, 15, 0.40) 50%,
+    rgba(5, 8, 15, 0.4) 50%,
     rgba(5, 8, 15, 0.12) 75%,
     rgba(5, 8, 15, 0) 100%
   );
@@ -745,15 +745,13 @@ html.js-reveal [data-reveal].visible {
 /* LOGOS REALES DE LAS MARCAS */
 
 .marquee-logo {
+  width: 55px;
 
-    width: 55px;
+  height: 35px;
 
-    height: 35px;
+  object-fit: contain;
 
-    object-fit: contain;
-
-    display: block;
-
+  display: block;
 }
 
 .marquee:hover .marquee-pista {
