@@ -1,771 +1,401 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-
-<head>
-
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Óptica Eyeon | Tu visión, nuestra misión</title>
-
     <meta
-        name="description"
-        content="Catálogo de monturas de Óptica Eyeon en Bogotá."
-    >
-
-    <!-- ICONOS -->
+      name="description"
+      content="Catálogo de monturas de Óptica Eyeon en Bogotá. Ray-Ban, Oakley, Prada y más marcas. Agenda tu cita por WhatsApp."
+    />
 
     <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    >
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
 
-    <!-- FUENTES -->
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        rel="preconnect"
-        href="https://fonts.gstatic.com"
-        crossorigin
-    >
+      href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;700;800;900&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
-        rel="stylesheet"
-    >
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- =====================================
+     LOADER
+====================================== -->
+    <div class="loader" id="loader">
+      <div class="loader-marco">
+        <i class="fa-solid fa-glasses"></i>
+      </div>
+    </div>
 
-    <!-- CSS -->
-
-    <link rel="stylesheet" href="style.css">
-
-</head>
-
-
-<body>
-
+    <!-- glow que sigue el cursor, solo decorativo -->
+    <div class="cursor-glow" id="cursorGlow"></div>
 
     <!-- =====================================
-         HEADER
-    ====================================== -->
+     HEADER
+====================================== -->
+    <header class="header" id="header">
+      <div class="contenedor navbar">
+        <a href="#inicio" class="logo">
+          <span>ÓPTICA</span>
+          EYEON
+        </a>
 
-    <header class="header">
+        <nav class="menu" id="menu">
+          <a href="#inicio">Inicio</a>
+          <a href="#catalogo">Catálogo</a>
+          <a href="#contacto">Contacto</a>
+          <a href="#" id="abrirFavoritos" class="menu-favoritos">
+            <i class="fa-solid fa-heart"></i>
+            <span id="contadorFavoritos">0</span>
+          </a>
+        </nav>
 
-        <div class="contenedor navbar">
+        <a href="#catalogo" class="boton-nav-cta">
+          <i class="fa-solid fa-glasses"></i>
+          Ver catálogo
+        </a>
 
-
-            <a href="#inicio" class="logo">
-
-                <span>ÓPTICA</span>
-
-                EYEON
-
-            </a>
-
-
-            <nav class="menu" id="menu">
-
-                <a href="#inicio">
-                    Inicio
-                </a>
-
-                <a href="#catalogo">
-                    Catálogo
-                </a>
-
-                <a href="#contacto">
-                    Contacto
-                </a>
-
-                <a href="#" id="abrirFavoritos">
-
-                    <i class="fa-solid fa-heart"></i>
-
-                    Favoritos
-
-                    <span id="contadorFavoritos">
-                        0
-                    </span>
-
-                </a>
-
-            </nav>
-
-
-            <button
-                class="menu-movil"
-                id="menuMovil"
-                aria-label="Abrir menú"
-            >
-
-                <i class="fa-solid fa-bars"></i>
-
-            </button>
-
-
-        </div>
-
+        <button class="menu-movil" id="menuMovil" aria-label="Abrir menú">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
     </header>
 
-
-
     <!-- =====================================
-         PORTADA
-    ====================================== -->
-
+     HERO
+====================================== -->
     <section class="hero" id="inicio">
+      <div class="hero-bg-overlay" aria-hidden="true"></div>
 
-        <div class="hero-overlay"></div>
+      <div class="hero-blobs" aria-hidden="true">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+      </div>
 
+      <div class="hero-grid contenedor">
+        <div class="hero-texto" data-reveal>
+          <p class="etiqueta">
+            <span class="punto"></span>
+            ÓPTICA EYEON · BOGOTÁ
+          </p>
 
-        <div class="contenedor hero-contenido">
+          <h1 class="hero-titulo">
+            Tu visión,
+            <span class="hero-titulo-linea">nuestra misión.</span>
+          </h1>
 
-            <div class="hero-texto">
+          <p class="hero-descripcion">
+            Encuentra la montura perfecta entre marcas como Ray-Ban, Oakley y
+            Prada. Asesoría experta, examen visual y atención directa por
+            WhatsApp.
+          </p>
 
+          <div class="hero-botones">
+            <a href="#catalogo" class="boton boton-primario">
+              <i class="fa-solid fa-glasses"></i>
+              Ver catálogo
+            </a>
+            <a
+              href="https://wa.me/573204771054"
+              target="_blank"
+              class="boton boton-secundario"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+              Escríbenos
+            </a>
+          </div>
 
-                <p class="subtitulo">
-
-                    ÓPTICA EYEON • BOGOTÁ
-
-                </p>
-
-
-                <h1>
-
-                    Tu visión,<br>
-
-                    nuestra misión.
-
-                </h1>
-
-
-                <p class="hero-descripcion">
-
-                    Descubre nuestra selección de monturas y encuentra
-                    el estilo perfecto para ti. Calidad, tecnología y
-                    atención profesional en un solo lugar.
-
-                </p>
-
-
-
-                <div class="hero-botones">
-
-
-                    <a
-                        href="#catalogo"
-                        class="boton-principal"
-                    >
-
-                        <i class="fa-solid fa-glasses"></i>
-
-                        Ver catálogo
-
-                    </a>
-
-
-
-                    <a
-                        href="#contacto"
-                        class="boton-secundario"
-                    >
-
-                        <i class="fa-solid fa-location-dot"></i>
-
-                        Visítanos
-
-                    </a>
-
-
-                </div>
-
-
-
-                <div class="hero-datos">
-
-
-                    <div class="hero-dato">
-
-                        <i class="fa-solid fa-clock"></i>
-
-                        <div>
-
-                            <strong>
-                                Horario
-                            </strong>
-
-                            <span>
-                                Lunes a sábado · 9:00 a. m. – 6:00 p. m.
-                            </span>
-
-                        </div>
-
-                    </div>
-
-
-
-                    <div class="hero-dato">
-
-                        <i class="fa-solid fa-location-dot"></i>
-
-                        <div>
-
-                            <strong>
-                                Ubicación
-                            </strong>
-
-                            <span>
-                                Cl. 15 # 9-13, Santa Fe, Bogotá D.C.
-                            </span>
-
-                        </div>
-
-                    </div>
-
-
-                </div>
-
-
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-numero" data-contador data-hasta="110">0</span>
+              <span class="stat-label">Monturas en catálogo</span>
             </div>
-
+            <div class="stat">
+              <span class="stat-numero" data-contador data-hasta="8">0</span>
+              <span class="stat-label">Marcas disponibles</span>
+            </div>
+            <div class="stat">
+              <span class="stat-numero"
+                ><span data-contador data-hasta="6">0</span>/7</span
+              >
+              <span class="stat-label">Días de atención</span>
+            </div>
+          </div>
         </div>
-
+      </div>
     </section>
 
-
+    <!-- =====================================
+     MARQUEE DE MARCAS
+====================================== -->
+    <div class="marquee" id="marcas">
+      <div class="marquee-pista" id="marqueePista">
+        <!-- generado por JS a partir de las marcas reales del catálogo -->
+      </div>
+    </div>
 
     <!-- =====================================
-         CATÁLOGO
-    ====================================== -->
-
+     CATÁLOGO
+====================================== -->
     <section class="catalogo" id="catalogo">
-
-        <div class="contenedor">
-
-
-            <div class="titulo-seccion">
-
-                <p class="subtitulo">
-
-                    NUESTRA COLECCIÓN
-
-                </p>
-
-
-                <h2>
-
-                    Encuentra tu próxima montura
-
-                </h2>
-
-
-                <p>
-
-                    Explora nuestro catálogo y descubre diferentes
-                    estilos, marcas y diseños.
-
-                </p>
-
-            </div>
-
-
-
-            <!-- BUSCADOR -->
-
-            <div class="buscador-contenedor">
-
-                <i class="fa-solid fa-magnifying-glass"></i>
-
-                <input
-                    type="text"
-                    id="buscar"
-                    placeholder="Buscar marca, referencia o estilo..."
-                >
-
-            </div>
-
-
-
-            <!-- FILTROS -->
-
-            <div
-                class="filtros"
-                id="filtros"
-            >
-
-                <!--
-                LOS FILTROS SE CREAN
-                AUTOMÁTICAMENTE DESDE JAVASCRIPT
-                -->
-
-            </div>
-
-
-
-            <!-- CONTADOR -->
-
-            <div
-                class="contador-productos"
-                id="contadorProductos"
-            >
-
-                Cargando monturas...
-
-            </div>
-
-
-
-            <!-- PRODUCTOS -->
-
-            <div
-                class="productos"
-                id="productos"
-            >
-
-            </div>
-
-
-
-            <!-- CARGAR MÁS -->
-
-            <div class="contenedor-cargar-mas">
-
-                <button
-                    class="boton-cargar-mas"
-                    id="cargarMas"
-                >
-
-                    <i class="fa-solid fa-plus"></i>
-
-                    Cargar más monturas
-
-                </button>
-
-            </div>
-
-
+      <div class="contenedor">
+        <div class="titulo-seccion" data-reveal>
+          <p class="etiqueta etiqueta-clara">
+            <span class="punto"></span>
+            NUESTRA COLECCIÓN
+          </p>
+          <h2>Encuentra tu próxima montura</h2>
+          <p class="titulo-seccion-texto">
+            Explora nuestro catálogo y descubre diferentes estilos, marcas y
+            diseños.
+          </p>
         </div>
 
-    </section>
-
-
-
-    <!-- =====================================
-         CONTACTO
-    ====================================== -->
-
-    <section
-        class="contacto"
-        id="contacto"
-    >
-
-        <div class="contenedor">
-
-
-            <div class="titulo-seccion">
-
-                <p class="subtitulo">
-
-                    VISÍTANOS
-
-                </p>
-
-
-                <h2>
-
-                    Estamos para ayudarte
-
-                </h2>
-
-
-                <p>
-
-                    Visita Óptica Eyeon y recibe atención profesional.
-
-                </p>
-
-            </div>
-
-
-
-            <div class="contacto-grid">
-
-
-                <!-- INFORMACIÓN -->
-
-                <div class="contacto-info">
-
-
-                    <div class="contacto-item">
-
-                        <div class="contacto-icono">
-
-                            <i class="fa-solid fa-location-dot"></i>
-
-                        </div>
-
-
-                        <div>
-
-                            <h3>
-                                Ubicación
-                            </h3>
-
-                            <p>
-
-                                Cl. 15 # 9-13<br>
-
-                                Santa Fe, Bogotá D.C.
-
-                            </p>
-
-                        </div>
-
-                    </div>
-
-
-
-                    <div class="contacto-item">
-
-                        <div class="contacto-icono">
-
-                            <i class="fa-solid fa-clock"></i>
-
-                        </div>
-
-
-                        <div>
-
-                            <h3>
-                                Horario
-                            </h3>
-
-                            <p>
-
-                                Lunes a sábado<br>
-
-                                9:00 a. m. – 6:00 p. m.
-
-                            </p>
-
-                        </div>
-
-                    </div>
-
-
-
-                    <div class="contacto-item">
-
-                        <div class="contacto-icono">
-
-                            <i class="fa-solid fa-phone"></i>
-
-                        </div>
-
-
-                        <div>
-
-                            <h3>
-                                Teléfono y WhatsApp
-                            </h3>
-
-                            <a
-                                href="https://wa.me/573204771054"
-                                target="_blank"
-                            >
-
-                                +57 320 477 1054
-
-                            </a>
-
-                        </div>
-
-                    </div>
-
-
-
-                    <div class="contacto-item">
-
-                        <div class="contacto-icono">
-
-                            <i class="fa-solid fa-envelope"></i>
-
-                        </div>
-
-
-                        <div>
-
-                            <h3>
-                                Correo electrónico
-                            </h3>
-
-                            <a
-                                href="mailto:opticaeyeon@gmail.com"
-                            >
-
-                                opticaeyeon@gmail.com
-
-                            </a>
-
-                        </div>
-
-                    </div>
-
-
-
-                    <div class="contacto-item">
-
-                        <div class="contacto-icono">
-
-                            <i class="fa-brands fa-instagram"></i>
-
-                        </div>
-
-
-                        <div>
-
-                            <h3>
-                                Instagram
-                            </h3>
-
-                            <a
-                                href="https://www.instagram.com/opticaeyeon/"
-                                target="_blank"
-                            >
-
-                                @opticaeyeon
-
-                            </a>
-
-                        </div>
-
-                    </div>
-
-
-
-                    <div class="contacto-item">
-
-                        <div class="contacto-icono">
-
-                            <i class="fa-solid fa-link"></i>
-
-                        </div>
-
-
-                        <div>
-
-                            <h3>
-                                Más información
-                            </h3>
-
-                            <a
-                                href="https://linktr.ee/Optica_Eyeon"
-                                target="_blank"
-                            >
-
-                                Linktree Óptica Eyeon
-
-                            </a>
-
-                        </div>
-
-                    </div>
-
-
-                </div>
-
-
-
-                <!-- MAPA -->
-
-                <div class="mapa">
-
-                    <iframe
-
-                        src="https://www.google.com/maps?q=Cl+15+%239-13,+Santa+Fe,+Bogotá+D.C.,+Colombia&output=embed"
-
-                        width="100%"
-
-                        height="100%"
-
-                        style="border:0;"
-
-                        allowfullscreen=""
-
-                        loading="lazy"
-
-                    ></iframe>
-
-                </div>
-
-
-            </div>
-
-
+        <div class="buscador-contenedor" data-reveal>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            type="text"
+            id="buscar"
+            placeholder="Buscar marca, referencia o estilo..."
+          />
         </div>
 
+        <div class="filtros" id="filtros" data-reveal></div>
+
+        <div class="contador-productos" id="contadorProductos">
+          Cargando monturas...
+        </div>
+
+        <div class="productos" id="productos"></div>
+
+        <div class="contenedor-cargar-mas">
+          <button class="boton-cargar-mas" id="cargarMas">
+            <i class="fa-solid fa-plus"></i>
+            Cargar más monturas
+          </button>
+        </div>
+      </div>
     </section>
 
-
+    <!-- =====================================
+     CTA BANNER
+====================================== -->
+    <section class="cta-banner">
+      <div class="cta-shine"></div>
+      <div class="contenedor cta-banner-contenido" data-reveal>
+        <h2>¿Ya elegiste tu montura?</h2>
+        <p>
+          Escríbenos por WhatsApp con la referencia que te gustó y te
+          confirmamos disponibilidad al instante.
+        </p>
+        <a
+          href="https://wa.me/573204771054"
+          target="_blank"
+          class="boton boton-blanco"
+        >
+          <i class="fa-brands fa-whatsapp"></i>
+          Cotiza por WhatsApp
+        </a>
+      </div>
+    </section>
 
     <!-- =====================================
-         FOOTER
-    ====================================== -->
+     CONTACTO
+====================================== -->
+    <section class="contacto" id="contacto">
+      <div class="contenedor">
+        <div class="titulo-seccion" data-reveal>
+          <p class="etiqueta etiqueta-clara">
+            <span class="punto"></span>
+            VISÍTANOS
+          </p>
+          <h2>Estamos para ayudarte</h2>
+          <p class="titulo-seccion-texto">
+            Visita Óptica Eyeon y recibe atención profesional.
+          </p>
+        </div>
 
+        <div class="contacto-grid">
+          <div class="contacto-info" data-reveal>
+            <div class="contacto-whatsapp">
+              <span class="contacto-whatsapp-etiqueta">
+                <span></span>
+                ATENCIÓN DIRECTA
+              </span>
+              <h3>Hablemos por WhatsApp</h3>
+              <p>
+                Cuéntanos qué montura buscas y te responde directamente nuestro
+                equipo.
+              </p>
+              <a
+                href="https://wa.me/573204771054"
+                class="contacto-whatsapp-boton"
+                target="_blank"
+              >
+                <i class="fa-brands fa-whatsapp"></i>
+                <div>
+                  <strong>+57 320 477 1054</strong>
+                  <span>Abrir conversación</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="contacto-item">
+              <div class="contacto-icono">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div>
+                <h3>Ubicación</h3>
+                <p>Cl. 15 # 9-13<br />Santa Fe, Bogotá D.C.</p>
+              </div>
+            </div>
+
+            <div class="contacto-item">
+              <div class="contacto-icono">
+                <i class="fa-solid fa-clock"></i>
+              </div>
+              <div>
+                <h3>Horario</h3>
+                <p>Lunes a sábado<br />9:00 a. m. – 6:00 p. m.</p>
+              </div>
+            </div>
+
+            <div class="contacto-item">
+              <div class="contacto-icono">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div>
+                <h3>Correo electrónico</h3>
+                <a href="mailto:opticaeyeon@gmail.com">opticaeyeon@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contacto-item">
+              <div class="contacto-icono">
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <div>
+                <h3>Instagram</h3>
+                <a href="https://www.instagram.com/opticaeyeon/" target="_blank"
+                  >@opticaeyeon</a
+                >
+              </div>
+            </div>
+
+            <div class="contacto-item">
+              <div class="contacto-icono"><i class="fa-solid fa-link"></i></div>
+              <div>
+                <h3>Más información</h3>
+                <a href="https://linktr.ee/Optica_Eyeon" target="_blank"
+                  >Linktree Óptica Eyeon</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="mapa" data-reveal>
+            <iframe
+              src="https://www.google.com/maps?q=Cl+15+%239-13,+Santa+Fe,+Bogotá+D.C.,+Colombia&output=embed"
+              width="100%"
+              height="100%"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================
+     FOOTER
+====================================== -->
     <footer class="footer">
-
-        <div class="contenedor">
-
-            <h3>
-                Óptica Eyeon
-            </h3>
-
-            <p>
-                Tu visión es nuestra misión.
-            </p>
-
-            <p class="copyright">
-
-                © <span id="anio"></span>
-                Óptica Eyeon.
-
-            </p>
-
+      <div class="contenedor footer-grid">
+        <div>
+          <a href="#inicio" class="logo">
+            <span>ÓPTICA</span>
+            EYEON
+          </a>
+          <p>Tu visión es nuestra misión.</p>
         </div>
 
+        <div class="footer-links">
+          <a href="#inicio">Inicio</a>
+          <a href="#catalogo">Catálogo</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+
+        <a
+          href="https://wa.me/573204771054"
+          target="_blank"
+          class="footer-whatsapp"
+        >
+          <i class="fa-brands fa-whatsapp"></i>
+          +57 320 477 1054
+        </a>
+      </div>
+
+      <p class="copyright">
+        © <span id="anio"></span> Óptica Eyeon. Todos los derechos reservados.
+      </p>
     </footer>
 
-
-
     <!-- =====================================
-         WHATSAPP
-    ====================================== -->
-
+     WHATSAPP FLOTANTE
+====================================== -->
     <a
-
-        href="https://wa.me/573204771054"
-
-        class="whatsapp-flotante"
-
-        target="_blank"
-
-        aria-label="WhatsApp"
-
+      href="https://wa.me/573204771054"
+      class="whatsapp-flotante"
+      target="_blank"
+      aria-label="WhatsApp"
     >
-
-        <i class="fa-brands fa-whatsapp"></i>
-
+      <span class="whatsapp-pulso"></span>
+      <i class="fa-brands fa-whatsapp"></i>
     </a>
 
-
-
     <!-- =====================================
-         MODAL PRODUCTO
-    ====================================== -->
-
-    <div
-        class="modal"
-        id="modalProducto"
-    >
-
-        <div class="modal-contenido">
-
-
-            <button
-                class="cerrar-modal"
-                id="cerrarModal"
-            >
-
-                <i class="fa-solid fa-xmark"></i>
-
-            </button>
-
-
-            <div id="contenidoModal">
-
-            </div>
-
-
-        </div>
-
+     MODAL PRODUCTO
+====================================== -->
+    <div class="modal" id="modalProducto">
+      <div class="modal-contenido">
+        <button class="cerrar-modal" id="cerrarModal">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div id="contenidoModal"></div>
+      </div>
     </div>
 
-
-
     <!-- =====================================
-         MODAL FAVORITOS
-    ====================================== -->
-
-    <div
-        class="modal"
-        id="modalFavoritos"
-    >
-
-        <div class="modal-contenido modal-favoritos">
-
-
-            <button
-                class="cerrar-modal"
-                id="cerrarFavoritos"
-            >
-
-                <i class="fa-solid fa-xmark"></i>
-
-            </button>
-
-
-            <h2>
-
-                <i class="fa-solid fa-heart"></i>
-
-                Mis favoritos
-
-            </h2>
-
-
-            <p class="texto-favoritos">
-
-                Guarda las monturas que más te gusten.
-
-            </p>
-
-
-            <div
-                class="lista-favoritos"
-                id="listaFavoritos"
-            >
-
-            </div>
-
-
-            <div class="contenedor-cargar-mas">
-
-                <button
-                    class="boton-principal"
-                    id="enviarFavoritos"
-                >
-
-                    <i class="fa-brands fa-whatsapp"></i>
-
-                    Consultar favoritos
-
-                </button>
-
-            </div>
-
-
+     MODAL FAVORITOS
+====================================== -->
+    <div class="modal" id="modalFavoritos">
+      <div class="modal-contenido modal-favoritos">
+        <button class="cerrar-modal" id="cerrarFavoritos">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <h2><i class="fa-solid fa-heart"></i> Mis favoritos</h2>
+        <p class="texto-favoritos">Guarda las monturas que más te gusten.</p>
+        <div class="lista-favoritos" id="listaFavoritos"></div>
+        <div class="contenedor-cargar-mas">
+          <button class="boton boton-primario" id="enviarFavoritos">
+            <i class="fa-brands fa-whatsapp"></i>
+            Consultar favoritos
+          </button>
         </div>
-
+      </div>
     </div>
 
-
-
-    <!-- JAVASCRIPT -->
-
+    <script src="datos.js"></script>
     <script src="script.js"></script>
-
-
-</body>
-
+  </body>
 </html>
