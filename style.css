@@ -708,7 +708,7 @@ html.js-reveal [data-reveal].visible {
 
   width: max-content;
 
-  animation: desplazar-marquee 30s linear infinite;
+  animation: desplazar-marquee 50s linear infinite;
 }
 
 .marquee-item {

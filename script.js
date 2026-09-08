@@ -13,6 +13,7 @@ let productosMostrados = productosPorPagina;
    para pintar el circulito de color en cada tarjeta */
 const mapaColores = {
   azul: "#2f6fdb",
+  amarillo: "#e7d50b",
   beige: "#d9c7a3",
   "blanca-azul": "linear-gradient(135deg, #ffffff 50%, #2f8fff 50%)",
   blanco: "#f4f6f8",
@@ -24,7 +25,8 @@ const mapaColores = {
   "gris humo": "#5b6570",
   metalica: "linear-gradient(135deg, #d7dee6, #8894a1)",
   metalico: "linear-gradient(135deg, #d7dee6, #8894a1)",
-  morado: "#7c4dff",
+  miel: "#f1b766",
+  morado: "#783dcf",
   naranja: "#ff8a3d",
   negra: "#15171c",
   vinotinto: "#641e1a",
@@ -130,34 +132,37 @@ document.querySelectorAll(".menu a").forEach((enlace) => {
 ===================================== */
 
 function iniciarMarquee() {
-  const marcas = [...new Set(monturas.map((m) => m.marca))].filter(
-    (marca) => marca !== "Otras marcas",
-  );
 
   const logos = {
     "Ray-Ban": "imagenes/logos/rayban.png",
-    Oakley: "imagenes/logos/oakley.png",
-    Cartier: "imagenes/logos/cartier.png",
-    Wanderth: "imagenes/logos/wanderth.png",
-    Lacoste: "imagenes/logos/lacoste.png",
-    "Celine Dion": "imagenes/logos/celine-dion.png",
-    Gucci: "imagenes/logos/gucci.png",
-    Prada: "imagenes/logos/prada.png",
-    Eyeon: "imagenes/logos/eyeon.png",
-    Diesel: "imagenes/logos/diesel.png",
-    Nike: "imagenes/logos/nike.png",
+    "Oakley": "imagenes/logos/oakley.png",
+    "Puma": "imagenes/logos/puma.png",
+    "Cartier": "imagenes/logos/cartier.png",
+    "Wanderth": "imagenes/logos/wanderth.png",
+    "Lacoste": "imagenes/logos/lacoste.png",
+    "Gucci": "imagenes/logos/gucci.png",
+    "Prada": "imagenes/logos/prada.png",
+    "Eyeon": "imagenes/logos/eyeon.png",
+    "Diesel": "imagenes/logos/diesel.png",
+    "Nike": "imagenes/logos/nike.png",
     "Tommy Hilfiger": "imagenes/logos/tommy.png",
+
+    // MÁS MARCAS
+    "Versace": "imagenes/logos/versace.png",
+    "Hugo Boss": "imagenes/logos/hugo-boss.png",
+    "Carrera": "imagenes/logos/carrera.png",
+    
   };
 
-  const grupo = marcas
+  const grupo = Object.entries(logos)
     .map(
-      (marca) => `
+      ([marca, logo]) => `
         <span class="marquee-item">
-          ${
-            logos[marca]
-              ? `<img src="${logos[marca]}" alt="${marca}" class="marquee-logo">`
-              : `<span class="marquee-monograma">${marca.charAt(0)}</span>`
-          }
+          <img 
+            src="${logo}" 
+            alt="${marca}" 
+            class="marquee-logo"
+          >
           <span>${marca}</span>
         </span>
       `,
