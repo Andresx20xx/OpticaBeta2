@@ -155,6 +155,7 @@ const monturas = [
     imagenes: [
       "imagenes/monturas/rayban/rb019.jpeg",
       "imagenes/monturas/rayban/rb020.jpeg",
+      "imagenes/modelos/md013.jpeg",
       "imagenes/monturas/rayban/rb023.jpeg",
       "imagenes/monturas/rayban/rb024.jpeg",
     ],
@@ -199,6 +200,7 @@ const monturas = [
     imagenes: [
       "imagenes/monturas/rayban/rb037.jpeg",
       "imagenes/monturas/rayban/rb038.jpeg",
+      "imagenes/modelos/md011.jpeg"
     ],
 
     estado: "Últimas unidades",
@@ -458,6 +460,7 @@ const monturas = [
     imagenes: [
       "imagenes/monturas/oakley/ok013.jpeg",
       "imagenes/monturas/oakley/ok014.jpeg",
+      "imagenes/modelos/md010.jpeg"
     ],
 
     estado: "Últimas unidades",
@@ -584,6 +587,7 @@ const monturas = [
     imagenes: [
       "imagenes/monturas/oakley/ok025.jpeg",
       "imagenes/monturas/oakley/ok026.jpeg",
+      "imagenes/modelos/md015.jpeg"
     ],
 
     estado: "Últimas unidades",
@@ -668,6 +672,7 @@ const monturas = [
     imagenes: [
       "imagenes/monturas/oakley/ok033.jpeg",
       "imagenes/monturas/oakley/ok034.jpeg",
+      "imagenes/modelos/md016.jpeg"
     ],
 
     estado: "Últimas unidades",
@@ -962,6 +967,7 @@ const monturas = [
     imagenes: [
       "imagenes/monturas/lacoste/lc005.jpeg",
       "imagenes/monturas/lacoste/lc006.jpeg",
+      "imagenes/modelos/md003.jpeg"
     ],
 
     estado: "Últimas unidades",
@@ -983,6 +989,7 @@ const monturas = [
     imagenes: [
       "imagenes/monturas/lacoste/lc007.jpeg",
       "imagenes/monturas/lacoste/lc008.jpeg",
+      "imagenes/modelos/md002.jpeg"
     ],
 
     estado: "Últimas unidades",
@@ -1004,6 +1011,7 @@ const monturas = [
     imagenes: [
       "imagenes/monturas/lacoste/lc009.jpeg",
       "imagenes/monturas/lacoste/lc010.jpeg",
+      "imagenes/modelos/md001.jpeg"
     ],
 
     estado: "Últimas unidades",
@@ -1340,6 +1348,7 @@ const monturas = [
     imagenes: [
       "imagenes/monturas/wanderth/wd005.jpeg",
       "imagenes/monturas/wanderth/wd006.jpeg",
+      "imagenes/modelos/md007.jpeg"
     ],
 
     estado: "Últimas unidades",
@@ -1578,6 +1587,7 @@ const monturas = [
     imagenes: [
       "imagenes/monturas/prada/pd013.jpeg",
       "imagenes/monturas/prada/pd014.jpeg",
+      "imagenes/modelos/md009.jpeg"
     ],
 
     estado: "Últimas unidades",
@@ -1641,6 +1651,7 @@ const monturas = [
     imagenes: [
       "imagenes/monturas/prada/pd019.jpeg",
       "imagenes/monturas/prada/pd020.jpeg",
+      "imagenes/modelos/md006.jpeg"
     ],
 
     estado: "Últimas unidades",
@@ -2103,6 +2114,7 @@ const monturas = [
     imagenes: [
       "imagenes/monturas/otras marcas/om039.jpeg",
       "imagenes/monturas/otras marcas/om040.jpeg",
+      "imagenes/modelos/md004.jpeg"
     ],
 
     estado: "Últimas unidades",
@@ -2271,6 +2283,7 @@ const monturas = [
     imagenes: [
       "imagenes/monturas/otras marcas/om055.jpeg",
       "imagenes/monturas/otras marcas/om056.jpeg",
+      "imagenes/modelos/md012.jpeg"
     ],
 
     estado: "Últimas unidades",
@@ -2355,6 +2368,7 @@ const monturas = [
     imagenes: [
       "imagenes/monturas/cartier/ca001.jpeg",
       "imagenes/monturas/cartier/ca002.jpeg",
+      "imagenes/modelos/md005.jpeg"
     ],
 
     estado: "Últimas unidades",
@@ -2481,6 +2495,7 @@ const monturas = [
     imagenes: [
       "imagenes/monturas/cartier/ca013.jpeg",
       "imagenes/monturas/cartier/ca014.jpeg",
+      "imagenes/modelos/md008.jpeg"
     ],
 
     estado: "Últimas unidades",
@@ -2607,6 +2622,7 @@ const monturas = [
     imagenes: [
       "imagenes/monturas/cartier/ca025.jpeg",
       "imagenes/monturas/cartier/ca026.jpeg",
+      "imagenes/modelos/md014.jpeg"
     ],
 
     estado: "Últimas unidades",
@@ -4080,5 +4096,386 @@ const monturas = [
     ],
 
     estado: "Últimas unidades",
+  },
+
+  {
+    id: 194,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "NÑ001",
+
+    color: ["Azul"],
+
+    categorias: ["niños", "oftalmica"],
+
+    imagenes: [
+      "imagenes/monturas/niños/nñ001.jpeg",
+      "imagenes/monturas/niños/nñ002.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 195,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "NÑ002",
+
+    color: ["morado"],
+
+    categorias: ["niños", "oftalmica"],
+
+    imagenes: [
+      "imagenes/monturas/niños/nñ003.jpeg",
+      "imagenes/monturas/niños/nñ004.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 196,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "NÑ003",
+
+    color: ["Verde"],
+
+    categorias: ["niños", "oftalmica"],
+
+    imagenes: [
+      "imagenes/monturas/niños/nñ005.jpeg",
+      "imagenes/monturas/niños/nñ006.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 197,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "NÑ004",
+
+    color: ["Miel"],
+
+    categorias: ["niños", "oftalmica"],
+
+    imagenes: [
+      "imagenes/monturas/niños/nñ007.jpeg",
+      "imagenes/monturas/niños/nñ008.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 198,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "NÑ005",
+
+    color: ["Negro"],
+
+    categorias: ["niños", "oftalmica"],
+
+    imagenes: [
+      "imagenes/monturas/niños/nñ009.jpeg",
+      "imagenes/monturas/niños/nñ010.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 199,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "NÑ006",
+
+    color: ["Azul"],
+
+    categorias: ["niños", "oftalmica"],
+
+    imagenes: [
+      "imagenes/monturas/niños/nñ011.jpeg",
+      "imagenes/monturas/niños/nñ012.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 200,
+
+    marca: "Eyeon",
+
+    nombre: "Sol",
+
+    referencia: "NÑ007",
+
+    color: ["Rojo"],
+
+    categorias: ["niños", "sol"],
+
+    imagenes: [
+      "imagenes/monturas/niños/nñ013.jpeg",
+      "imagenes/monturas/niños/nñ014.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 201,
+
+    marca: "Eyeon",
+
+    nombre: "Sol",
+
+    referencia: "NÑ008",
+
+    color: ["Amarillo"],
+
+    categorias: ["niños", "sol"],
+
+    imagenes: [
+      "imagenes/monturas/niños/nñ015.jpeg",
+      "imagenes/monturas/niños/nñ016.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 202,
+
+    marca: "Eyeon",
+
+    nombre: "Sol 3 Piezas",
+
+    referencia: "NÑ009",
+
+    color: ["Azul"],
+
+    categorias: ["niños", "3piezas", "sol"],
+
+    imagenes: [
+      "imagenes/monturas/niños/nñ017.jpeg",
+      "imagenes/monturas/niños/nñ018.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 202,
+
+    marca: "Eyeon",
+
+    nombre: "Sol 3 Piezas",
+
+    referencia: "NÑ009",
+
+    color: ["Morado"],
+
+    categorias: ["niños", "3piezas", "sol"],
+
+    imagenes: [
+      "imagenes/monturas/niños/nñ019.jpeg",
+      "imagenes/monturas/niños/nñ020.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 203,
+
+    marca: "Eyeon",
+
+    nombre: "Sol 3 Piezas",
+
+    referencia: "NÑ010",
+
+    color: ["Negro"],
+
+    categorias: ["niños", "3piezas", "sol"],
+
+    imagenes: [
+      "imagenes/monturas/niños/nñ021.jpeg",
+      "imagenes/monturas/niños/nñ022.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 204,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "NÑ011",
+
+    color: ["Rojo"],
+
+    categorias: ["niños", "oftalmica"],
+
+    imagenes: [
+      "imagenes/monturas/niños/nñ023.jpeg",
+      "imagenes/monturas/niños/nñ024.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 205,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica Flex",
+
+    referencia: "NÑ012",
+
+    color: ["Azul"],
+
+    categorias: ["niños", "oftalmica"],
+
+    imagenes: [
+      "imagenes/monturas/niños/nñ025.jpeg",
+      "imagenes/monturas/niños/nñ026.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 206,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "NÑ013",
+
+    color: ["Rojo"],
+
+    categorias: ["niños", "oftalmica"],
+
+    imagenes: [
+      "imagenes/monturas/niños/nñ027.jpeg",
+      "imagenes/monturas/niños/nñ028.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 206,
+
+    marca: "Eyeon",
+
+    nombre: "Sol Pikachu",
+
+    referencia: "NÑ014",
+
+    color: ["Amarillo"],
+
+    categorias: ["niños", "sol"],
+
+    imagenes: [
+      "imagenes/monturas/niños/nñ029.jpeg",
+      "imagenes/monturas/niños/nñ030.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 207,
+
+    marca: "Eyeon",
+
+    nombre: "Sol Transformers",
+
+    referencia: "NÑ015",
+
+    color: ["Gris"],
+
+    categorias: ["niños", "sol"],
+
+    imagenes: [
+      "imagenes/monturas/niños/nñ031.jpeg",
+      "imagenes/monturas/niños/nñ032.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 208,
+
+    marca: "Eyeon",
+
+    nombre: "Sol Hombre Araña",
+
+    referencia: "NÑ016",
+
+    color: ["Blanco"],
+
+    categorias: ["niños", "sol"],
+
+    imagenes: [
+      "imagenes/monturas/niños/nñ033.jpeg",
+      "imagenes/monturas/niños/nñ034.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 209,
+
+    marca: "Eyeon",
+
+    nombre: "Liquidos Limpiadores",
+
+    referencia: "OT001",
+
+    color: ["Blanco"],
+
+    categorias: ["otros"],
+
+    imagenes: [
+      "imagenes/otros/lq001.jpeg",
+      "imagenes/otros/lq002.jpeg",
+      "imagenes/otros/lq003.jpeg",
+      "imagenes/otros/lq004.jpeg",
+
+    ],
+
+    estado: "Disponible",
   },
 ];
