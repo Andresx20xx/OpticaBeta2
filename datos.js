@@ -4288,13 +4288,13 @@ const monturas = [
   },
 
   {
-    id: 202,
+    id: 203,
 
     marca: "Eyeon",
 
     nombre: "Sol 3 Piezas",
 
-    referencia: "NÑ009",
+    referencia: "NÑ010",
 
     color: ["Morado"],
 
@@ -4309,13 +4309,13 @@ const monturas = [
   },
 
   {
-    id: 203,
+    id: 204,
 
     marca: "Eyeon",
 
     nombre: "Sol 3 Piezas",
 
-    referencia: "NÑ010",
+    referencia: "NÑ011",
 
     color: ["Negro"],
 
@@ -4330,13 +4330,13 @@ const monturas = [
   },
 
   {
-    id: 204,
+    id: 205,
 
     marca: "Eyeon",
 
     nombre: "Oftalmica",
 
-    referencia: "NÑ011",
+    referencia: "NÑ012",
 
     color: ["Rojo"],
 
@@ -4351,13 +4351,13 @@ const monturas = [
   },
 
   {
-    id: 205,
+    id: 206,
 
     marca: "Eyeon",
 
     nombre: "Oftalmica Flex",
 
-    referencia: "NÑ012",
+    referencia: "NÑ013",
 
     color: ["Azul"],
 
@@ -4372,13 +4372,13 @@ const monturas = [
   },
 
   {
-    id: 206,
+    id: 207,
 
     marca: "Eyeon",
 
     nombre: "Oftalmica",
 
-    referencia: "NÑ013",
+    referencia: "NÑ014",
 
     color: ["Rojo"],
 
@@ -4393,13 +4393,13 @@ const monturas = [
   },
 
   {
-    id: 206,
+    id: 208,
 
     marca: "Eyeon",
 
     nombre: "Sol Pikachu",
 
-    referencia: "NÑ014",
+    referencia: "NÑ015",
 
     color: ["Amarillo"],
 
@@ -4414,13 +4414,13 @@ const monturas = [
   },
 
   {
-    id: 207,
+    id: 209,
 
     marca: "Eyeon",
 
     nombre: "Sol Transformers",
 
-    referencia: "NÑ015",
+    referencia: "NÑ016",
 
     color: ["Gris"],
 
@@ -4435,13 +4435,13 @@ const monturas = [
   },
 
   {
-    id: 208,
+    id: 210,
 
     marca: "Eyeon",
 
     nombre: "Sol Hombre Araña",
 
-    referencia: "NÑ016",
+    referencia: "NÑ017",
 
     color: ["Blanco"],
 
@@ -4456,7 +4456,7 @@ const monturas = [
   },
 
   {
-    id: 209,
+    id: 211,
 
     marca: "Eyeon",
 
@@ -4477,5 +4477,173 @@ const monturas = [
     ],
 
     estado: "Disponible",
+  },
+
+  {
+    id: 212,
+
+    marca: "Eyeon",
+
+    nombre: "Ciclismo",
+
+    referencia: "DP001",
+
+    color: ["Blanco"],
+
+    categorias: ["deportivas", "ciclismo", "unisex", "foto-cromatico", "hombre", "mujer",],
+
+    imagenes: [
+      "imagenes/monturas/ciclismo/cc001.jpeg",
+      "imagenes/monturas/ciclismo/cc002.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 213,
+
+    marca: "Oakley",
+
+    nombre: "Ciclismo",
+
+    referencia: "DP002",
+
+    color: ["Negro"],
+
+    categorias: ["deportivas", "oakley", "ciclismo", "unisex", "hombre", "mujer",],
+
+    imagenes: [
+      "imagenes/monturas/ciclismo/cc003.jpeg",
+      "imagenes/monturas/ciclismo/cc004.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 214,
+
+    marca: "Eyeon",
+
+    nombre: "Ciclismo",
+
+    referencia: "DP003",
+
+    color: ["Negro"],
+
+    categorias: ["deportivas", "ciclismo", "unisex", "hombre", "mujer",],
+
+    imagenes: [
+      "imagenes/monturas/ciclismo/cc005.jpeg",
+      "imagenes/monturas/ciclismo/cc006.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 215,
+
+    marca: "Eyeon",
+
+    nombre: "Ciclismo",
+
+    referencia: "DP004",
+
+    color: ["Negro"],
+
+    categorias: ["deportivas", "ciclismo", "unisex", "hombre", "mujer",],
+
+    imagenes: [
+      "imagenes/monturas/ciclismo/cc007.jpeg",
+      "imagenes/monturas/ciclismo/cc008.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 216,
+
+    marca: "Eyeon",
+
+    nombre: "Ciclismo",
+
+    referencia: "DP005",
+
+    color: ["Rosa"],
+
+    categorias: ["deportivas", "ciclismo", "mujer",],
+
+    imagenes: [
+      "imagenes/monturas/ciclismo/cc009.jpeg",
+      "imagenes/monturas/ciclismo/cc010.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 217,
+
+    marca: "Eyeon",
+
+    nombre: "Ciclismo",
+
+    referencia: "DP006",
+
+    color: ["Negro"],
+
+    categorias: ["deportivas", "unisex", "hombre", "ciclismo", "mujer",],
+
+    imagenes: [
+      "imagenes/monturas/ciclismo/cc011.jpeg",
+      "imagenes/monturas/ciclismo/cc012.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 218,
+
+    marca: "Eyeon",
+
+    nombre: "Ciclismo",
+
+    referencia: "DP007",
+
+    color: ["Gris"],
+
+    categorias: ["deportivas", "unisex", "hombre", "ciclismo", "mujer",],
+
+    imagenes: [
+      "imagenes/monturas/ciclismo/cc013.jpeg",
+      "imagenes/monturas/ciclismo/cc014.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 219,
+
+    marca: "Eyeon",
+
+    nombre: "Ciclismo",
+
+    referencia: "DP008",
+
+    color: ["Blanco"],
+
+    categorias: ["deportivas", "sobre-puesto", "unisex", "hombre", "ciclismo", "mujer",],
+
+    imagenes: [
+      "imagenes/monturas/ciclismo/cc015.jpeg",
+      "imagenes/monturas/ciclismo/cc016.jpeg",
+    ],
+
+    estado: "Últimas unidades",
   },
 ];
