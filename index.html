@@ -3,30 +3,100 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Óptica Eyeon | Tu visión, nuestra misión</title>
+
+    <!-- SEO PRINCIPAL -->
+    <title>Óptica Eyeon Bogotá | Monturas, Lentes y Optometría</title>
+
     <meta
       name="description"
-      content="Catálogo de monturas de Óptica Eyeon en Bogotá. Ray-Ban, Oakley, Prada y más marcas. Agenda tu cita por WhatsApp."
+      content="Óptica Eyeon en Bogotá. Encuentra monturas, lentes oftálmicos, lentes Transitions, gafas de sol y atención en optometría. Visítanos en Santa Fe o escríbenos por WhatsApp."
     />
 
+    <link rel="canonical" href="https://opticaeyeon.com/" />
+
+    <!-- SEO LOCAL -->
+    <meta
+      name="keywords"
+      content="óptica en Bogotá, Óptica Eyeon, monturas Bogotá, lentes Bogotá, optometría Bogotá, lentes Transitions, gafas de sol, monturas Ray-Ban, monturas Oakley"
+    />
+
+    <meta name="author" content="Óptica Eyeon" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- OPEN GRAPH: AL COMPARTIR EN WHATSAPP, FACEBOOK, ETC. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_CO" />
+    <meta property="og:url" content="https://opticaeyeon.com/" />
+    <meta
+      property="og:title"
+      content="Óptica Eyeon Bogotá | Monturas, Lentes y Optometría"
+    />
+    <meta
+      property="og:description"
+      content="Descubre monturas, lentes y servicios de Óptica Eyeon en Bogotá. Visítanos en Santa Fe o contáctanos por WhatsApp."
+    />
+
+    <!-- DATOS ESTRUCTURADOS DEL NEGOCIO -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Optician",
+        "name": "Óptica Eyeon",
+        "url": "https://opticaeyeon.com/",
+        "telephone": "+57 320 477 1054",
+        "email": "opticaeyeon@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Cl. 15 # 9-13",
+          "addressLocality": "Bogotá",
+          "addressRegion": "Bogotá D.C.",
+          "addressCountry": "CO"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday"
+            ],
+            "opens": "09:00",
+            "closes": "18:00"
+          }
+        ],
+        "sameAs": [
+          "https://www.instagram.com/opticaeyeon/",
+          "https://linktr.ee/Optica_Eyeon"
+        ]
+      }
+    </script>
+
+    <!-- FONT AWESOME -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
 
+    <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;700;800;900&family=Manrope:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
 
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <!-- =====================================
      LOADER
-====================================== -->
+    ====================================== -->
     <div class="loader" id="loader">
       <div class="loader-marco">
         <i class="fa-solid fa-glasses"></i>
@@ -38,7 +108,7 @@
 
     <!-- =====================================
      HEADER
-====================================== -->
+    ====================================== -->
     <header class="header" id="header">
       <div class="contenedor navbar">
         <a href="#inicio" class="logo">
@@ -50,6 +120,7 @@
           <a href="#inicio">Inicio</a>
           <a href="#catalogo">Catálogo</a>
           <a href="#contacto">Contacto</a>
+
           <a href="#" id="abrirFavoritos" class="menu-favoritos">
             <i class="fa-solid fa-heart"></i>
             <span id="contadorFavoritos">0</span>
@@ -71,7 +142,7 @@
 
     <!-- =====================================
      HERO
-====================================== -->
+    ====================================== -->
     <section class="hero" id="inicio">
       <div class="hero-bg-overlay" aria-hidden="true"></div>
 
@@ -95,7 +166,8 @@
 
           <p class="hero-descripcion">
             Encuentra la montura perfecta entre marcas como Ray-Ban, Oakley y
-            Prada. Tenemos mucha mas variedad de referencias en nuestro punto fisico.
+            Prada. Tenemos mucha más variedad de referencias en nuestro punto
+            físico.
           </p>
 
           <div class="hero-botones">
@@ -103,9 +175,11 @@
               <i class="fa-solid fa-glasses"></i>
               Ver catálogo
             </a>
+
             <a
               href="https://wa.me/573204771054"
               target="_blank"
+              rel="noopener noreferrer"
               class="boton boton-secundario"
             >
               <i class="fa-brands fa-whatsapp"></i>
@@ -118,14 +192,16 @@
               <span class="stat-numero" data-contador data-hasta="110">0</span>
               <span class="stat-label">Monturas en catálogo</span>
             </div>
+
             <div class="stat">
               <span class="stat-numero" data-contador data-hasta="8">0</span>
               <span class="stat-label">Marcas disponibles</span>
             </div>
+
             <div class="stat">
-              <span class="stat-numero"
-                ><span data-contador data-hasta="6">0</span>/7</span
-              >
+              <span class="stat-numero">
+                <span data-contador data-hasta="6">0</span>/7
+              </span>
               <span class="stat-label">Días de atención</span>
             </div>
           </div>
@@ -135,7 +211,7 @@
 
     <!-- =====================================
      MARQUEE DE MARCAS
-====================================== -->
+    ====================================== -->
     <div class="marquee" id="marcas">
       <div class="marquee-pista" id="marqueePista">
         <!-- generado por JS a partir de las marcas reales del catálogo -->
@@ -144,7 +220,7 @@
 
     <!-- =====================================
      CATÁLOGO
-====================================== -->
+    ====================================== -->
     <section class="catalogo" id="catalogo">
       <div class="contenedor">
         <div class="titulo-seccion" data-reveal>
@@ -152,7 +228,9 @@
             <span class="punto"></span>
             NUESTRA COLECCIÓN
           </p>
+
           <h2>Encuentra tu próxima montura</h2>
+
           <p class="titulo-seccion-texto">
             Explora nuestro catálogo y descubre diferentes estilos, marcas y
             diseños.
@@ -161,10 +239,12 @@
 
         <div class="buscador-contenedor" data-reveal>
           <i class="fa-solid fa-magnifying-glass"></i>
+
           <input
             type="text"
             id="buscar"
             placeholder="Buscar marca, referencia o estilo..."
+            aria-label="Buscar monturas por marca, referencia o estilo"
           />
         </div>
 
@@ -187,18 +267,22 @@
 
     <!-- =====================================
      CTA BANNER
-====================================== -->
+    ====================================== -->
     <section class="cta-banner">
       <div class="cta-shine"></div>
+
       <div class="contenedor cta-banner-contenido" data-reveal>
         <h2>¿Ya elegiste tu montura?</h2>
+
         <p>
-          Recibimos pagos en Bold, Addi, Sistecredito.
-          Realizamos envios a nivel nacional, pagos contraentrega.
+          Recibimos pagos con Bold, Addi y Sistecrédito. Realizamos envíos a
+          nivel nacional y ofrecemos pago contraentrega.
         </p>
+
         <a
           href="https://wa.me/573204771054"
           target="_blank"
+          rel="noopener noreferrer"
           class="boton boton-blanco"
         >
           <i class="fa-brands fa-whatsapp"></i>
@@ -209,7 +293,7 @@
 
     <!-- =====================================
      CONTACTO
-====================================== -->
+    ====================================== -->
     <section class="contacto" id="contacto">
       <div class="contenedor">
         <div class="titulo-seccion" data-reveal>
@@ -217,7 +301,9 @@
             <span class="punto"></span>
             VISÍTANOS
           </p>
+
           <h2>Estamos para ayudarte</h2>
+
           <p class="titulo-seccion-texto">
             Visita Óptica Eyeon y recibe atención profesional.
           </p>
@@ -230,17 +316,22 @@
                 <span></span>
                 ATENCIÓN DIRECTA
               </span>
+
               <h3>Hablemos por WhatsApp</h3>
+
               <p>
                 Cuéntanos qué montura buscas y te responde directamente nuestro
                 equipo.
               </p>
+
               <a
                 href="https://wa.me/573204771054"
                 class="contacto-whatsapp-boton"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i class="fa-brands fa-whatsapp"></i>
+
                 <div>
                   <strong>+57 320 477 1054</strong>
                   <span>Abrir conversación</span>
@@ -252,9 +343,13 @@
               <div class="contacto-icono">
                 <i class="fa-solid fa-location-dot"></i>
               </div>
+
               <div>
                 <h3>Ubicación</h3>
-                <p>Cl. 15 # 9-13<br />Santa Fe, Bogotá D.C.</p>
+                <p>
+                  Cl. 15 # 9-13<br />
+                  Santa Fe, Bogotá D.C.
+                </p>
               </div>
             </div>
 
@@ -262,9 +357,13 @@
               <div class="contacto-icono">
                 <i class="fa-solid fa-clock"></i>
               </div>
+
               <div>
                 <h3>Horario</h3>
-                <p>Lunes a sábado<br />9:00 a. m. – 6:00 p. m.</p>
+                <p>
+                  Lunes a sábado<br />
+                  9:00 a. m. – 6:00 p. m.
+                </p>
               </div>
             </div>
 
@@ -272,9 +371,13 @@
               <div class="contacto-icono">
                 <i class="fa-solid fa-envelope"></i>
               </div>
+
               <div>
                 <h3>Correo electrónico</h3>
-                <a href="mailto:opticaeyeon@gmail.com">opticaeyeon@gmail.com</a>
+
+                <a href="mailto:opticaeyeon@gmail.com">
+                  opticaeyeon@gmail.com
+                </a>
               </div>
             </div>
 
@@ -282,21 +385,35 @@
               <div class="contacto-icono">
                 <i class="fa-brands fa-instagram"></i>
               </div>
+
               <div>
                 <h3>Instagram</h3>
-                <a href="https://www.instagram.com/opticaeyeon/" target="_blank"
-                  >@opticaeyeon</a
+
+                <a
+                  href="https://www.instagram.com/opticaeyeon/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
+                  @opticaeyeon
+                </a>
               </div>
             </div>
 
             <div class="contacto-item">
-              <div class="contacto-icono"><i class="fa-solid fa-link"></i></div>
+              <div class="contacto-icono">
+                <i class="fa-solid fa-link"></i>
+              </div>
+
               <div>
                 <h3>Más información</h3>
-                <a href="https://linktr.ee/Optica_Eyeon" target="_blank"
-                  >Linktree Óptica Eyeon</a
+
+                <a
+                  href="https://linktr.ee/Optica_Eyeon"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
+                  Linktree Óptica Eyeon
+                </a>
               </div>
             </div>
           </div>
@@ -309,6 +426,7 @@
               style="border: 0"
               allowfullscreen=""
               loading="lazy"
+              title="Ubicación de Óptica Eyeon en Bogotá"
             ></iframe>
           </div>
         </div>
@@ -317,7 +435,7 @@
 
     <!-- =====================================
      FOOTER
-====================================== -->
+    ====================================== -->
     <footer class="footer">
       <div class="contenedor footer-grid">
         <div>
@@ -325,6 +443,7 @@
             <span>ÓPTICA</span>
             EYEON
           </a>
+
           <p>Tu visión es nuestra misión.</p>
         </div>
 
@@ -337,6 +456,7 @@
         <a
           href="https://wa.me/573204771054"
           target="_blank"
+          rel="noopener noreferrer"
           class="footer-whatsapp"
         >
           <i class="fa-brands fa-whatsapp"></i>
@@ -351,12 +471,13 @@
 
     <!-- =====================================
      WHATSAPP FLOTANTE
-====================================== -->
+    ====================================== -->
     <a
       href="https://wa.me/573204771054"
       class="whatsapp-flotante"
       target="_blank"
-      aria-label="WhatsApp"
+      rel="noopener noreferrer"
+      aria-label="Contactar a Óptica Eyeon por WhatsApp"
     >
       <span class="whatsapp-pulso"></span>
       <i class="fa-brands fa-whatsapp"></i>
@@ -364,27 +485,45 @@
 
     <!-- =====================================
      MODAL PRODUCTO
-====================================== -->
+    ====================================== -->
     <div class="modal" id="modalProducto">
       <div class="modal-contenido">
-        <button class="cerrar-modal" id="cerrarModal">
+        <button
+          class="cerrar-modal"
+          id="cerrarModal"
+          aria-label="Cerrar producto"
+        >
           <i class="fa-solid fa-xmark"></i>
         </button>
+
         <div id="contenidoModal"></div>
       </div>
     </div>
 
     <!-- =====================================
      MODAL FAVORITOS
-====================================== -->
+    ====================================== -->
     <div class="modal" id="modalFavoritos">
       <div class="modal-contenido modal-favoritos">
-        <button class="cerrar-modal" id="cerrarFavoritos">
+        <button
+          class="cerrar-modal"
+          id="cerrarFavoritos"
+          aria-label="Cerrar favoritos"
+        >
           <i class="fa-solid fa-xmark"></i>
         </button>
-        <h2><i class="fa-solid fa-heart"></i> Mis favoritos</h2>
-        <p class="texto-favoritos">Guarda las monturas que más te gusten.</p>
+
+        <h2>
+          <i class="fa-solid fa-heart"></i>
+          Mis favoritos
+        </h2>
+
+        <p class="texto-favoritos">
+          Guarda las monturas que más te gusten.
+        </p>
+
         <div class="lista-favoritos" id="listaFavoritos"></div>
+
         <div class="contenedor-cargar-mas">
           <button class="boton boton-primario" id="enviarFavoritos">
             <i class="fa-brands fa-whatsapp"></i>
@@ -394,6 +533,9 @@
       </div>
     </div>
 
+    <!-- =====================================
+     JAVASCRIPT
+    ====================================== -->
     <script src="datos.js"></script>
     <script src="script.js"></script>
   </body>
