@@ -843,7 +843,7 @@ const monturas = [
       "imagenes/monturas/oakley/ok050.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Agotada",
   },
 
   {
