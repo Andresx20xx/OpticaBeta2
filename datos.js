@@ -10,6 +10,13 @@ const monturas = [
 
     color: ["Cafe", "Negro", "Carey"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Cafe": "imagenes/monturas/rayban/rb001.jpeg",
+    "Negro": "imagenes/monturas/rayban/rb003.jpeg",
+    "Carey": "imagenes/monturas/rayban/rb027.jpeg"
+},
+
     categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
@@ -34,6 +41,12 @@ const monturas = [
     referencia: "RB002",
 
     color: ["Negro", "Carey"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/rayban/rb005.jpeg",
+    "Carey": "imagenes/monturas/rayban/rb009.jpeg"
+},
 
     categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
 
@@ -60,6 +73,13 @@ const monturas = [
 
     color: ["Azul", "Negro", "Rojo"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/rayban/rb007.jpeg",
+    "Negro": "imagenes/monturas/rayban/rb011.jpeg",
+    "Rojo": "imagenes/monturas/rayban/rb041.jpeg"
+},
+
     categorias: ["rayban", "deportivas", "unisex", "hombre", "mujer", "sol"],
 
     imagenes: [
@@ -85,6 +105,11 @@ const monturas = [
 
     color: ["Carey"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Carey": "imagenes/monturas/rayban/rb013.jpeg"
+},
+
     categorias: ["rayban", "deportivas", "mujer", "sol"],
 
     imagenes: [
@@ -106,6 +131,11 @@ const monturas = [
 
     color: ["Negro"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/rayban/rb015.jpeg"
+},
+
     categorias: ["rayban", "clasicas", "unisex", "hombre", "mujer", "sol"],
 
     imagenes: [
@@ -113,7 +143,7 @@ const monturas = [
       "imagenes/monturas/rayban/rb016.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Agotada",
   },
 
   {
@@ -126,6 +156,12 @@ const monturas = [
     referencia: "RB006",
 
     color: ["Morado", "Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Morado": "imagenes/monturas/rayban/rb017.jpeg",
+    "Negro": "imagenes/monturas/rayban/rb039.jpeg"
+},
 
     categorias: ["rayban", "deportivas", "sol", "unisex", "hombre", "mujer"],
 
@@ -149,6 +185,12 @@ const monturas = [
     referencia: "RB007",
 
     color: ["Naranja", "Cafe"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Naranja": "imagenes/monturas/rayban/rb019.jpeg",
+    "Cafe": "imagenes/modelos/md013.jpeg"
+},
 
     categorias: ["rayban", "deportivas", "unisex", "hombre", "mujer", "sol"],
 
@@ -174,6 +216,11 @@ const monturas = [
 
     color: ["Dorado"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Dorado": "imagenes/monturas/rayban/rb021.jpeg"
+},
+
     categorias: ["rayban", "deportivas", "unisex", "hombre", "mujer", "sol"],
 
     imagenes: [
@@ -194,6 +241,11 @@ const monturas = [
     referencia: "RB009",
 
     color: ["Gris"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Gris": "imagenes/monturas/rayban/rb037.jpeg"
+},
 
     categorias: ["rayban", "deportivas", "unisex", "hombre", "mujer", "sol"],
 
@@ -217,6 +269,11 @@ const monturas = [
 
     color: ["Negro"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/rayban/rb025.jpeg"
+},
+
     categorias: ["rayban", "deportivas", "unisex", "hombre", "mujer", "sol"],
 
     imagenes: [
@@ -237,6 +294,11 @@ const monturas = [
     referencia: "RB011",
 
     color: ["Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/rayban/rb029.jpeg"
+},
 
     categorias: ["rayban", "deportivas", "unisex", "hombre", "mujer", "sol"],
 
@@ -259,6 +321,11 @@ const monturas = [
 
     color: ["Negro"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/rayban/rb033.jpeg"
+},
+
     categorias: ["rayban", "deportivas", "unisex", "hombre", "mujer", "sol"],
 
     imagenes: [
@@ -279,6 +346,11 @@ const monturas = [
     referencia: "RB013",
 
     color: ["Carey"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Carey": "imagenes/monturas/rayban/rb035.jpeg"
+},
 
     categorias: ["rayban", "deportivas", "unisex", "hombre", "mujer", "sol"],
 
@@ -301,6 +373,11 @@ const monturas = [
 
     color: ["Dorado"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Dorado": "imagenes/monturas/rayban/rb047.jpeg"
+},
+
     categorias: ["rayban", "deportivas", "unisex", "mujer", "hombre", "sol"],
 
     imagenes: [
@@ -321,6 +398,11 @@ const monturas = [
     referencia: "OK001",
 
     color: ["Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/oakley/ok001.jpeg"
+},
 
     categorias: ["oakley", "oftalmica", "hombre"],
 
@@ -343,6 +425,11 @@ const monturas = [
 
     color: ["Gris"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Gris": "imagenes/monturas/oakley/ok003.jpeg"
+},
+
     categorias: ["oakley", "oftalmica", "hombre", "mujer", "unisex"],
 
     imagenes: [
@@ -363,6 +450,11 @@ const monturas = [
     referencia: "OK003",
 
     color: ["Rojo"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Rojo": "imagenes/monturas/oakley/ok005.jpeg"
+},
 
     categorias: ["oakley", "3piezas", "oftalmica", "hombre"],
 
@@ -385,6 +477,11 @@ const monturas = [
 
     color: ["Azul"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/oakley/ok007.jpeg"
+},
+
     categorias: ["oakley", "3piezas", "oftalmica", "hombre"],
 
     imagenes: [
@@ -405,6 +502,11 @@ const monturas = [
     referencia: "OK005",
 
     color: ["Verde"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Verde": "imagenes/monturas/oakley/ok009.jpeg"
+},
 
     categorias: [
       "oakley",
@@ -434,6 +536,11 @@ const monturas = [
 
     color: ["Cafe"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Cafe": "imagenes/monturas/oakley/ok011.jpeg"
+},
+
     categorias: ["oakley", "oftalmica", "hombre", "mujer", "unisex"],
 
     imagenes: [
@@ -454,6 +561,11 @@ const monturas = [
     referencia: "OK007",
 
     color: ["Azul"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/oakley/ok013.jpeg"
+},
 
     categorias: ["oakley", "oftalmica", "hombre"],
 
@@ -477,6 +589,11 @@ const monturas = [
 
     color: ["Gris"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Gris": "imagenes/monturas/oakley/ok015.jpeg"
+},
+
     categorias: ["oakley", "3piezas", "oftalmica", "foto-cromatico", "hombre"],
 
     imagenes: [
@@ -497,6 +614,11 @@ const monturas = [
     referencia: "OK009",
 
     color: ["Azul"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/oakley/ok017.jpeg"
+},
 
     categorias: ["oakley", "3piezas", "oftalmica", "foto-cromatico", "hombre"],
 
@@ -519,6 +641,11 @@ const monturas = [
 
     color: ["Rojo"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Rojo": "imagenes/monturas/oakley/ok019.jpeg"
+},
+
     categorias: ["oakley", "3piezas", "oftalmica", "foto-cromatico", "hombre"],
 
     imagenes: [
@@ -539,6 +666,11 @@ const monturas = [
     referencia: "OK011",
 
     color: ["Verde"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Verde": "imagenes/monturas/oakley/ok021.jpeg"
+},
 
     categorias: ["oakley", "oftalmica", "moderna", "hombre"],
 
@@ -561,6 +693,11 @@ const monturas = [
 
     color: ["Negro"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/oakley/ok023.jpeg"
+},
+
     categorias: ["oakley", "oftalmica", "moderna", "hombre"],
 
     imagenes: [
@@ -581,6 +718,11 @@ const monturas = [
     referencia: "OK013",
 
     color: ["Naranja"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Naranja": "imagenes/monturas/oakley/ok025.jpeg"
+},
 
     categorias: ["oakley", "sol", "hombre"],
 
@@ -604,6 +746,11 @@ const monturas = [
 
     color: ["Verde"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Verde": "imagenes/monturas/oakley/ok027.jpeg"
+},
+
     categorias: ["oakley", "moderna", "oftalmica", "hombre"],
 
     imagenes: [
@@ -624,6 +771,11 @@ const monturas = [
     referencia: "OK015",
 
     color: ["Azul"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/oakley/ok029.jpeg"
+},
 
     categorias: ["oakley", "oftalmica", "moderna", "hombre"],
 
@@ -646,6 +798,11 @@ const monturas = [
 
     color: ["Traslucido"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Traslucido": "imagenes/monturas/oakley/ok031.jpeg"
+},
+
     categorias: ["oakley", "deportivas", "sol", "hombre"],
 
     imagenes: [
@@ -666,6 +823,11 @@ const monturas = [
     referencia: "OK017",
 
     color: ["Blanco"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Blanco": "imagenes/monturas/oakley/ok033.jpeg"
+},
 
     categorias: ["oakley", "deportivas", "sol", "hombre"],
 
@@ -689,6 +851,11 @@ const monturas = [
 
     color: ["Morado"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Morado": "imagenes/monturas/oakley/ok035.jpeg"
+},
+
     categorias: ["oakley", "3piezas", "sol", "hombre"],
 
     imagenes: [
@@ -709,6 +876,12 @@ const monturas = [
     referencia: "OK019",
 
     color: ["Negro", "Rojo"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/oakley/ok037.jpeg",
+    "Rojo": "imagenes/monturas/oakley/ok038.jpeg"
+},
 
     categorias: ["oakley", "moderna", "oftalmica", "hombre"],
 
@@ -731,6 +904,11 @@ const monturas = [
 
     color: ["Dorado"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Dorado": "imagenes/monturas/oakley/ok039.jpeg"
+},
+
     categorias: ["oakley", "3piezas", "foto-cromatico", "hombre"],
 
     imagenes: [
@@ -751,6 +929,11 @@ const monturas = [
     referencia: "OK021",
 
     color: ["Rojo"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Rojo": "imagenes/monturas/oakley/ok041.jpeg"
+},
 
     categorias: ["oakley", "oftalmica", "hombre"],
 
@@ -773,6 +956,11 @@ const monturas = [
 
     color: ["Cafe"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Cafe": "imagenes/monturas/oakley/ok043.jpeg"
+},
+
     categorias: ["oakley", "oftalmica", "hombre"],
 
     imagenes: [
@@ -793,6 +981,11 @@ const monturas = [
     referencia: "OK023",
 
     color: ["Cafe"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Cafe": "imagenes/monturas/oakley/ok045.jpeg"
+},
 
     categorias: ["oakley", "oftalmica", "hombre"],
 
@@ -815,6 +1008,11 @@ const monturas = [
 
     color: ["Azul"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/oakley/ok047.jpeg"
+},
+
     categorias: ["oakley", "oftalmica", "hombre"],
 
     imagenes: [
@@ -835,6 +1033,11 @@ const monturas = [
     referencia: "OK025",
 
     color: ["Gris"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Gris": "imagenes/monturas/oakley/ok049.jpeg"
+},
 
     categorias: ["oakley", "oftalmica", "hombre"],
 
@@ -857,6 +1060,11 @@ const monturas = [
 
     color: ["Negro"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/oakley/ok051.jpeg"
+},
+
     categorias: ["oakley", "oftalmica", "hombre"],
 
     imagenes: [
@@ -877,6 +1085,11 @@ const monturas = [
     referencia: "OK027",
 
     color: ["Gris"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Gris": "imagenes/monturas/oakley/ok053.jpeg"
+},
 
     categorias: ["oakley", "oftalmica", "hombre"],
 
@@ -899,6 +1112,11 @@ const monturas = [
 
     color: ["Cafe"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Cafe": "imagenes/monturas/oakley/ok055.jpeg"
+},
+
     categorias: ["oakley", "oftalmica", "hombre"],
 
     imagenes: [
@@ -919,6 +1137,11 @@ const monturas = [
     referencia: "LC001",
 
     color: ["Azul"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/lacoste/lc001.jpeg"
+},
 
     categorias: ["lacoste", "oftalmica", "hombre"],
 
@@ -941,6 +1164,11 @@ const monturas = [
 
     color: ["Negro"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/lacoste/lc003.jpeg"
+},
+
     categorias: ["lacoste", "oftalmica", "hombre"],
 
     imagenes: [
@@ -961,6 +1189,11 @@ const monturas = [
     referencia: "LC003",
 
     color: ["Verde"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Verde": "imagenes/monturas/lacoste/lc005.jpeg"
+},
 
     categorias: ["lacoste", "oftalmica", "hombre"],
 
@@ -984,6 +1217,11 @@ const monturas = [
 
     color: ["Carey"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Carey": "imagenes/monturas/lacoste/lc007.jpeg"
+},
+
     categorias: ["lacoste", "oftalmica", "hombre"],
 
     imagenes: [
@@ -1005,6 +1243,11 @@ const monturas = [
     referencia: "LC005",
 
     color: ["Azul"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/lacoste/lc009.jpeg"
+},
 
     categorias: ["lacoste", "oftalmica", "hombre"],
 
@@ -1028,6 +1271,11 @@ const monturas = [
 
     color: ["Verde"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Verde": "imagenes/monturas/diesel/ds001.jpeg"
+},
+
     categorias: ["diesel", "oftalmica", "hombre"],
 
     imagenes: [
@@ -1048,6 +1296,11 @@ const monturas = [
     referencia: "DS002",
 
     color: ["Negra"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negra": "imagenes/monturas/diesel/ds003.jpeg"
+},
 
     categorias: ["diesel", "oftalmica", "moderna", "hombre"],
 
@@ -1070,6 +1323,11 @@ const monturas = [
 
     color: ["Cristal"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Cristal": "imagenes/monturas/diesel/ds005.jpeg"
+},
+
     categorias: ["diesel", "oftalmica", "hombre", "mujer", "unisex"],
 
     imagenes: [
@@ -1090,6 +1348,11 @@ const monturas = [
     referencia: "DS004",
 
     color: ["Azul"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/diesel/ds007.jpeg"
+},
 
     categorias: ["diesel", "oftalmica", "moderna", "hombre"],
 
@@ -1112,6 +1375,11 @@ const monturas = [
 
     color: ["Traslucido rojo"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Traslucido rojo": "imagenes/monturas/diesel/ds009.jpeg"
+},
+
     categorias: ["diesel", "oftalmica", "moderna", "hombre"],
 
     imagenes: [
@@ -1132,6 +1400,11 @@ const monturas = [
     referencia: "NK001",
 
     color: ["Azul"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/nike/nk001.jpeg"
+},
 
     categorias: ["nike", "oftalmica", "deportivas", "hombre"],
 
@@ -1154,6 +1427,11 @@ const monturas = [
 
     color: ["Traslucido rojo"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Traslucido rojo": "imagenes/monturas/nike/nk003.jpeg"
+},
+
     categorias: ["nike", "oftalmica", "deportivas", "hombre"],
 
     imagenes: [
@@ -1174,6 +1452,11 @@ const monturas = [
     referencia: "NK003",
 
     color: ["Gris"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Gris": "imagenes/monturas/nike/nk005.jpeg"
+},
 
     categorias: ["nike", "oftalmica", "hombre"],
 
@@ -1196,6 +1479,11 @@ const monturas = [
 
     color: ["Azul"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/nike/nk007.jpeg"
+},
+
     categorias: ["nike", "oftalmica", "hombre"],
 
     imagenes: [
@@ -1216,6 +1504,11 @@ const monturas = [
     referencia: "TM001",
 
     color: ["Verde"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Verde": "imagenes/monturas/tommy/tm001.jpeg"
+},
 
     categorias: ["tommy hilfiger", "oftalmica", "moderna", "hombre"],
 
@@ -1238,6 +1531,11 @@ const monturas = [
 
     color: ["Azul"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/tommy/tm003.jpeg"
+},
+
     categorias: ["tommy hilfiger", "oftalmica", "moderna", "hombre"],
 
     imagenes: [
@@ -1258,6 +1556,11 @@ const monturas = [
     referencia: "TM003",
 
     color: ["Azul"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/tommy/tm005.jpeg"
+},
 
     categorias: ["tommy hilfiger", "oftalmica", "moderna", "hombre"],
 
@@ -1280,6 +1583,11 @@ const monturas = [
 
     color: ["Verde"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Verde": "imagenes/monturas/tommy/tm007.jpeg"
+},
+
     categorias: ["tommy hilfiger", "oftalmica", "moderna", "hombre"],
 
     imagenes: [
@@ -1300,6 +1608,11 @@ const monturas = [
     referencia: "WD001",
 
     color: ["Gris"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Gris": "imagenes/monturas/wanderth/wd001.jpeg"
+},
 
     categorias: ["wanderth", "sol", "moderna", "mujer"],
 
@@ -1322,6 +1635,11 @@ const monturas = [
 
     color: ["Cafe"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Cafe": "imagenes/monturas/wanderth/wd003.jpeg"
+},
+
     categorias: ["wanderth", "oftalmica", "moderna", "mujer"],
 
     imagenes: [
@@ -1342,6 +1660,11 @@ const monturas = [
     referencia: "WD003",
 
     color: ["Beige"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Beige": "imagenes/monturas/wanderth/wd005.jpeg"
+},
 
     categorias: ["wanderth", "sol", "moderna", "mujer"],
 
@@ -1365,6 +1688,11 @@ const monturas = [
 
     color: ["Metalica"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Metalica": "imagenes/monturas/wanderth/wd007.jpeg"
+},
+
     categorias: ["wanderth", "sol", "moderna", "unisex", "mujer", "hombre"],
 
     imagenes: [
@@ -1385,6 +1713,11 @@ const monturas = [
     referencia: "WD005",
 
     color: ["Azul"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/wanderth/wd009.jpeg"
+},
 
     categorias: [
       "wanderth",
@@ -1414,6 +1747,11 @@ const monturas = [
 
     color: ["Rosa"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Rosa": "imagenes/monturas/wanderth/wd011.jpeg"
+},
+
     categorias: ["wanderth", "oftalmica", "mujer"],
 
     imagenes: [
@@ -1434,6 +1772,11 @@ const monturas = [
     referencia: "WD007",
 
     color: ["Rojo"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Rojo": "imagenes/monturas/wanderth/wd013.jpeg"
+},
 
     categorias: ["wanderth", "sol", "deportivas", "hombre", "mujer", "unisex"],
 
@@ -1456,6 +1799,11 @@ const monturas = [
 
     color: ["Verde"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Verde": "imagenes/monturas/prada/pd001.jpeg"
+},
+
     categorias: ["prada", "sol", "hombre", "mujer", "unisex"],
 
     imagenes: [
@@ -1476,6 +1824,11 @@ const monturas = [
     referencia: "PD002",
 
     color: ["Gris"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Gris": "imagenes/monturas/prada/pd003.jpeg"
+},
 
     categorias: ["prada", "sol", "moderna", "hombre", "mujer", "unisex"],
 
@@ -1498,6 +1851,11 @@ const monturas = [
 
     color: ["Verde"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Verde": "imagenes/monturas/prada/pd005.jpeg"
+},
+
     categorias: ["prada", "sol", "hombre", "mujer", "unisex"],
 
     imagenes: [
@@ -1518,6 +1876,11 @@ const monturas = [
     referencia: "PD004",
 
     color: ["Dorado"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Dorado": "imagenes/monturas/prada/pd007.jpeg"
+},
 
     categorias: ["prada", "sol", "mujer"],
 
@@ -1540,6 +1903,11 @@ const monturas = [
 
     color: ["Gris"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Gris": "imagenes/monturas/prada/pd009.jpeg"
+},
+
     categorias: ["prada", "oftalmica", "moderna", "mujer"],
 
     imagenes: [
@@ -1561,6 +1929,11 @@ const monturas = [
 
     color: ["Rosa"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Rosa": "imagenes/monturas/prada/pd011.jpeg"
+},
+
     categorias: ["prada", "oftalmica", "mujer"],
 
     imagenes: [
@@ -1581,6 +1954,11 @@ const monturas = [
     referencia: "PD007",
 
     color: ["Dorado"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Dorado": "imagenes/monturas/prada/pd013.jpeg"
+},
 
     categorias: ["prada", "sol", "hombre", "mujer", "unisex"],
 
@@ -1604,6 +1982,11 @@ const monturas = [
 
     color: ["Blanco"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Blanco": "imagenes/monturas/prada/pd015.jpeg"
+},
+
     categorias: ["prada", "oftalmica", "mujer"],
 
     imagenes: [
@@ -1625,6 +2008,11 @@ const monturas = [
 
     color: ["Beige"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Beige": "imagenes/monturas/prada/pd017.jpeg"
+},
+
     categorias: ["prada", "oftalmica", "mujer"],
 
     imagenes: [
@@ -1645,6 +2033,11 @@ const monturas = [
     referencia: "PD010",
 
     color: ["Carey"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Carey": "imagenes/monturas/prada/pd019.jpeg"
+},
 
     categorias: ["prada", "oftalmica", "hombre", "mujer", "unisex"],
 
@@ -1668,6 +2061,11 @@ const monturas = [
 
     color: ["Cristal"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Cristal": "imagenes/monturas/prada/pd021.jpeg"
+},
+
     categorias: ["prada", "oftalmica", "hombre"],
 
     imagenes: [
@@ -1688,6 +2086,11 @@ const monturas = [
     referencia: "PD012",
 
     color: ["Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/prada/pd023.jpeg"
+},
 
     categorias: ["prada", "oftalmica", "hombre", "mujer", "unisex"],
 
@@ -1710,6 +2113,11 @@ const monturas = [
 
     color: ["Carey"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Carey": "imagenes/monturas/otras marcas/om001.jpeg"
+},
+
     categorias: ["otras marcas", "oftalmica", "hombre", "mujer", "unisex"],
 
     imagenes: [
@@ -1730,6 +2138,11 @@ const monturas = [
     referencia: "OM002",
 
     color: ["metalico"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "metalico": "imagenes/monturas/otras marcas/om003.jpeg"
+},
 
     categorias: ["otras marcas", "oftalmica", "hombre"],
 
@@ -1752,6 +2165,11 @@ const monturas = [
 
     color: ["Cafe"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Cafe": "imagenes/monturas/otras marcas/om005.jpeg"
+},
+
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
     imagenes: [
@@ -1772,6 +2190,11 @@ const monturas = [
     referencia: "OM004",
 
     color: ["Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/otras marcas/om007.jpeg"
+},
 
     categorias: ["otras marcas", "oftalmica", "hombre"],
 
@@ -1794,6 +2217,11 @@ const monturas = [
 
     color: ["Cristal"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Cristal": "imagenes/monturas/otras marcas/om009.jpeg"
+},
+
     categorias: ["otras marcas", "oftalmica", "hombre"],
 
     imagenes: [
@@ -1814,6 +2242,11 @@ const monturas = [
     referencia: "OM006",
 
     color: ["Carey"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Carey": "imagenes/monturas/otras marcas/om011.jpeg"
+},
 
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
@@ -1836,6 +2269,11 @@ const monturas = [
 
     color: ["Negro"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/otras marcas/om013.jpeg"
+},
+
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
     imagenes: [
@@ -1856,6 +2294,11 @@ const monturas = [
     referencia: "OM008",
 
     color: ["Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/otras marcas/om015.jpeg"
+},
 
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
@@ -1878,6 +2321,11 @@ const monturas = [
 
     color: ["Carey"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Carey": "imagenes/monturas/otras marcas/om017.jpeg"
+},
+
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
     imagenes: [
@@ -1898,6 +2346,11 @@ const monturas = [
     referencia: "OM010",
 
     color: ["Carey"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Carey": "imagenes/monturas/otras marcas/om019.jpeg"
+},
 
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
@@ -1920,6 +2373,11 @@ const monturas = [
 
     color: ["Carey"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Carey": "imagenes/monturas/otras marcas/om021.jpeg"
+},
+
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
     imagenes: [
@@ -1940,6 +2398,11 @@ const monturas = [
     referencia: "OM012",
 
     color: ["Carey"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Carey": "imagenes/monturas/otras marcas/om023.jpeg"
+},
 
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
@@ -1962,6 +2425,11 @@ const monturas = [
 
     color: ["Carey"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Carey": "imagenes/monturas/otras marcas/om025.jpeg"
+},
+
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
     imagenes: [
@@ -1982,6 +2450,11 @@ const monturas = [
     referencia: "OM014",
 
     color: ["Gris Humo"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Gris Humo": "imagenes/monturas/otras marcas/om027.jpeg"
+},
 
     categorias: ["otras marcas", "oftalmica", "hombre"],
 
@@ -2004,6 +2477,11 @@ const monturas = [
 
     color: ["Verde"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Verde": "imagenes/monturas/otras marcas/om029.jpeg"
+},
+
     categorias: ["otras marcas", "oftalmica", "deportivas", "hombre"],
 
     imagenes: [
@@ -2024,6 +2502,11 @@ const monturas = [
     referencia: "OM016",
 
     color: ["Gris"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Gris": "imagenes/monturas/otras marcas/om031.jpeg"
+},
 
     categorias: ["otras marcas", "oftalmica", "deportivas", "hombre"],
 
@@ -2046,6 +2529,11 @@ const monturas = [
 
     color: ["Negro"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/otras marcas/om033.jpeg"
+},
+
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
     imagenes: [
@@ -2066,6 +2554,11 @@ const monturas = [
     referencia: "OM018",
 
     color: ["Carey"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Carey": "imagenes/monturas/otras marcas/om035.jpeg"
+},
 
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
@@ -2088,6 +2581,11 @@ const monturas = [
 
     color: ["Dorado"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Dorado": "imagenes/monturas/otras marcas/om037.jpeg"
+},
+
     categorias: ["otras marcas", "oftalmica", "unisex", "hombre", "mujer"],
 
     imagenes: [
@@ -2108,6 +2606,11 @@ const monturas = [
     referencia: "OM020",
 
     color: ["Carey"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Carey": "imagenes/monturas/otras marcas/om039.jpeg"
+},
 
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
@@ -2131,6 +2634,11 @@ const monturas = [
 
     color: ["Rosa"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Rosa": "imagenes/monturas/otras marcas/om041.jpeg"
+},
+
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
     imagenes: [
@@ -2151,6 +2659,11 @@ const monturas = [
     referencia: "OM022",
 
     color: ["Blanca-azul"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Blanca-azul": "imagenes/monturas/otras marcas/om043.jpeg"
+},
 
     categorias: ["otras marcas", "oftalmica", "unisex", "hombre", "mujer"],
 
@@ -2173,6 +2686,11 @@ const monturas = [
 
     color: ["Negro"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/otras marcas/om045.jpeg"
+},
+
     categorias: ["otras marcas", "oftalmica", "hombre"],
 
     imagenes: [
@@ -2193,6 +2711,11 @@ const monturas = [
     referencia: "OM024",
 
     color: ["Carey"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Carey": "imagenes/monturas/otras marcas/om047.jpeg"
+},
 
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
@@ -2215,6 +2738,11 @@ const monturas = [
 
     color: ["Rojo"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Rojo": "imagenes/monturas/otras marcas/om049.jpeg"
+},
+
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
     imagenes: [
@@ -2235,6 +2763,11 @@ const monturas = [
     referencia: "OM026",
 
     color: ["Carey"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Carey": "imagenes/monturas/otras marcas/om051.jpeg"
+},
 
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
@@ -2257,6 +2790,11 @@ const monturas = [
 
     color: ["Rojo"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Rojo": "imagenes/monturas/otras marcas/om053.jpeg"
+},
+
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
     imagenes: [
@@ -2277,6 +2815,11 @@ const monturas = [
     referencia: "OM028",
 
     color: ["Carey"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Carey": "imagenes/monturas/otras marcas/om055.jpeg"
+},
 
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
@@ -2300,6 +2843,11 @@ const monturas = [
 
     color: ["Verde"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Verde": "imagenes/monturas/otras marcas/om057.jpeg"
+},
+
     categorias: ["otras marcas", "oftalmica", "hombre"],
 
     imagenes: [
@@ -2320,6 +2868,11 @@ const monturas = [
     referencia: "OM030",
 
     color: ["Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/otras marcas/om059.jpeg"
+},
 
     categorias: ["otras marcas", "oftalmica", "Mujer"],
 
@@ -2342,6 +2895,11 @@ const monturas = [
 
     color: ["Negro"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/otras marcas/om061.jpeg"
+},
+
     categorias: ["otras marcas", "oftalmica", "hombre"],
 
     imagenes: [
@@ -2362,6 +2920,11 @@ const monturas = [
     referencia: "CA001",
 
     color: ["Rosa"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Rosa": "imagenes/monturas/cartier/ca001.jpeg"
+},
 
     categorias: ["cartier", "oftalmica", "mujer"],
 
@@ -2385,6 +2948,11 @@ const monturas = [
 
     color: ["Beige"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Beige": "imagenes/monturas/cartier/ca003.jpeg"
+},
+
     categorias: ["cartier", "oftalmica", "mujer"],
 
     imagenes: [
@@ -2405,6 +2973,11 @@ const monturas = [
     referencia: "CA003",
 
     color: ["Vinotinto"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Vinotinto": "imagenes/monturas/cartier/ca005.jpeg"
+},
 
     categorias: ["cartier", "sol", "mujer"],
 
@@ -2427,6 +3000,11 @@ const monturas = [
 
     color: ["verde"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "verde": "imagenes/monturas/cartier/ca007.jpeg"
+},
+
     categorias: ["cartier", "sol", "mujer"],
 
     imagenes: [
@@ -2447,6 +3025,11 @@ const monturas = [
     referencia: "CA005",
 
     color: ["Metalico"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Metalico": "imagenes/monturas/cartier/ca009.jpeg"
+},
 
     categorias: ["cartier", "unisex", "hombre", "3piezas", "oftalmica", "mujer"],
 
@@ -2469,6 +3052,11 @@ const monturas = [
 
     color: ["Negro"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/cartier/ca011.jpeg"
+},
+
     categorias: ["cartier", "sol", "3piezas", "hombre", "unisex", "mujer"],
 
     imagenes: [
@@ -2489,6 +3077,11 @@ const monturas = [
     referencia: "CA007",
 
     color: ["Dorado"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Dorado": "imagenes/monturas/cartier/ca013.jpeg"
+},
 
     categorias: ["cartier", "oftalmica", "3piezas", "mujer"],
 
@@ -2512,6 +3105,11 @@ const monturas = [
 
     color: ["Cafe"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Cafe": "imagenes/monturas/cartier/ca015.jpeg"
+},
+
     categorias: ["cartier", "sol", "mujer"],
 
     imagenes: [
@@ -2532,6 +3130,11 @@ const monturas = [
     referencia: "CA009",
 
     color: ["Dorada"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Dorada": "imagenes/monturas/cartier/ca017.jpeg"
+},
 
     categorias: ["cartier", "3piezas", "sol", "unisex", "hombre", "mujer"],
 
@@ -2554,6 +3157,11 @@ const monturas = [
 
     color: ["Beige"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Beige": "imagenes/monturas/cartier/ca019.jpeg"
+},
+
     categorias: ["cartier", "sol", "mujer"],
 
     imagenes: [
@@ -2574,6 +3182,11 @@ const monturas = [
     referencia: "CA011",
 
     color: ["Dorada"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Dorada": "imagenes/monturas/cartier/ca021.jpeg"
+},
 
     categorias: ["cartier", "3piezas", "sol", "unisex", "hombre", "mujer"],
 
@@ -2596,6 +3209,11 @@ const monturas = [
 
     color: ["Verde"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Verde": "imagenes/monturas/cartier/ca023.jpeg"
+},
+
     categorias: ["cartier", "sol", "mujer"],
 
     imagenes: [
@@ -2616,6 +3234,11 @@ const monturas = [
     referencia: "CA013",
 
     color: ["Metalica"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Metalica": "imagenes/monturas/cartier/ca025.jpeg"
+},
 
     categorias: ["cartier", "unisex", "hombre", "3piezas", "oftalmica", "mujer"],
 
@@ -2639,6 +3262,11 @@ const monturas = [
 
     color: ["Metalica"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Metalica": "imagenes/monturas/cartier/ca027.jpeg"
+},
+
     categorias: ["cartier", "moderna", "unisex", "hombre", "sol", "mujer"],
 
     imagenes: [
@@ -2659,6 +3287,11 @@ const monturas = [
     referencia: "CA015",
 
     color: ["Dorada"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Dorada": "imagenes/monturas/cartier/ca029.jpeg"
+},
 
     categorias: ["cartier", "unisex", "hombre", "sol", "3piezas", "mujer"],
 
@@ -2681,6 +3314,11 @@ const monturas = [
 
     color: ["Metalica"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Metalica": "imagenes/monturas/cartier/ca031.jpeg"
+},
+
     categorias: ["cartier", "oftalmica", "unisex", "hombre", "mujer"],
 
     imagenes: [
@@ -2701,6 +3339,11 @@ const monturas = [
     referencia: "CA017",
 
     color: ["Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/cartier/ca033.jpeg"
+},
 
     categorias: ["cartier", "foto-cromatico", "3piezas", "unisex", "hombre", "sol", "mujer"],
 
@@ -2723,6 +3366,11 @@ const monturas = [
 
     color: ["Dorado"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Dorado": "imagenes/monturas/cartier/ca035.jpeg"
+},
+
     categorias: ["cartier", "3piezas", "oftalmica", "mujer"],
 
     imagenes: [
@@ -2743,6 +3391,11 @@ const monturas = [
     referencia: "CA019",
 
     color: ["Metalica"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Metalica": "imagenes/monturas/cartier/ca037.jpeg"
+},
 
     categorias: ["cartier", "3piezas", "hombre", "unisex", "oftalmica", "mujer"],
 
@@ -2765,6 +3418,11 @@ const monturas = [
 
     color: ["Metalica"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Metalica": "imagenes/monturas/cartier/ca039.jpeg"
+},
+
     categorias: ["cartier", "3piezas", "oftalmica", "mujer"],
 
     imagenes: [
@@ -2785,6 +3443,11 @@ const monturas = [
     referencia: "OM032",
 
     color: ["Gris"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Gris": "imagenes/monturas/otras marcas/om063.jpeg"
+},
 
     categorias: ["otras marcas", "oftalmica", "hombre"],
 
@@ -2807,6 +3470,11 @@ const monturas = [
 
     color: ["Azul"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/otras marcas/om065.jpeg"
+},
+
     categorias: ["otras marcas", "oftalmica", "hombre"],
 
     imagenes: [
@@ -2827,6 +3495,11 @@ const monturas = [
     referencia: "OE001",
 
     color: ["Traslucido"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Traslucido": "imagenes/monturas/hombre/oe001.jpeg"
+},
 
     categorias: ["3piezas", "eyeon-hombre", "oftalmica", "hombre"],
 
@@ -2849,6 +3522,11 @@ const monturas = [
 
     color: ["Metalica"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Metalica": "imagenes/monturas/hombre/oe003.jpeg"
+},
+
     categorias: ["3piezas", "eyeon-hombre", "oftalmica", "hombre"],
 
     imagenes: [
@@ -2869,6 +3547,11 @@ const monturas = [
     referencia: "OE003",
 
     color: ["Azul"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/hombre/oe005.jpeg"
+},
 
     categorias: ["eyeon-hombre", "oftalmica", "hombre"],
 
@@ -2891,6 +3574,11 @@ const monturas = [
 
     color: ["Cristal"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Cristal": "imagenes/monturas/hombre/oe007.jpeg"
+},
+
     categorias: ["eyeon-hombre", "oftalmica", "hombre"],
 
     imagenes: [
@@ -2911,6 +3599,11 @@ const monturas = [
     referencia: "OE005",
 
     color: ["Verde"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Verde": "imagenes/monturas/hombre/oe009.jpeg"
+},
 
     categorias: ["eyeon-hombre", "oftalmica", "hombre"],
 
@@ -2933,6 +3626,11 @@ const monturas = [
 
     color: ["Gris"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Gris": "imagenes/monturas/hombre/oe011.jpeg"
+},
+
     categorias: ["eyeon-hombre", "oftalmica", "hombre"],
 
     imagenes: [
@@ -2953,6 +3651,11 @@ const monturas = [
     referencia: "OE007",
 
     color: ["Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/hombre/oe013.jpeg"
+},
 
     categorias: ["eyeon-hombre", "oftalmica", "hombre"],
 
@@ -2975,6 +3678,11 @@ const monturas = [
 
     color: ["Azul"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/hombre/oe015.jpeg"
+},
+
     categorias: ["eyeon-hombre", "oftalmica", "hombre"],
 
     imagenes: [
@@ -2995,6 +3703,11 @@ const monturas = [
     referencia: "OE009",
 
     color: ["Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/hombre/oe017.jpeg"
+},
 
     categorias: ["eyeon-hombre", "oftalmica", "hombre"],
 
@@ -3017,6 +3730,11 @@ const monturas = [
 
     color: ["Dorado"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Dorado": "imagenes/monturas/hombre/oe019.jpeg"
+},
+
     categorias: ["eyeon-hombre", "oftalmica", "hombre"],
 
     imagenes: [
@@ -3037,6 +3755,11 @@ const monturas = [
     referencia: "OE011",
 
     color: ["Gris"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Gris": "imagenes/monturas/hombre/oe021.jpeg"
+},
 
     categorias: ["eyeon-hombre", "oftalmica", "hombre"],
 
@@ -3059,6 +3782,11 @@ const monturas = [
 
     color: ["Negro"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/hombre/oe023.jpeg"
+},
+
     categorias: ["eyeon-hombre", "oftalmica", "hombre"],
 
     imagenes: [
@@ -3079,6 +3807,11 @@ const monturas = [
     referencia: "OE013",
 
     color: ["Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/hombre/oe025.jpeg"
+},
 
     categorias: ["eyeon-hombre", "oftalmica", "hombre"],
 
@@ -3101,6 +3834,11 @@ const monturas = [
 
     color: ["Negro"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/hombre/oe027.jpeg"
+},
+
     categorias: ["eyeon-hombre", "oftalmica", "hombre"],
 
     imagenes: [
@@ -3121,6 +3859,11 @@ const monturas = [
     referencia: "OE015",
 
     color: ["Blanco"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Blanco": "imagenes/monturas/hombre/oe029.jpeg"
+},
 
     categorias: ["eyeon-hombre", "oftalmica", "hombre"],
 
@@ -3143,6 +3886,11 @@ const monturas = [
 
     color: ["Azul"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/hombre/oe031.jpeg"
+},
+
     categorias: ["eyeon-hombre", "oftalmica", "hombre"],
 
     imagenes: [
@@ -3163,6 +3911,11 @@ const monturas = [
     referencia: "OE017",
 
     color: ["Gris"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Gris": "imagenes/monturas/hombre/oe033.jpeg"
+},
 
     categorias: ["eyeon-hombre", "oftalmica", "hombre"],
 
@@ -3185,6 +3938,11 @@ const monturas = [
 
     color: ["Cafe"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Cafe": "imagenes/monturas/hombre/oe035.jpeg"
+},
+
     categorias: ["eyeon-hombre", "oftalmica", "hombre"],
 
     imagenes: [
@@ -3205,6 +3963,11 @@ const monturas = [
     referencia: "OE019",
 
     color: ["Cristal"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Cristal": "imagenes/monturas/hombre/oe037.jpeg"
+},
 
     categorias: ["eyeon-hombre", "oftalmica", "hombre"],
 
@@ -3227,6 +3990,11 @@ const monturas = [
 
     color: ["Azul"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/hombre/oe039.jpeg"
+},
+
     categorias: ["eyeon-hombre", "oftalmica", "hombre"],
 
     imagenes: [
@@ -3247,6 +4015,11 @@ const monturas = [
     referencia: "OE021",
 
     color: ["Rojo"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Rojo": "imagenes/monturas/hombre/oe041.jpeg"
+},
 
     categorias: ["eyeon-hombre", "oftalmica", "hombre"],
 
@@ -3269,6 +4042,11 @@ const monturas = [
 
     color: ["Rojo"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Rojo": "imagenes/monturas/hombre/oe043.jpeg"
+},
+
     categorias: ["eyeon-hombre", "oftalmica", "hombre"],
 
     imagenes: [
@@ -3289,6 +4067,11 @@ const monturas = [
     referencia: "OE023",
 
     color: ["Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/hombre/oe045.jpeg"
+},
 
     categorias: ["eyeon-hombre", "oftalmica", "hombre"],
 
@@ -3311,6 +4094,11 @@ const monturas = [
 
     color: ["Rojo"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Rojo": "imagenes/monturas/hombre/oe047.jpeg"
+},
+
     categorias: ["eyeon-hombre", "oftalmica", "hombre"],
 
     imagenes: [
@@ -3331,6 +4119,11 @@ const monturas = [
     referencia: "OE025",
 
     color: ["Cristal"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Cristal": "imagenes/monturas/hombre/oe049.jpeg"
+},
 
     categorias: ["eyeon-hombre", "oftalmica", "hombre"],
 
@@ -3353,6 +4146,11 @@ const monturas = [
 
     color: ["Naranja"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Naranja": "imagenes/monturas/hombre/oe051.jpeg"
+},
+
     categorias: ["eyeon-hombre", "oftalmica", "hombre"],
 
     imagenes: [
@@ -3373,6 +4171,11 @@ const monturas = [
     referencia: "OE027",
 
     color: ["Azul"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/mujer/ey001.jpeg"
+},
 
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
@@ -3395,6 +4198,11 @@ const monturas = [
 
     color: ["Azul"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/mujer/ey003.jpeg"
+},
+
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
     imagenes: [
@@ -3415,6 +4223,11 @@ const monturas = [
     referencia: "OE029",
 
     color: ["Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/mujer/ey005.jpeg"
+},
 
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
@@ -3437,6 +4250,11 @@ const monturas = [
 
     color: ["Rojo"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Rojo": "imagenes/monturas/mujer/ey007.jpeg"
+},
+
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
     imagenes: [
@@ -3457,6 +4275,11 @@ const monturas = [
     referencia: "OE031",
 
     color: ["Miel"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Miel": "imagenes/monturas/mujer/ey009.jpeg"
+},
 
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
@@ -3479,6 +4302,11 @@ const monturas = [
 
     color: ["Azul"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/mujer/ey011.jpeg"
+},
+
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
     imagenes: [
@@ -3499,6 +4327,11 @@ const monturas = [
     referencia: "OE033",
 
     color: ["Azul"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/mujer/ey013.jpeg"
+},
 
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
@@ -3521,6 +4354,11 @@ const monturas = [
 
     color: ["Metalica"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Metalica": "imagenes/monturas/mujer/ey015.jpeg"
+},
+
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
     imagenes: [
@@ -3541,6 +4379,11 @@ const monturas = [
     referencia: "OE035",
 
     color: ["Blanco"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Blanco": "imagenes/monturas/mujer/ey017.jpeg"
+},
 
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
@@ -3563,6 +4406,11 @@ const monturas = [
 
     color: ["Azul"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/mujer/ey019.jpeg"
+},
+
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
     imagenes: [
@@ -3583,6 +4431,11 @@ const monturas = [
     referencia: "OE037",
 
     color: ["Azul"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/mujer/ey021.jpeg"
+},
 
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
@@ -3605,6 +4458,11 @@ const monturas = [
 
     color: ["Metalica"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Metalica": "imagenes/monturas/mujer/ey023.jpeg"
+},
+
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
     imagenes: [
@@ -3625,6 +4483,11 @@ const monturas = [
     referencia: "OE039",
 
     color: ["Miel"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Miel": "imagenes/monturas/mujer/ey025.jpeg"
+},
 
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
@@ -3647,6 +4510,11 @@ const monturas = [
 
     color: ["Negro"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/mujer/ey027.jpeg"
+},
+
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
     imagenes: [
@@ -3667,6 +4535,11 @@ const monturas = [
     referencia: "OE041",
 
     color: ["Azul"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/mujer/ey029.jpeg"
+},
 
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
@@ -3689,6 +4562,11 @@ const monturas = [
 
     color: ["Verde"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Verde": "imagenes/monturas/mujer/ey031.jpeg"
+},
+
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
     imagenes: [
@@ -3709,6 +4587,11 @@ const monturas = [
     referencia: "OE043",
 
     color: ["Morado"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Morado": "imagenes/monturas/mujer/ey033.jpeg"
+},
 
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
@@ -3731,6 +4614,11 @@ const monturas = [
 
     color: ["Rojo"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Rojo": "imagenes/monturas/mujer/ey035.jpeg"
+},
+
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
     imagenes: [
@@ -3751,6 +4639,11 @@ const monturas = [
     referencia: "OE045",
 
     color: ["Morado"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Morado": "imagenes/monturas/mujer/ey037.jpeg"
+},
 
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
@@ -3773,6 +4666,11 @@ const monturas = [
 
     color: ["Negro"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/mujer/ey039.jpeg"
+},
+
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
     imagenes: [
@@ -3793,6 +4691,11 @@ const monturas = [
     referencia: "OE047",
 
     color: ["Dorado"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Dorado": "imagenes/monturas/mujer/ey041.jpeg"
+},
 
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
@@ -3815,6 +4718,11 @@ const monturas = [
 
     color: ["Rosa"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Rosa": "imagenes/monturas/mujer/ey043.jpeg"
+},
+
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
     imagenes: [
@@ -3835,6 +4743,11 @@ const monturas = [
     referencia: "OE049",
 
     color: ["Cafe"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Cafe": "imagenes/monturas/mujer/ey045.jpeg"
+},
 
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
@@ -3857,6 +4770,11 @@ const monturas = [
 
     color: ["Rojo"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Rojo": "imagenes/monturas/mujer/ey047.jpeg"
+},
+
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
     imagenes: [
@@ -3877,6 +4795,11 @@ const monturas = [
     referencia: "OE051",
 
     color: ["Cafe"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Cafe": "imagenes/monturas/mujer/ey049.jpeg"
+},
 
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
@@ -3899,6 +4822,11 @@ const monturas = [
 
     color: ["Cafe"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Cafe": "imagenes/monturas/mujer/ey051.jpeg"
+},
+
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
     imagenes: [
@@ -3919,6 +4847,11 @@ const monturas = [
     referencia: "OE053",
 
     color: ["Naranja"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Naranja": "imagenes/monturas/mujer/ey053.jpeg"
+},
 
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
@@ -3941,6 +4874,11 @@ const monturas = [
 
     color: ["Amarillo"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Amarillo": "imagenes/monturas/mujer/ey055.jpeg"
+},
+
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
     imagenes: [
@@ -3961,6 +4899,11 @@ const monturas = [
     referencia: "OE055",
 
     color: ["Rojo"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Rojo": "imagenes/monturas/mujer/ey057.jpeg"
+},
 
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
@@ -3983,6 +4926,11 @@ const monturas = [
 
     color: ["Cristal"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Cristal": "imagenes/monturas/mujer/ey059.jpeg"
+},
+
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
     imagenes: [
@@ -4003,6 +4951,11 @@ const monturas = [
     referencia: "OE057",
 
     color: ["Beige"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Beige": "imagenes/monturas/mujer/ey061.jpeg"
+},
 
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
@@ -4025,6 +4978,11 @@ const monturas = [
 
     color: ["Dorado"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Dorado": "imagenes/monturas/mujer/ey063.jpeg"
+},
+
     categorias: ["eyeon-mujer", "3piezas", "oftalmica", "mujer"],
 
     imagenes: [
@@ -4045,6 +5003,11 @@ const monturas = [
     referencia: "OE059",
 
     color: ["Carey"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Carey": "imagenes/monturas/mujer/ey065.jpeg"
+},
 
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
@@ -4067,6 +5030,11 @@ const monturas = [
 
     color: ["Morado"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Morado": "imagenes/monturas/mujer/ey067.jpeg"
+},
+
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
     imagenes: [
@@ -4087,6 +5055,11 @@ const monturas = [
     referencia: "OE061",
 
     color: ["Rosa"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Rosa": "imagenes/monturas/mujer/ey069.jpeg"
+},
 
     categorias: ["eyeon-mujer", "oftalmica", "mujer"],
 
@@ -4109,6 +5082,11 @@ const monturas = [
 
     color: ["Azul"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/niños/nñ001.jpeg"
+},
+
     categorias: ["niños", "oftalmica"],
 
     imagenes: [
@@ -4129,6 +5107,11 @@ const monturas = [
     referencia: "NÑ002",
 
     color: ["morado"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "morado": "imagenes/monturas/niños/nñ003.jpeg"
+},
 
     categorias: ["niños", "oftalmica"],
 
@@ -4151,6 +5134,11 @@ const monturas = [
 
     color: ["Verde"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Verde": "imagenes/monturas/niños/nñ005.jpeg"
+},
+
     categorias: ["niños", "oftalmica"],
 
     imagenes: [
@@ -4171,6 +5159,11 @@ const monturas = [
     referencia: "NÑ004",
 
     color: ["Miel"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Miel": "imagenes/monturas/niños/nñ007.jpeg"
+},
 
     categorias: ["niños", "oftalmica"],
 
@@ -4193,6 +5186,11 @@ const monturas = [
 
     color: ["Negro"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/niños/nñ009.jpeg"
+},
+
     categorias: ["niños", "oftalmica"],
 
     imagenes: [
@@ -4213,6 +5211,11 @@ const monturas = [
     referencia: "NÑ006",
 
     color: ["Azul"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/niños/nñ011.jpeg"
+},
 
     categorias: ["niños", "oftalmica"],
 
@@ -4235,6 +5238,11 @@ const monturas = [
 
     color: ["Rojo"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Rojo": "imagenes/monturas/niños/nñ013.jpeg"
+},
+
     categorias: ["niños", "sol"],
 
     imagenes: [
@@ -4255,6 +5263,11 @@ const monturas = [
     referencia: "NÑ008",
 
     color: ["Amarillo"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Amarillo": "imagenes/monturas/niños/nñ015.jpeg"
+},
 
     categorias: ["niños", "sol"],
 
@@ -4277,6 +5290,11 @@ const monturas = [
 
     color: ["Azul"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/niños/nñ017.jpeg"
+},
+
     categorias: ["niños", "3piezas", "sol"],
 
     imagenes: [
@@ -4297,6 +5315,11 @@ const monturas = [
     referencia: "NÑ010",
 
     color: ["Morado"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Morado": "imagenes/monturas/niños/nñ019.jpeg"
+},
 
     categorias: ["niños", "3piezas", "sol"],
 
@@ -4319,6 +5342,11 @@ const monturas = [
 
     color: ["Negro"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/niños/nñ021.jpeg"
+},
+
     categorias: ["niños", "3piezas", "sol"],
 
     imagenes: [
@@ -4339,6 +5367,11 @@ const monturas = [
     referencia: "NÑ012",
 
     color: ["Rojo"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Rojo": "imagenes/monturas/niños/nñ023.jpeg"
+},
 
     categorias: ["niños", "oftalmica"],
 
@@ -4361,6 +5394,11 @@ const monturas = [
 
     color: ["Azul"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/niños/nñ025.jpeg"
+},
+
     categorias: ["niños", "oftalmica"],
 
     imagenes: [
@@ -4381,6 +5419,11 @@ const monturas = [
     referencia: "NÑ014",
 
     color: ["Rojo"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Rojo": "imagenes/monturas/niños/nñ027.jpeg"
+},
 
     categorias: ["niños", "oftalmica"],
 
@@ -4403,6 +5446,11 @@ const monturas = [
 
     color: ["Amarillo"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Amarillo": "imagenes/monturas/niños/nñ029.jpeg"
+},
+
     categorias: ["niños", "sol"],
 
     imagenes: [
@@ -4423,6 +5471,11 @@ const monturas = [
     referencia: "NÑ016",
 
     color: ["Gris"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Gris": "imagenes/monturas/niños/nñ031.jpeg"
+},
 
     categorias: ["niños", "sol"],
 
@@ -4445,6 +5498,11 @@ const monturas = [
 
     color: ["Blanco"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Blanco": "imagenes/monturas/niños/nñ033.jpeg"
+},
+
     categorias: ["niños", "sol"],
 
     imagenes: [
@@ -4465,6 +5523,11 @@ const monturas = [
     referencia: "OT001",
 
     color: ["Blanco"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Blanco": "imagenes/otros/lq001.jpeg"
+},
 
     categorias: ["otros"],
 
@@ -4490,6 +5553,11 @@ const monturas = [
 
     color: ["Blanco"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Blanco": "imagenes/monturas/ciclismo/cc001.jpeg"
+},
+
     categorias: ["deportivas", "ciclismo", "unisex", "foto-cromatico", "hombre", "mujer",],
 
     imagenes: [
@@ -4510,6 +5578,11 @@ const monturas = [
     referencia: "DP002",
 
     color: ["Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/ciclismo/cc003.jpeg"
+},
 
     categorias: ["deportivas", "oakley", "ciclismo", "unisex", "hombre", "mujer",],
 
@@ -4532,6 +5605,11 @@ const monturas = [
 
     color: ["Negro"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/ciclismo/cc005.jpeg"
+},
+
     categorias: ["deportivas", "ciclismo", "unisex", "hombre", "mujer",],
 
     imagenes: [
@@ -4552,6 +5630,11 @@ const monturas = [
     referencia: "DP004",
 
     color: ["Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/ciclismo/cc007.jpeg"
+},
 
     categorias: ["deportivas", "ciclismo", "unisex", "hombre", "mujer",],
 
@@ -4574,6 +5657,11 @@ const monturas = [
 
     color: ["Rosa"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Rosa": "imagenes/monturas/ciclismo/cc009.jpeg"
+},
+
     categorias: ["deportivas", "ciclismo", "mujer",],
 
     imagenes: [
@@ -4594,6 +5682,11 @@ const monturas = [
     referencia: "DP006",
 
     color: ["Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/ciclismo/cc011.jpeg"
+},
 
     categorias: ["deportivas", "unisex", "hombre", "ciclismo", "mujer",],
 
@@ -4616,6 +5709,11 @@ const monturas = [
 
     color: ["Gris"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Gris": "imagenes/monturas/ciclismo/cc013.jpeg"
+},
+
     categorias: ["deportivas", "unisex", "hombre", "ciclismo", "mujer",],
 
     imagenes: [
@@ -4637,11 +5735,172 @@ const monturas = [
 
     color: ["Blanco"],
 
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Blanco": "imagenes/monturas/ciclismo/cc015.jpeg"
+},
+
     categorias: ["deportivas", "sobre-puesto", "unisex", "hombre", "ciclismo", "mujer",],
 
     imagenes: [
       "imagenes/monturas/ciclismo/cc015.jpeg",
       "imagenes/monturas/ciclismo/cc016.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 220,
+
+    marca: "Eyeon",
+
+    nombre: "SobrePuesto",
+
+    referencia: "SP001",
+
+    color: ["Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/sobrepuesto/sp001.jpeg"
+},
+
+    categorias: ["sobre-puesto", "unisex", "hombre", "oftalmica", "mujer",],
+
+    imagenes: [
+      "imagenes/monturas/sobrepuesto/sp001.jpeg",
+      "imagenes/monturas/sobrepuesto/sp002.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 221,
+
+    marca: "Eyeon",
+
+    nombre: "SobrePuesto",
+
+    referencia: "SP002",
+
+    color: ["Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/sobrepuesto/sp003.jpeg"
+},
+
+    categorias: ["sobre-puesto", "unisex", "hombre", "oftalmica", "mujer",],
+
+    imagenes: [
+      "imagenes/monturas/sobrepuesto/sp003.jpeg",
+      "imagenes/monturas/sobrepuesto/sp004.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 222,
+
+    marca: "Eyeon",
+
+    nombre: "SobrePuesto",
+
+    referencia: "SP003",
+
+    color: ["Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/sobrepuesto/sp003.jpeg"
+},
+
+    categorias: ["sobre-puesto", "unisex", "hombre", "oftalmica", "mujer",],
+
+    imagenes: [
+      "imagenes/monturas/sobrepuesto/sp003.jpeg",
+      "imagenes/monturas/sobrepuesto/sp004.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 223,
+
+    marca: "Eyeon",
+
+    nombre: "SobrePuesto",
+
+    referencia: "SP004",
+
+    color: ["Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/sobrepuesto/sp005.jpeg"
+},
+
+    categorias: ["sobre-puesto", "unisex", "hombre", "oftalmica", "mujer",],
+
+    imagenes: [
+      "imagenes/monturas/sobrepuesto/sp005.jpeg",
+      "imagenes/monturas/sobrepuesto/sp006.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 224,
+
+    marca: "Eyeon",
+
+    nombre: "SobrePuesto",
+
+    referencia: "SP005",
+
+    color: ["Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/sobrepuesto/sp008.jpeg"
+},
+
+    categorias: ["sobre-puesto", "unisex", "hombre", "oftalmica", "mujer",],
+
+    imagenes: [
+      "imagenes/monturas/sobrepuesto/sp007.jpeg",
+      "imagenes/monturas/sobrepuesto/sp008.jpeg",
+    ],
+
+    estado: "Últimas unidades",
+  },
+
+  {
+    id: 225,
+
+    marca: "Eyeon",
+
+    nombre: "SobrePuesto",
+
+    referencia: "SP006",
+
+    color: ["Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/sobrepuesto/sp009.jpeg"
+},
+
+    categorias: ["sobre-puesto", "unisex", "hombre", "oftalmica", "mujer",],
+
+    imagenes: [
+      "imagenes/monturas/sobrepuesto/sp009.jpeg",
+      "imagenes/monturas/sobrepuesto/sp010.jpeg",
     ],
 
     estado: "Últimas unidades",

@@ -6,6 +6,7 @@ const numeroWhatsApp = "573204771054";
 const productosPorPagina = 12;
 
 let categoriaActual = "todos";
+let marcaActual = "todas";
 let textoBusqueda = "";
 let productosMostrados = productosPorPagina;
 
@@ -64,6 +65,10 @@ const contenidoModal = document.getElementById("contenidoModal");
 const cerrarModal = document.getElementById("cerrarModal");
 
 const modalFavoritos = document.getElementById("modalFavoritos");
+const modalArmador = document.getElementById("modalArmador");
+const abrirArmador = document.getElementById("abrirArmador");
+const cerrarArmador = document.getElementById("cerrarArmador");
+const armadorContenido = document.getElementById("armadorContenido");
 const abrirFavoritos = document.getElementById("abrirFavoritos");
 const cerrarFavoritos = document.getElementById("cerrarFavoritos");
 const listaFavoritos = document.getElementById("listaFavoritos");
@@ -275,46 +280,109 @@ if (observador) {
    FILTROS DE CATEGORÍA
 ===================================== */
 
+function normalizarFiltro(valor) {
+  return String(valor || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .trim();
+}
+
+function capitalizarTexto(valor) {
+  return String(valor || "")
+    .replace(/[-_]+/g, " ")
+    .replace(/\b\w/g, letra => letra.toUpperCase());
+}
+
+/* =====================================
+   FILTROS COMPACTOS Y AUTOMÁTICOS
+===================================== */
+
 function crearFiltros() {
-  filtrosContenedor.innerHTML = "";
+  filtrosContenedor.innerHTML = `
+    <div class="filtros-cabecera">
+      <span class="filtros-titulo"><i class="fa-solid fa-sliders"></i> Filtrar monturas</span>
+      <button type="button" class="filtros-limpiar" id="limpiarFiltros">Limpiar filtros</button>
+    </div>
 
-  const botonTodos = document.createElement("button");
+    <div class="filtros-controles">
+      <label class="filtro-control">
+        <span><i class="fa-solid fa-layer-group"></i> Categoría</span>
+        <select id="filtroCategoria" aria-label="Filtrar por categoría">
+          <option value="todos">Todas las categorías</option>
+        </select>
+      </label>
 
-  botonTodos.className = "filtro activo";
-  botonTodos.dataset.categoria = "todos";
-  botonTodos.textContent = "Todos";
+      <label class="filtro-control">
+        <span><i class="fa-solid fa-tag"></i> Marca</span>
+        <select id="filtroMarca" aria-label="Filtrar por marca">
+          <option value="todas">Todas las marcas</option>
+        </select>
+      </label>
+    </div>
+  `;
 
-  filtrosContenedor.appendChild(botonTodos);
+  const selectCategoria = document.getElementById("filtroCategoria");
+  const selectMarca = document.getElementById("filtroMarca");
 
-  const categorias = new Set();
+  // Las marcas se generan automáticamente desde el campo 'marca' de cada montura.
+  // Si mañana agregas una marca nueva en datos.js, aparecerá aquí sin tocar este código.
+  const marcas = [...new Set(
+    monturas.map(montura => montura.marca).filter(Boolean)
+  )].sort((a, b) => a.localeCompare(b, "es"));
 
-  monturas.forEach((montura) => {
-    montura.categorias.forEach((categoria) => categorias.add(categoria));
+  marcas.forEach(marca => {
+    const option = document.createElement("option");
+    option.value = normalizarFiltro(marca);
+    option.textContent = marca;
+    selectMarca.appendChild(option);
   });
 
-  [...categorias].sort().forEach((categoria) => {
-    const boton = document.createElement("button");
+  // Conservamos todas las categorías que ya existen en el catálogo.
+  // Las categorías que coinciden con una marca se controlan desde el selector Marca,
+  // evitando duplicarlas visualmente como etiquetas interminables.
+  const marcasNormalizadas = new Set(marcas.map(normalizarFiltro));
+  const categorias = new Map();
 
-    boton.className = "filtro";
-    boton.dataset.categoria = categoria;
-    boton.textContent = categoria.charAt(0).toUpperCase() + categoria.slice(1);
-
-    filtrosContenedor.appendChild(boton);
-  });
-
-  document.querySelectorAll(".filtro").forEach((filtro) => {
-    filtro.addEventListener("click", () => {
-      categoriaActual = filtro.dataset.categoria;
-      productosMostrados = productosPorPagina;
-
-      document.querySelectorAll(".filtro").forEach((boton) => {
-        boton.classList.remove("activo");
-      });
-
-      filtro.classList.add("activo");
-
-      mostrarProductos();
+  monturas.forEach(montura => {
+    (montura.categorias || []).forEach(categoria => {
+      const clave = normalizarFiltro(categoria);
+      if (!clave || marcasNormalizadas.has(clave)) return;
+      if (!categorias.has(clave)) categorias.set(clave, categoria);
     });
+  });
+
+  [...categorias.entries()]
+    .sort((a, b) => String(a[1]).localeCompare(String(b[1]), "es"))
+    .forEach(([clave, categoria]) => {
+      const option = document.createElement("option");
+      option.value = clave;
+      option.textContent = capitalizarTexto(categoria);
+      selectCategoria.appendChild(option);
+    });
+
+  selectCategoria.value = categoriaActual === "todos" ? "todos" : normalizarFiltro(categoriaActual);
+  selectMarca.value = marcaActual === "todas" ? "todas" : normalizarFiltro(marcaActual);
+
+  selectCategoria.addEventListener("change", () => {
+    categoriaActual = selectCategoria.value;
+    productosMostrados = productosPorPagina;
+    mostrarProductos();
+  });
+
+  selectMarca.addEventListener("change", () => {
+    marcaActual = selectMarca.value;
+    productosMostrados = productosPorPagina;
+    mostrarProductos();
+  });
+
+  document.getElementById("limpiarFiltros").addEventListener("click", () => {
+    categoriaActual = "todos";
+    marcaActual = "todas";
+    productosMostrados = productosPorPagina;
+    selectCategoria.value = "todos";
+    selectMarca.value = "todas";
+    mostrarProductos();
   });
 }
 
@@ -326,7 +394,11 @@ function mostrarProductos() {
   const productosFiltrados = monturas.filter((montura) => {
     const perteneceCategoria =
       categoriaActual === "todos" ||
-      montura.categorias.includes(categoriaActual);
+      (montura.categorias || []).some(categoria => normalizarFiltro(categoria) === normalizarFiltro(categoriaActual));
+
+    const perteneceMarca =
+      marcaActual === "todas" ||
+      normalizarFiltro(montura.marca) === normalizarFiltro(marcaActual);
 
     const texto = `
             ${montura.marca}
@@ -338,7 +410,7 @@ function mostrarProductos() {
 
     const coincideBusqueda = texto.includes(textoBusqueda.toLowerCase());
 
-    return perteneceCategoria && coincideBusqueda;
+    return perteneceCategoria && perteneceMarca && coincideBusqueda;
   });
 
   contadorProductos.textContent = `${productosFiltrados.length} montura${productosFiltrados.length !== 1 ? "s" : ""} encontrada${productosFiltrados.length !== 1 ? "s" : ""}`;
@@ -550,9 +622,14 @@ function abrirProducto(id) {
                         ${esFavorito ? "En favoritos" : "Guardar"}
                     </button>
 
-                    <a class="boton boton-primario" target="_blank" href="https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(`Hola, estoy interesado en la montura ${montura.marca} ${montura.nombre}, referencia ${montura.referencia}.`)}">
+                    <button class="boton boton-primario boton-armar-desde-producto" data-id="${montura.id}">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        Armar mis gafas
+                    </button>
+
+                    <a class="boton boton-secundario" target="_blank" href="https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(`Hola, estoy interesado en la montura ${montura.marca} ${montura.nombre}, referencia ${montura.referencia}.`)}">
                         <i class="fa-brands fa-whatsapp"></i>
-                        Consultar disponibilidad
+                        Consultar
                     </a>
 
                 </div>
@@ -582,6 +659,13 @@ function abrirProducto(id) {
       abrirProducto(montura.id);
     });
 
+  contenidoModal
+    .querySelector(".boton-armar-desde-producto")
+    .addEventListener("click", () => {
+      modalProducto.classList.remove("activo");
+      abrirArmadorGafas(montura.id);
+    });
+
   modalProducto.classList.add("activo");
 }
 
@@ -592,6 +676,380 @@ cerrarModal.addEventListener("click", () =>
 modalProducto.addEventListener("click", (event) => {
   if (event.target === modalProducto) modalProducto.classList.remove("activo");
 });
+
+/* =====================================
+   ARMADOR DE GAFAS
+===================================== */
+
+const armador = {
+  paso: 1,
+  monturaId: null,
+  colorSeleccionado: null,
+  lenteId: null,
+  formulaTipo: "WhatsApp",
+  formula: {
+    odEsfera: "", odCilindro: "", odEje: "", odAdd: "",
+    oiEsfera: "", oiCilindro: "", oiEje: "", oiAdd: "",
+    dp: ""
+  }
+};
+
+function renderMediaInicioArmador() {
+  const contenedor = document.getElementById("armadorMediaContenido");
+  if (!contenedor || typeof armadorMedia === "undefined") return;
+
+  const tipo = armadorMedia.tipo === "video" ? "video" : "imagen";
+  if (tipo === "video") {
+    contenedor.innerHTML = `
+      <video class="armador-media-visual" controls playsinline preload="metadata" ${armadorMedia.poster ? `poster="${armadorMedia.poster}"` : ""}>
+        <source src="${armadorMedia.src}" type="video/mp4">
+        Tu navegador no puede reproducir este video.
+      </video>`;
+  } else {
+    contenedor.innerHTML = `
+      <img class="armador-media-visual" src="${armadorMedia.src}" alt="${armadorMedia.alt || "Arma tus gafas"}">`;
+  }
+}
+
+renderMediaInicioArmador();
+
+function abrirArmadorGafas(monturaId = null) {
+  armador.paso = 1;
+  armador.monturaId = monturaId;
+  const monturaInicial = monturas.find((m) => m.id === monturaId);
+  armador.colorSeleccionado = monturaInicial?.color?.[0] || null;
+  armador.lenteId = null;
+  armador.formulaTipo = "WhatsApp";
+  renderArmador();
+  modalArmador.classList.add("activo");
+}
+
+if (abrirArmador) {
+  abrirArmador.addEventListener("click", () => abrirArmadorGafas());
+}
+
+if (cerrarArmador) {
+  cerrarArmador.addEventListener("click", () => modalArmador.classList.remove("activo"));
+  modalArmador.addEventListener("click", (event) => {
+    if (event.target === modalArmador) modalArmador.classList.remove("activo");
+  });
+}
+
+function actualizarProgresoArmador() {
+  document.querySelectorAll(".armador-paso").forEach((el) => {
+    const n = Number(el.dataset.step);
+    el.classList.toggle("activo", n === armador.paso);
+    el.classList.toggle("completado", n < armador.paso);
+  });
+}
+
+function renderArmador() {
+  actualizarProgresoArmador();
+
+  if (armador.paso === 1) renderPasoMontura();
+  if (armador.paso === 2) renderPasoLentes();
+  if (armador.paso === 3) renderPasoFormula();
+  if (armador.paso === 4) renderPasoResumen();
+}
+
+document.querySelectorAll(".armador-paso").forEach((boton) => {
+  boton.addEventListener("click", () => {
+    const paso = Number(boton.dataset.step);
+    if (paso <= armador.paso || (paso === 2 && armador.monturaId) || (paso === 3 && armador.monturaId && armador.lenteId)) {
+      armador.paso = paso;
+      renderArmador();
+    }
+  });
+});
+
+function obtenerImagenColor(montura, color) {
+  if (!montura) return "";
+  if (montura.imagenesPorColor && color && montura.imagenesPorColor[color]) {
+    return montura.imagenesPorColor[color];
+  }
+  return montura.imagenes?.[0] || "";
+}
+
+function renderPasoMontura() {
+  const termino = armador._busqueda || "";
+  const lista = monturas.filter((m) => {
+    const t = `${m.marca} ${m.nombre} ${m.referencia}`.toLowerCase();
+    return t.includes(termino.toLowerCase());
+  }).slice(0, 30);
+
+  armadorContenido.innerHTML = `
+    <div class="armador-titulo">
+      <span>PASO 01</span>
+      <h3>Elige tu montura</h3>
+      <p>Selecciona cualquier montura disponible de nuestro catálogo.</p>
+    </div>
+    <div class="armador-buscador">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input id="buscarArmador" value="${termino}" placeholder="Buscar marca, nombre o referencia...">
+    </div>
+    <div class="armador-grid-monturas">
+      ${lista.map((m) => `
+        <button class="armador-montura ${armador.monturaId === m.id ? "seleccionada" : ""}" data-id="${m.id}">
+          <div class="armador-montura-imagen"><img src="${obtenerImagenColor(m, armador.colorSeleccionado)}" alt="${m.nombre} - ${armador.colorSeleccionado || "color seleccionado"}"></div>
+          <strong>${m.marca}</strong>
+          <span>${m.nombre}</span>
+          <small>${m.referencia}</small>
+          ${armador.monturaId === m.id ? '<i class="fa-solid fa-circle-check"></i>' : ''}
+        </button>
+      `).join("")}
+    </div>
+    ${(() => {
+      const seleccionada = monturas.find((m) => m.id === armador.monturaId);
+      if (!seleccionada || !seleccionada.color?.length) return "";
+      return `
+        <div class="armador-colores">
+          <div class="armador-colores-titulo">
+            <div><span>COLOR</span><strong>Elige el color disponible</strong></div>
+            <small>${armador.colorSeleccionado || "Selecciona uno"}</small>
+          </div>
+          <div class="armador-color-preview">
+            <div class="armador-color-preview-imagen">
+              <img src="${obtenerImagenColor(seleccionada, armador.colorSeleccionado)}" alt="${seleccionada.nombre} - ${armador.colorSeleccionado || "color seleccionado"}">
+            </div>
+            <div>
+              <span>Vista del color seleccionado</span>
+              <strong>${armador.colorSeleccionado || "Selecciona un color"}</strong>
+              <small>La fotografía cambia según el color que elijas.</small>
+            </div>
+          </div>
+          <div class="armador-colores-lista">
+            ${seleccionada.color.map((color) => `
+              <button type="button" class="armador-color-opcion ${armador.colorSeleccionado === color ? "seleccionado" : ""}" data-color="${color}" title="${color}">
+                <span class="color-punto grande" style="background:${obtenerColorCss(color)}"></span>
+                <span>${color}</span>
+                ${armador.colorSeleccionado === color ? '<i class="fa-solid fa-check"></i>' : ""}
+              </button>`).join("")}
+          </div>
+        </div>`;
+    })()}
+    <div class="armador-footer">
+      <button class="boton boton-primario" id="siguienteMontura" ${armador.monturaId && armador.colorSeleccionado ? "" : "disabled"}>
+        Continuar con los lentes <i class="fa-solid fa-arrow-right"></i>
+      </button>
+    </div>
+  `;
+
+  document.getElementById("buscarArmador").addEventListener("input", (e) => {
+    armador._busqueda = e.target.value;
+    renderPasoMontura();
+    const input = document.getElementById("buscarArmador");
+    input.focus();
+    input.setSelectionRange(input.value.length, input.value.length);
+  });
+
+  document.querySelectorAll(".armador-montura").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      armador.monturaId = Number(btn.dataset.id);
+      const seleccionada = monturas.find((m) => m.id === armador.monturaId);
+      armador.colorSeleccionado = seleccionada?.color?.[0] || null;
+      renderPasoMontura();
+    });
+  });
+
+  document.querySelectorAll(".armador-color-opcion").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      armador.colorSeleccionado = btn.dataset.color;
+      renderPasoMontura();
+    });
+  });
+
+  document.getElementById("siguienteMontura").addEventListener("click", () => {
+    if (!armador.monturaId) return;
+    armador.paso = 2;
+    renderArmador();
+  });
+}
+
+function renderPasoLentes() {
+  armadorContenido.innerHTML = `
+    <div class="armador-titulo">
+      <span>PASO 02</span>
+      <h3>Selecciona tus lentes</h3>
+      <p>Compara las opciones y elige la que mejor se adapte a lo que necesitas.</p>
+    </div>
+    <div class="lentes-grid">
+      ${lentesDisponibles.map((l) => `
+        <button class="lente-card ${armador.lenteId === l.id ? "seleccionado" : ""}" data-id="${l.id}">
+          <div class="lente-imagen">
+            <img src="${l.imagen}" alt="${l.nombre}">
+            ${l.etiqueta ? `<span class="lente-etiqueta">${l.etiqueta}</span>` : ""}
+          </div>
+          <div class="lente-card-info">
+            <h4>${l.nombre}</h4>
+            <p>${l.descripcion}</p>
+            <div class="lente-card-pie">
+              <span>Seleccionar</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          ${armador.lenteId === l.id ? '<span class="lente-check"><i class="fa-solid fa-check"></i></span>' : ''}
+        </button>
+      `).join("")}
+    </div>
+    <div class="armador-footer armador-footer-doble">
+      <button class="boton boton-secundario" id="volverMontura"><i class="fa-solid fa-arrow-left"></i> Atrás</button>
+      <button class="boton boton-primario" id="siguienteLente" ${armador.lenteId ? "" : "disabled"}>Continuar con la fórmula <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+  `;
+
+  document.querySelectorAll(".lente-card").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      armador.lenteId = btn.dataset.id;
+      renderPasoLentes();
+    });
+  });
+
+  document.getElementById("volverMontura").addEventListener("click", () => {
+    armador.paso = 1; renderArmador();
+  });
+  document.getElementById("siguienteLente").addEventListener("click", () => {
+    if (!armador.lenteId) return;
+    armador.paso = 3; renderArmador();
+  });
+}
+
+function campoFormula(id, label, placeholder = "") {
+  return `<label class="campo-formula"><span>${label}</span><input id="${id}" value="${armador.formula[id] || ""}" placeholder="${placeholder}" inputmode="decimal"></label>`;
+}
+
+function renderPasoFormula() {
+  const l = lentesDisponibles.find(x => x.id === armador.lenteId);
+  armadorContenido.innerHTML = `
+    <div class="armador-titulo">
+      <span>PASO 03</span>
+      <h3>Comparte tu fórmula</h3>
+      <p>Ingresa tu fórmula manualmente o elige enviarla directamente por WhatsApp.</p>
+    </div>
+
+    <div class="formula-opciones">
+      <button class="formula-tipo ${armador.formulaTipo === "Manual" ? "activo" : ""}" data-tipo="Manual">Ingresar manualmente</button>
+      <button class="formula-tipo ${armador.formulaTipo === "WhatsApp" ? "activo" : ""}" data-tipo="WhatsApp">Enviarla por WhatsApp</button>
+    </div>
+
+    ${armador.formulaTipo === "Manual" ? `
+      <div class="formula-panel">
+        <div class="formula-tabla">
+          <div class="formula-col-head"></div><div class="formula-col-head">Esfera</div><div class="formula-col-head">Cilindro</div><div class="formula-col-head">Eje</div><div class="formula-col-head">ADD</div>
+          <div class="formula-col-head">OD</div>${campoFormula("odEsfera","")}${campoFormula("odCilindro","")}${campoFormula("odEje","")}${campoFormula("odAdd","")}
+          <div class="formula-col-head">OI</div>${campoFormula("oiEsfera","")}${campoFormula("oiCilindro","")}${campoFormula("oiEje","")}${campoFormula("oiAdd","")}
+        </div>
+        <label class="campo-formula campo-dp"><span>Distancia pupilar (DP)</span><input id="dp" value="${armador.formula.dp || ""}" placeholder="Ej. 62"></label>
+      </div>
+    ` : `
+      <div class="aviso-archivo">
+        <i class="fa-brands fa-whatsapp"></i>
+        <div><strong>¿Tienes tu fórmula?</strong><br>Al finalizar se abrirá WhatsApp con tu selección. Allí podrás enviar una foto de tu fórmula directamente al asesor.</div>
+      </div>
+    `}
+
+    <div class="armador-resumen-mini">
+      <img src="${l ? l.imagen : ""}" alt="">
+      <div><strong>${l ? l.nombre : ""}</strong><span>Selección de lentes</span></div>
+    </div>
+
+    <div class="armador-footer armador-footer-doble">
+      <button class="boton boton-secundario" id="volverLentes"><i class="fa-solid fa-arrow-left"></i> Atrás</button>
+      <button class="boton boton-primario" id="siguienteFormula">Ver resumen <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+  `;
+
+  document.querySelectorAll(".formula-tipo").forEach(btn => {
+    btn.addEventListener("click", () => {
+      armador.formulaTipo = btn.dataset.tipo;
+      renderPasoFormula();
+    });
+  });
+
+  if (armador.formulaTipo === "Manual") {
+    ["odEsfera","odCilindro","odEje","odAdd","oiEsfera","oiCilindro","oiEje","oiAdd","dp"].forEach(id => {
+      const input = document.getElementById(id);
+      if (input) input.addEventListener("input", () => armador.formula[id] = input.value);
+    });
+  }
+
+  document.getElementById("volverLentes").addEventListener("click", () => {
+    armador.paso = 2; renderArmador();
+  });
+  document.getElementById("siguienteFormula").addEventListener("click", () => {
+    armador.paso = 4; renderArmador();
+  });
+}
+
+function renderPasoResumen() {
+  const m = monturas.find(x => x.id === armador.monturaId);
+  const l = lentesDisponibles.find(x => x.id === armador.lenteId);
+  const formulaTexto = armador.formulaTipo === "Manual"
+    ? `OD: ${armador.formula.odEsfera || "-"} / ${armador.formula.odCilindro || "-"} / ${armador.formula.odEje || "-"} / ADD ${armador.formula.odAdd || "-"}\nOI: ${armador.formula.oiEsfera || "-"} / ${armador.formula.oiCilindro || "-"} / ${armador.formula.oiEje || "-"} / ADD ${armador.formula.oiAdd || "-"}\nDP: ${armador.formula.dp || "-"}`
+    : "La fórmula será enviada por WhatsApp.";
+
+  armadorContenido.innerHTML = `
+    <div class="armador-titulo">
+      <span>PASO 04</span>
+      <h3>Así quedan tus gafas</h3>
+      <p>Revisa tu selección antes de enviarla a Óptica Eyeon.</p>
+    </div>
+
+    <div class="resumen-builder">
+      <div class="resumen-montura">
+        <img src="${m.imagenes[0]}" alt="${m.nombre}">
+        <div><span>Montura</span><strong>${m.marca} ${m.nombre}</strong><small>Ref. ${m.referencia} · Color: ${armador.colorSeleccionado || m.color?.[0] || "No especificado"}</small></div>
+      </div>
+      <div class="resumen-lente">
+        <img src="${l.imagen}" alt="${l.nombre}">
+        <div><span>Lentes</span><strong>${l.nombre}</strong><small>${l.descripcion || "Lente seleccionado"}</small></div>
+      </div>
+      <div class="resumen-formula">
+        <i class="fa-solid fa-prescription"></i>
+        <div><span>Fórmula</span><strong>${armador.formulaTipo}</strong><small>${formulaTexto.replace(/\n/g,"<br>")}</small></div>
+      </div>
+    </div>
+
+    ${armador.formulaTipo === "WhatsApp" ? `<div class="aviso-archivo"><i class="fa-brands fa-whatsapp"></i> Al enviar se abrirá WhatsApp con tu configuración. Allí podrás adjuntar la foto de tu fórmula si la necesitas.</div>` : ""}
+
+    <div class="armador-footer armador-footer-doble">
+      <button class="boton boton-secundario" id="editarFormula"><i class="fa-solid fa-arrow-left"></i> Editar</button>
+      <button class="boton boton-primario" id="enviarArmado"><i class="fa-brands fa-whatsapp"></i> Enviar configuración por WhatsApp</button>
+    </div>
+  `;
+
+  document.getElementById("editarFormula").addEventListener("click", () => {
+    armador.paso = 3; renderArmador();
+  });
+
+  document.getElementById("enviarArmado").addEventListener("click", () => {
+    const formulaWhatsApp = armador.formulaTipo === "Manual"
+      ? `📝 Fórmula manual:
+• OD (derecho): Esfera ${armador.formula.odEsfera || "-"} · Cilindro ${armador.formula.odCilindro || "-"} · Eje ${armador.formula.odEje || "-"} · ADD ${armador.formula.odAdd || "-"}
+• OI (izquierdo): Esfera ${armador.formula.oiEsfera || "-"} · Cilindro ${armador.formula.oiCilindro || "-"} · Eje ${armador.formula.oiEje || "-"} · ADD ${armador.formula.oiAdd || "-"}
+• DP: ${armador.formula.dp || "-"}`
+      : "📄 Fórmula: la enviaré directamente por WhatsApp.";
+
+    const texto = `👓✨ ¡Hola, Óptica Eyeon!
+
+Quiero armar mis gafas y me gustaría recibir asesoría con la configuración que seleccioné en su catálogo. 😊
+
+🕶️ MONTURA
+• Marca: ${m.marca}
+• Modelo: ${m.nombre}
+• Referencia: ${m.referencia}
+• Color: ${armador.colorSeleccionado || m.color?.[0] || "No especificado"}
+
+🔎 LENTES
+• Tipo: ${l.nombre}
+• Características: ${l.descripcion || "No especificadas"}
+
+${formulaWhatsApp}
+
+💬 ¡Quedo atento(a) a la confirmación de disponibilidad y a las indicaciones para continuar con mi pedido! 🙌👓`;
+
+    window.open(`https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(texto)}`, "_blank");
+  });
+}
 
 /* =====================================
    FAVORITOS

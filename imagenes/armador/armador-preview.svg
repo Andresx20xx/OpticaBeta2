@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#10243d"/>
+      <stop offset="1" stop-color="#07101d"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" x2="1">
+      <stop offset="0" stop-color="#2f8fff"/>
+      <stop offset="1" stop-color="#6ce7ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="700" rx="42" fill="url(#bg)"/>
+  <circle cx="800" cy="130" r="190" fill="#2f8fff" opacity=".14"/>
+  <g fill="none" stroke="url(#cyan)" stroke-width="18">
+    <circle cx="330" cy="345" r="135"/>
+    <circle cx="670" cy="345" r="135"/>
+    <path d="M465 335 C500 305 500 305 535 335"/>
+    <path d="M195 330 C135 295 110 270 90 235"/>
+    <path d="M805 330 C865 295 890 270 910 235"/>
+  </g>
+  <text x="500" y="570" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="48" font-weight="700">ARMA TUS GAFAS</text>
+  <text x="500" y="620" text-anchor="middle" fill="#a9bfd5" font-family="Arial, sans-serif" font-size="24">Montura · Color · Lentes · Fórmula</text>
+</svg>

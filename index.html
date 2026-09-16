@@ -123,6 +123,7 @@
         <nav class="menu" id="menu">
           <a href="#inicio">Inicio</a>
           <a href="#catalogo">Catálogo</a>
+          <a href="#armar-gafas">Arma tus gafas</a>
           <a href="#contacto">Contacto</a>
 
           <a href="#" id="abrirFavoritos" class="menu-favoritos">
@@ -326,6 +327,29 @@
 
         </div>
 
+      </div>
+    </section>
+
+    <!-- =====================================
+     ARMA TUS GAFAS
+    ====================================== -->
+    <section class="armar-gafas" id="armar-gafas">
+      <div class="contenedor">
+        <div class="armar-gafas-grid">
+          <div class="armar-gafas-copy" data-reveal>
+            <p class="etiqueta etiqueta-clara"><span class="punto"></span>PERSONALIZA TU COMPRA</p>
+            <h2>Arma tus gafas a tu medida.</h2>
+            <p>Elige cualquier montura del catálogo, selecciona el tipo de lente, ingresa tu fórmula manualmente o envíala por WhatsApp y envíanos tu configuración.</p>
+            <button class="boton boton-primario" id="abrirArmador">
+              <i class="fa-solid fa-wand-magic-sparkles"></i>
+              Empezar a armar mis gafas
+            </button>
+          </div>
+          <div class="armar-gafas-preview" data-reveal id="armadorMediaInicio">
+            <div class="armar-preview-glow"></div>
+            <div id="armadorMediaContenido" class="armador-media-contenido"></div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -657,6 +681,32 @@
     </a>
 
     <!-- =====================================
+     ARMADOR DE GAFAS
+    ====================================== -->
+    <div class="modal" id="modalArmador">
+      <div class="modal-contenido modal-armador">
+        <button class="cerrar-modal" id="cerrarArmador" aria-label="Cerrar armador">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <div class="armador-cabecera">
+          <p class="etiqueta"><span class="punto"></span>ARMADOR DE GAFAS</p>
+          <h2>Construye tu combinación</h2>
+          <p>Selecciona tu montura, el lente y elige si quieres ingresar tu fórmula manualmente o enviarla por WhatsApp.</p>
+        </div>
+
+        <div class="armador-progreso">
+          <button class="armador-paso activo" data-step="1"><span>1</span> Montura</button>
+          <button class="armador-paso" data-step="2"><span>2</span> Lentes</button>
+          <button class="armador-paso" data-step="3"><span>3</span> Fórmula</button>
+          <button class="armador-paso" data-step="4"><span>4</span> Resumen</button>
+        </div>
+
+        <div id="armadorContenido"></div>
+      </div>
+    </div>
+
+    <!-- =====================================
      MODAL PRODUCTO
     ====================================== -->
     <div
@@ -730,6 +780,7 @@
      JAVASCRIPT
     ====================================== -->
     <script src="datos.js"></script>
+    <script src="lentes.js"></script>
     <script src="script.js"></script>
 
   </body>
