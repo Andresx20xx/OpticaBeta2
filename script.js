@@ -140,10 +140,10 @@ function iniciarMarquee() {
 
   const logos = {
     "Ray-Ban": "imagenes/logos/rayban.png",
-    "Oakley": "imagenes/logos/oakley.png",
+    "kodak": "imagenes/logos/kodak.png",
     "Puma": "imagenes/logos/puma.png",
     "Cartier": "imagenes/logos/cartier.png",
-    "Wanderth": "imagenes/logos/wanderth.png",
+    "Zeiss": "imagenes/logos/zeiss.png",
     "Lacoste": "imagenes/logos/lacoste.png",
     "Gucci": "imagenes/logos/gucci.png",
     "Prada": "imagenes/logos/prada.png",
@@ -154,8 +154,11 @@ function iniciarMarquee() {
 
     // MÁS MARCAS
     "Versace": "imagenes/logos/versace.png",
+    "Wanderth": "imagenes/logos/wanderth.png",
     "Hugo Boss": "imagenes/logos/hugo-boss.png",
+    "Oakley": "imagenes/logos/oakley.png",
     "Carrera": "imagenes/logos/carrera.png",
+    "Hoya": "imagenes/logos/hoya.png"
     
   };
 
