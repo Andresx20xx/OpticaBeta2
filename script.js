@@ -48,7 +48,12 @@ function obtenerColorCss(nombreColor) {
   return mapaColores[clave] || "#4a5568";
 }
 
-let favoritos = JSON.parse(localStorage.getItem("favoritosEyeon")) || [];
+let favoritos = [];
+try {
+  favoritos = JSON.parse(localStorage.getItem("favoritosEyeon")) || [];
+} catch (e) {
+  favoritos = [];
+}
 
 /* =====================================
    ELEMENTOS DEL DOM
@@ -113,7 +118,9 @@ if (window.matchMedia("(pointer: fine)").matches) {
 ===================================== */
 
 window.addEventListener("scroll", () => {
-  header.classList.toggle("encogido", window.scrollY > 40);
+  const encogido = window.scrollY > 40;
+  header.classList.toggle("encogido", encogido);
+  document.getElementById("topbar")?.classList.toggle("oculta", encogido);
 });
 
 /* =====================================
@@ -625,10 +632,11 @@ function abrirProducto(id) {
                         ${esFavorito ? "En favoritos" : "Guardar"}
                     </button>
 
+                    ${montura.estado === "Agotada" ? "" : `
                     <button class="boton boton-primario boton-armar-desde-producto" data-id="${montura.id}">
                         <i class="fa-solid fa-wand-magic-sparkles"></i>
                         Armar mis gafas
-                    </button>
+                    </button>`}
 
                     <a class="boton boton-secundario" target="_blank" href="https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(`Hola, estoy interesado en la montura ${montura.marca} ${montura.nombre}, referencia ${montura.referencia}.`)}">
                         <i class="fa-brands fa-whatsapp"></i>
@@ -655,19 +663,21 @@ function abrirProducto(id) {
     });
   });
 
-  contenidoModal
-    .querySelector(".boton-favorito-modal")
-    .addEventListener("click", () => {
+  const botonFavoritoModal = contenidoModal.querySelector(".boton-favorito-modal");
+  if (botonFavoritoModal) {
+    botonFavoritoModal.addEventListener("click", () => {
       cambiarFavorito(montura.id);
       abrirProducto(montura.id);
     });
+  }
 
-  contenidoModal
-    .querySelector(".boton-armar-desde-producto")
-    .addEventListener("click", () => {
+  const botonArmar = contenidoModal.querySelector(".boton-armar-desde-producto");
+  if (botonArmar) {
+    botonArmar.addEventListener("click", () => {
       modalProducto.classList.remove("activo");
       abrirArmadorGafas(montura.id);
     });
+  }
 
   modalProducto.classList.add("activo");
 }
@@ -718,9 +728,10 @@ renderMediaInicioArmador();
 
 function abrirArmadorGafas(monturaId = null) {
   armador.paso = 1;
-  armador.monturaId = monturaId;
   const monturaInicial = monturas.find((m) => m.id === monturaId);
-  armador.colorSeleccionado = monturaInicial?.color?.[0] || null;
+  // Las agotadas no aparecen en el armador: no se preseleccionan.
+  armador.monturaId = monturaInicial && monturaInicial.estado !== "Agotada" ? monturaId : null;
+  armador.colorSeleccionado = monturaInicial && armador.monturaId ? monturaInicial.color?.[0] || null : null;
   armador.lenteId = null;
   armador.formulaTipo = "WhatsApp";
   renderArmador();
@@ -775,7 +786,9 @@ function obtenerImagenColor(montura, color) {
 
 function renderPasoMontura() {
   const termino = armador._busqueda || "";
+  // Solo monturas con existencias: se ocultan las agotadas.
   const lista = monturas.filter((m) => {
+    if (m.estado === "Agotada") return false;
     const t = `${m.marca} ${m.nombre} ${m.referencia}`.toLowerCase();
     return t.includes(termino.toLowerCase());
   }).slice(0, 30);
@@ -797,6 +810,7 @@ function renderPasoMontura() {
           <strong>${m.marca}</strong>
           <span>${m.nombre}</span>
           <small>${m.referencia}</small>
+          ${m.estado && m.estado !== "Disponible" ? `<span class="estado-disponibilidad ${m.estado === "Agotada" ? "agotada" : "ultimas-unidades"} armador-estado">${m.estado}</span>` : ""}
           ${armador.monturaId === m.id ? '<i class="fa-solid fa-circle-check"></i>' : ''}
         </button>
       `).join("")}

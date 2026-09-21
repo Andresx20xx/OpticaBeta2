@@ -178,12 +178,123 @@ html.js-reveal [data-reveal].visible {
 }
 
 /* =====================================
+   BARRA SUPERIOR
+===================================== */
+
+:root {
+  --topbar-h: 36px;
+}
+
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 101;
+  height: var(--topbar-h);
+
+  background: rgba(5, 8, 15, 0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--borde);
+
+  transition: transform 0.35s ease;
+}
+
+.topbar.oculta {
+  transform: translateY(-100%);
+}
+
+.topbar-contenido {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.topbar-contacto {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.75);
+  white-space: nowrap;
+}
+
+.topbar-contacto a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.topbar-contacto a i {
+  color: #25d366;
+  font-size: 14px;
+}
+
+.topbar-contacto .fa-clock,
+.topbar-contacto .fa-location-dot {
+  color: var(--accent-2);
+  margin-right: 4px;
+}
+
+.topbar-separador {
+  width: 1px;
+  height: 14px;
+  background: var(--borde);
+  flex-shrink: 0;
+}
+
+.topbar-pagos {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.topbar-pagos-titulo {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.pago-logo {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: white;
+
+  border: 1px solid var(--borde);
+  border-radius: 999px;
+  padding: 3px 10px;
+  background: rgba(255, 255, 255, 0.04);
+  white-space: nowrap;
+}
+
+@media (max-width: 860px) {
+  .topbar-horario,
+  .topbar-direccion,
+  .topbar-pagos-titulo,
+  .topbar-contacto .topbar-separador {
+    display: none;
+  }
+
+  .topbar-contacto {
+    font-size: 12px;
+  }
+}
+
+/* =====================================
    HEADER
 ===================================== */
 
 .header {
   position: fixed;
-  top: 0;
+  top: var(--topbar-h);
   left: 0;
   right: 0;
   z-index: 100;
@@ -194,6 +305,7 @@ html.js-reveal [data-reveal].visible {
 }
 
 .header.encogido {
+  top: 0;
   padding: 12px 0;
 
   background: rgba(5, 8, 15, 0.85);
@@ -724,23 +836,6 @@ html.js-reveal [data-reveal].visible {
   white-space: nowrap;
 }
 
-.marquee-monograma {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  width: 28px;
-  height: 28px;
-
-  border-radius: 50%;
-
-  background: linear-gradient(135deg, var(--accent), var(--accent-2));
-  color: #05080f;
-
-  font-family: var(--fuente-display);
-  font-size: 12px;
-  font-weight: 700;
-}
 
 /* LOGOS REALES DE LAS MARCAS */
 
@@ -1548,69 +1643,299 @@ html.js-reveal [data-reveal].visible {
    FOOTER
 ===================================== */
 
+/* =====================================
+   FRANJA MÉTODOS DE PAGO
+===================================== */
+.franja-pagos {
+  padding: 56px 0;
+
+  text-align: center;
+
+  background: var(--bg-soft);
+  border-top: 1px solid var(--borde);
+  border-bottom: 1px solid var(--borde);
+}
+
+.franja-pagos h2 {
+  font-family: var(--fuente-display);
+  font-size: clamp(20px, 3vw, 28px);
+
+  margin-bottom: 24px;
+}
+
+.pagos-lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+}
+
+.pago-logo-franja {
+  height: 99px;
+  width: auto;
+
+  border-radius: 12px;
+
+  transition: 0.3s;
+}
+
+.pago-logo-franja:hover {
+  transform: scale(1.05);
+}
+
+/* =====================================
+   SOBRE NOSOTROS
+===================================== */
+.sobre-nosotros {
+  padding: 90px 0;
+}
+
+.sobre-nosotros-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+  align-items: center;
+}
+
+.sobre-nosotros-foto img {
+  width: 100%;
+  max-height: 480px;
+
+  object-fit: cover;
+
+  border-radius: 24px;
+  border: 1px solid var(--borde);
+
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+}
+
+.sobre-nosotros-texto h2 {
+  font-family: var(--fuente-display);
+  font-size: clamp(26px, 4vw, 40px);
+
+  margin: 14px 0 18px;
+}
+
+.sobre-nosotros-texto > p {
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.sobre-nosotros-texto .boton {
+  margin-top: 26px;
+}
+
+/* =====================================
+   BANDA INSTAGRAM
+===================================== */
+.banda-instagram {
+  padding: 80px 0;
+
+  background: #000;
+
+  border-top: 1px solid var(--borde);
+  border-bottom: 1px solid var(--borde);
+}
+
+.instagram-cabecera {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 22px;
+
+  margin-bottom: 34px;
+}
+
+.instagram-cabecera h2 {
+  font-family: var(--fuente-display);
+  font-size: clamp(20px, 3vw, 30px);
+}
+
+.instagram-handle {
+  font-size: clamp(22px, 3.4vw, 34px);
+  font-weight: 800;
+
+  color: var(--accent-2);
+}
+
+.instagram-fila {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 12px;
+}
+
+.instagram-fila img {
+  width: 100%;
+  aspect-ratio: 1;
+
+  object-fit: cover;
+
+  border-radius: 14px;
+  border: 1px solid var(--borde);
+
+  transition: 0.3s;
+}
+
+.instagram-fila a:hover img {
+  transform: scale(1.03);
+
+  border-color: var(--accent);
+}
+
+/* =====================================
+   FOOTER
+===================================== */
 .footer {
-  padding: 60px 0 30px;
+  padding: 70px 0 28px;
+
   background: #030509;
+
   border-top: 1px solid var(--borde);
 }
 
-.footer-grid {
+.footer-columnas {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1fr 1fr;
+  gap: 40px;
+
+  margin-bottom: 44px;
+}
+
+.footer-col h4 {
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+
+  position: relative;
+}
+
+.footer-col h4::after {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  width: 34px;
+  height: 3px;
+
+  border-radius: 3px;
+
+  background: var(--accent);
+}
+
+.footer-col > a {
+  display: block;
+
+  margin-bottom: 12px;
+
+  color: #aeb9c9;
+  font-size: 14px;
+
+  transition: 0.3s;
+}
+
+.footer-col > a:hover {
+  color: #ffffff;
+}
+
+.footer-tagline {
+  color: var(--muted);
+  font-size: 14px;
+
+  margin: 12px 0 20px;
+}
+
+.footer-dato {
   display: flex;
-  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 10px;
+
+  margin-bottom: 12px;
+
+  color: #aeb9c9;
+  font-size: 14px;
+}
+
+a.footer-dato {
+  transition: 0.3s;
+}
+
+a.footer-dato:hover {
+  color: #ffffff;
+}
+
+.footer-dato i {
+  color: var(--accent-2);
+
+  margin-top: 3px;
+}
+
+.footer-inferior {
+  display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 24px;
 
-  margin-bottom: 30px;
+  padding: 24px 0;
+
+  border-top: 1px solid var(--borde);
 }
 
-.footer-grid p {
-  color: var(--muted);
-  font-size: 13px;
-  margin-top: 10px;
-}
-
-.footer-links {
+.footer-social {
   display: flex;
-  gap: 24px;
+  gap: 12px;
 }
 
-.footer-links a {
-  color: #c3cedb;
-  font-size: 13px;
-  font-weight: 600;
+.footer-social a {
+  width: 40px;
+  height: 40px;
 
-  transition: 0.3s;
-}
-
-.footer-links a:hover {
-  color: white;
-}
-
-.footer-whatsapp {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: center;
 
-  padding: 12px 20px;
+  border: 1px solid var(--borde);
+  border-radius: 50%;
 
-  border-radius: 50px;
-
-  background: rgba(30, 174, 98, 0.14);
-  color: #6ce2aa;
-
-  font-size: 13px;
-  font-weight: 700;
+  color: var(--texto);
+  font-size: 18px;
 
   transition: 0.3s;
 }
 
-.footer-whatsapp:hover {
-  background: rgba(30, 174, 98, 0.22);
+.footer-social a:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+
+  color: #ffffff;
+}
+
+.footer-pagos {
+  display: flex;
+  gap: 8px;
+}
+
+.footer-pagos span {
+  padding: 6px 12px;
+
+  border: 1px solid var(--borde);
+  border-radius: 8px;
+
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1px;
 }
 
 .copyright {
   text-align: center;
+
   color: #5c6b7e;
   font-size: 12px;
 }
@@ -2017,19 +2342,31 @@ html.js-reveal [data-reveal].visible {
     grid-template-columns: 1fr;
   }
 
-  .hero-botones,
-  .footer-grid {
+  .hero-botones {
     flex-direction: column;
     align-items: stretch;
   }
 
-  .footer-grid {
-    text-align: center;
-    align-items: center;
+  .footer-columnas {
+    grid-template-columns: 1fr 1fr;
   }
-  .footer-links {
-    flex-wrap: wrap;
+
+  .footer-inferior {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sobre-nosotros-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .instagram-fila {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .instagram-cabecera {
     justify-content: center;
+    text-align: center;
   }
 
   .modal-contenido {
@@ -2097,30 +2434,7 @@ html.js-reveal [data-reveal].visible {
   filter: blur(50px);
 }
 
-.armar-step-mini {
-  position: relative;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  padding: 18px 20px;
-  border-radius: 16px;
-  background: rgba(255,255,255,.055);
-  border: 1px solid rgba(255,255,255,.07);
-  color: #dce7f3;
-  font-weight: 700;
-}
 
-.armar-step-mini span {
-  display: grid;
-  place-items: center;
-  width: 38px;
-  height: 38px;
-  border-radius: 12px;
-  background: linear-gradient(135deg, var(--accent), var(--accent-2));
-  color: white;
-  font-size: 12px;
-}
 
 .modal-armador {
   width: min(1120px, 100%);
@@ -2232,6 +2546,13 @@ html.js-reveal [data-reveal].visible {
   max-height: 440px;
   overflow-y: auto;
   padding: 2px 4px 8px 2px;
+}
+
+/* Insignia de estado dentro de las tarjetas del armador */
+.armador-estado {
+  margin: 8px 0 2px;
+  font-size: 9px;
+  padding: 4px 10px;
 }
 
 .armador-montura {
@@ -2440,13 +2761,6 @@ html.js-reveal [data-reveal].visible {
   background: rgba(47,143,255,.1);
 }
 
-.formula-panel,
-.formula-upload {
-  padding: 20px;
-  border: 1px solid var(--borde);
-  border-radius: 18px;
-  background: rgba(255,255,255,.025);
-}
 
 .formula-tabla {
   display: grid;
@@ -2490,31 +2804,8 @@ html.js-reveal [data-reveal].visible {
   margin-top: 15px;
 }
 
-.formula-upload { text-align: center; }
-.formula-drop {
-  min-height: 170px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 9px;
-  border: 1px dashed rgba(108,231,255,.45);
-  border-radius: 15px;
-  cursor: pointer;
-  background: rgba(47,143,255,.045);
-}
 
-.formula-drop i { font-size: 35px; color: var(--accent-2); }
-.formula-drop strong { font-size: 15px; }
-.formula-drop span { color: var(--muted); font-size: 11px; }
-.formula-drop input { display: none; }
 
-.archivo-formula-info {
-  color: var(--accent-2);
-  font-size: 12px;
-  min-height: 20px;
-  margin-top: 12px;
-}
 
 .armador-resumen-mini {
   display: flex;
@@ -2772,4 +3063,21 @@ html.js-reveal [data-reveal].visible {
 @media (max-width: 700px) {
   .armador-media-contenido,
   .armador-media-visual { min-height: 460px; height: 460px; }
+}
+
+@media (max-width: 560px) {
+  .footer-columnas {
+    grid-template-columns: 1fr;
+  }
+
+  .instagram-fila {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .franja-pagos,
+  .sobre-nosotros,
+  .banda-instagram {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
 }

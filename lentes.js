@@ -39,7 +39,7 @@ const lentesDisponibles = [
   { id:"pro.ar", nombre:"Progresivos AR", descripcion:"Lentes progresivos con capa antirreflejo.", imagen:"imagenes/lentes/proarblue.webp", etiqueta:"Más elegido" },
   { id:"pro.foto.ar", nombre:"Progresivos Fotocromaticos AR", descripcion:"Lentes progresivos que se oscurecen en exteriores y cuentan con antirreflejo.", imagen:"imagenes/lentes/cr.foto.color.arb/3.jpeg", etiqueta:"Práctico" },
   { id:"pro.foto.colors.ar", nombre:"Progresivos Fotocromaticos Colors AR", descripcion:"Lentes progresivos fotocromaticos con tono de color especifico al oscurecerse y antirreflejo.", imagen:"imagenes/lentes/cr.foto.color.arb/4.jpeg", etiqueta:"Progresivo" },
-  { id:"bifo.inv", nombre:"Bifocal Invisible", descripcion:"Permiten ver de lejos y cerca son la linea divisora visible en el lente.", imagen:"imagenes/lentes/cr.foto.color.arv/1.jpeg", etiqueta:"Premium" },
+  { id:"bifo.inv", nombre:"Bifocal Invisible", descripcion:"Permiten ver de lejos y cerca sin la linea divisora visible en el lente.", imagen:"imagenes/lentes/cr.foto.color.arv/1.jpeg", etiqueta:"Premium" },
   { id:"bifo.inv.ar", nombre:"Bifocal Invisible AR", descripcion:"Bifocal invisible con capa antirreflejo", imagen:"imagenes/lentes/cr.foto.color.arv/2.jpeg", etiqueta:"Trabajo" },
   { id:"bifo.inv.foto.ar", nombre:"Bifocal Invisible Fotocromatico AR", descripcion:"Bifocal invisible que se oscurece con el sol y cuenta con antirreflejo.", imagen:"imagenes/lentes/cr.foto.color.arb/1.jpeg", etiqueta:"Esencial" },
   { id:"bifo.flat", nombre:"Bifocal Flat Top", descripcion:"Bifocal tradicional con una linea marcada visible (en forma de D) que separa la vision lejana de la cercana.", imagen:"imagenes/lentes/bifoflat.webp", etiqueta:"Más elegido" },

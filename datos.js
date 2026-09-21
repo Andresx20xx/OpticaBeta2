@@ -2115,14 +2115,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "Carey": "imagenes/monturas/otras marcas/om001.jpeg"
+    "Carey": "imagenes/monturas/otras-marcas/om001.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "hombre", "mujer", "unisex"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om001.jpeg",
-      "imagenes/monturas/otras marcas/om002.jpeg",
+      "imagenes/monturas/otras-marcas/om001.jpeg",
+      "imagenes/monturas/otras-marcas/om002.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -2141,14 +2141,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "metalico": "imagenes/monturas/otras marcas/om003.jpeg"
+    "metalico": "imagenes/monturas/otras-marcas/om003.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "hombre"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om003.jpeg",
-      "imagenes/monturas/otras marcas/om004.jpeg",
+      "imagenes/monturas/otras-marcas/om003.jpeg",
+      "imagenes/monturas/otras-marcas/om004.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -2167,14 +2167,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "Cafe": "imagenes/monturas/otras marcas/om005.jpeg"
+    "Cafe": "imagenes/monturas/otras-marcas/om005.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om005.jpeg",
-      "imagenes/monturas/otras marcas/om006.jpeg",
+      "imagenes/monturas/otras-marcas/om005.jpeg",
+      "imagenes/monturas/otras-marcas/om006.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -2193,14 +2193,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "Negro": "imagenes/monturas/otras marcas/om007.jpeg"
+    "Negro": "imagenes/monturas/otras-marcas/om007.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "hombre"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om007.jpeg",
-      "imagenes/monturas/otras marcas/om008.jpeg",
+      "imagenes/monturas/otras-marcas/om007.jpeg",
+      "imagenes/monturas/otras-marcas/om008.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -2219,14 +2219,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "Cristal": "imagenes/monturas/otras marcas/om009.jpeg"
+    "Cristal": "imagenes/monturas/otras-marcas/om009.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "hombre"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om009.jpeg",
-      "imagenes/monturas/otras marcas/om010.jpeg",
+      "imagenes/monturas/otras-marcas/om009.jpeg",
+      "imagenes/monturas/otras-marcas/om010.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -2245,14 +2245,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "Carey": "imagenes/monturas/otras marcas/om011.jpeg"
+    "Carey": "imagenes/monturas/otras-marcas/om011.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om011.jpeg",
-      "imagenes/monturas/otras marcas/om012.jpeg",
+      "imagenes/monturas/otras-marcas/om011.jpeg",
+      "imagenes/monturas/otras-marcas/om012.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -2271,14 +2271,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "Negro": "imagenes/monturas/otras marcas/om013.jpeg"
+    "Negro": "imagenes/monturas/otras-marcas/om013.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om013.jpeg",
-      "imagenes/monturas/otras marcas/om014.jpeg",
+      "imagenes/monturas/otras-marcas/om013.jpeg",
+      "imagenes/monturas/otras-marcas/om014.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -2297,14 +2297,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "Negro": "imagenes/monturas/otras marcas/om015.jpeg"
+    "Negro": "imagenes/monturas/otras-marcas/om015.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om015.jpeg",
-      "imagenes/monturas/otras marcas/om016.jpeg",
+      "imagenes/monturas/otras-marcas/om015.jpeg",
+      "imagenes/monturas/otras-marcas/om016.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -2323,14 +2323,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "Carey": "imagenes/monturas/otras marcas/om017.jpeg"
+    "Carey": "imagenes/monturas/otras-marcas/om017.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om017.jpeg",
-      "imagenes/monturas/otras marcas/om018.jpeg",
+      "imagenes/monturas/otras-marcas/om017.jpeg",
+      "imagenes/monturas/otras-marcas/om018.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -2349,14 +2349,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "Carey": "imagenes/monturas/otras marcas/om019.jpeg"
+    "Carey": "imagenes/monturas/otras-marcas/om019.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om019.jpeg",
-      "imagenes/monturas/otras marcas/om020.jpeg",
+      "imagenes/monturas/otras-marcas/om019.jpeg",
+      "imagenes/monturas/otras-marcas/om020.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -2375,14 +2375,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "Carey": "imagenes/monturas/otras marcas/om021.jpeg"
+    "Carey": "imagenes/monturas/otras-marcas/om021.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om021.jpeg",
-      "imagenes/monturas/otras marcas/om022.jpeg",
+      "imagenes/monturas/otras-marcas/om021.jpeg",
+      "imagenes/monturas/otras-marcas/om022.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -2401,14 +2401,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "Carey": "imagenes/monturas/otras marcas/om023.jpeg"
+    "Carey": "imagenes/monturas/otras-marcas/om023.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om023.jpeg",
-      "imagenes/monturas/otras marcas/om024.jpeg",
+      "imagenes/monturas/otras-marcas/om023.jpeg",
+      "imagenes/monturas/otras-marcas/om024.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -2427,14 +2427,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "Carey": "imagenes/monturas/otras marcas/om025.jpeg"
+    "Carey": "imagenes/monturas/otras-marcas/om025.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om025.jpeg",
-      "imagenes/monturas/otras marcas/om026.jpeg",
+      "imagenes/monturas/otras-marcas/om025.jpeg",
+      "imagenes/monturas/otras-marcas/om026.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -2453,14 +2453,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "Gris Humo": "imagenes/monturas/otras marcas/om027.jpeg"
+    "Gris Humo": "imagenes/monturas/otras-marcas/om027.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "hombre"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om027.jpeg",
-      "imagenes/monturas/otras marcas/om028.jpeg",
+      "imagenes/monturas/otras-marcas/om027.jpeg",
+      "imagenes/monturas/otras-marcas/om028.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -2479,14 +2479,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "Verde": "imagenes/monturas/otras marcas/om029.jpeg"
+    "Verde": "imagenes/monturas/otras-marcas/om029.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "deportivas", "hombre"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om029.jpeg",
-      "imagenes/monturas/otras marcas/om030.jpeg",
+      "imagenes/monturas/otras-marcas/om029.jpeg",
+      "imagenes/monturas/otras-marcas/om030.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -2505,14 +2505,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "Gris": "imagenes/monturas/otras marcas/om031.jpeg"
+    "Gris": "imagenes/monturas/otras-marcas/om031.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "deportivas", "hombre"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om031.jpeg",
-      "imagenes/monturas/otras marcas/om032.jpeg",
+      "imagenes/monturas/otras-marcas/om031.jpeg",
+      "imagenes/monturas/otras-marcas/om032.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -2531,14 +2531,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "Negro": "imagenes/monturas/otras marcas/om033.jpeg"
+    "Negro": "imagenes/monturas/otras-marcas/om033.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om033.jpeg",
-      "imagenes/monturas/otras marcas/om034.jpeg",
+      "imagenes/monturas/otras-marcas/om033.jpeg",
+      "imagenes/monturas/otras-marcas/om034.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -2557,14 +2557,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "Carey": "imagenes/monturas/otras marcas/om035.jpeg"
+    "Carey": "imagenes/monturas/otras-marcas/om035.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om035.jpeg",
-      "imagenes/monturas/otras marcas/om036.jpeg",
+      "imagenes/monturas/otras-marcas/om035.jpeg",
+      "imagenes/monturas/otras-marcas/om036.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -2583,14 +2583,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "Dorado": "imagenes/monturas/otras marcas/om037.jpeg"
+    "Dorado": "imagenes/monturas/otras-marcas/om037.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "unisex", "hombre", "mujer"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om037.jpeg",
-      "imagenes/monturas/otras marcas/om038.jpeg",
+      "imagenes/monturas/otras-marcas/om037.jpeg",
+      "imagenes/monturas/otras-marcas/om038.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -2609,14 +2609,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "Carey": "imagenes/monturas/otras marcas/om039.jpeg"
+    "Carey": "imagenes/monturas/otras-marcas/om039.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om039.jpeg",
-      "imagenes/monturas/otras marcas/om040.jpeg",
+      "imagenes/monturas/otras-marcas/om039.jpeg",
+      "imagenes/monturas/otras-marcas/om040.jpeg",
       "imagenes/modelos/md004.jpeg"
     ],
 
@@ -2636,14 +2636,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "Rosa": "imagenes/monturas/otras marcas/om041.jpeg"
+    "Rosa": "imagenes/monturas/otras-marcas/om041.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om041.jpeg",
-      "imagenes/monturas/otras marcas/om042.jpeg",
+      "imagenes/monturas/otras-marcas/om041.jpeg",
+      "imagenes/monturas/otras-marcas/om042.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -2662,14 +2662,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "Blanca-azul": "imagenes/monturas/otras marcas/om043.jpeg"
+    "Blanca-azul": "imagenes/monturas/otras-marcas/om043.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "unisex", "hombre", "mujer"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om043.jpeg",
-      "imagenes/monturas/otras marcas/om044.jpeg",
+      "imagenes/monturas/otras-marcas/om043.jpeg",
+      "imagenes/monturas/otras-marcas/om044.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -2688,14 +2688,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "Negro": "imagenes/monturas/otras marcas/om045.jpeg"
+    "Negro": "imagenes/monturas/otras-marcas/om045.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "hombre"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om045.jpeg",
-      "imagenes/monturas/otras marcas/om046.jpeg",
+      "imagenes/monturas/otras-marcas/om045.jpeg",
+      "imagenes/monturas/otras-marcas/om046.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -2714,14 +2714,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "Carey": "imagenes/monturas/otras marcas/om047.jpeg"
+    "Carey": "imagenes/monturas/otras-marcas/om047.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om047.jpeg",
-      "imagenes/monturas/otras marcas/om048.jpeg",
+      "imagenes/monturas/otras-marcas/om047.jpeg",
+      "imagenes/monturas/otras-marcas/om048.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -2740,14 +2740,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "Rojo": "imagenes/monturas/otras marcas/om049.jpeg"
+    "Rojo": "imagenes/monturas/otras-marcas/om049.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om049.jpeg",
-      "imagenes/monturas/otras marcas/om050.jpeg",
+      "imagenes/monturas/otras-marcas/om049.jpeg",
+      "imagenes/monturas/otras-marcas/om050.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -2766,14 +2766,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "Carey": "imagenes/monturas/otras marcas/om051.jpeg"
+    "Carey": "imagenes/monturas/otras-marcas/om051.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om051.jpeg",
-      "imagenes/monturas/otras marcas/om052.jpeg",
+      "imagenes/monturas/otras-marcas/om051.jpeg",
+      "imagenes/monturas/otras-marcas/om052.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -2792,14 +2792,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "Rojo": "imagenes/monturas/otras marcas/om053.jpeg"
+    "Rojo": "imagenes/monturas/otras-marcas/om053.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om053.jpeg",
-      "imagenes/monturas/otras marcas/om054.jpeg",
+      "imagenes/monturas/otras-marcas/om053.jpeg",
+      "imagenes/monturas/otras-marcas/om054.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -2818,14 +2818,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "Carey": "imagenes/monturas/otras marcas/om055.jpeg"
+    "Carey": "imagenes/monturas/otras-marcas/om055.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "mujer"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om055.jpeg",
-      "imagenes/monturas/otras marcas/om056.jpeg",
+      "imagenes/monturas/otras-marcas/om055.jpeg",
+      "imagenes/monturas/otras-marcas/om056.jpeg",
       "imagenes/modelos/md012.jpeg"
     ],
 
@@ -2845,14 +2845,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "Verde": "imagenes/monturas/otras marcas/om057.jpeg"
+    "Verde": "imagenes/monturas/otras-marcas/om057.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "hombre"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om057.jpeg",
-      "imagenes/monturas/otras marcas/om058.jpeg",
+      "imagenes/monturas/otras-marcas/om057.jpeg",
+      "imagenes/monturas/otras-marcas/om058.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -2871,14 +2871,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "Negro": "imagenes/monturas/otras marcas/om059.jpeg"
+    "Negro": "imagenes/monturas/otras-marcas/om059.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "Mujer"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om059.jpeg",
-      "imagenes/monturas/otras marcas/om060.jpeg",
+      "imagenes/monturas/otras-marcas/om059.jpeg",
+      "imagenes/monturas/otras-marcas/om060.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -2897,14 +2897,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "Negro": "imagenes/monturas/otras marcas/om061.jpeg"
+    "Negro": "imagenes/monturas/otras-marcas/om061.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "hombre"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om061.jpeg",
-      "imagenes/monturas/otras marcas/om062.jpeg",
+      "imagenes/monturas/otras-marcas/om061.jpeg",
+      "imagenes/monturas/otras-marcas/om062.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -3446,14 +3446,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "Gris": "imagenes/monturas/otras marcas/om063.jpeg"
+    "Gris": "imagenes/monturas/otras-marcas/om063.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "hombre"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om063.jpeg",
-      "imagenes/monturas/otras marcas/om064.jpeg",
+      "imagenes/monturas/otras-marcas/om063.jpeg",
+      "imagenes/monturas/otras-marcas/om064.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -3472,14 +3472,14 @@ const monturas = [
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
-    "Azul": "imagenes/monturas/otras marcas/om065.jpeg"
+    "Azul": "imagenes/monturas/otras-marcas/om065.jpeg"
 },
 
     categorias: ["otras marcas", "oftalmica", "hombre"],
 
     imagenes: [
-      "imagenes/monturas/otras marcas/om065.jpeg",
-      "imagenes/monturas/otras marcas/om066.jpeg",
+      "imagenes/monturas/otras-marcas/om065.jpeg",
+      "imagenes/monturas/otras-marcas/om066.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -4285,7 +4285,7 @@ const monturas = [
 
     imagenes: [
       "imagenes/monturas/mujer/ey009.jpeg",
-      "imagenes/monturas/mujer/ey0010.jpeg",
+      "imagenes/monturas/mujer/ey010.jpeg",
     ],
 
     estado: "Últimas unidades",
