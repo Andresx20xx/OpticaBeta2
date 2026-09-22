@@ -42,7 +42,7 @@ const lentesDisponibles = [
   { id:"bifo.inv", nombre:"Bifocal Invisible", descripcion:"Permiten ver de lejos y cerca sin la linea divisora visible en el lente.", imagen:"imagenes/lentes/bifoinvi.webp", etiqueta:"Blancos" },
   { id:"bifo.inv.ar", nombre:"Bifocal Invisible AR", descripcion:"Bifocal invisible con capa antirreflejo", imagen:"imagenes/lentes/bifoinviar.png", etiqueta:"Antirreflejo" },
   { id:"bifo.inv.foto.ar", nombre:"Bifocal Invisible Fotocromatico AR", descripcion:"Bifocal invisible que se oscurece con el sol y cuenta con antirreflejo.", imagen:"imagenes/lentes/bifoinvifoto.jpg", etiqueta:"Fotosensible" },
-  { id:"bifo.flat", nombre:"Bifocal Flat Top", descripcion:"Bifocal tradicional con una linea marcada visible (en forma de D) que separa la vision lejana de la cercana.", imagen:"imagenes/lentes/bifoflat.webp", etiqueta:"Blancos" },
+  { id:"bifo.flat", nombre:"Bifocal Flat Top", descripcion:"Bifocal tradicional con una linea marcada visible (en forma de D) que separa la vision lejana de la cercana.", imagen:"imagenes/lentes/bifoflatt.webp", etiqueta:"Blancos" },
   { id:"bifo.flat.ar", nombre:"Bifocal Flat Top AR", descripcion:"Bifocal tradicional con tratamiento antirreflejo.", imagen:"imagenes/lentes/bifoflatar.webp", etiqueta:"Antirreflejo" },
   { id:"bifo.flat.foto.ar", nombre:"Bifocal Flat Top Fotocromatico AR", descripcion:"Bifocal tradicional que se oscurece con la luz solar y tiene antireflejo.", imagen:"imagenes/lentes/bifoflatfoto.png", etiqueta:"Fotosensible" }
 ];
