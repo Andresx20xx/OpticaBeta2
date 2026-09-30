@@ -1176,7 +1176,7 @@ const monturas = [
       "imagenes/monturas/lacoste/lc004.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Agotada",
   },
 
   {
@@ -1309,7 +1309,7 @@ const monturas = [
       "imagenes/monturas/diesel/ds004.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Agotada",
   },
 
   {
@@ -1413,7 +1413,7 @@ const monturas = [
       "imagenes/monturas/nike/nk002.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Agotada",
   },
 
   {
@@ -1785,7 +1785,7 @@ const monturas = [
       "imagenes/monturas/wanderth/wd014.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Agotada",
   },
 
   {
@@ -1994,7 +1994,7 @@ const monturas = [
       "imagenes/monturas/prada/pd016.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Agotada",
   },
 
   {
@@ -2020,7 +2020,7 @@ const monturas = [
       "imagenes/monturas/prada/pd018.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Agotada",
   },
 
   {
@@ -3143,7 +3143,7 @@ const monturas = [
       "imagenes/monturas/cartier/ca018.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Agotada",
   },
 
   {
@@ -5510,7 +5510,7 @@ const monturas = [
       "imagenes/monturas/niños/nñ034.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Agotada",
   },
 
   {
