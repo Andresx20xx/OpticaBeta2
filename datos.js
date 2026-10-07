@@ -5821,8 +5821,8 @@ const monturas = [
     categorias: ["sobre-puesto", "unisex", "hombre", "oftalmica", "mujer",],
 
     imagenes: [
-      "imagenes/monturas/sobrepuesto/sp003.jpeg",
-      "imagenes/monturas/sobrepuesto/sp004.jpeg",
+      "imagenes/monturas/sobrepuesto/sp005.jpeg",
+      "imagenes/monturas/sobrepuesto/sp006.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -5847,8 +5847,8 @@ const monturas = [
     categorias: ["sobre-puesto", "unisex", "hombre", "oftalmica", "mujer",],
 
     imagenes: [
-      "imagenes/monturas/sobrepuesto/sp005.jpeg",
-      "imagenes/monturas/sobrepuesto/sp006.jpeg",
+      "imagenes/monturas/sobrepuesto/sp007.jpeg",
+      "imagenes/monturas/sobrepuesto/sp008.jpeg",
     ],
 
     estado: "Últimas unidades",
@@ -5868,32 +5868,6 @@ const monturas = [
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Negro": "imagenes/monturas/sobrepuesto/sp008.jpeg"
-},
-
-    categorias: ["sobre-puesto", "unisex", "hombre", "oftalmica", "mujer",],
-
-    imagenes: [
-      "imagenes/monturas/sobrepuesto/sp007.jpeg",
-      "imagenes/monturas/sobrepuesto/sp008.jpeg",
-    ],
-
-    estado: "Últimas unidades",
-  },
-
-  {
-    id: 225,
-
-    marca: "Eyeon",
-
-    nombre: "SobrePuesto",
-
-    referencia: "SP006",
-
-    color: ["Negro"],
-
-    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
-    imagenesPorColor: {
-    "Negro": "imagenes/monturas/sobrepuesto/sp009.jpeg"
 },
 
     categorias: ["sobre-puesto", "unisex", "hombre", "oftalmica", "mujer",],

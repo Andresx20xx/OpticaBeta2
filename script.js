@@ -5,8 +5,7 @@
 const numeroWhatsApp = "573204771054";
 const productosPorPagina = 12;
 
-let categoriaActual = "todos";
-let marcaActual = "todas";
+let filtroGeneral = "todos";
 let textoBusqueda = "";
 let productosMostrados = productosPorPagina;
 
@@ -309,48 +308,11 @@ function capitalizarTexto(valor) {
 ===================================== */
 
 function crearFiltros() {
-  filtrosContenedor.innerHTML = `
-    <div class="filtros-cabecera">
-      <span class="filtros-titulo"><i class="fa-solid fa-sliders"></i> Filtrar monturas</span>
-      <button type="button" class="filtros-limpiar" id="limpiarFiltros">Limpiar filtros</button>
-    </div>
-
-    <div class="filtros-controles">
-      <label class="filtro-control">
-        <span><i class="fa-solid fa-layer-group"></i> Categoría</span>
-        <select id="filtroCategoria" aria-label="Filtrar por categoría">
-          <option value="todos">Todas las categorías</option>
-        </select>
-      </label>
-
-      <label class="filtro-control">
-        <span><i class="fa-solid fa-tag"></i> Marca</span>
-        <select id="filtroMarca" aria-label="Filtrar por marca">
-          <option value="todas">Todas las marcas</option>
-        </select>
-      </label>
-    </div>
-  `;
-
-  const selectCategoria = document.getElementById("filtroCategoria");
-  const selectMarca = document.getElementById("filtroMarca");
-
-  // Las marcas se generan automáticamente desde el campo 'marca' de cada montura.
-  // Si mañana agregas una marca nueva en datos.js, aparecerá aquí sin tocar este código.
+  // Recopilar marcas y categorías en una sola lista general
   const marcas = [...new Set(
     monturas.map(montura => montura.marca).filter(Boolean)
   )].sort((a, b) => a.localeCompare(b, "es"));
 
-  marcas.forEach(marca => {
-    const option = document.createElement("option");
-    option.value = normalizarFiltro(marca);
-    option.textContent = marca;
-    selectMarca.appendChild(option);
-  });
-
-  // Conservamos todas las categorías que ya existen en el catálogo.
-  // Las categorías que coinciden con una marca se controlan desde el selector Marca,
-  // evitando duplicarlas visualmente como etiquetas interminables.
   const marcasNormalizadas = new Set(marcas.map(normalizarFiltro));
   const categorias = new Map();
 
@@ -362,37 +324,41 @@ function crearFiltros() {
     });
   });
 
-  [...categorias.entries()]
-    .sort((a, b) => String(a[1]).localeCompare(String(b[1]), "es"))
-    .forEach(([clave, categoria]) => {
-      const option = document.createElement("option");
-      option.value = clave;
-      option.textContent = capitalizarTexto(categoria);
-      selectCategoria.appendChild(option);
+  const categoriasOrdenadas = [...categorias.entries()]
+    .sort((a, b) => String(a[1]).localeCompare(String(b[1]), "es"));
+
+  // Construir chips: "Todos" + marcas + categorías (todo mezclado)
+  let chipsHTML = `<button type="button" class="chip-filtro${filtroGeneral === "todos" ? " activo" : ""}" data-filtro="todos">Todos</button>`;
+
+  marcas.forEach(marca => {
+    const valor = normalizarFiltro(marca);
+    const activo = filtroGeneral === valor ? " activo" : "";
+    chipsHTML += `<button type="button" class="chip-filtro${activo}" data-filtro="${valor}">${marca}</button>`;
+  });
+
+  categoriasOrdenadas.forEach(([clave, categoria]) => {
+    const activo = filtroGeneral === clave ? " activo" : "";
+    chipsHTML += `<button type="button" class="chip-filtro${activo}" data-filtro="${clave}">${capitalizarTexto(categoria)}</button>`;
+  });
+
+  filtrosContenedor.innerHTML = `
+    <div class="filtros-cabecera">
+      <span class="filtros-titulo"><i class="fa-solid fa-sliders"></i> Filtrar monturas</span>
+    </div>
+    <div class="chips-filtros">
+      ${chipsHTML}
+    </div>
+  `;
+
+  // Eventos de los chips
+  filtrosContenedor.querySelectorAll(".chip-filtro").forEach(chip => {
+    chip.addEventListener("click", () => {
+      filtroGeneral = chip.dataset.filtro;
+      productosMostrados = productosPorPagina;
+      filtrosContenedor.querySelectorAll(".chip-filtro").forEach(c => c.classList.remove("activo"));
+      chip.classList.add("activo");
+      mostrarProductos();
     });
-
-  selectCategoria.value = categoriaActual === "todos" ? "todos" : normalizarFiltro(categoriaActual);
-  selectMarca.value = marcaActual === "todas" ? "todas" : normalizarFiltro(marcaActual);
-
-  selectCategoria.addEventListener("change", () => {
-    categoriaActual = selectCategoria.value;
-    productosMostrados = productosPorPagina;
-    mostrarProductos();
-  });
-
-  selectMarca.addEventListener("change", () => {
-    marcaActual = selectMarca.value;
-    productosMostrados = productosPorPagina;
-    mostrarProductos();
-  });
-
-  document.getElementById("limpiarFiltros").addEventListener("click", () => {
-    categoriaActual = "todos";
-    marcaActual = "todas";
-    productosMostrados = productosPorPagina;
-    selectCategoria.value = "todos";
-    selectMarca.value = "todas";
-    mostrarProductos();
   });
 }
 
@@ -402,13 +368,10 @@ function crearFiltros() {
 
 function mostrarProductos() {
   const productosFiltrados = monturas.filter((montura) => {
-    const perteneceCategoria =
-      categoriaActual === "todos" ||
-      (montura.categorias || []).some(categoria => normalizarFiltro(categoria) === normalizarFiltro(categoriaActual));
-
-    const perteneceMarca =
-      marcaActual === "todas" ||
-      normalizarFiltro(montura.marca) === normalizarFiltro(marcaActual);
+    const coincideFiltroGeneral =
+      filtroGeneral === "todos" ||
+      normalizarFiltro(montura.marca) === filtroGeneral ||
+      (montura.categorias || []).some(categoria => normalizarFiltro(categoria) === filtroGeneral);
 
     const texto = `
             ${montura.marca}
@@ -420,7 +383,7 @@ function mostrarProductos() {
 
     const coincideBusqueda = texto.includes(textoBusqueda.toLowerCase());
 
-    return perteneceCategoria && perteneceMarca && coincideBusqueda;
+    return coincideFiltroGeneral && coincideBusqueda;
   });
 
   contadorProductos.textContent = `${productosFiltrados.length} montura${productosFiltrados.length !== 1 ? "s" : ""} encontrada${productosFiltrados.length !== 1 ? "s" : ""}`;

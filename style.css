@@ -1053,6 +1053,42 @@ html.js-reveal [data-reveal].visible {
   color: white;
 }
 
+/* =====================================
+   CHIPS DE FILTRO GENERAL
+===================================== */
+
+.chips-filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.chip-filtro {
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 1.5px solid rgba(255,255,255,.12);
+  background: var(--panel);
+  color: #f5f8fc;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all .2s ease;
+  white-space: nowrap;
+}
+
+.chip-filtro:hover {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.chip-filtro.activo {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+  box-shadow: 0 4px 14px rgba(47,143,255,.35);
+}
+
 @media (max-width: 560px) {
   .filtros {
     padding: 15px;
