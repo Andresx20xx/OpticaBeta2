@@ -5879,4 +5879,1200 @@ const monturas = [
 
     estado: "Últimas unidades",
   },
+
+  {
+    id: 225,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE062",
+
+    color: ["Traslucido"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Traslucido": "imagenes/monturas/hombre/oe053.jpeg"
+},
+
+    categorias: ["eyeon-hombre", "oftalmica", "hombre"],
+
+    imagenes: [
+      "imagenes/monturas/hombre/oe053.jpeg",
+      "imagenes/monturas/hombre/oe054.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 226,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE063",
+
+    color: ["Verde"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Verde": "imagenes/monturas/hombre/oe055.jpeg"
+},
+
+    categorias: ["eyeon-hombre", "oftalmica", "hombre"],
+
+    imagenes: [
+      "imagenes/monturas/hombre/oe055.jpeg",
+      "imagenes/monturas/hombre/oe056.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 227,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE064",
+
+    color: ["Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/hombre/oe057.jpeg"
+},
+
+    categorias: ["eyeon-hombre", "oftalmica", "hombre"],
+
+    imagenes: [
+      "imagenes/monturas/hombre/oe057.jpeg",
+      "imagenes/monturas/hombre/oe058.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 228,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE065",
+
+    color: ["Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/hombre/oe059.jpeg"
+},
+
+    categorias: ["eyeon-hombre", "oftalmica", "hombre"],
+
+    imagenes: [
+      "imagenes/monturas/hombre/oe059.jpeg",
+      "imagenes/monturas/hombre/oe060.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 229,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE066",
+
+    color: ["Blanco"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Blanco": "imagenes/monturas/hombre/oe061.jpeg"
+},
+
+    categorias: ["eyeon-hombre", "oftalmica", "hombre"],
+
+    imagenes: [
+      "imagenes/monturas/hombre/oe061.jpeg",
+      "imagenes/monturas/hombre/oe062.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 230,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE067",
+
+    color: ["Gris"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Gris": "imagenes/monturas/hombre/oe063.jpeg"
+},
+
+    categorias: ["eyeon-hombre", "oftalmica", "hombre"],
+
+    imagenes: [
+      "imagenes/monturas/hombre/oe063.jpeg",
+      "imagenes/monturas/hombre/oe064.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 231,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE068",
+
+    color: ["Cafe"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Cafe": "imagenes/monturas/hombre/oe065.jpeg"
+},
+
+    categorias: ["eyeon-hombre", "oftalmica", "hombre"],
+
+    imagenes: [
+      "imagenes/monturas/hombre/oe065.jpeg",
+      "imagenes/monturas/hombre/oe066.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 232,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE069",
+
+    color: ["Traslucido"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Traslucido": "imagenes/monturas/hombre/oe067.jpeg"
+},
+
+    categorias: ["eyeon-hombre", "oftalmica", "hombre"],
+
+    imagenes: [
+      "imagenes/monturas/hombre/oe067.jpeg",
+      "imagenes/monturas/hombre/oe068.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 233,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE070",
+
+    color: ["Azul"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/hombre/oe069.jpeg"
+},
+
+    categorias: ["eyeon-hombre", "oftalmica", "hombre"],
+
+    imagenes: [
+      "imagenes/monturas/hombre/oe069.jpeg",
+      "imagenes/monturas/hombre/oe070.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 234,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE071",
+
+    color: ["Traslucido"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Traslucido": "imagenes/monturas/hombre/oe071.jpeg"
+},
+
+    categorias: ["eyeon-hombre", "oftalmica", "hombre"],
+
+    imagenes: [
+      "imagenes/monturas/hombre/oe071.jpeg",
+      "imagenes/monturas/hombre/oe072.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 235,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE072",
+
+    color: ["Traslucido"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Traslucido": "imagenes/monturas/hombre/oe073.jpeg"
+},
+
+    categorias: ["eyeon-hombre", "oftalmica", "hombre"],
+
+    imagenes: [
+      "imagenes/monturas/hombre/oe073.jpeg",
+      "imagenes/monturas/hombre/oe074.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 236,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE073",
+
+    color: ["Azul"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/hombre/oe075.jpeg"
+},
+
+    categorias: ["eyeon-hombre", "oftalmica", "hombre"],
+
+    imagenes: [
+      "imagenes/monturas/hombre/oe075.jpeg",
+      "imagenes/monturas/hombre/oe076.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 237,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE074",
+
+    color: ["Miel"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Miel": "imagenes/monturas/hombre/oe077.jpeg"
+},
+
+    categorias: ["eyeon-hombre", "oftalmica", "hombre"],
+
+    imagenes: [
+      "imagenes/monturas/hombre/oe077.jpeg",
+      "imagenes/monturas/hombre/oe078.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 238,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE075",
+
+    color: ["Gris"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Gris": "imagenes/monturas/hombre/oe079.jpeg"
+},
+
+    categorias: ["eyeon-hombre", "oftalmica", "hombre"],
+
+    imagenes: [
+      "imagenes/monturas/hombre/oe079.jpeg",
+      "imagenes/monturas/hombre/oe080.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 239,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE076",
+
+    color: ["Azul"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/hombre/oe081.jpeg"
+},
+
+    categorias: ["eyeon-hombre", "oftalmica", "hombre"],
+
+    imagenes: [
+      "imagenes/monturas/hombre/oe081.jpeg",
+      "imagenes/monturas/hombre/oe082.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 240,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE077",
+
+    color: ["Dorado"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Dorado": "imagenes/monturas/hombre/oe083.jpeg"
+},
+
+    categorias: ["eyeon-hombre", "oftalmica", "hombre"],
+
+    imagenes: [
+      "imagenes/monturas/hombre/oe083.jpeg",
+      "imagenes/monturas/hombre/oe084.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 241,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE078",
+
+    color: ["Gris"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Gris": "imagenes/monturas/hombre/oe085.jpeg"
+},
+
+    categorias: ["eyeon-hombre", "oftalmica", "hombre"],
+
+    imagenes: [
+      "imagenes/monturas/hombre/oe085.jpeg",
+      "imagenes/monturas/hombre/oe086.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 242,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE079",
+
+    color: ["Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/hombre/oe087.jpeg"
+},
+
+    categorias: ["eyeon-hombre", "oftalmica", "hombre"],
+
+    imagenes: [
+      "imagenes/monturas/hombre/oe087.jpeg",
+      "imagenes/monturas/hombre/oe088.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 243,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE080",
+
+    color: ["Azul"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/hombre/oe089.jpeg"
+},
+
+    categorias: ["eyeon-hombre", "oftalmica", "hombre"],
+
+    imagenes: [
+      "imagenes/monturas/hombre/oe089.jpeg",
+      "imagenes/monturas/hombre/oe090.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 244,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE081",
+
+    color: ["Naranja"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Naranja": "imagenes/monturas/hombre/oe091.jpeg"
+},
+
+    categorias: ["eyeon-hombre", "oftalmica", "hombre"],
+
+    imagenes: [
+      "imagenes/monturas/hombre/oe091.jpeg",
+      "imagenes/monturas/hombre/oe092.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 245,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE082",
+
+    color: ["Amarillo"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Amarillo": "imagenes/monturas/hombre/oe093.jpeg"
+},
+
+    categorias: ["eyeon-hombre", "oftalmica", "hombre"],
+
+    imagenes: [
+      "imagenes/monturas/hombre/oe093.jpeg",
+      "imagenes/monturas/hombre/oe094.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 246,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE083",
+
+    color: ["Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/hombre/oe095.jpeg"
+},
+
+    categorias: ["eyeon-hombre", "oftalmica", "hombre"],
+
+    imagenes: [
+      "imagenes/monturas/hombre/oe095.jpeg",
+      "imagenes/monturas/hombre/oe096.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 247,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE084",
+
+    color: ["Cafe"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Cafe": "imagenes/monturas/mujer/ey071.jpeg"
+},
+
+    categorias: ["eyeon-mujer", "oftalmica", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/mujer/ey071.jpeg",
+      "imagenes/monturas/mujer/ey072.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 248,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE085",
+
+    color: ["Dorado"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Dorado": "imagenes/monturas/mujer/ey073.jpeg"
+},
+
+    categorias: ["eyeon-mujer", "oftalmica", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/mujer/ey073.jpeg",
+      "imagenes/monturas/mujer/ey074.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 249,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE086",
+
+    color: ["Rosa"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Rosa": "imagenes/monturas/mujer/ey075.jpeg"
+},
+
+    categorias: ["eyeon-mujer", "oftalmica", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/mujer/ey075.jpeg",
+      "imagenes/monturas/mujer/ey076.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 250,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE087",
+
+    color: ["Blanco"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Blanco": "imagenes/monturas/mujer/ey077.jpeg"
+},
+
+    categorias: ["eyeon-mujer", "oftalmica", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/mujer/ey077.jpeg",
+      "imagenes/monturas/mujer/ey078.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 251,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE088",
+
+    color: ["Azul"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/mujer/ey079.jpeg"
+},
+
+    categorias: ["eyeon-mujer", "oftalmica", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/mujer/ey079.jpeg",
+      "imagenes/monturas/mujer/ey080.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 252,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE089",
+
+    color: ["Azul"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/mujer/ey081.jpeg"
+},
+
+    categorias: ["eyeon-mujer", "oftalmica", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/mujer/ey081.jpeg",
+      "imagenes/monturas/mujer/ey082.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 253,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE090",
+
+    color: ["Traslucido"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Traslucido": "imagenes/monturas/mujer/ey083.jpeg"
+},
+
+    categorias: ["eyeon-mujer", "oftalmica", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/mujer/ey083.jpeg",
+      "imagenes/monturas/mujer/ey084.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 254,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE091",
+
+    color: ["Beige"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Beige": "imagenes/monturas/mujer/ey085.jpeg"
+},
+
+    categorias: ["eyeon-mujer", "oftalmica", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/mujer/ey085.jpeg",
+      "imagenes/monturas/mujer/ey086.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 255,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE092",
+
+    color: ["Dorado"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Dorado": "imagenes/monturas/mujer/ey087.jpeg"
+},
+
+    categorias: ["eyeon-mujer", "oftalmica", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/mujer/ey087.jpeg",
+      "imagenes/monturas/mujer/ey088.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 256,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE093",
+
+    color: ["Dorado"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Dorado": "imagenes/monturas/mujer/ey089.jpeg"
+},
+
+    categorias: ["eyeon-mujer", "oftalmica", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/mujer/ey089.jpeg",
+      "imagenes/monturas/mujer/ey090.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 257,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE094",
+
+    color: ["Dorado"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Dorado": "imagenes/monturas/mujer/ey091.jpeg"
+},
+
+    categorias: ["eyeon-mujer", "oftalmica", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/mujer/ey091.jpeg",
+      "imagenes/monturas/mujer/ey092.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 258,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE095",
+
+    color: ["Rojo"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Rojo": "imagenes/monturas/mujer/ey093.jpeg"
+},
+
+    categorias: ["eyeon-mujer", "oftalmica", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/mujer/ey093.jpeg",
+      "imagenes/monturas/mujer/ey094.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 259,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE096",
+
+    color: ["Rojo"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Rojo": "imagenes/monturas/mujer/ey095.jpeg"
+},
+
+    categorias: ["eyeon-mujer", "oftalmica", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/mujer/ey095.jpeg",
+      "imagenes/monturas/mujer/ey096.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 260,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE097",
+
+    color: ["Gris"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Gris": "imagenes/monturas/mujer/ey097.jpeg"
+},
+
+    categorias: ["eyeon-mujer", "oftalmica", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/mujer/ey097.jpeg",
+      "imagenes/monturas/mujer/ey098.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 261,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE098",
+
+    color: ["Traslucido"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Traslucido": "imagenes/monturas/mujer/ey099.jpeg"
+},
+
+    categorias: ["eyeon-mujer", "oftalmica", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/mujer/ey099.jpeg",
+      "imagenes/monturas/mujer/ey100.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 262,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE099",
+
+    color: ["Miel"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Miel": "imagenes/monturas/mujer/ey101.jpeg"
+},
+
+    categorias: ["eyeon-mujer", "oftalmica", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/mujer/ey101.jpeg",
+      "imagenes/monturas/mujer/ey102.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 263,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE100",
+
+    color: ["Dorado"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Dorado": "imagenes/monturas/mujer/ey103.jpeg"
+},
+
+    categorias: ["eyeon-mujer", "oftalmica", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/mujer/ey103.jpeg",
+      "imagenes/monturas/mujer/ey104.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 264,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE101",
+
+    color: ["Traslucido"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Traslucido": "imagenes/monturas/mujer/ey105.jpeg"
+},
+
+    categorias: ["eyeon-mujer", "oftalmica", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/mujer/ey105.jpeg",
+      "imagenes/monturas/mujer/ey106.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 265,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE102",
+
+    color: ["Cafe"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Cafe": "imagenes/monturas/mujer/ey107.jpeg"
+},
+
+    categorias: ["eyeon-mujer", "oftalmica", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/mujer/ey107.jpeg",
+      "imagenes/monturas/mujer/ey108.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 266,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE103",
+
+    color: ["Traslucido"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Traslucido": "imagenes/monturas/mujer/ey109.jpeg"
+},
+
+    categorias: ["eyeon-mujer", "oftalmica", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/mujer/ey109.jpeg",
+      "imagenes/monturas/mujer/ey110.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 267,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE104",
+
+    color: ["Rojo"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Rojo": "imagenes/monturas/mujer/ey111.jpeg"
+},
+
+    categorias: ["eyeon-mujer", "oftalmica", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/mujer/ey111.jpeg",
+      "imagenes/monturas/mujer/ey112.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 268,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE105",
+
+    color: ["Azul"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/mujer/ey113.jpeg"
+},
+
+    categorias: ["eyeon-mujer", "oftalmica", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/mujer/ey113.jpeg",
+      "imagenes/monturas/mujer/ey114.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 269,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE106",
+
+    color: ["Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/mujer/ey115.jpeg"
+},
+
+    categorias: ["eyeon-mujer", "oftalmica", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/mujer/ey115.jpeg",
+      "imagenes/monturas/mujer/ey116.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 270,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE107",
+
+    color: ["Morado"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Morado": "imagenes/monturas/mujer/ey117.jpeg"
+},
+
+    categorias: ["eyeon-mujer", "oftalmica", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/mujer/ey117.jpeg",
+      "imagenes/monturas/mujer/ey118.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
 ];
