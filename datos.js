@@ -4,7 +4,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban Erika",
+    nombre: "Ray-Ban Erika Cafe",
 
     referencia: "RB001",
 
@@ -36,7 +36,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban WAYFARER",
+    nombre: "Ray-Ban WAYFARER Negro",
 
     referencia: "RB002",
 
@@ -67,7 +67,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban JUSTIN",
+    nombre: "Ray-Ban JUSTIN Azul",
 
     referencia: "RB003",
 
@@ -99,7 +99,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban CAT-EYE",
+    nombre: "Ray-Ban CAT-EYE Carey",
 
     referencia: "RB004",
 
@@ -125,7 +125,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban ICONS",
+    nombre: "Ray-Ban ICONS Negro",
 
     referencia: "RB005",
 
@@ -151,7 +151,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban PILLOW",
+    nombre: "Ray-Ban PILLOW Morado",
 
     referencia: "RB006",
 
@@ -180,7 +180,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban JUSTIN",
+    nombre: "Ray-Ban JUSTIN Naranja",
 
     referencia: "RB007",
 
@@ -210,7 +210,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban ICONS",
+    nombre: "Ray-Ban ICONS Dorado",
 
     referencia: "RB008",
 
@@ -236,7 +236,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban ICONS",
+    nombre: "Ray-Ban ICONS Gris",
 
     referencia: "RB009",
 
@@ -263,7 +263,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban FERRARI",
+    nombre: "Ray-Ban FERRARI Negro",
 
     referencia: "RB010",
 
@@ -289,7 +289,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban AVIATOR",
+    nombre: "Ray-Ban AVIATOR Negro",
 
     referencia: "RB011",
 
@@ -315,7 +315,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban CLASSIC",
+    nombre: "Ray-Ban CLASSIC Negro",
 
     referencia: "RB012",
 
@@ -341,7 +341,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban FERRARI",
+    nombre: "Ray-Ban FERRARI Carey",
 
     referencia: "RB013",
 
@@ -367,7 +367,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban ICONS",
+    nombre: "Ray-Ban ICONS Dorado",
 
     referencia: "RB014",
 
@@ -393,7 +393,7 @@ const monturas = [
 
     marca: "Oakley",
 
-    nombre: "Oakley",
+    nombre: "Oakley Negro",
 
     referencia: "OK001",
 
@@ -419,7 +419,7 @@ const monturas = [
 
     marca: "Oakley",
 
-    nombre: "Oakley",
+    nombre: "Oakley Gris",
 
     referencia: "OK002",
 
@@ -445,7 +445,7 @@ const monturas = [
 
     marca: "Oakley",
 
-    nombre: "Oakley 3 piezas",
+    nombre: "Oakley 3 piezas Rojo",
 
     referencia: "OK003",
 
@@ -471,7 +471,7 @@ const monturas = [
 
     marca: "Oakley",
 
-    nombre: "Oakley 3 piezas",
+    nombre: "Oakley 3 piezas Azul",
 
     referencia: "OK004",
 
@@ -497,7 +497,7 @@ const monturas = [
 
     marca: "Oakley",
 
-    nombre: "Oakley",
+    nombre: "Oakley Verde",
 
     referencia: "OK005",
 
@@ -530,7 +530,7 @@ const monturas = [
 
     marca: "Oakley",
 
-    nombre: "Oakley",
+    nombre: "Oakley Cafe",
 
     referencia: "OK006",
 
@@ -556,7 +556,7 @@ const monturas = [
 
     marca: "Oakley",
 
-    nombre: "Oakley",
+    nombre: "Oakley Azul",
 
     referencia: "OK007",
 
@@ -583,7 +583,7 @@ const monturas = [
 
     marca: "Oakley",
 
-    nombre: "Oakley 3 piezas",
+    nombre: "Oakley 3 piezas Gris",
 
     referencia: "OK008",
 
@@ -609,7 +609,7 @@ const monturas = [
 
     marca: "Oakley",
 
-    nombre: "Oakley 3 piezas",
+    nombre: "Oakley 3 piezas Azul",
 
     referencia: "OK009",
 
@@ -635,7 +635,7 @@ const monturas = [
 
     marca: "Oakley",
 
-    nombre: "Oakley 3 piezas",
+    nombre: "Oakley 3 piezas Rojo",
 
     referencia: "OK010",
 
@@ -661,7 +661,7 @@ const monturas = [
 
     marca: "Oakley",
 
-    nombre: "Oakley",
+    nombre: "Oakley Verde",
 
     referencia: "OK011",
 
@@ -687,7 +687,7 @@ const monturas = [
 
     marca: "Oakley",
 
-    nombre: "Oakley",
+    nombre: "Oakley Negro",
 
     referencia: "OK012",
 
@@ -713,7 +713,7 @@ const monturas = [
 
     marca: "Oakley",
 
-    nombre: "Oakley PRISMA",
+    nombre: "Oakley PRISMA Naranja",
 
     referencia: "OK013",
 
@@ -740,7 +740,7 @@ const monturas = [
 
     marca: "Oakley",
 
-    nombre: "Oakley",
+    nombre: "Oakley Verde",
 
     referencia: "OK014",
 
@@ -766,7 +766,7 @@ const monturas = [
 
     marca: "Oakley",
 
-    nombre: "Oakley",
+    nombre: "Oakley Azul",
 
     referencia: "OK015",
 
@@ -792,7 +792,7 @@ const monturas = [
 
     marca: "Oakley",
 
-    nombre: "Oakley",
+    nombre: "Oakley Traslucido",
 
     referencia: "OK016",
 
@@ -818,7 +818,7 @@ const monturas = [
 
     marca: "Oakley",
 
-    nombre: "Oakley",
+    nombre: "Oakley Blanco",
 
     referencia: "OK017",
 
@@ -845,7 +845,7 @@ const monturas = [
 
     marca: "Oakley",
 
-    nombre: "Oakley PRISMA",
+    nombre: "Oakley PRISMA Morado",
 
     referencia: "OK018",
 
@@ -871,7 +871,7 @@ const monturas = [
 
     marca: "Oakley",
 
-    nombre: "Oakley",
+    nombre: "Oakley Negro",
 
     referencia: "OK019",
 
@@ -898,7 +898,7 @@ const monturas = [
 
     marca: "Oakley",
 
-    nombre: "Oakley 3 piezas",
+    nombre: "Oakley 3 piezas Dorado",
 
     referencia: "OK020",
 
@@ -924,7 +924,7 @@ const monturas = [
 
     marca: "Oakley",
 
-    nombre: "Oakley",
+    nombre: "Oakley Rojo",
 
     referencia: "OK021",
 
@@ -950,7 +950,7 @@ const monturas = [
 
     marca: "Oakley",
 
-    nombre: "Oakley",
+    nombre: "Oakley Cafe",
 
     referencia: "OK022",
 
@@ -976,7 +976,7 @@ const monturas = [
 
     marca: "Oakley",
 
-    nombre: "Oakley",
+    nombre: "Oakley Cafe",
 
     referencia: "OK023",
 
@@ -1002,7 +1002,7 @@ const monturas = [
 
     marca: "Oakley",
 
-    nombre: "Oakley",
+    nombre: "Oakley Azul",
 
     referencia: "OK024",
 
@@ -1028,7 +1028,7 @@ const monturas = [
 
     marca: "Oakley",
 
-    nombre: "Oakley",
+    nombre: "Oakley Gris",
 
     referencia: "OK025",
 
@@ -1054,7 +1054,7 @@ const monturas = [
 
     marca: "Oakley",
 
-    nombre: "Oakley",
+    nombre: "Oakley Negro",
 
     referencia: "OK026",
 
@@ -1080,7 +1080,7 @@ const monturas = [
 
     marca: "Oakley",
 
-    nombre: "Oakley",
+    nombre: "Oakley Gris",
 
     referencia: "OK027",
 
@@ -1106,7 +1106,7 @@ const monturas = [
 
     marca: "Oakley",
 
-    nombre: "Oakley",
+    nombre: "Oakley Cafe",
 
     referencia: "OK028",
 
@@ -1132,7 +1132,7 @@ const monturas = [
 
     marca: "Lacoste",
 
-    nombre: "Lacoste",
+    nombre: "Lacoste Azul",
 
     referencia: "LC001",
 
@@ -1158,7 +1158,7 @@ const monturas = [
 
     marca: "Lacoste",
 
-    nombre: "Lacoste",
+    nombre: "Lacoste Negro",
 
     referencia: "LC002",
 
@@ -1184,7 +1184,7 @@ const monturas = [
 
     marca: "Lacoste",
 
-    nombre: "Lacoste",
+    nombre: "Lacoste Verde",
 
     referencia: "LC003",
 
@@ -1211,7 +1211,7 @@ const monturas = [
 
     marca: "Lacoste",
 
-    nombre: "Lacoste",
+    nombre: "Lacoste Carey",
 
     referencia: "LC004",
 
@@ -1238,7 +1238,7 @@ const monturas = [
 
     marca: "Lacoste",
 
-    nombre: "Lacoste",
+    nombre: "Lacoste Azul",
 
     referencia: "LC005",
 
@@ -1265,7 +1265,7 @@ const monturas = [
 
     marca: "Diesel",
 
-    nombre: "Diesel",
+    nombre: "Diesel Verde",
 
     referencia: "DS001",
 
@@ -1291,7 +1291,7 @@ const monturas = [
 
     marca: "Diesel",
 
-    nombre: "Diesel",
+    nombre: "Diesel Negra",
 
     referencia: "DS002",
 
@@ -1317,7 +1317,7 @@ const monturas = [
 
     marca: "Diesel",
 
-    nombre: "Diesel",
+    nombre: "Diesel Cristal",
 
     referencia: "DS003",
 
@@ -1343,7 +1343,7 @@ const monturas = [
 
     marca: "Diesel",
 
-    nombre: "Diesel",
+    nombre: "Diesel Azul",
 
     referencia: "DS004",
 
@@ -1369,7 +1369,7 @@ const monturas = [
 
     marca: "Diesel",
 
-    nombre: "Diesel",
+    nombre: "Diesel Traslucido rojo",
 
     referencia: "DS005",
 
@@ -1395,7 +1395,7 @@ const monturas = [
 
     marca: "Nike",
 
-    nombre: "Nike",
+    nombre: "Nike Azul",
 
     referencia: "NK001",
 
@@ -1421,7 +1421,7 @@ const monturas = [
 
     marca: "Nike",
 
-    nombre: "Nike",
+    nombre: "Nike Traslucido rojo",
 
     referencia: "NK002",
 
@@ -1447,7 +1447,7 @@ const monturas = [
 
     marca: "Nike",
 
-    nombre: "Nike",
+    nombre: "Nike Gris",
 
     referencia: "NK003",
 
@@ -1473,7 +1473,7 @@ const monturas = [
 
     marca: "Nike",
 
-    nombre: "Nike",
+    nombre: "Nike Azul",
 
     referencia: "NK004",
 
@@ -1499,7 +1499,7 @@ const monturas = [
 
     marca: "Tommy Hilfiger",
 
-    nombre: "Tommy Hilfiger",
+    nombre: "Tommy Hilfiger Verde",
 
     referencia: "TM001",
 
@@ -1525,7 +1525,7 @@ const monturas = [
 
     marca: "Tommy Hilfiger",
 
-    nombre: "Tommy Hilfiger",
+    nombre: "Tommy Hilfiger Azul",
 
     referencia: "TM002",
 
@@ -1551,7 +1551,7 @@ const monturas = [
 
     marca: "Tommy Hilfiger",
 
-    nombre: "Tommy Hilfiger",
+    nombre: "Tommy Hilfiger Azul",
 
     referencia: "TM003",
 
@@ -1577,7 +1577,7 @@ const monturas = [
 
     marca: "Tommy Hilfiger",
 
-    nombre: "Tommy Hilfiger",
+    nombre: "Tommy Hilfiger Verde",
 
     referencia: "TM004",
 
@@ -1603,7 +1603,7 @@ const monturas = [
 
     marca: "Wanderth",
 
-    nombre: "Wanderth",
+    nombre: "Wanderth Gris",
 
     referencia: "WD001",
 
@@ -1629,7 +1629,7 @@ const monturas = [
 
     marca: "Wanderth",
 
-    nombre: "Wanderth",
+    nombre: "Wanderth Cafe",
 
     referencia: "WD002",
 
@@ -1655,7 +1655,7 @@ const monturas = [
 
     marca: "Wanderth",
 
-    nombre: "Wanderth",
+    nombre: "Wanderth Beige",
 
     referencia: "WD003",
 
@@ -1682,7 +1682,7 @@ const monturas = [
 
     marca: "Wanderth",
 
-    nombre: "Wanderth",
+    nombre: "Wanderth Metalica",
 
     referencia: "WD004",
 
@@ -1708,7 +1708,7 @@ const monturas = [
 
     marca: "Wanderth",
 
-    nombre: "Wanderth",
+    nombre: "Wanderth Azul",
 
     referencia: "WD005",
 
@@ -1741,7 +1741,7 @@ const monturas = [
 
     marca: "Wanderth",
 
-    nombre: "Wanderth",
+    nombre: "Wanderth Rosa",
 
     referencia: "WD006",
 
@@ -1767,7 +1767,7 @@ const monturas = [
 
     marca: "Wanderth",
 
-    nombre: "Wanderth",
+    nombre: "Wanderth Rojo",
 
     referencia: "WD007",
 
@@ -1793,7 +1793,7 @@ const monturas = [
 
     marca: "Prada",
 
-    nombre: "Prada",
+    nombre: "Prada Verde",
 
     referencia: "PD001",
 
@@ -1819,7 +1819,7 @@ const monturas = [
 
     marca: "Prada",
 
-    nombre: "Prada",
+    nombre: "Prada Gris",
 
     referencia: "PD002",
 
@@ -1845,7 +1845,7 @@ const monturas = [
 
     marca: "Prada",
 
-    nombre: "Prada",
+    nombre: "Prada Verde",
 
     referencia: "PD003",
 
@@ -1871,7 +1871,7 @@ const monturas = [
 
     marca: "Prada",
 
-    nombre: "Prada",
+    nombre: "Prada Dorado",
 
     referencia: "PD004",
 
@@ -1897,7 +1897,7 @@ const monturas = [
 
     marca: "Prada",
 
-    nombre: "Prada",
+    nombre: "Prada Gris",
 
     referencia: "PD005",
 
@@ -1923,7 +1923,7 @@ const monturas = [
 
     marca: "Prada",
 
-    nombre: "Prada",
+    nombre: "Prada Rosa",
 
     referencia: "PD006",
 
@@ -1949,7 +1949,7 @@ const monturas = [
 
     marca: "Prada",
 
-    nombre: "Prada",
+    nombre: "Prada Dorado",
 
     referencia: "PD007",
 
@@ -1976,7 +1976,7 @@ const monturas = [
 
     marca: "Prada",
 
-    nombre: "Prada",
+    nombre: "Prada Blanco",
 
     referencia: "PD008",
 
@@ -2002,7 +2002,7 @@ const monturas = [
 
     marca: "Prada",
 
-    nombre: "Prada",
+    nombre: "Prada Beige",
 
     referencia: "PD009",
 
@@ -2028,7 +2028,7 @@ const monturas = [
 
     marca: "Prada",
 
-    nombre: "Prada",
+    nombre: "Prada Carey",
 
     referencia: "PD010",
 
@@ -2055,7 +2055,7 @@ const monturas = [
 
     marca: "Prada",
 
-    nombre: "Prada",
+    nombre: "Prada Cristal",
 
     referencia: "PD011",
 
@@ -2081,7 +2081,7 @@ const monturas = [
 
     marca: "Prada",
 
-    nombre: "Prada",
+    nombre: "Prada Negro",
 
     referencia: "PD012",
 
@@ -2107,7 +2107,7 @@ const monturas = [
 
     marca: "Christian Dior",
 
-    nombre: "Christian Dior",
+    nombre: "Christian Dior Carey",
 
     referencia: "OM001",
 
@@ -2133,7 +2133,7 @@ const monturas = [
 
     marca: "Hugo Boss",
 
-    nombre: "HUGO BOSS",
+    nombre: "HUGO BOSS metalico",
 
     referencia: "OM002",
 
@@ -2159,7 +2159,7 @@ const monturas = [
 
     marca: "Dolce & Gabbana",
 
-    nombre: "Dolce & Gabbana",
+    nombre: "Dolce & Gabbana Cafe",
 
     referencia: "OM003",
 
@@ -2185,7 +2185,7 @@ const monturas = [
 
     marca: "Philipp Plein",
 
-    nombre: "PHILIPP PLEIN",
+    nombre: "PHILIPP PLEIN Negro",
 
     referencia: "OM004",
 
@@ -2211,7 +2211,7 @@ const monturas = [
 
     marca: "Chrome Hearts",
 
-    nombre: "Chromehearts",
+    nombre: "Chromehearts Cristal",
 
     referencia: "OM005",
 
@@ -2237,7 +2237,7 @@ const monturas = [
 
     marca: "Burberry",
 
-    nombre: "Burberry",
+    nombre: "Burberry Carey",
 
     referencia: "OM006",
 
@@ -2263,7 +2263,7 @@ const monturas = [
 
     marca: "Burberry",
 
-    nombre: "Burberry",
+    nombre: "Burberry Negro",
 
     referencia: "OM007",
 
@@ -2289,7 +2289,7 @@ const monturas = [
 
     marca: "Miu Miu",
 
-    nombre: "MIU-MIU",
+    nombre: "MIU-MIU Negro",
 
     referencia: "OM008",
 
@@ -2315,7 +2315,7 @@ const monturas = [
 
     marca: "Michael Kors",
 
-    nombre: "Michael Kors",
+    nombre: "Michael Kors Carey",
 
     referencia: "OM009",
 
@@ -2341,7 +2341,7 @@ const monturas = [
 
     marca: "Michael Kors",
 
-    nombre: "Michael Kors",
+    nombre: "Michael Kors Carey",
 
     referencia: "OM010",
 
@@ -2367,7 +2367,7 @@ const monturas = [
 
     marca: "Michael Kors",
 
-    nombre: "Michael Kors",
+    nombre: "Michael Kors Carey",
 
     referencia: "OM011",
 
@@ -2393,7 +2393,7 @@ const monturas = [
 
     marca: "Bvlgari",
 
-    nombre: "Bulgari",
+    nombre: "Bulgari Carey",
 
     referencia: "OM012",
 
@@ -2419,7 +2419,7 @@ const monturas = [
 
     marca: "Versace",
 
-    nombre: "Versace",
+    nombre: "Versace Carey",
 
     referencia: "OM013",
 
@@ -2445,7 +2445,7 @@ const monturas = [
 
     marca: "Hugo Boss",
 
-    nombre: "HUGO BOSS",
+    nombre: "HUGO BOSS Gris Humo",
 
     referencia: "OM014",
 
@@ -2471,7 +2471,7 @@ const monturas = [
 
     marca: "Puma",
 
-    nombre: "PUMA",
+    nombre: "PUMA Verde",
 
     referencia: "OM015",
 
@@ -2497,7 +2497,7 @@ const monturas = [
 
     marca: "Puma",
 
-    nombre: "PUMA",
+    nombre: "PUMA Gris",
 
     referencia: "OM016",
 
@@ -2523,7 +2523,7 @@ const monturas = [
 
     marca: "Tiffany & Co",
 
-    nombre: "Tiffany & Co",
+    nombre: "Tiffany & Co Negro",
 
     referencia: "OM017",
 
@@ -2549,7 +2549,7 @@ const monturas = [
 
     marca: "Gucci",
 
-    nombre: "GUCCI",
+    nombre: "GUCCI Carey",
 
     referencia: "OM018",
 
@@ -2575,7 +2575,7 @@ const monturas = [
 
     marca: "Gucci",
 
-    nombre: "GUCCI",
+    nombre: "GUCCI Dorado",
 
     referencia: "OM019",
 
@@ -2601,7 +2601,7 @@ const monturas = [
 
     marca: "Gucci",
 
-    nombre: "GUCCI",
+    nombre: "GUCCI Carey",
 
     referencia: "OM020",
 
@@ -2628,7 +2628,7 @@ const monturas = [
 
     marca: "Gucci",
 
-    nombre: "GUCCI",
+    nombre: "GUCCI Rosa",
 
     referencia: "OM021",
 
@@ -2654,7 +2654,7 @@ const monturas = [
 
     marca: "Nasa",
 
-    nombre: "NASA",
+    nombre: "NASA Blanca-azul",
 
     referencia: "OM022",
 
@@ -2680,7 +2680,7 @@ const monturas = [
 
     marca: "Montblanc",
 
-    nombre: "Mount Blanc",
+    nombre: "Mount Blanc Negro",
 
     referencia: "OM023",
 
@@ -2706,7 +2706,7 @@ const monturas = [
 
     marca: "Versace",
 
-    nombre: "Versace",
+    nombre: "Versace Carey",
 
     referencia: "OM024",
 
@@ -2732,7 +2732,7 @@ const monturas = [
 
     marca: "Chanel",
 
-    nombre: "CHANEL",
+    nombre: "CHANEL Rojo",
 
     referencia: "OM025",
 
@@ -2758,7 +2758,7 @@ const monturas = [
 
     marca: "Christian Dior",
 
-    nombre: "Christian Dior",
+    nombre: "Christian Dior Carey",
 
     referencia: "OM026",
 
@@ -2784,7 +2784,7 @@ const monturas = [
 
     marca: "Christian Dior",
 
-    nombre: "Christian Dior",
+    nombre: "Christian Dior Rojo",
 
     referencia: "OM027",
 
@@ -2810,7 +2810,7 @@ const monturas = [
 
     marca: "Celine",
 
-    nombre: "Celine Dion",
+    nombre: "Celine Dion Carey",
 
     referencia: "OM028",
 
@@ -2837,7 +2837,7 @@ const monturas = [
 
     marca: "Calvin Klein",
 
-    nombre: "Calvin Klein",
+    nombre: "Calvin Klein Verde",
 
     referencia: "OM029",
 
@@ -2863,7 +2863,7 @@ const monturas = [
 
     marca: "Dolce & Gabbana",
 
-    nombre: "Dolce & Gabbana",
+    nombre: "Dolce & Gabbana Negro",
 
     referencia: "OM030",
 
@@ -2889,7 +2889,7 @@ const monturas = [
 
     marca: "Marc Jacobs",
 
-    nombre: "Marc Jacobs",
+    nombre: "Marc Jacobs Negro",
 
     referencia: "OM031",
 
@@ -2915,7 +2915,7 @@ const monturas = [
 
     marca: "Cartier",
 
-    nombre: "Cartier",
+    nombre: "Cartier Rosa",
 
     referencia: "CA001",
 
@@ -2942,7 +2942,7 @@ const monturas = [
 
     marca: "Cartier",
 
-    nombre: "Cartier",
+    nombre: "Cartier Beige",
 
     referencia: "CA002",
 
@@ -2968,7 +2968,7 @@ const monturas = [
 
     marca: "Cartier",
 
-    nombre: "Cartier",
+    nombre: "Cartier Vinotinto",
 
     referencia: "CA003",
 
@@ -2994,7 +2994,7 @@ const monturas = [
 
     marca: "Cartier",
 
-    nombre: "Cartier",
+    nombre: "Cartier verde",
 
     referencia: "CA004",
 
@@ -3020,7 +3020,7 @@ const monturas = [
 
     marca: "Cartier",
 
-    nombre: "Cartier 3 Piezas",
+    nombre: "Cartier 3 Piezas Metalico",
 
     referencia: "CA005",
 
@@ -3046,7 +3046,7 @@ const monturas = [
 
     marca: "Cartier",
 
-    nombre: "Cartier 3 Piezas",
+    nombre: "Cartier 3 Piezas Negro",
 
     referencia: "CA006",
 
@@ -3072,7 +3072,7 @@ const monturas = [
 
     marca: "Cartier",
 
-    nombre: "Cartier 3 Piezas",
+    nombre: "Cartier 3 Piezas Dorado",
 
     referencia: "CA007",
 
@@ -3099,7 +3099,7 @@ const monturas = [
 
     marca: "Cartier",
 
-    nombre: "Cartier",
+    nombre: "Cartier Cafe",
 
     referencia: "CA008",
 
@@ -3125,7 +3125,7 @@ const monturas = [
 
     marca: "Cartier",
 
-    nombre: "Cartier 3 Piezas",
+    nombre: "Cartier 3 Piezas Dorada",
 
     referencia: "CA009",
 
@@ -3151,7 +3151,7 @@ const monturas = [
 
     marca: "Cartier",
 
-    nombre: "Cartier",
+    nombre: "Cartier Beige",
 
     referencia: "CA010",
 
@@ -3177,7 +3177,7 @@ const monturas = [
 
     marca: "Cartier",
 
-    nombre: "Cartier 3 Piezas",
+    nombre: "Cartier 3 Piezas Dorada",
 
     referencia: "CA011",
 
@@ -3203,7 +3203,7 @@ const monturas = [
 
     marca: "Cartier",
 
-    nombre: "Cartier",
+    nombre: "Cartier Verde",
 
     referencia: "CA012",
 
@@ -3229,7 +3229,7 @@ const monturas = [
 
     marca: "Cartier",
 
-    nombre: "Cartier 3 Piezas",
+    nombre: "Cartier 3 Piezas Metalica",
 
     referencia: "CA013",
 
@@ -3256,7 +3256,7 @@ const monturas = [
 
     marca: "Cartier",
 
-    nombre: "Cartier",
+    nombre: "Cartier Metalica",
 
     referencia: "CA014",
 
@@ -3282,7 +3282,7 @@ const monturas = [
 
     marca: "Cartier",
 
-    nombre: "Cartier 3 Piezas",
+    nombre: "Cartier 3 Piezas Dorada",
 
     referencia: "CA015",
 
@@ -3308,7 +3308,7 @@ const monturas = [
 
     marca: "Cartier",
 
-    nombre: "Cartier",
+    nombre: "Cartier Metalica",
 
     referencia: "CA016",
 
@@ -3334,7 +3334,7 @@ const monturas = [
 
     marca: "Cartier",
 
-    nombre: "Cartier 3 Piezas",
+    nombre: "Cartier 3 Piezas Negro",
 
     referencia: "CA017",
 
@@ -3360,7 +3360,7 @@ const monturas = [
 
     marca: "Cartier",
 
-    nombre: "Cartier 3 Piezas",
+    nombre: "Cartier 3 Piezas Dorado",
 
     referencia: "CA018",
 
@@ -3386,7 +3386,7 @@ const monturas = [
 
     marca: "Cartier",
 
-    nombre: "Cartier 3 Piezas",
+    nombre: "Cartier 3 Piezas Metalica",
 
     referencia: "CA019",
 
@@ -3412,7 +3412,7 @@ const monturas = [
 
     marca: "Cartier",
 
-    nombre: "Cartier 3 Piezas",
+    nombre: "Cartier 3 Piezas Metalica",
 
     referencia: "CA020",
 
@@ -3438,7 +3438,7 @@ const monturas = [
 
     marca: "Nasa",
 
-    nombre: "NASA",
+    nombre: "NASA Gris",
 
     referencia: "OM032",
 
@@ -3464,7 +3464,7 @@ const monturas = [
 
     marca: "Nasa",
 
-    nombre: "NASA",
+    nombre: "NASA Azul",
 
     referencia: "OM033",
 
@@ -3490,7 +3490,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica 3 Piezas",
+    nombre: "Oftalmica 3 Piezas Traslucido",
 
     referencia: "OE001",
 
@@ -3516,7 +3516,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica 3 Piezas",
+    nombre: "Oftalmica 3 Piezas Metalica",
 
     referencia: "OE002",
 
@@ -3542,7 +3542,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Azul",
 
     referencia: "OE003",
 
@@ -3568,7 +3568,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Cristal",
 
     referencia: "OE004",
 
@@ -3594,7 +3594,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Verde",
 
     referencia: "OE005",
 
@@ -3620,7 +3620,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Gris",
 
     referencia: "OE006",
 
@@ -3646,7 +3646,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Negro",
 
     referencia: "OE007",
 
@@ -3672,7 +3672,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Azul",
 
     referencia: "OE008",
 
@@ -3698,7 +3698,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Negro",
 
     referencia: "OE009",
 
@@ -3724,7 +3724,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Dorado",
 
     referencia: "OE010",
 
@@ -3750,7 +3750,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Gris",
 
     referencia: "OE011",
 
@@ -3776,7 +3776,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Negro",
 
     referencia: "OE012",
 
@@ -3802,7 +3802,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Negro",
 
     referencia: "OE013",
 
@@ -3828,7 +3828,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Negro",
 
     referencia: "OE014",
 
@@ -3854,7 +3854,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Blanco",
 
     referencia: "OE015",
 
@@ -3880,7 +3880,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Azul",
 
     referencia: "OE016",
 
@@ -3906,7 +3906,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Gris",
 
     referencia: "OE017",
 
@@ -3932,7 +3932,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Cafe",
 
     referencia: "OE018",
 
@@ -3958,7 +3958,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Cristal",
 
     referencia: "OE019",
 
@@ -3984,7 +3984,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Azul",
 
     referencia: "OE020",
 
@@ -4010,7 +4010,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Rojo",
 
     referencia: "OE021",
 
@@ -4036,7 +4036,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Rojo",
 
     referencia: "OE022",
 
@@ -4062,7 +4062,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Negro",
 
     referencia: "OE023",
 
@@ -4088,7 +4088,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Rojo",
 
     referencia: "OE024",
 
@@ -4114,7 +4114,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Cristal",
 
     referencia: "OE025",
 
@@ -4140,7 +4140,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Naranja",
 
     referencia: "OE026",
 
@@ -4166,7 +4166,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Azul",
 
     referencia: "OE049",
 
@@ -4192,7 +4192,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Azul",
 
     referencia: "OE050",
 
@@ -4218,7 +4218,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Negro",
 
     referencia: "OE051",
 
@@ -4244,7 +4244,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Rojo",
 
     referencia: "OE052",
 
@@ -4270,7 +4270,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Miel",
 
     referencia: "OE053",
 
@@ -4296,7 +4296,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Azul",
 
     referencia: "OE054",
 
@@ -4322,7 +4322,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Azul",
 
     referencia: "OE055",
 
@@ -4348,7 +4348,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Metalica",
 
     referencia: "OE056",
 
@@ -4374,7 +4374,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Blanco",
 
     referencia: "OE057",
 
@@ -4400,7 +4400,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Azul",
 
     referencia: "OE058",
 
@@ -4426,7 +4426,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Azul",
 
     referencia: "OE059",
 
@@ -4452,7 +4452,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Metalica",
 
     referencia: "OE060",
 
@@ -4478,7 +4478,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Miel",
 
     referencia: "OE061",
 
@@ -4504,7 +4504,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Negro",
 
     referencia: "OE062",
 
@@ -4530,7 +4530,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Azul",
 
     referencia: "OE063",
 
@@ -4556,7 +4556,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Verde",
 
     referencia: "OE064",
 
@@ -4582,7 +4582,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Morado",
 
     referencia: "OE065",
 
@@ -4608,7 +4608,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Rojo",
 
     referencia: "OE066",
 
@@ -4634,7 +4634,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Morado",
 
     referencia: "OE067",
 
@@ -4660,7 +4660,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Negro",
 
     referencia: "OE068",
 
@@ -4686,7 +4686,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Dorado",
 
     referencia: "OE069",
 
@@ -4712,7 +4712,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Rosa",
 
     referencia: "OE070",
 
@@ -4738,7 +4738,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Cafe",
 
     referencia: "OE071",
 
@@ -4764,7 +4764,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Rojo",
 
     referencia: "OE072",
 
@@ -4790,7 +4790,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Cafe",
 
     referencia: "OE073",
 
@@ -4816,7 +4816,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Cafe",
 
     referencia: "OE074",
 
@@ -4842,7 +4842,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Naranja",
 
     referencia: "OE075",
 
@@ -4868,7 +4868,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Amarillo",
 
     referencia: "OE076",
 
@@ -4894,7 +4894,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Rojo",
 
     referencia: "OE077",
 
@@ -4920,7 +4920,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Cristal",
 
     referencia: "OE078",
 
@@ -4946,7 +4946,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Beige",
 
     referencia: "OE079",
 
@@ -4972,7 +4972,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica 3 Piezas",
+    nombre: "Oftalmica 3 Piezas Dorado",
 
     referencia: "OE080",
 
@@ -4998,7 +4998,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Carey",
 
     referencia: "OE081",
 
@@ -5024,7 +5024,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Morado",
 
     referencia: "OE082",
 
@@ -5050,7 +5050,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Rosa",
 
     referencia: "OE083",
 
@@ -5076,7 +5076,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Azul",
 
     referencia: "NÑ001",
 
@@ -5102,7 +5102,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica morado",
 
     referencia: "NÑ002",
 
@@ -5128,7 +5128,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Verde",
 
     referencia: "NÑ003",
 
@@ -5154,7 +5154,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Miel",
 
     referencia: "NÑ004",
 
@@ -5180,7 +5180,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Negro",
 
     referencia: "NÑ005",
 
@@ -5206,7 +5206,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Azul",
 
     referencia: "NÑ006",
 
@@ -5232,7 +5232,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Sol",
+    nombre: "Sol Rojo",
 
     referencia: "NÑ007",
 
@@ -5258,7 +5258,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Sol",
+    nombre: "Sol Amarillo",
 
     referencia: "NÑ008",
 
@@ -5284,7 +5284,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Sol 3 Piezas",
+    nombre: "Sol 3 Piezas Azul",
 
     referencia: "NÑ009",
 
@@ -5310,7 +5310,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Sol 3 Piezas",
+    nombre: "Sol 3 Piezas Morado",
 
     referencia: "NÑ010",
 
@@ -5336,7 +5336,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Sol 3 Piezas",
+    nombre: "Sol 3 Piezas Negro",
 
     referencia: "NÑ011",
 
@@ -5362,7 +5362,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Rojo",
 
     referencia: "NÑ012",
 
@@ -5388,7 +5388,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica Flex",
+    nombre: "Oftalmica Flex Azul",
 
     referencia: "NÑ013",
 
@@ -5414,7 +5414,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Rojo",
 
     referencia: "NÑ014",
 
@@ -5440,7 +5440,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Sol Pikachu",
+    nombre: "Sol Pikachu Amarillo",
 
     referencia: "NÑ015",
 
@@ -5466,7 +5466,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Sol Transformers",
+    nombre: "Sol Transformers Gris",
 
     referencia: "NÑ016",
 
@@ -5492,7 +5492,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Sol Hombre Araña",
+    nombre: "Sol Hombre Araña Blanco",
 
     referencia: "NÑ017",
 
@@ -5518,7 +5518,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Liquidos Limpiadores",
+    nombre: "Liquidos Limpiadores Blanco",
 
     referencia: "OT001",
 
@@ -5547,7 +5547,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Ciclismo",
+    nombre: "Ciclismo Blanco",
 
     referencia: "DP001",
 
@@ -5573,7 +5573,7 @@ const monturas = [
 
     marca: "Oakley",
 
-    nombre: "Ciclismo",
+    nombre: "Ciclismo Negro",
 
     referencia: "DP002",
 
@@ -5599,7 +5599,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Ciclismo",
+    nombre: "Ciclismo Negro",
 
     referencia: "DP003",
 
@@ -5625,7 +5625,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Ciclismo",
+    nombre: "Ciclismo Negro",
 
     referencia: "DP004",
 
@@ -5651,7 +5651,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Ciclismo",
+    nombre: "Ciclismo Rosa",
 
     referencia: "DP005",
 
@@ -5677,7 +5677,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Ciclismo",
+    nombre: "Ciclismo Negro",
 
     referencia: "DP006",
 
@@ -5703,7 +5703,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Ciclismo",
+    nombre: "Ciclismo Gris",
 
     referencia: "DP007",
 
@@ -5729,7 +5729,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Ciclismo",
+    nombre: "Ciclismo Blanco",
 
     referencia: "DP008",
 
@@ -5755,7 +5755,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "SobrePuesto",
+    nombre: "SobrePuesto Negro",
 
     referencia: "SP001",
 
@@ -5781,7 +5781,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "SobrePuesto",
+    nombre: "SobrePuesto Negro",
 
     referencia: "SP002",
 
@@ -5807,7 +5807,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "SobrePuesto",
+    nombre: "SobrePuesto Negro",
 
     referencia: "SP003",
 
@@ -5833,7 +5833,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "SobrePuesto",
+    nombre: "SobrePuesto Negro",
 
     referencia: "SP004",
 
@@ -5859,7 +5859,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "SobrePuesto",
+    nombre: "SobrePuesto Negro",
 
     referencia: "SP005",
 
@@ -5885,7 +5885,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Traslucido",
 
     referencia: "OE027",
 
@@ -5911,7 +5911,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Verde",
 
     referencia: "OE028",
 
@@ -5937,7 +5937,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Negro",
 
     referencia: "OE029",
 
@@ -5963,7 +5963,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Negro",
 
     referencia: "OE030",
 
@@ -5989,7 +5989,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Blanco",
 
     referencia: "OE031",
 
@@ -6015,7 +6015,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Gris",
 
     referencia: "OE032",
 
@@ -6041,7 +6041,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Cafe",
 
     referencia: "OE033",
 
@@ -6067,7 +6067,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Traslucido",
 
     referencia: "OE034",
 
@@ -6093,7 +6093,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Azul",
 
     referencia: "OE035",
 
@@ -6119,7 +6119,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Traslucido",
 
     referencia: "OE036",
 
@@ -6145,7 +6145,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Traslucido",
 
     referencia: "OE037",
 
@@ -6171,7 +6171,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Azul",
 
     referencia: "OE038",
 
@@ -6197,7 +6197,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Miel",
 
     referencia: "OE039",
 
@@ -6223,7 +6223,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Gris",
 
     referencia: "OE040",
 
@@ -6249,7 +6249,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Azul",
 
     referencia: "OE041",
 
@@ -6275,7 +6275,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Dorado",
 
     referencia: "OE042",
 
@@ -6301,7 +6301,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Gris",
 
     referencia: "OE043",
 
@@ -6327,7 +6327,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Negro",
 
     referencia: "OE044",
 
@@ -6353,7 +6353,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Azul",
 
     referencia: "OE045",
 
@@ -6379,7 +6379,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Naranja",
 
     referencia: "OE046",
 
@@ -6405,7 +6405,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Amarillo",
 
     referencia: "OE047",
 
@@ -6431,7 +6431,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Negro",
 
     referencia: "OE048",
 
@@ -6457,7 +6457,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Cafe",
 
     referencia: "OE084",
 
@@ -6483,7 +6483,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Dorado",
 
     referencia: "OE085",
 
@@ -6509,7 +6509,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Rosa",
 
     referencia: "OE086",
 
@@ -6535,7 +6535,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Blanco",
 
     referencia: "OE087",
 
@@ -6561,7 +6561,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Azul",
 
     referencia: "OE088",
 
@@ -6587,7 +6587,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Azul",
 
     referencia: "OE089",
 
@@ -6613,7 +6613,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Traslucido",
 
     referencia: "OE090",
 
@@ -6639,7 +6639,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Beige",
 
     referencia: "OE091",
 
@@ -6665,7 +6665,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Dorado",
 
     referencia: "OE092",
 
@@ -6691,7 +6691,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Dorado",
 
     referencia: "OE093",
 
@@ -6717,7 +6717,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Dorado",
 
     referencia: "OE094",
 
@@ -6743,7 +6743,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Rojo",
 
     referencia: "OE095",
 
@@ -6769,7 +6769,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Rojo",
 
     referencia: "OE096",
 
@@ -6795,7 +6795,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Gris",
 
     referencia: "OE097",
 
@@ -6821,7 +6821,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Traslucido",
 
     referencia: "OE098",
 
@@ -6847,7 +6847,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Miel",
 
     referencia: "OE099",
 
@@ -6873,7 +6873,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Dorado",
 
     referencia: "OE100",
 
@@ -6899,7 +6899,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Traslucido",
 
     referencia: "OE101",
 
@@ -6925,7 +6925,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Cafe",
 
     referencia: "OE102",
 
@@ -6951,7 +6951,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Traslucido",
 
     referencia: "OE103",
 
@@ -6977,7 +6977,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Rojo",
 
     referencia: "OE104",
 
@@ -7003,7 +7003,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Azul",
 
     referencia: "OE105",
 
@@ -7029,7 +7029,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Negro",
 
     referencia: "OE106",
 
@@ -7055,7 +7055,7 @@ const monturas = [
 
     marca: "Eyeon",
 
-    nombre: "Oftalmica",
+    nombre: "Oftalmica Morado",
 
     referencia: "OE107",
 
@@ -7080,7 +7080,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban Sol",
+    nombre: "Ray-Ban Sol Verde",
 
     referencia: "RB015",
 
@@ -7104,7 +7104,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban Sol",
+    nombre: "Ray-Ban Sol Verde",
 
     referencia: "RB016",
 
@@ -7128,7 +7128,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban Sol",
+    nombre: "Ray-Ban Sol Azul",
 
     referencia: "RB017",
 
@@ -7152,7 +7152,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban Sol",
+    nombre: "Ray-Ban Sol Azul",
 
     referencia: "RB018",
 
@@ -7176,7 +7176,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban Sol",
+    nombre: "Ray-Ban Sol Traslucido",
 
     referencia: "RB019",
 
@@ -7201,7 +7201,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban Ferrari",
+    nombre: "Ray-Ban Ferrari Azul",
 
     referencia: "RB020",
 
@@ -7226,7 +7226,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban Sol",
+    nombre: "Ray-Ban Sol Cafe",
 
     referencia: "RB021",
 
@@ -7251,7 +7251,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban Sol",
+    nombre: "Ray-Ban Sol Cafe",
 
     referencia: "RB022",
 
@@ -7276,7 +7276,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban Sol",
+    nombre: "Ray-Ban Sol Gris",
 
     referencia: "RB023",
 
@@ -7301,7 +7301,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban Sol",
+    nombre: "Ray-Ban Sol Cafe",
 
     referencia: "RB024",
 
@@ -7326,7 +7326,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban Sol",
+    nombre: "Ray-Ban Sol Beige",
 
     referencia: "RB025",
 
@@ -7351,7 +7351,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban Sol",
+    nombre: "Ray-Ban Sol Gris",
 
     referencia: "RB026",
 
@@ -7376,7 +7376,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban Sol",
+    nombre: "Ray-Ban Sol Blanco",
 
     referencia: "RB027",
 
@@ -7401,7 +7401,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban Sol",
+    nombre: "Ray-Ban Sol Cafe",
 
     referencia: "RB028",
 
@@ -7426,7 +7426,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban Sol",
+    nombre: "Ray-Ban Sol Negro",
 
     referencia: "RB029",
 
@@ -7451,7 +7451,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban Sol",
+    nombre: "Ray-Ban Sol Gris",
 
     referencia: "RB030",
 
@@ -7476,7 +7476,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban Sol",
+    nombre: "Ray-Ban Sol Blanco",
 
     referencia: "RB031",
 
@@ -7501,7 +7501,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban Sol",
+    nombre: "Ray-Ban Sol Blanco",
 
     referencia: "RB032",
 
@@ -7526,7 +7526,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban Sol",
+    nombre: "Ray-Ban Sol Negro",
 
     referencia: "RB033",
 
@@ -7551,7 +7551,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban Sol",
+    nombre: "Ray-Ban Sol Negro",
 
     referencia: "RB034",
 
@@ -7576,7 +7576,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban Sol",
+    nombre: "Ray-Ban Sol Verde",
 
     referencia: "RB035",
 
@@ -7602,7 +7602,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban Sol",
+    nombre: "Ray-Ban Sol Negro",
 
     referencia: "RB036",
 
@@ -7627,7 +7627,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban Sol",
+    nombre: "Ray-Ban Sol Gris",
 
     referencia: "RB037",
 
@@ -7652,7 +7652,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban Ferrari",
+    nombre: "Ray-Ban Ferrari Azul",
 
     referencia: "RB038",
 
@@ -7677,7 +7677,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban Sol",
+    nombre: "Ray-Ban Sol Gris",
 
     referencia: "RB039",
 
@@ -7702,7 +7702,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban Ferrari",
+    nombre: "Ray-Ban Ferrari Negro",
 
     referencia: "RB040",
 
@@ -7727,7 +7727,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban Aviador",
+    nombre: "Ray-Ban Aviador Cafe",
 
     referencia: "RB041",
 
@@ -7752,7 +7752,7 @@ const monturas = [
 
     marca: "Ray-Ban",
 
-    nombre: "Ray-Ban Sol",
+    nombre: "Ray-Ban Sol Verde",
 
     referencia: "RB042",
 
@@ -7777,7 +7777,7 @@ const monturas = [
 
     marca: "Gucci",
 
-    nombre: "Gucci Sol",
+    nombre: "Gucci Sol Negro",
 
     referencia: "GU001",
 
@@ -7802,7 +7802,7 @@ const monturas = [
 
     marca: "Gucci",
 
-    nombre: "Gucci Sol",
+    nombre: "Gucci Sol Negro",
 
     referencia: "GU002",
 
@@ -7827,7 +7827,7 @@ const monturas = [
 
     marca: "Gucci",
 
-    nombre: "Gucci Sol",
+    nombre: "Gucci Sol Cafe",
 
     referencia: "GU003",
 
@@ -7852,7 +7852,7 @@ const monturas = [
 
     marca: "Miu Miu",
 
-    nombre: "Miu Miu Sol",
+    nombre: "Miu Miu Sol Rosa",
 
     referencia: "MM001",
 
@@ -7877,7 +7877,7 @@ const monturas = [
 
     marca: "Miu Miu",
 
-    nombre: "Miu Miu Sol",
+    nombre: "Miu Miu Sol Beige",
 
     referencia: "MM002",
 
