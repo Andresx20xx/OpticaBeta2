@@ -7171,4 +7171,758 @@ const monturas = [
 
     estado: "Disponible",
   },
+  {
+    id: 275,
+
+    marca: "Ray-Ban",
+
+    nombre: "Ray-Ban Sol",
+
+    referencia: "RB019",
+
+    color: ["Traslucido", "Traslucido"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Traslucido": "imagenes/monturas/otras-marcas/om069.jpeg",
+    "Traslucido": "imagenes/monturas/otras-marcas/om070.jpeg",
+},
+
+    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/otras-marcas/om069.jpeg",
+      "imagenes/monturas/otras-marcas/om070.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 276,
+
+    marca: "Ray-Ban",
+
+    nombre: "Ray-Ban Ferrari",
+
+    referencia: "RB020",
+
+    color: ["Azul", "Azul"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/otras-marcas/om071.jpeg",
+    "Azul": "imagenes/monturas/otras-marcas/om072.jpeg",
+},
+
+    categorias: ["rayban", "deportivas", "sol", "unisex", "hombre", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/otras-marcas/om071.jpeg",
+      "imagenes/monturas/otras-marcas/om072.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 277,
+
+    marca: "Ray-Ban",
+
+    nombre: "Ray-Ban Sol",
+
+    referencia: "RB021",
+
+    color: ["Cafe", "Cafe"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Cafe": "imagenes/monturas/otras-marcas/om073.jpeg",
+    "Cafe": "imagenes/monturas/otras-marcas/om074.jpeg",
+},
+
+    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/otras-marcas/om073.jpeg",
+      "imagenes/monturas/otras-marcas/om074.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 278,
+
+    marca: "Ray-Ban",
+
+    nombre: "Ray-Ban Sol",
+
+    referencia: "RB022",
+
+    color: ["Cafe", "Cafe"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Cafe": "imagenes/monturas/otras-marcas/om075.jpeg",
+    "Cafe": "imagenes/monturas/otras-marcas/om076.jpeg",
+},
+
+    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/otras-marcas/om075.jpeg",
+      "imagenes/monturas/otras-marcas/om076.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 279,
+
+    marca: "Ray-Ban",
+
+    nombre: "Ray-Ban Sol",
+
+    referencia: "RB023",
+
+    color: ["Gris", "Gris"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Gris": "imagenes/monturas/otras-marcas/om077.jpeg",
+    "Gris": "imagenes/monturas/otras-marcas/om078.jpeg",
+},
+
+    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/otras-marcas/om077.jpeg",
+      "imagenes/monturas/otras-marcas/om078.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 280,
+
+    marca: "Ray-Ban",
+
+    nombre: "Ray-Ban Sol",
+
+    referencia: "RB024",
+
+    color: ["Cafe", "Cafe"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Cafe": "imagenes/monturas/otras-marcas/om079.jpeg",
+    "Cafe": "imagenes/monturas/otras-marcas/om080.jpeg",
+},
+
+    categorias: ["rayban", "clasicas", "sol", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/otras-marcas/om079.jpeg",
+      "imagenes/monturas/otras-marcas/om080.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 281,
+
+    marca: "Ray-Ban",
+
+    nombre: "Ray-Ban Sol",
+
+    referencia: "RB025",
+
+    color: ["Beige", "Beige"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Beige": "imagenes/monturas/otras-marcas/om081.jpeg",
+    "Beige": "imagenes/monturas/otras-marcas/om082.jpeg",
+},
+
+    categorias: ["rayban", "clasicas", "sol", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/otras-marcas/om081.jpeg",
+      "imagenes/monturas/otras-marcas/om082.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 282,
+
+    marca: "Ray-Ban",
+
+    nombre: "Ray-Ban Sol",
+
+    referencia: "RB026",
+
+    color: ["Gris", "Gris"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Gris": "imagenes/monturas/otras-marcas/om083.jpeg",
+    "Gris": "imagenes/monturas/otras-marcas/om084.jpeg",
+},
+
+    categorias: ["rayban", "deportivas", "sol", "unisex", "hombre", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/otras-marcas/om083.jpeg",
+      "imagenes/monturas/otras-marcas/om084.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 283,
+
+    marca: "Ray-Ban",
+
+    nombre: "Ray-Ban Sol",
+
+    referencia: "RB027",
+
+    color: ["Blanco", "Blanco"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Blanco": "imagenes/monturas/otras-marcas/om085.jpeg",
+    "Blanco": "imagenes/monturas/otras-marcas/om086.jpeg",
+},
+
+    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/otras-marcas/om085.jpeg",
+      "imagenes/monturas/otras-marcas/om086.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 284,
+
+    marca: "Ray-Ban",
+
+    nombre: "Ray-Ban Sol",
+
+    referencia: "RB028",
+
+    color: ["Cafe", "Cafe"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Cafe": "imagenes/monturas/otras-marcas/om087.jpeg",
+    "Cafe": "imagenes/monturas/otras-marcas/om088.jpeg",
+},
+
+    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/otras-marcas/om087.jpeg",
+      "imagenes/monturas/otras-marcas/om088.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 285,
+
+    marca: "Ray-Ban",
+
+    nombre: "Ray-Ban Sol",
+
+    referencia: "RB029",
+
+    color: ["Negro", "Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/otras-marcas/om089.jpeg",
+    "Negro": "imagenes/monturas/otras-marcas/om090.jpeg",
+},
+
+    categorias: ["rayban", "clasicas", "sol", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/otras-marcas/om089.jpeg",
+      "imagenes/monturas/otras-marcas/om090.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 286,
+
+    marca: "Ray-Ban",
+
+    nombre: "Ray-Ban Sol",
+
+    referencia: "RB030",
+
+    color: ["Gris", "Gris"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Gris": "imagenes/monturas/otras-marcas/om091.jpeg",
+    "Gris": "imagenes/monturas/otras-marcas/om092.jpeg",
+},
+
+    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/otras-marcas/om091.jpeg",
+      "imagenes/monturas/otras-marcas/om092.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 287,
+
+    marca: "Ray-Ban",
+
+    nombre: "Ray-Ban Sol",
+
+    referencia: "RB031",
+
+    color: ["Blanco", "Blanco"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Blanco": "imagenes/monturas/otras-marcas/om093.jpeg",
+    "Blanco": "imagenes/monturas/otras-marcas/om094.jpeg",
+},
+
+    categorias: ["rayban", "clasicas", "sol", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/otras-marcas/om093.jpeg",
+      "imagenes/monturas/otras-marcas/om094.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 288,
+
+    marca: "Ray-Ban",
+
+    nombre: "Ray-Ban Sol",
+
+    referencia: "RB032",
+
+    color: ["Blanco", "Blanco"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Blanco": "imagenes/monturas/otras-marcas/om095.jpeg",
+    "Blanco": "imagenes/monturas/otras-marcas/om096.jpeg",
+},
+
+    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/otras-marcas/om095.jpeg",
+      "imagenes/monturas/otras-marcas/om096.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 289,
+
+    marca: "Ray-Ban",
+
+    nombre: "Ray-Ban Sol",
+
+    referencia: "RB033",
+
+    color: ["Negro", "Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/otras-marcas/om097.jpeg",
+    "Negro": "imagenes/monturas/otras-marcas/om098.jpeg",
+},
+
+    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/otras-marcas/om097.jpeg",
+      "imagenes/monturas/otras-marcas/om098.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 290,
+
+    marca: "Ray-Ban",
+
+    nombre: "Ray-Ban Sol",
+
+    referencia: "RB034",
+
+    color: ["Negro", "Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/otras-marcas/om099.jpeg",
+    "Negro": "imagenes/monturas/otras-marcas/om100.jpeg",
+},
+
+    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/otras-marcas/om099.jpeg",
+      "imagenes/monturas/otras-marcas/om100.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 291,
+
+    marca: "Ray-Ban",
+
+    nombre: "Ray-Ban Sol",
+
+    referencia: "RB035",
+
+    color: ["Verde", "Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Verde": "imagenes/monturas/otras-marcas/om111.jpeg",
+    "Negro": "imagenes/monturas/otras-marcas/om112.jpeg",
+},
+
+    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/otras-marcas/om111.jpeg",
+      "imagenes/monturas/otras-marcas/om112.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 292,
+
+    marca: "Ray-Ban",
+
+    nombre: "Ray-Ban Sol",
+
+    referencia: "RB036",
+
+    color: ["Negro", "Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/otras-marcas/om113.jpeg",
+    "Negro": "imagenes/monturas/otras-marcas/om114.jpeg",
+},
+
+    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/otras-marcas/om113.jpeg",
+      "imagenes/monturas/otras-marcas/om114.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 293,
+
+    marca: "Ray-Ban",
+
+    nombre: "Ray-Ban Sol",
+
+    referencia: "RB037",
+
+    color: ["Gris", "Gris"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Gris": "imagenes/monturas/otras-marcas/om115.jpeg",
+    "Gris": "imagenes/monturas/otras-marcas/om116.jpeg",
+},
+
+    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/otras-marcas/om115.jpeg",
+      "imagenes/monturas/otras-marcas/om116.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 294,
+
+    marca: "Ray-Ban",
+
+    nombre: "Ray-Ban Ferrari",
+
+    referencia: "RB038",
+
+    color: ["Azul", "Azul"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/otras-marcas/om117.jpeg",
+    "Azul": "imagenes/monturas/otras-marcas/om118.jpeg",
+},
+
+    categorias: ["rayban", "deportivas", "sol", "unisex", "hombre", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/otras-marcas/om117.jpeg",
+      "imagenes/monturas/otras-marcas/om118.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 295,
+
+    marca: "Ray-Ban",
+
+    nombre: "Ray-Ban Sol",
+
+    referencia: "RB039",
+
+    color: ["Gris", "Gris"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Gris": "imagenes/monturas/otras-marcas/om119.jpeg",
+    "Gris": "imagenes/monturas/otras-marcas/om120.jpeg",
+},
+
+    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/otras-marcas/om119.jpeg",
+      "imagenes/monturas/otras-marcas/om120.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 296,
+
+    marca: "Ray-Ban",
+
+    nombre: "Ray-Ban Ferrari",
+
+    referencia: "RB040",
+
+    color: ["Negro", "Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/otras-marcas/om121.jpeg",
+    "Negro": "imagenes/monturas/otras-marcas/om122.jpeg",
+},
+
+    categorias: ["rayban", "deportivas", "sol", "unisex", "hombre", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/otras-marcas/om121.jpeg",
+      "imagenes/monturas/otras-marcas/om122.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 297,
+
+    marca: "Ray-Ban",
+
+    nombre: "Ray-Ban Aviador",
+
+    referencia: "RB041",
+
+    color: ["Cafe", "Cafe"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Cafe": "imagenes/monturas/otras-marcas/om123.jpeg",
+    "Cafe": "imagenes/monturas/otras-marcas/om124.jpeg",
+},
+
+    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/otras-marcas/om123.jpeg",
+      "imagenes/monturas/otras-marcas/om124.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 298,
+
+    marca: "Ray-Ban",
+
+    nombre: "Ray-Ban Sol",
+
+    referencia: "RB042",
+
+    color: ["Verde", "Verde"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Verde": "imagenes/monturas/otras-marcas/om125.jpeg",
+    "Verde": "imagenes/monturas/otras-marcas/om126.jpeg",
+},
+
+    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/otras-marcas/om125.jpeg",
+      "imagenes/monturas/otras-marcas/om126.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 299,
+
+    marca: "Gucci",
+
+    nombre: "Gucci Sol",
+
+    referencia: "GU001",
+
+    color: ["Negro", "Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/otras-marcas/om101.jpeg",
+    "Negro": "imagenes/monturas/otras-marcas/om102.jpeg",
+},
+
+    categorias: ["gucci", "clasicas", "sol", "unisex", "hombre", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/otras-marcas/om101.jpeg",
+      "imagenes/monturas/otras-marcas/om102.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 300,
+
+    marca: "Gucci",
+
+    nombre: "Gucci Sol",
+
+    referencia: "GU002",
+
+    color: ["Negro", "Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/otras-marcas/om103.jpeg",
+    "Negro": "imagenes/monturas/otras-marcas/om104.jpeg",
+},
+
+    categorias: ["gucci", "clasicas", "sol", "unisex", "hombre", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/otras-marcas/om103.jpeg",
+      "imagenes/monturas/otras-marcas/om104.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 301,
+
+    marca: "Gucci",
+
+    nombre: "Gucci Sol",
+
+    referencia: "GU003",
+
+    color: ["Cafe", "Cafe"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Cafe": "imagenes/monturas/otras-marcas/om105.jpeg",
+    "Cafe": "imagenes/monturas/otras-marcas/om106.jpeg",
+},
+
+    categorias: ["gucci", "clasicas", "sol", "unisex", "hombre", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/otras-marcas/om105.jpeg",
+      "imagenes/monturas/otras-marcas/om106.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 302,
+
+    marca: "Miu Miu",
+
+    nombre: "Miu Miu Sol",
+
+    referencia: "MM001",
+
+    color: ["Rosa", "Rosa"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Rosa": "imagenes/monturas/otras-marcas/om107.jpeg",
+    "Rosa": "imagenes/monturas/otras-marcas/om108.jpeg",
+},
+
+    categorias: ["miumiu", "clasicas", "sol", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/otras-marcas/om107.jpeg",
+      "imagenes/monturas/otras-marcas/om108.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 303,
+
+    marca: "Miu Miu",
+
+    nombre: "Miu Miu Sol",
+
+    referencia: "MM002",
+
+    color: ["Beige", "Beige"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Beige": "imagenes/monturas/otras-marcas/om109.jpeg",
+    "Beige": "imagenes/monturas/otras-marcas/om110.jpeg",
+},
+
+    categorias: ["miumiu", "clasicas", "sol", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/otras-marcas/om109.jpeg",
+      "imagenes/monturas/otras-marcas/om110.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
 ];
