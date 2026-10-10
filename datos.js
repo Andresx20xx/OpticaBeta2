@@ -59,7 +59,7 @@ const monturas = [
       "imagenes/monturas/rayban/rb046.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -91,7 +91,7 @@ const monturas = [
       "imagenes/monturas/rayban/rb042.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -117,7 +117,7 @@ const monturas = [
       "imagenes/monturas/rayban/rb014.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -172,7 +172,7 @@ const monturas = [
       "imagenes/monturas/rayban/rb040.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -202,7 +202,7 @@ const monturas = [
       "imagenes/monturas/rayban/rb024.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -228,7 +228,7 @@ const monturas = [
       "imagenes/monturas/rayban/rb022.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -255,7 +255,7 @@ const monturas = [
       "imagenes/modelos/md011.jpeg"
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -281,7 +281,7 @@ const monturas = [
       "imagenes/monturas/rayban/rb026.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -307,7 +307,7 @@ const monturas = [
       "imagenes/monturas/rayban/rb030.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -333,7 +333,7 @@ const monturas = [
       "imagenes/monturas/rayban/rb034.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -359,7 +359,7 @@ const monturas = [
       "imagenes/monturas/rayban/rb036.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -385,7 +385,7 @@ const monturas = [
       "imagenes/monturas/rayban/rb048.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -411,7 +411,7 @@ const monturas = [
       "imagenes/monturas/oakley/ok002.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -437,7 +437,7 @@ const monturas = [
       "imagenes/monturas/oakley/ok004.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -463,7 +463,7 @@ const monturas = [
       "imagenes/monturas/oakley/ok006.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -489,7 +489,7 @@ const monturas = [
       "imagenes/monturas/oakley/ok008.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -522,7 +522,7 @@ const monturas = [
       "imagenes/monturas/oakley/ok010.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -548,7 +548,7 @@ const monturas = [
       "imagenes/monturas/oakley/ok012.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -575,7 +575,7 @@ const monturas = [
       "imagenes/modelos/md010.jpeg"
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -601,7 +601,7 @@ const monturas = [
       "imagenes/monturas/oakley/ok016.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -627,7 +627,7 @@ const monturas = [
       "imagenes/monturas/oakley/ok018.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -653,7 +653,7 @@ const monturas = [
       "imagenes/monturas/oakley/ok020.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -679,7 +679,7 @@ const monturas = [
       "imagenes/monturas/oakley/ok022.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -705,7 +705,7 @@ const monturas = [
       "imagenes/monturas/oakley/ok024.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -732,7 +732,7 @@ const monturas = [
       "imagenes/modelos/md015.jpeg"
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -758,7 +758,7 @@ const monturas = [
       "imagenes/monturas/oakley/ok028.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -784,7 +784,7 @@ const monturas = [
       "imagenes/monturas/oakley/ok030.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -810,7 +810,7 @@ const monturas = [
       "imagenes/monturas/oakley/ok032.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -837,7 +837,7 @@ const monturas = [
       "imagenes/modelos/md016.jpeg"
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -863,7 +863,7 @@ const monturas = [
       "imagenes/monturas/oakley/ok036.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -890,7 +890,7 @@ const monturas = [
       "imagenes/monturas/oakley/ok038.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -916,7 +916,7 @@ const monturas = [
       "imagenes/monturas/oakley/ok040.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -942,7 +942,7 @@ const monturas = [
       "imagenes/monturas/oakley/ok042.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -968,7 +968,7 @@ const monturas = [
       "imagenes/monturas/oakley/ok044.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -994,7 +994,7 @@ const monturas = [
       "imagenes/monturas/oakley/ok046.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -1020,7 +1020,7 @@ const monturas = [
       "imagenes/monturas/oakley/ok048.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -1098,7 +1098,7 @@ const monturas = [
       "imagenes/monturas/oakley/ok054.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -1124,7 +1124,7 @@ const monturas = [
       "imagenes/monturas/oakley/ok056.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -1150,7 +1150,7 @@ const monturas = [
       "imagenes/monturas/lacoste/lc002.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -1203,7 +1203,7 @@ const monturas = [
       "imagenes/modelos/md003.jpeg"
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -1230,7 +1230,7 @@ const monturas = [
       "imagenes/modelos/md002.jpeg"
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -1257,7 +1257,7 @@ const monturas = [
       "imagenes/modelos/md001.jpeg"
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -1283,7 +1283,7 @@ const monturas = [
       "imagenes/monturas/diesel/ds002.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -1335,7 +1335,7 @@ const monturas = [
       "imagenes/monturas/diesel/ds006.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -1361,7 +1361,7 @@ const monturas = [
       "imagenes/monturas/diesel/ds008.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -1387,7 +1387,7 @@ const monturas = [
       "imagenes/monturas/diesel/ds010.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -1439,7 +1439,7 @@ const monturas = [
       "imagenes/monturas/nike/nk004.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -1465,7 +1465,7 @@ const monturas = [
       "imagenes/monturas/nike/nk006.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -1491,7 +1491,7 @@ const monturas = [
       "imagenes/monturas/nike/nk008.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -1517,7 +1517,7 @@ const monturas = [
       "imagenes/monturas/tommy/tm002.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -1543,7 +1543,7 @@ const monturas = [
       "imagenes/monturas/tommy/tm004.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -1569,7 +1569,7 @@ const monturas = [
       "imagenes/monturas/tommy/tm006.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -1595,7 +1595,7 @@ const monturas = [
       "imagenes/monturas/tommy/tm008.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -1621,7 +1621,7 @@ const monturas = [
       "imagenes/monturas/wanderth/wd002.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -1647,7 +1647,7 @@ const monturas = [
       "imagenes/monturas/wanderth/wd004.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -1674,7 +1674,7 @@ const monturas = [
       "imagenes/modelos/md007.jpeg"
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -1700,7 +1700,7 @@ const monturas = [
       "imagenes/monturas/wanderth/wd008.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -1733,7 +1733,7 @@ const monturas = [
       "imagenes/monturas/wanderth/wd010.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -1759,7 +1759,7 @@ const monturas = [
       "imagenes/monturas/wanderth/wd012.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -1811,7 +1811,7 @@ const monturas = [
       "imagenes/monturas/prada/pd002.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -1837,7 +1837,7 @@ const monturas = [
       "imagenes/monturas/prada/pd004.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -1863,7 +1863,7 @@ const monturas = [
       "imagenes/monturas/prada/pd006.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -1889,7 +1889,7 @@ const monturas = [
       "imagenes/monturas/prada/pd008.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -1915,7 +1915,7 @@ const monturas = [
       "imagenes/monturas/prada/pd010.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -1941,7 +1941,7 @@ const monturas = [
       "imagenes/monturas/prada/pd012.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -1968,7 +1968,7 @@ const monturas = [
       "imagenes/modelos/md009.jpeg"
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2047,7 +2047,7 @@ const monturas = [
       "imagenes/modelos/md006.jpeg"
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2073,7 +2073,7 @@ const monturas = [
       "imagenes/monturas/prada/pd022.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2099,7 +2099,7 @@ const monturas = [
       "imagenes/monturas/prada/pd024.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2109,7 +2109,7 @@ const monturas = [
 
     nombre: "Christian Dior",
 
-    referencia: "CD001",
+    referencia: "OM001",
 
     color: ["Carey"],
 
@@ -2125,7 +2125,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om002.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2135,7 +2135,7 @@ const monturas = [
 
     nombre: "Hugo Boss",
 
-    referencia: "HB001",
+    referencia: "OM002",
 
     color: ["metalico"],
 
@@ -2151,7 +2151,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om004.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2161,7 +2161,7 @@ const monturas = [
 
     nombre: "Dolce & Gabbana Cafe",
 
-    referencia: "DG001",
+    referencia: "OM003",
 
     color: ["Cafe"],
 
@@ -2177,7 +2177,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om006.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2187,7 +2187,7 @@ const monturas = [
 
     nombre: "Philipp Plein Negro",
 
-    referencia: "PP001",
+    referencia: "OM004",
 
     color: ["Negro"],
 
@@ -2203,7 +2203,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om008.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2213,7 +2213,7 @@ const monturas = [
 
     nombre: "Chrome Hearts",
 
-    referencia: "CR001",
+    referencia: "OM005",
 
     color: ["Cristal"],
 
@@ -2229,7 +2229,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om010.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2239,7 +2239,7 @@ const monturas = [
 
     nombre: "Burberry",
 
-    referencia: "BU001",
+    referencia: "OM006",
 
     color: ["Carey"],
 
@@ -2255,7 +2255,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om012.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2265,7 +2265,7 @@ const monturas = [
 
     nombre: "Burberry Negro",
 
-    referencia: "BU002",
+    referencia: "OM007",
 
     color: ["Negro"],
 
@@ -2281,7 +2281,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om014.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2291,7 +2291,7 @@ const monturas = [
 
     nombre: "Miu Miu Negro",
 
-    referencia: "MM001",
+    referencia: "OM008",
 
     color: ["Negro"],
 
@@ -2307,7 +2307,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om016.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2317,7 +2317,7 @@ const monturas = [
 
     nombre: "Michael Kors",
 
-    referencia: "MK001",
+    referencia: "OM009",
 
     color: ["Carey"],
 
@@ -2333,7 +2333,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om018.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2343,7 +2343,7 @@ const monturas = [
 
     nombre: "Michael Kors",
 
-    referencia: "MK002",
+    referencia: "OM010",
 
     color: ["Carey"],
 
@@ -2359,7 +2359,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om020.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2369,7 +2369,7 @@ const monturas = [
 
     nombre: "Michael Kors",
 
-    referencia: "MK003",
+    referencia: "OM011",
 
     color: ["Carey"],
 
@@ -2385,7 +2385,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om022.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2395,7 +2395,7 @@ const monturas = [
 
     nombre: "Bvlgari",
 
-    referencia: "BV001",
+    referencia: "OM012",
 
     color: ["Carey"],
 
@@ -2411,7 +2411,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om024.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2421,7 +2421,7 @@ const monturas = [
 
     nombre: "Versace",
 
-    referencia: "VS001",
+    referencia: "OM013",
 
     color: ["Carey"],
 
@@ -2437,7 +2437,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om026.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2447,7 +2447,7 @@ const monturas = [
 
     nombre: "Hugo Boss",
 
-    referencia: "HB002",
+    referencia: "OM014",
 
     color: ["Gris Humo"],
 
@@ -2463,7 +2463,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om028.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2473,7 +2473,7 @@ const monturas = [
 
     nombre: "Puma Verde",
 
-    referencia: "PM001",
+    referencia: "OM015",
 
     color: ["Verde"],
 
@@ -2489,7 +2489,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om030.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2499,7 +2499,7 @@ const monturas = [
 
     nombre: "Puma Gris",
 
-    referencia: "PM002",
+    referencia: "OM016",
 
     color: ["Gris"],
 
@@ -2515,7 +2515,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om032.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2525,7 +2525,7 @@ const monturas = [
 
     nombre: "Tiffany & Co Negro",
 
-    referencia: "TF001",
+    referencia: "OM017",
 
     color: ["Negro"],
 
@@ -2541,7 +2541,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om034.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2551,7 +2551,7 @@ const monturas = [
 
     nombre: "Gucci",
 
-    referencia: "GU001",
+    referencia: "OM018",
 
     color: ["Carey"],
 
@@ -2567,7 +2567,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om036.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2577,7 +2577,7 @@ const monturas = [
 
     nombre: "Gucci Dorado",
 
-    referencia: "GU002",
+    referencia: "OM019",
 
     color: ["Dorado"],
 
@@ -2593,7 +2593,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om038.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2603,7 +2603,7 @@ const monturas = [
 
     nombre: "Gucci",
 
-    referencia: "GU003",
+    referencia: "OM020",
 
     color: ["Carey"],
 
@@ -2620,7 +2620,7 @@ const monturas = [
       "imagenes/modelos/md004.jpeg"
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2630,7 +2630,7 @@ const monturas = [
 
     nombre: "Gucci Rosa",
 
-    referencia: "GU004",
+    referencia: "OM021",
 
     color: ["Rosa"],
 
@@ -2646,7 +2646,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om042.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2656,7 +2656,7 @@ const monturas = [
 
     nombre: "Nasa",
 
-    referencia: "NS001",
+    referencia: "OM022",
 
     color: ["Blanca-azul"],
 
@@ -2672,7 +2672,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om044.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2682,7 +2682,7 @@ const monturas = [
 
     nombre: "Montblanc Negro",
 
-    referencia: "MB001",
+    referencia: "OM023",
 
     color: ["Negro"],
 
@@ -2698,7 +2698,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om046.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2708,7 +2708,7 @@ const monturas = [
 
     nombre: "Versace",
 
-    referencia: "VS002",
+    referencia: "OM024",
 
     color: ["Carey"],
 
@@ -2724,7 +2724,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om048.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2734,7 +2734,7 @@ const monturas = [
 
     nombre: "Chanel Rojo",
 
-    referencia: "CN001",
+    referencia: "OM025",
 
     color: ["Rojo"],
 
@@ -2750,7 +2750,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om050.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2760,7 +2760,7 @@ const monturas = [
 
     nombre: "Christian Dior",
 
-    referencia: "CD002",
+    referencia: "OM026",
 
     color: ["Carey"],
 
@@ -2776,7 +2776,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om052.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2786,7 +2786,7 @@ const monturas = [
 
     nombre: "Christian Dior Rojo",
 
-    referencia: "CD003",
+    referencia: "OM027",
 
     color: ["Rojo"],
 
@@ -2802,7 +2802,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om054.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2812,7 +2812,7 @@ const monturas = [
 
     nombre: "Celine",
 
-    referencia: "CE001",
+    referencia: "OM028",
 
     color: ["Carey"],
 
@@ -2829,7 +2829,7 @@ const monturas = [
       "imagenes/modelos/md012.jpeg"
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2839,7 +2839,7 @@ const monturas = [
 
     nombre: "Calvin Klein Verde",
 
-    referencia: "CK001",
+    referencia: "OM029",
 
     color: ["Verde"],
 
@@ -2855,7 +2855,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om058.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2865,7 +2865,7 @@ const monturas = [
 
     nombre: "Dolce & Gabbana Negro",
 
-    referencia: "DG002",
+    referencia: "OM030",
 
     color: ["Negro"],
 
@@ -2881,7 +2881,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om060.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2891,7 +2891,7 @@ const monturas = [
 
     nombre: "Marc Jacobs Negro",
 
-    referencia: "MJ001",
+    referencia: "OM031",
 
     color: ["Negro"],
 
@@ -2907,7 +2907,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om062.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2934,7 +2934,7 @@ const monturas = [
       "imagenes/modelos/md005.jpeg"
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2960,7 +2960,7 @@ const monturas = [
       "imagenes/monturas/cartier/ca004.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -2986,7 +2986,7 @@ const monturas = [
       "imagenes/monturas/cartier/ca006.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3012,7 +3012,7 @@ const monturas = [
       "imagenes/monturas/cartier/ca008.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3038,7 +3038,7 @@ const monturas = [
       "imagenes/monturas/cartier/ca010.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3064,7 +3064,7 @@ const monturas = [
       "imagenes/monturas/cartier/ca012.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3091,7 +3091,7 @@ const monturas = [
       "imagenes/modelos/md008.jpeg"
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3117,7 +3117,7 @@ const monturas = [
       "imagenes/monturas/cartier/ca016.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3169,7 +3169,7 @@ const monturas = [
       "imagenes/monturas/cartier/ca020.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3195,7 +3195,7 @@ const monturas = [
       "imagenes/monturas/cartier/ca022.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3221,7 +3221,7 @@ const monturas = [
       "imagenes/monturas/cartier/ca024.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3248,7 +3248,7 @@ const monturas = [
       "imagenes/modelos/md014.jpeg"
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3274,7 +3274,7 @@ const monturas = [
       "imagenes/monturas/cartier/ca028.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3300,7 +3300,7 @@ const monturas = [
       "imagenes/monturas/cartier/ca030.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3326,7 +3326,7 @@ const monturas = [
       "imagenes/monturas/cartier/ca032.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3352,7 +3352,7 @@ const monturas = [
       "imagenes/monturas/cartier/ca034.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3378,7 +3378,7 @@ const monturas = [
       "imagenes/monturas/cartier/ca036.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3404,7 +3404,7 @@ const monturas = [
       "imagenes/monturas/cartier/ca038.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3430,7 +3430,7 @@ const monturas = [
       "imagenes/monturas/cartier/ca040.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3440,7 +3440,7 @@ const monturas = [
 
     nombre: "Nasa Gris",
 
-    referencia: "NS002",
+    referencia: "OM032",
 
     color: ["Gris"],
 
@@ -3456,7 +3456,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om064.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3466,7 +3466,7 @@ const monturas = [
 
     nombre: "Nasa Azul",
 
-    referencia: "NS003",
+    referencia: "OM033",
 
     color: ["Azul"],
 
@@ -3482,7 +3482,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om066.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3508,7 +3508,7 @@ const monturas = [
       "imagenes/monturas/hombre/oe002.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3534,7 +3534,7 @@ const monturas = [
       "imagenes/monturas/hombre/oe004.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3560,7 +3560,7 @@ const monturas = [
       "imagenes/monturas/hombre/oe006.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3586,7 +3586,7 @@ const monturas = [
       "imagenes/monturas/hombre/oe008.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3612,7 +3612,7 @@ const monturas = [
       "imagenes/monturas/hombre/oe010.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3638,7 +3638,7 @@ const monturas = [
       "imagenes/monturas/hombre/oe012.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3664,7 +3664,7 @@ const monturas = [
       "imagenes/monturas/hombre/oe014.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3690,7 +3690,7 @@ const monturas = [
       "imagenes/monturas/hombre/oe016.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3716,7 +3716,7 @@ const monturas = [
       "imagenes/monturas/hombre/oe018.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3742,7 +3742,7 @@ const monturas = [
       "imagenes/monturas/hombre/oe020.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3768,7 +3768,7 @@ const monturas = [
       "imagenes/monturas/hombre/oe022.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3794,7 +3794,7 @@ const monturas = [
       "imagenes/monturas/hombre/oe024.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3820,7 +3820,7 @@ const monturas = [
       "imagenes/monturas/hombre/oe026.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3846,7 +3846,7 @@ const monturas = [
       "imagenes/monturas/hombre/oe028.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3872,7 +3872,7 @@ const monturas = [
       "imagenes/monturas/hombre/oe030.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3898,7 +3898,7 @@ const monturas = [
       "imagenes/monturas/hombre/oe032.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3924,7 +3924,7 @@ const monturas = [
       "imagenes/monturas/hombre/oe034.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3950,7 +3950,7 @@ const monturas = [
       "imagenes/monturas/hombre/oe036.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -3976,7 +3976,7 @@ const monturas = [
       "imagenes/monturas/hombre/oe038.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4002,7 +4002,7 @@ const monturas = [
       "imagenes/monturas/hombre/oe040.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4028,7 +4028,7 @@ const monturas = [
       "imagenes/monturas/hombre/oe042.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4054,7 +4054,7 @@ const monturas = [
       "imagenes/monturas/hombre/oe044.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4080,7 +4080,7 @@ const monturas = [
       "imagenes/monturas/hombre/oe046.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4106,7 +4106,7 @@ const monturas = [
       "imagenes/monturas/hombre/oe048.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4132,7 +4132,7 @@ const monturas = [
       "imagenes/monturas/hombre/oe050.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4158,7 +4158,7 @@ const monturas = [
       "imagenes/monturas/hombre/oe052.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4184,7 +4184,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey002.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4210,7 +4210,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey004.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4236,7 +4236,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey006.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4262,7 +4262,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey008.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4288,7 +4288,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey010.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4314,7 +4314,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey012.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4340,7 +4340,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey014.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4366,7 +4366,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey016.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4392,7 +4392,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey018.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4418,7 +4418,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey020.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4444,7 +4444,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey022.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4470,7 +4470,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey024.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4496,7 +4496,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey026.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4522,7 +4522,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey028.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4548,7 +4548,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey030.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4574,7 +4574,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey032.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4600,7 +4600,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey034.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4626,7 +4626,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey036.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4652,7 +4652,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey038.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4678,7 +4678,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey040.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4704,7 +4704,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey042.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4730,7 +4730,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey044.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4756,7 +4756,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey046.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4782,7 +4782,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey048.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4808,7 +4808,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey050.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4834,7 +4834,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey052.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4860,7 +4860,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey054.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4886,7 +4886,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey056.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4912,7 +4912,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey058.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4938,7 +4938,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey060.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4964,7 +4964,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey062.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -4990,7 +4990,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey064.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -5016,7 +5016,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey066.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -5042,7 +5042,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey068.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -5068,7 +5068,7 @@ const monturas = [
       "imagenes/monturas/mujer/ey070.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -5094,7 +5094,7 @@ const monturas = [
       "imagenes/monturas/niños/nñ002.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -5120,7 +5120,7 @@ const monturas = [
       "imagenes/monturas/niños/nñ004.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -5146,7 +5146,7 @@ const monturas = [
       "imagenes/monturas/niños/nñ006.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -5172,7 +5172,7 @@ const monturas = [
       "imagenes/monturas/niños/nñ008.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -5198,7 +5198,7 @@ const monturas = [
       "imagenes/monturas/niños/nñ010.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -5224,7 +5224,7 @@ const monturas = [
       "imagenes/monturas/niños/nñ012.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -5250,7 +5250,7 @@ const monturas = [
       "imagenes/monturas/niños/nñ014.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -5276,7 +5276,7 @@ const monturas = [
       "imagenes/monturas/niños/nñ016.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -5302,7 +5302,7 @@ const monturas = [
       "imagenes/monturas/niños/nñ018.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -5328,7 +5328,7 @@ const monturas = [
       "imagenes/monturas/niños/nñ020.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -5354,7 +5354,7 @@ const monturas = [
       "imagenes/monturas/niños/nñ022.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -5380,7 +5380,7 @@ const monturas = [
       "imagenes/monturas/niños/nñ024.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -5406,7 +5406,7 @@ const monturas = [
       "imagenes/monturas/niños/nñ026.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -5432,7 +5432,7 @@ const monturas = [
       "imagenes/monturas/niños/nñ028.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -5458,7 +5458,7 @@ const monturas = [
       "imagenes/monturas/niños/nñ030.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -5484,7 +5484,7 @@ const monturas = [
       "imagenes/monturas/niños/nñ032.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -5565,7 +5565,7 @@ const monturas = [
       "imagenes/monturas/ciclismo/cc002.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -5591,7 +5591,7 @@ const monturas = [
       "imagenes/monturas/ciclismo/cc004.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -5617,7 +5617,7 @@ const monturas = [
       "imagenes/monturas/ciclismo/cc006.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -5643,7 +5643,7 @@ const monturas = [
       "imagenes/monturas/ciclismo/cc008.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -5669,7 +5669,7 @@ const monturas = [
       "imagenes/monturas/ciclismo/cc010.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -5695,7 +5695,7 @@ const monturas = [
       "imagenes/monturas/ciclismo/cc012.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -5721,7 +5721,7 @@ const monturas = [
       "imagenes/monturas/ciclismo/cc014.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -5747,7 +5747,7 @@ const monturas = [
       "imagenes/monturas/ciclismo/cc016.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -5773,7 +5773,7 @@ const monturas = [
       "imagenes/monturas/sobrepuesto/sp002.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -5799,7 +5799,7 @@ const monturas = [
       "imagenes/monturas/sobrepuesto/sp004.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -5825,7 +5825,7 @@ const monturas = [
       "imagenes/monturas/sobrepuesto/sp006.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -5851,7 +5851,7 @@ const monturas = [
       "imagenes/monturas/sobrepuesto/sp008.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -5877,7 +5877,7 @@ const monturas = [
       "imagenes/monturas/sobrepuesto/sp010.jpeg",
     ],
 
-    estado: "Últimas unidades",
+    estado: "Disponible",
   },
 
   {
@@ -7733,7 +7733,7 @@ const monturas = [
 
     nombre: "Gucci Sol Negro",
 
-    referencia: "GU005",
+    referencia: "GU001",
 
     color: ["Negro"],
 
@@ -7758,7 +7758,7 @@ const monturas = [
 
     nombre: "Gucci Sol Negro",
 
-    referencia: "GU006",
+    referencia: "GU002",
 
     color: ["Negro"],
 
@@ -7783,7 +7783,7 @@ const monturas = [
 
     nombre: "Gucci Sol Cafe",
 
-    referencia: "GU007",
+    referencia: "GU003",
 
     color: ["Cafe"],
 
@@ -7808,7 +7808,7 @@ const monturas = [
 
     nombre: "Miu Miu Sol Rosa",
 
-    referencia: "MM002",
+    referencia: "MM001",
 
     color: ["Rosa"],
 
@@ -7833,7 +7833,7 @@ const monturas = [
 
     nombre: "Miu Miu Sol Beige",
 
-    referencia: "MM003",
+    referencia: "MM002",
 
     color: ["Beige"],
 
