@@ -73,3 +73,77 @@
   .hw-banner { font-size: 13px; padding: 8px 12px; }
   .hw-float span { font-size: 20px; }
 }
+
+/* --- Caricaturas --- */
+.hw-mascotas {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.hw-calabaza {
+  position: absolute;
+  left: 4%;
+  bottom: 6%;
+  width: 110px;
+  animation: hw-flota 4s ease-in-out infinite;
+  filter: drop-shadow(0 6px 12px rgba(255, 110, 0, 0.4));
+}
+
+.hw-fantasma {
+  position: absolute;
+  right: 5%;
+  top: 12%;
+  width: 82px;
+  animation: hw-flota 5s ease-in-out infinite reverse;
+  filter: drop-shadow(0 4px 10px rgba(255, 255, 255, 0.25));
+}
+
+@keyframes hw-flota {
+  0%, 100% { transform: translateY(0) rotate(-3deg); }
+  50% { transform: translateY(-16px) rotate(3deg); }
+}
+
+.hw-murcielago {
+  position: absolute;
+  top: 14px;
+  left: -140px;
+  width: 110px;
+  z-index: 3;
+  pointer-events: none;
+  animation: hw-vuela 9s linear infinite;
+}
+
+@keyframes hw-vuela {
+  0%   { left: -140px; transform: translateY(0); }
+  25%  { transform: translateY(-18px); }
+  50%  { transform: translateY(8px); }
+  75%  { transform: translateY(-12px); }
+  100% { left: 105%; transform: translateY(0); }
+}
+
+.cta-banner { position: relative; overflow: hidden; }
+
+.hw-espia {
+  position: fixed;
+  left: -14px;
+  bottom: -8px;
+  width: 74px;
+  z-index: 58;
+  pointer-events: none;
+  animation: hw-asoma 7s ease-in-out infinite;
+  filter: drop-shadow(2px -2px 6px rgba(0,0,0,0.35));
+}
+
+@keyframes hw-asoma {
+  0%, 100% { transform: translate(0, 26px) rotate(-8deg); }
+  50% { transform: translate(10px, 0) rotate(4deg); }
+}
+
+@media (max-width: 640px) {
+  .hw-calabaza { width: 72px; left: 2%; }
+  .hw-fantasma { width: 56px; right: 3%; }
+  .hw-murcielago { width: 76px; }
+  .hw-espia { width: 54px; }
+}
