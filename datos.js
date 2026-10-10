@@ -2107,7 +2107,7 @@ const monturas = [
 
     marca: "Christian Dior",
 
-    nombre: "Christian Dior Carey",
+    nombre: "Christian Dior",
 
     referencia: "OM001",
 
@@ -2133,7 +2133,7 @@ const monturas = [
 
     marca: "Hugo Boss",
 
-    nombre: "HUGO BOSS metalico",
+    nombre: "Hugo Boss",
 
     referencia: "OM002",
 
@@ -2185,7 +2185,7 @@ const monturas = [
 
     marca: "Philipp Plein",
 
-    nombre: "PHILIPP PLEIN Negro",
+    nombre: "Philipp Plein Negro",
 
     referencia: "OM004",
 
@@ -2211,7 +2211,7 @@ const monturas = [
 
     marca: "Chrome Hearts",
 
-    nombre: "Chromehearts Cristal",
+    nombre: "Chrome Hearts",
 
     referencia: "OM005",
 
@@ -2237,7 +2237,7 @@ const monturas = [
 
     marca: "Burberry",
 
-    nombre: "Burberry Carey",
+    nombre: "Burberry",
 
     referencia: "OM006",
 
@@ -2289,7 +2289,7 @@ const monturas = [
 
     marca: "Miu Miu",
 
-    nombre: "MIU-MIU Negro",
+    nombre: "Miu Miu Negro",
 
     referencia: "OM008",
 
@@ -2315,7 +2315,7 @@ const monturas = [
 
     marca: "Michael Kors",
 
-    nombre: "Michael Kors Carey",
+    nombre: "Michael Kors",
 
     referencia: "OM009",
 
@@ -2341,7 +2341,7 @@ const monturas = [
 
     marca: "Michael Kors",
 
-    nombre: "Michael Kors Carey",
+    nombre: "Michael Kors",
 
     referencia: "OM010",
 
@@ -2367,7 +2367,7 @@ const monturas = [
 
     marca: "Michael Kors",
 
-    nombre: "Michael Kors Carey",
+    nombre: "Michael Kors",
 
     referencia: "OM011",
 
@@ -2393,7 +2393,7 @@ const monturas = [
 
     marca: "Bvlgari",
 
-    nombre: "Bulgari Carey",
+    nombre: "Bvlgari",
 
     referencia: "OM012",
 
@@ -2419,7 +2419,7 @@ const monturas = [
 
     marca: "Versace",
 
-    nombre: "Versace Carey",
+    nombre: "Versace",
 
     referencia: "OM013",
 
@@ -2445,7 +2445,7 @@ const monturas = [
 
     marca: "Hugo Boss",
 
-    nombre: "HUGO BOSS Gris Humo",
+    nombre: "Hugo Boss",
 
     referencia: "OM014",
 
@@ -2471,7 +2471,7 @@ const monturas = [
 
     marca: "Puma",
 
-    nombre: "PUMA Verde",
+    nombre: "Puma Verde",
 
     referencia: "OM015",
 
@@ -2497,7 +2497,7 @@ const monturas = [
 
     marca: "Puma",
 
-    nombre: "PUMA Gris",
+    nombre: "Puma Gris",
 
     referencia: "OM016",
 
@@ -2549,7 +2549,7 @@ const monturas = [
 
     marca: "Gucci",
 
-    nombre: "GUCCI Carey",
+    nombre: "Gucci",
 
     referencia: "OM018",
 
@@ -2575,7 +2575,7 @@ const monturas = [
 
     marca: "Gucci",
 
-    nombre: "GUCCI Dorado",
+    nombre: "Gucci Dorado",
 
     referencia: "OM019",
 
@@ -2601,7 +2601,7 @@ const monturas = [
 
     marca: "Gucci",
 
-    nombre: "GUCCI Carey",
+    nombre: "Gucci",
 
     referencia: "OM020",
 
@@ -2628,7 +2628,7 @@ const monturas = [
 
     marca: "Gucci",
 
-    nombre: "GUCCI Rosa",
+    nombre: "Gucci Rosa",
 
     referencia: "OM021",
 
@@ -2654,7 +2654,7 @@ const monturas = [
 
     marca: "Nasa",
 
-    nombre: "NASA Blanca-azul",
+    nombre: "Nasa",
 
     referencia: "OM022",
 
@@ -2680,7 +2680,7 @@ const monturas = [
 
     marca: "Montblanc",
 
-    nombre: "Mount Blanc Negro",
+    nombre: "Montblanc Negro",
 
     referencia: "OM023",
 
@@ -2706,7 +2706,7 @@ const monturas = [
 
     marca: "Versace",
 
-    nombre: "Versace Carey",
+    nombre: "Versace",
 
     referencia: "OM024",
 
@@ -2732,7 +2732,7 @@ const monturas = [
 
     marca: "Chanel",
 
-    nombre: "CHANEL Rojo",
+    nombre: "Chanel Rojo",
 
     referencia: "OM025",
 
@@ -2758,7 +2758,7 @@ const monturas = [
 
     marca: "Christian Dior",
 
-    nombre: "Christian Dior Carey",
+    nombre: "Christian Dior",
 
     referencia: "OM026",
 
@@ -2810,7 +2810,7 @@ const monturas = [
 
     marca: "Celine",
 
-    nombre: "Celine Dion Carey",
+    nombre: "Celine",
 
     referencia: "OM028",
 
@@ -3438,7 +3438,7 @@ const monturas = [
 
     marca: "Nasa",
 
-    nombre: "NASA Gris",
+    nombre: "Nasa Gris",
 
     referencia: "OM032",
 
@@ -3464,7 +3464,7 @@ const monturas = [
 
     marca: "Nasa",
 
-    nombre: "NASA Azul",
+    nombre: "Nasa Azul",
 
     referencia: "OM033",
 
@@ -7536,19 +7536,17 @@ const monturas = [
 
     referencia: "RB035",
 
-    color: ["Verde", "Negro"],
+    color: ["Verde"],
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Verde": "imagenes/monturas/otras-marcas/om111.jpeg",
-    "Negro": "imagenes/monturas/otras-marcas/om112.jpeg",
 },
 
     categorias: ["ray-ban", "clasicas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om111.jpeg",
-      "imagenes/monturas/otras-marcas/om112.jpeg",
     ],
 
     estado: "Disponible",
@@ -7849,6 +7847,30 @@ const monturas = [
     imagenes: [
       "imagenes/monturas/otras-marcas/om109.jpeg",
       "imagenes/monturas/otras-marcas/om110.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 304,
+
+    marca: "Ray-Ban",
+
+    nombre: "Ray-Ban Sol Negro",
+
+    referencia: "RB043",
+
+    color: ["Negro"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Negro": "imagenes/monturas/otras-marcas/om112.jpeg",
+},
+
+    categorias: ["ray-ban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/otras-marcas/om112.jpeg",
     ],
 
     estado: "Disponible",
