@@ -7089,35 +7089,13 @@ const monturas = [
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Verde": "imagenes/monturas/rayban/rb031.jpeg",
-},
-
-    categorias: ["ray-ban", "clasicas", "sol", "unisex", "hombre", "mujer"],
-
-    imagenes: [
-      "imagenes/monturas/rayban/rb031.jpeg",
-    ],
-
-    estado: "Disponible",
-  },
-  {
-    id: 272,
-
-    marca: "Ray-Ban",
-
-    nombre: "Ray-Ban Sol Verde",
-
-    referencia: "RB016",
-
-    color: ["Verde"],
-
-    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
-    imagenesPorColor: {
     "Verde": "imagenes/monturas/rayban/rb032.jpeg",
 },
 
     categorias: ["ray-ban", "clasicas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
+      "imagenes/monturas/rayban/rb031.jpeg",
       "imagenes/monturas/rayban/rb032.jpeg",
     ],
 
@@ -7137,35 +7115,13 @@ const monturas = [
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Azul": "imagenes/monturas/rayban/rb043.jpeg",
-},
-
-    categorias: ["ray-ban", "clasicas", "sol", "unisex", "hombre", "mujer"],
-
-    imagenes: [
-      "imagenes/monturas/rayban/rb043.jpeg",
-    ],
-
-    estado: "Disponible",
-  },
-  {
-    id: 274,
-
-    marca: "Ray-Ban",
-
-    nombre: "Ray-Ban Sol Azul",
-
-    referencia: "RB018",
-
-    color: ["Azul"],
-
-    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
-    imagenesPorColor: {
     "Azul": "imagenes/monturas/rayban/rb044.jpeg",
 },
 
     categorias: ["ray-ban", "clasicas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
+      "imagenes/monturas/rayban/rb043.jpeg",
       "imagenes/monturas/rayban/rb044.jpeg",
     ],
 
