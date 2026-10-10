@@ -7536,17 +7536,19 @@ const monturas = [
 
     referencia: "RB035",
 
-    color: ["Verde"],
+    color: ["Verde", "Negro"],
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Verde": "imagenes/monturas/otras-marcas/om111.jpeg",
+    "Negro": "imagenes/monturas/otras-marcas/om112.jpeg",
 },
 
     categorias: ["ray-ban", "clasicas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om111.jpeg",
+      "imagenes/monturas/otras-marcas/om112.jpeg",
     ],
 
     estado: "Disponible",
@@ -7847,30 +7849,6 @@ const monturas = [
     imagenes: [
       "imagenes/monturas/otras-marcas/om109.jpeg",
       "imagenes/monturas/otras-marcas/om110.jpeg",
-    ],
-
-    estado: "Disponible",
-  },
-  {
-    id: 304,
-
-    marca: "Ray-Ban",
-
-    nombre: "Ray-Ban Sol",
-
-    referencia: "RB043",
-
-    color: ["Negro"],
-
-    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
-    imagenesPorColor: {
-    "Negro": "imagenes/monturas/otras-marcas/om112.jpeg",
-},
-
-    categorias: ["ray-ban", "clasicas", "sol", "unisex", "hombre", "mujer"],
-
-    imagenes: [
-      "imagenes/monturas/otras-marcas/om112.jpeg",
     ],
 
     estado: "Disponible",
