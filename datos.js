@@ -2105,7 +2105,7 @@ const monturas = [
   {
     id: 79,
 
-    marca: "Otras marcas",
+    marca: "Christian Dior",
 
     nombre: "Christian Dior",
 
@@ -2118,7 +2118,7 @@ const monturas = [
     "Carey": "imagenes/monturas/otras-marcas/om001.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "hombre", "mujer", "unisex"],
+    categorias: ["christian dior", "oftalmica", "hombre", "mujer", "unisex"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om001.jpeg",
@@ -2131,7 +2131,7 @@ const monturas = [
   {
     id: 80,
 
-    marca: "Otras marcas",
+    marca: "Hugo Boss",
 
     nombre: "HUGO BOSS",
 
@@ -2144,7 +2144,7 @@ const monturas = [
     "metalico": "imagenes/monturas/otras-marcas/om003.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "hombre"],
+    categorias: ["hugo boss", "oftalmica", "hombre"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om003.jpeg",
@@ -2157,7 +2157,7 @@ const monturas = [
   {
     id: 81,
 
-    marca: "Otras marcas",
+    marca: "Dolce & Gabbana",
 
     nombre: "Dolce & Gabbana",
 
@@ -2170,7 +2170,7 @@ const monturas = [
     "Cafe": "imagenes/monturas/otras-marcas/om005.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "mujer"],
+    categorias: ["dolce & gabbana", "oftalmica", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om005.jpeg",
@@ -2183,7 +2183,7 @@ const monturas = [
   {
     id: 82,
 
-    marca: "Otras marcas",
+    marca: "Philipp Plein",
 
     nombre: "PHILIPP PLEIN",
 
@@ -2196,7 +2196,7 @@ const monturas = [
     "Negro": "imagenes/monturas/otras-marcas/om007.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "hombre"],
+    categorias: ["philipp plein", "oftalmica", "hombre"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om007.jpeg",
@@ -2209,7 +2209,7 @@ const monturas = [
   {
     id: 83,
 
-    marca: "Otras marcas",
+    marca: "Chrome Hearts",
 
     nombre: "Chromehearts",
 
@@ -2222,7 +2222,7 @@ const monturas = [
     "Cristal": "imagenes/monturas/otras-marcas/om009.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "hombre"],
+    categorias: ["chrome hearts", "oftalmica", "hombre"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om009.jpeg",
@@ -2235,7 +2235,7 @@ const monturas = [
   {
     id: 84,
 
-    marca: "Otras marcas",
+    marca: "Burberry",
 
     nombre: "Burberry",
 
@@ -2248,7 +2248,7 @@ const monturas = [
     "Carey": "imagenes/monturas/otras-marcas/om011.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "mujer"],
+    categorias: ["burberry", "oftalmica", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om011.jpeg",
@@ -2261,7 +2261,7 @@ const monturas = [
   {
     id: 85,
 
-    marca: "Otras marcas",
+    marca: "Burberry",
 
     nombre: "Burberry",
 
@@ -2274,7 +2274,7 @@ const monturas = [
     "Negro": "imagenes/monturas/otras-marcas/om013.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "mujer"],
+    categorias: ["burberry", "oftalmica", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om013.jpeg",
@@ -2287,7 +2287,7 @@ const monturas = [
   {
     id: 86,
 
-    marca: "Otras marcas",
+    marca: "Miu Miu",
 
     nombre: "MIU-MIU",
 
@@ -2300,7 +2300,7 @@ const monturas = [
     "Negro": "imagenes/monturas/otras-marcas/om015.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "mujer"],
+    categorias: ["miu miu", "oftalmica", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om015.jpeg",
@@ -2313,7 +2313,7 @@ const monturas = [
   {
     id: 87,
 
-    marca: "Otras marcas",
+    marca: "Michael Kors",
 
     nombre: "Michael Kors",
 
@@ -2326,7 +2326,7 @@ const monturas = [
     "Carey": "imagenes/monturas/otras-marcas/om017.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "mujer"],
+    categorias: ["michael kors", "oftalmica", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om017.jpeg",
@@ -2339,7 +2339,7 @@ const monturas = [
   {
     id: 88,
 
-    marca: "Otras marcas",
+    marca: "Michael Kors",
 
     nombre: "Michael Kors",
 
@@ -2352,7 +2352,7 @@ const monturas = [
     "Carey": "imagenes/monturas/otras-marcas/om019.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "mujer"],
+    categorias: ["michael kors", "oftalmica", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om019.jpeg",
@@ -2365,7 +2365,7 @@ const monturas = [
   {
     id: 89,
 
-    marca: "Otras marcas",
+    marca: "Michael Kors",
 
     nombre: "Michael Kors",
 
@@ -2378,7 +2378,7 @@ const monturas = [
     "Carey": "imagenes/monturas/otras-marcas/om021.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "mujer"],
+    categorias: ["michael kors", "oftalmica", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om021.jpeg",
@@ -2391,7 +2391,7 @@ const monturas = [
   {
     id: 90,
 
-    marca: "Otras marcas",
+    marca: "Bvlgari",
 
     nombre: "Bulgari",
 
@@ -2404,7 +2404,7 @@ const monturas = [
     "Carey": "imagenes/monturas/otras-marcas/om023.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "mujer"],
+    categorias: ["bvlgari", "oftalmica", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om023.jpeg",
@@ -2417,7 +2417,7 @@ const monturas = [
   {
     id: 91,
 
-    marca: "Otras marcas",
+    marca: "Versace",
 
     nombre: "Versace",
 
@@ -2430,7 +2430,7 @@ const monturas = [
     "Carey": "imagenes/monturas/otras-marcas/om025.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "mujer"],
+    categorias: ["versace", "oftalmica", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om025.jpeg",
@@ -2443,7 +2443,7 @@ const monturas = [
   {
     id: 92,
 
-    marca: "Otras marcas",
+    marca: "Hugo Boss",
 
     nombre: "HUGO BOSS",
 
@@ -2456,7 +2456,7 @@ const monturas = [
     "Gris Humo": "imagenes/monturas/otras-marcas/om027.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "hombre"],
+    categorias: ["hugo boss", "oftalmica", "hombre"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om027.jpeg",
@@ -2469,7 +2469,7 @@ const monturas = [
   {
     id: 93,
 
-    marca: "Otras marcas",
+    marca: "Puma",
 
     nombre: "PUMA",
 
@@ -2482,7 +2482,7 @@ const monturas = [
     "Verde": "imagenes/monturas/otras-marcas/om029.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "deportivas", "hombre"],
+    categorias: ["puma", "oftalmica", "deportivas", "hombre"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om029.jpeg",
@@ -2495,7 +2495,7 @@ const monturas = [
   {
     id: 94,
 
-    marca: "Otras marcas",
+    marca: "Puma",
 
     nombre: "PUMA",
 
@@ -2508,7 +2508,7 @@ const monturas = [
     "Gris": "imagenes/monturas/otras-marcas/om031.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "deportivas", "hombre"],
+    categorias: ["puma", "oftalmica", "deportivas", "hombre"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om031.jpeg",
@@ -2521,7 +2521,7 @@ const monturas = [
   {
     id: 95,
 
-    marca: "Otras marcas",
+    marca: "Tiffany & Co",
 
     nombre: "Tiffany & Co",
 
@@ -2534,7 +2534,7 @@ const monturas = [
     "Negro": "imagenes/monturas/otras-marcas/om033.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "mujer"],
+    categorias: ["tiffany & co", "oftalmica", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om033.jpeg",
@@ -2547,7 +2547,7 @@ const monturas = [
   {
     id: 96,
 
-    marca: "Otras marcas",
+    marca: "Gucci",
 
     nombre: "GUCCI",
 
@@ -2560,7 +2560,7 @@ const monturas = [
     "Carey": "imagenes/monturas/otras-marcas/om035.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "mujer"],
+    categorias: ["gucci", "oftalmica", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om035.jpeg",
@@ -2573,7 +2573,7 @@ const monturas = [
   {
     id: 97,
 
-    marca: "Otras marcas",
+    marca: "Gucci",
 
     nombre: "GUCCI",
 
@@ -2586,7 +2586,7 @@ const monturas = [
     "Dorado": "imagenes/monturas/otras-marcas/om037.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "unisex", "hombre", "mujer"],
+    categorias: ["gucci", "oftalmica", "unisex", "hombre", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om037.jpeg",
@@ -2599,7 +2599,7 @@ const monturas = [
   {
     id: 98,
 
-    marca: "Otras marcas",
+    marca: "Gucci",
 
     nombre: "GUCCI",
 
@@ -2612,7 +2612,7 @@ const monturas = [
     "Carey": "imagenes/monturas/otras-marcas/om039.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "mujer"],
+    categorias: ["gucci", "oftalmica", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om039.jpeg",
@@ -2626,7 +2626,7 @@ const monturas = [
   {
     id: 99,
 
-    marca: "Otras marcas",
+    marca: "Gucci",
 
     nombre: "GUCCI",
 
@@ -2639,7 +2639,7 @@ const monturas = [
     "Rosa": "imagenes/monturas/otras-marcas/om041.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "mujer"],
+    categorias: ["gucci", "oftalmica", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om041.jpeg",
@@ -2652,7 +2652,7 @@ const monturas = [
   {
     id: 100,
 
-    marca: "Otras marcas",
+    marca: "Nasa",
 
     nombre: "NASA",
 
@@ -2665,7 +2665,7 @@ const monturas = [
     "Blanca-azul": "imagenes/monturas/otras-marcas/om043.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "unisex", "hombre", "mujer"],
+    categorias: ["nasa", "oftalmica", "unisex", "hombre", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om043.jpeg",
@@ -2678,7 +2678,7 @@ const monturas = [
   {
     id: 101,
 
-    marca: "Otras marcas",
+    marca: "Montblanc",
 
     nombre: "Mount Blanc",
 
@@ -2691,7 +2691,7 @@ const monturas = [
     "Negro": "imagenes/monturas/otras-marcas/om045.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "hombre"],
+    categorias: ["montblanc", "oftalmica", "hombre"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om045.jpeg",
@@ -2704,7 +2704,7 @@ const monturas = [
   {
     id: 102,
 
-    marca: "Otras marcas",
+    marca: "Versace",
 
     nombre: "Versace",
 
@@ -2717,7 +2717,7 @@ const monturas = [
     "Carey": "imagenes/monturas/otras-marcas/om047.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "mujer"],
+    categorias: ["versace", "oftalmica", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om047.jpeg",
@@ -2730,7 +2730,7 @@ const monturas = [
   {
     id: 103,
 
-    marca: "Otras marcas",
+    marca: "Chanel",
 
     nombre: "CHANEL",
 
@@ -2743,7 +2743,7 @@ const monturas = [
     "Rojo": "imagenes/monturas/otras-marcas/om049.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "mujer"],
+    categorias: ["chanel", "oftalmica", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om049.jpeg",
@@ -2756,7 +2756,7 @@ const monturas = [
   {
     id: 104,
 
-    marca: "Otras marcas",
+    marca: "Christian Dior",
 
     nombre: "Christian Dior",
 
@@ -2769,7 +2769,7 @@ const monturas = [
     "Carey": "imagenes/monturas/otras-marcas/om051.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "mujer"],
+    categorias: ["christian dior", "oftalmica", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om051.jpeg",
@@ -2782,7 +2782,7 @@ const monturas = [
   {
     id: 105,
 
-    marca: "Otras marcas",
+    marca: "Christian Dior",
 
     nombre: "Christian Dior",
 
@@ -2795,7 +2795,7 @@ const monturas = [
     "Rojo": "imagenes/monturas/otras-marcas/om053.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "mujer"],
+    categorias: ["christian dior", "oftalmica", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om053.jpeg",
@@ -2808,7 +2808,7 @@ const monturas = [
   {
     id: 106,
 
-    marca: "Otras marcas",
+    marca: "Celine",
 
     nombre: "Celine Dion",
 
@@ -2821,7 +2821,7 @@ const monturas = [
     "Carey": "imagenes/monturas/otras-marcas/om055.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "mujer"],
+    categorias: ["celine", "oftalmica", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om055.jpeg",
@@ -2835,7 +2835,7 @@ const monturas = [
   {
     id: 107,
 
-    marca: "Otras marcas",
+    marca: "Calvin Klein",
 
     nombre: "Calvin Klein",
 
@@ -2848,7 +2848,7 @@ const monturas = [
     "Verde": "imagenes/monturas/otras-marcas/om057.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "hombre"],
+    categorias: ["calvin klein", "oftalmica", "hombre"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om057.jpeg",
@@ -2861,7 +2861,7 @@ const monturas = [
   {
     id: 108,
 
-    marca: "Otras marcas",
+    marca: "Dolce & Gabbana",
 
     nombre: "Dolce & Gabbana",
 
@@ -2874,7 +2874,7 @@ const monturas = [
     "Negro": "imagenes/monturas/otras-marcas/om059.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "Mujer"],
+    categorias: ["dolce & gabbana", "oftalmica", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om059.jpeg",
@@ -2887,7 +2887,7 @@ const monturas = [
   {
     id: 109,
 
-    marca: "Otras marcas",
+    marca: "Marc Jacobs",
 
     nombre: "Marc Jacobs",
 
@@ -2900,7 +2900,7 @@ const monturas = [
     "Negro": "imagenes/monturas/otras-marcas/om061.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "hombre"],
+    categorias: ["marc jacobs", "oftalmica", "hombre"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om061.jpeg",
@@ -3436,7 +3436,7 @@ const monturas = [
   {
     id: 131,
 
-    marca: "Otras marcas",
+    marca: "Nasa",
 
     nombre: "NASA",
 
@@ -3449,7 +3449,7 @@ const monturas = [
     "Gris": "imagenes/monturas/otras-marcas/om063.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "hombre"],
+    categorias: ["nasa", "oftalmica", "hombre"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om063.jpeg",
@@ -3462,7 +3462,7 @@ const monturas = [
   {
     id: 132,
 
-    marca: "Otras marcas",
+    marca: "Nasa",
 
     nombre: "NASA",
 
@@ -3475,7 +3475,7 @@ const monturas = [
     "Azul": "imagenes/monturas/otras-marcas/om065.jpeg"
 },
 
-    categorias: ["otras marcas", "oftalmica", "hombre"],
+    categorias: ["nasa", "oftalmica", "hombre"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om065.jpeg",
