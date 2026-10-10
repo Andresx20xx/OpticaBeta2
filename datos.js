@@ -17,7 +17,7 @@ const monturas = [
     "Carey": "imagenes/monturas/rayban/rb027.jpeg"
 },
 
-    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+    categorias: ["ray-ban", "clasicas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
       "imagenes/monturas/rayban/rb001.jpeg",
@@ -48,7 +48,7 @@ const monturas = [
     "Carey": "imagenes/monturas/rayban/rb009.jpeg"
 },
 
-    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+    categorias: ["ray-ban", "clasicas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
       "imagenes/monturas/rayban/rb005.jpeg",
@@ -80,7 +80,7 @@ const monturas = [
     "Rojo": "imagenes/monturas/rayban/rb041.jpeg"
 },
 
-    categorias: ["rayban", "deportivas", "unisex", "hombre", "mujer", "sol"],
+    categorias: ["ray-ban", "deportivas", "unisex", "hombre", "mujer", "sol"],
 
     imagenes: [
       "imagenes/monturas/rayban/rb007.jpeg",
@@ -110,7 +110,7 @@ const monturas = [
     "Carey": "imagenes/monturas/rayban/rb013.jpeg"
 },
 
-    categorias: ["rayban", "deportivas", "mujer", "sol"],
+    categorias: ["ray-ban", "deportivas", "mujer", "sol"],
 
     imagenes: [
       "imagenes/monturas/rayban/rb013.jpeg",
@@ -136,7 +136,7 @@ const monturas = [
     "Negro": "imagenes/monturas/rayban/rb015.jpeg"
 },
 
-    categorias: ["rayban", "clasicas", "unisex", "hombre", "mujer", "sol"],
+    categorias: ["ray-ban", "clasicas", "unisex", "hombre", "mujer", "sol"],
 
     imagenes: [
       "imagenes/monturas/rayban/rb015.jpeg",
@@ -163,7 +163,7 @@ const monturas = [
     "Negro": "imagenes/monturas/rayban/rb039.jpeg"
 },
 
-    categorias: ["rayban", "deportivas", "sol", "unisex", "hombre", "mujer"],
+    categorias: ["ray-ban", "deportivas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
       "imagenes/monturas/rayban/rb017.jpeg",
@@ -192,7 +192,7 @@ const monturas = [
     "Cafe": "imagenes/modelos/md013.jpeg"
 },
 
-    categorias: ["rayban", "deportivas", "unisex", "hombre", "mujer", "sol"],
+    categorias: ["ray-ban", "deportivas", "unisex", "hombre", "mujer", "sol"],
 
     imagenes: [
       "imagenes/monturas/rayban/rb019.jpeg",
@@ -221,7 +221,7 @@ const monturas = [
     "Dorado": "imagenes/monturas/rayban/rb021.jpeg"
 },
 
-    categorias: ["rayban", "deportivas", "unisex", "hombre", "mujer", "sol"],
+    categorias: ["ray-ban", "deportivas", "unisex", "hombre", "mujer", "sol"],
 
     imagenes: [
       "imagenes/monturas/rayban/rb021.jpeg",
@@ -247,7 +247,7 @@ const monturas = [
     "Gris": "imagenes/monturas/rayban/rb037.jpeg"
 },
 
-    categorias: ["rayban", "deportivas", "unisex", "hombre", "mujer", "sol"],
+    categorias: ["ray-ban", "deportivas", "unisex", "hombre", "mujer", "sol"],
 
     imagenes: [
       "imagenes/monturas/rayban/rb037.jpeg",
@@ -274,7 +274,7 @@ const monturas = [
     "Negro": "imagenes/monturas/rayban/rb025.jpeg"
 },
 
-    categorias: ["rayban", "deportivas", "unisex", "hombre", "mujer", "sol"],
+    categorias: ["ray-ban", "deportivas", "unisex", "hombre", "mujer", "sol"],
 
     imagenes: [
       "imagenes/monturas/rayban/rb025.jpeg",
@@ -300,7 +300,7 @@ const monturas = [
     "Negro": "imagenes/monturas/rayban/rb029.jpeg"
 },
 
-    categorias: ["rayban", "deportivas", "unisex", "hombre", "mujer", "sol"],
+    categorias: ["ray-ban", "deportivas", "unisex", "hombre", "mujer", "sol"],
 
     imagenes: [
       "imagenes/monturas/rayban/rb029.jpeg",
@@ -326,7 +326,7 @@ const monturas = [
     "Negro": "imagenes/monturas/rayban/rb033.jpeg"
 },
 
-    categorias: ["rayban", "deportivas", "unisex", "hombre", "mujer", "sol"],
+    categorias: ["ray-ban", "deportivas", "unisex", "hombre", "mujer", "sol"],
 
     imagenes: [
       "imagenes/monturas/rayban/rb033.jpeg",
@@ -352,7 +352,7 @@ const monturas = [
     "Carey": "imagenes/monturas/rayban/rb035.jpeg"
 },
 
-    categorias: ["rayban", "deportivas", "unisex", "hombre", "mujer", "sol"],
+    categorias: ["ray-ban", "deportivas", "unisex", "hombre", "mujer", "sol"],
 
     imagenes: [
       "imagenes/monturas/rayban/rb035.jpeg",
@@ -378,7 +378,7 @@ const monturas = [
     "Dorado": "imagenes/monturas/rayban/rb047.jpeg"
 },
 
-    categorias: ["rayban", "deportivas", "unisex", "mujer", "hombre", "sol"],
+    categorias: ["ray-ban", "deportivas", "unisex", "mujer", "hombre", "sol"],
 
     imagenes: [
       "imagenes/monturas/rayban/rb047.jpeg",
@@ -7091,7 +7091,7 @@ const monturas = [
     "Verde": "imagenes/monturas/rayban/rb031.jpeg",
 },
 
-    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+    categorias: ["ray-ban", "clasicas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
       "imagenes/monturas/rayban/rb031.jpeg",
@@ -7115,7 +7115,7 @@ const monturas = [
     "Verde": "imagenes/monturas/rayban/rb032.jpeg",
 },
 
-    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+    categorias: ["ray-ban", "clasicas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
       "imagenes/monturas/rayban/rb032.jpeg",
@@ -7139,7 +7139,7 @@ const monturas = [
     "Azul": "imagenes/monturas/rayban/rb043.jpeg",
 },
 
-    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+    categorias: ["ray-ban", "clasicas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
       "imagenes/monturas/rayban/rb043.jpeg",
@@ -7163,7 +7163,7 @@ const monturas = [
     "Azul": "imagenes/monturas/rayban/rb044.jpeg",
 },
 
-    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+    categorias: ["ray-ban", "clasicas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
       "imagenes/monturas/rayban/rb044.jpeg",
@@ -7180,15 +7180,14 @@ const monturas = [
 
     referencia: "RB019",
 
-    color: ["Traslucido", "Traslucido"],
+    color: ["Traslucido"],
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Traslucido": "imagenes/monturas/otras-marcas/om069.jpeg",
-    "Traslucido": "imagenes/monturas/otras-marcas/om070.jpeg",
 },
 
-    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+    categorias: ["ray-ban", "clasicas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om069.jpeg",
@@ -7206,15 +7205,14 @@ const monturas = [
 
     referencia: "RB020",
 
-    color: ["Azul", "Azul"],
+    color: ["Azul"],
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Azul": "imagenes/monturas/otras-marcas/om071.jpeg",
-    "Azul": "imagenes/monturas/otras-marcas/om072.jpeg",
 },
 
-    categorias: ["rayban", "deportivas", "sol", "unisex", "hombre", "mujer"],
+    categorias: ["ray-ban", "deportivas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om071.jpeg",
@@ -7232,15 +7230,14 @@ const monturas = [
 
     referencia: "RB021",
 
-    color: ["Cafe", "Cafe"],
+    color: ["Cafe"],
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Cafe": "imagenes/monturas/otras-marcas/om073.jpeg",
-    "Cafe": "imagenes/monturas/otras-marcas/om074.jpeg",
 },
 
-    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+    categorias: ["ray-ban", "clasicas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om073.jpeg",
@@ -7258,15 +7255,14 @@ const monturas = [
 
     referencia: "RB022",
 
-    color: ["Cafe", "Cafe"],
+    color: ["Cafe"],
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Cafe": "imagenes/monturas/otras-marcas/om075.jpeg",
-    "Cafe": "imagenes/monturas/otras-marcas/om076.jpeg",
 },
 
-    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+    categorias: ["ray-ban", "clasicas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om075.jpeg",
@@ -7284,15 +7280,14 @@ const monturas = [
 
     referencia: "RB023",
 
-    color: ["Gris", "Gris"],
+    color: ["Gris"],
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Gris": "imagenes/monturas/otras-marcas/om077.jpeg",
-    "Gris": "imagenes/monturas/otras-marcas/om078.jpeg",
 },
 
-    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+    categorias: ["ray-ban", "clasicas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om077.jpeg",
@@ -7310,15 +7305,14 @@ const monturas = [
 
     referencia: "RB024",
 
-    color: ["Cafe", "Cafe"],
+    color: ["Cafe"],
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Cafe": "imagenes/monturas/otras-marcas/om079.jpeg",
-    "Cafe": "imagenes/monturas/otras-marcas/om080.jpeg",
 },
 
-    categorias: ["rayban", "clasicas", "sol", "mujer"],
+    categorias: ["ray-ban", "clasicas", "sol", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om079.jpeg",
@@ -7336,15 +7330,14 @@ const monturas = [
 
     referencia: "RB025",
 
-    color: ["Beige", "Beige"],
+    color: ["Beige"],
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Beige": "imagenes/monturas/otras-marcas/om081.jpeg",
-    "Beige": "imagenes/monturas/otras-marcas/om082.jpeg",
 },
 
-    categorias: ["rayban", "clasicas", "sol", "mujer"],
+    categorias: ["ray-ban", "clasicas", "sol", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om081.jpeg",
@@ -7362,15 +7355,14 @@ const monturas = [
 
     referencia: "RB026",
 
-    color: ["Gris", "Gris"],
+    color: ["Gris"],
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Gris": "imagenes/monturas/otras-marcas/om083.jpeg",
-    "Gris": "imagenes/monturas/otras-marcas/om084.jpeg",
 },
 
-    categorias: ["rayban", "deportivas", "sol", "unisex", "hombre", "mujer"],
+    categorias: ["ray-ban", "deportivas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om083.jpeg",
@@ -7388,15 +7380,14 @@ const monturas = [
 
     referencia: "RB027",
 
-    color: ["Blanco", "Blanco"],
+    color: ["Blanco"],
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Blanco": "imagenes/monturas/otras-marcas/om085.jpeg",
-    "Blanco": "imagenes/monturas/otras-marcas/om086.jpeg",
 },
 
-    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+    categorias: ["ray-ban", "clasicas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om085.jpeg",
@@ -7414,15 +7405,14 @@ const monturas = [
 
     referencia: "RB028",
 
-    color: ["Cafe", "Cafe"],
+    color: ["Cafe"],
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Cafe": "imagenes/monturas/otras-marcas/om087.jpeg",
-    "Cafe": "imagenes/monturas/otras-marcas/om088.jpeg",
 },
 
-    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+    categorias: ["ray-ban", "clasicas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om087.jpeg",
@@ -7440,15 +7430,14 @@ const monturas = [
 
     referencia: "RB029",
 
-    color: ["Negro", "Negro"],
+    color: ["Negro"],
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Negro": "imagenes/monturas/otras-marcas/om089.jpeg",
-    "Negro": "imagenes/monturas/otras-marcas/om090.jpeg",
 },
 
-    categorias: ["rayban", "clasicas", "sol", "mujer"],
+    categorias: ["ray-ban", "clasicas", "sol", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om089.jpeg",
@@ -7466,15 +7455,14 @@ const monturas = [
 
     referencia: "RB030",
 
-    color: ["Gris", "Gris"],
+    color: ["Gris"],
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Gris": "imagenes/monturas/otras-marcas/om091.jpeg",
-    "Gris": "imagenes/monturas/otras-marcas/om092.jpeg",
 },
 
-    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+    categorias: ["ray-ban", "clasicas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om091.jpeg",
@@ -7492,15 +7480,14 @@ const monturas = [
 
     referencia: "RB031",
 
-    color: ["Blanco", "Blanco"],
+    color: ["Blanco"],
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Blanco": "imagenes/monturas/otras-marcas/om093.jpeg",
-    "Blanco": "imagenes/monturas/otras-marcas/om094.jpeg",
 },
 
-    categorias: ["rayban", "clasicas", "sol", "mujer"],
+    categorias: ["ray-ban", "clasicas", "sol", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om093.jpeg",
@@ -7518,15 +7505,14 @@ const monturas = [
 
     referencia: "RB032",
 
-    color: ["Blanco", "Blanco"],
+    color: ["Blanco"],
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Blanco": "imagenes/monturas/otras-marcas/om095.jpeg",
-    "Blanco": "imagenes/monturas/otras-marcas/om096.jpeg",
 },
 
-    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+    categorias: ["ray-ban", "clasicas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om095.jpeg",
@@ -7544,15 +7530,14 @@ const monturas = [
 
     referencia: "RB033",
 
-    color: ["Negro", "Negro"],
+    color: ["Negro"],
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Negro": "imagenes/monturas/otras-marcas/om097.jpeg",
-    "Negro": "imagenes/monturas/otras-marcas/om098.jpeg",
 },
 
-    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+    categorias: ["ray-ban", "clasicas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om097.jpeg",
@@ -7570,15 +7555,14 @@ const monturas = [
 
     referencia: "RB034",
 
-    color: ["Negro", "Negro"],
+    color: ["Negro"],
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Negro": "imagenes/monturas/otras-marcas/om099.jpeg",
-    "Negro": "imagenes/monturas/otras-marcas/om100.jpeg",
 },
 
-    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+    categorias: ["ray-ban", "clasicas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om099.jpeg",
@@ -7604,7 +7588,7 @@ const monturas = [
     "Negro": "imagenes/monturas/otras-marcas/om112.jpeg",
 },
 
-    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+    categorias: ["ray-ban", "clasicas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om111.jpeg",
@@ -7622,15 +7606,14 @@ const monturas = [
 
     referencia: "RB036",
 
-    color: ["Negro", "Negro"],
+    color: ["Negro"],
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Negro": "imagenes/monturas/otras-marcas/om113.jpeg",
-    "Negro": "imagenes/monturas/otras-marcas/om114.jpeg",
 },
 
-    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+    categorias: ["ray-ban", "clasicas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om113.jpeg",
@@ -7648,15 +7631,14 @@ const monturas = [
 
     referencia: "RB037",
 
-    color: ["Gris", "Gris"],
+    color: ["Gris"],
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Gris": "imagenes/monturas/otras-marcas/om115.jpeg",
-    "Gris": "imagenes/monturas/otras-marcas/om116.jpeg",
 },
 
-    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+    categorias: ["ray-ban", "clasicas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om115.jpeg",
@@ -7674,15 +7656,14 @@ const monturas = [
 
     referencia: "RB038",
 
-    color: ["Azul", "Azul"],
+    color: ["Azul"],
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Azul": "imagenes/monturas/otras-marcas/om117.jpeg",
-    "Azul": "imagenes/monturas/otras-marcas/om118.jpeg",
 },
 
-    categorias: ["rayban", "deportivas", "sol", "unisex", "hombre", "mujer"],
+    categorias: ["ray-ban", "deportivas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om117.jpeg",
@@ -7700,15 +7681,14 @@ const monturas = [
 
     referencia: "RB039",
 
-    color: ["Gris", "Gris"],
+    color: ["Gris"],
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Gris": "imagenes/monturas/otras-marcas/om119.jpeg",
-    "Gris": "imagenes/monturas/otras-marcas/om120.jpeg",
 },
 
-    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+    categorias: ["ray-ban", "clasicas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om119.jpeg",
@@ -7726,15 +7706,14 @@ const monturas = [
 
     referencia: "RB040",
 
-    color: ["Negro", "Negro"],
+    color: ["Negro"],
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Negro": "imagenes/monturas/otras-marcas/om121.jpeg",
-    "Negro": "imagenes/monturas/otras-marcas/om122.jpeg",
 },
 
-    categorias: ["rayban", "deportivas", "sol", "unisex", "hombre", "mujer"],
+    categorias: ["ray-ban", "deportivas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om121.jpeg",
@@ -7752,15 +7731,14 @@ const monturas = [
 
     referencia: "RB041",
 
-    color: ["Cafe", "Cafe"],
+    color: ["Cafe"],
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Cafe": "imagenes/monturas/otras-marcas/om123.jpeg",
-    "Cafe": "imagenes/monturas/otras-marcas/om124.jpeg",
 },
 
-    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+    categorias: ["ray-ban", "clasicas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om123.jpeg",
@@ -7778,15 +7756,14 @@ const monturas = [
 
     referencia: "RB042",
 
-    color: ["Verde", "Verde"],
+    color: ["Verde"],
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Verde": "imagenes/monturas/otras-marcas/om125.jpeg",
-    "Verde": "imagenes/monturas/otras-marcas/om126.jpeg",
 },
 
-    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+    categorias: ["ray-ban", "clasicas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om125.jpeg",
@@ -7804,12 +7781,11 @@ const monturas = [
 
     referencia: "GU001",
 
-    color: ["Negro", "Negro"],
+    color: ["Negro"],
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Negro": "imagenes/monturas/otras-marcas/om101.jpeg",
-    "Negro": "imagenes/monturas/otras-marcas/om102.jpeg",
 },
 
     categorias: ["gucci", "clasicas", "sol", "unisex", "hombre", "mujer"],
@@ -7830,12 +7806,11 @@ const monturas = [
 
     referencia: "GU002",
 
-    color: ["Negro", "Negro"],
+    color: ["Negro"],
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Negro": "imagenes/monturas/otras-marcas/om103.jpeg",
-    "Negro": "imagenes/monturas/otras-marcas/om104.jpeg",
 },
 
     categorias: ["gucci", "clasicas", "sol", "unisex", "hombre", "mujer"],
@@ -7856,12 +7831,11 @@ const monturas = [
 
     referencia: "GU003",
 
-    color: ["Cafe", "Cafe"],
+    color: ["Cafe"],
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Cafe": "imagenes/monturas/otras-marcas/om105.jpeg",
-    "Cafe": "imagenes/monturas/otras-marcas/om106.jpeg",
 },
 
     categorias: ["gucci", "clasicas", "sol", "unisex", "hombre", "mujer"],
@@ -7882,15 +7856,14 @@ const monturas = [
 
     referencia: "MM001",
 
-    color: ["Rosa", "Rosa"],
+    color: ["Rosa"],
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Rosa": "imagenes/monturas/otras-marcas/om107.jpeg",
-    "Rosa": "imagenes/monturas/otras-marcas/om108.jpeg",
 },
 
-    categorias: ["miumiu", "clasicas", "sol", "mujer"],
+    categorias: ["miu miu", "clasicas", "sol", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om107.jpeg",
@@ -7908,15 +7881,14 @@ const monturas = [
 
     referencia: "MM002",
 
-    color: ["Beige", "Beige"],
+    color: ["Beige"],
 
     // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
     imagenesPorColor: {
     "Beige": "imagenes/monturas/otras-marcas/om109.jpeg",
-    "Beige": "imagenes/monturas/otras-marcas/om110.jpeg",
 },
 
-    categorias: ["miumiu", "clasicas", "sol", "mujer"],
+    categorias: ["miu miu", "clasicas", "sol", "mujer"],
 
     imagenes: [
       "imagenes/monturas/otras-marcas/om109.jpeg",
