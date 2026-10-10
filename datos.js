@@ -7075,4 +7075,100 @@ const monturas = [
 
     estado: "Disponible",
   },
+  {
+    id: 271,
+
+    marca: "Ray-Ban",
+
+    nombre: "Ray-Ban Sol",
+
+    referencia: "RB015",
+
+    color: ["Verde"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Verde": "imagenes/monturas/rayban/rb031.jpeg",
+},
+
+    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/rayban/rb031.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 272,
+
+    marca: "Ray-Ban",
+
+    nombre: "Ray-Ban Sol",
+
+    referencia: "RB016",
+
+    color: ["Verde"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Verde": "imagenes/monturas/rayban/rb032.jpeg",
+},
+
+    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/rayban/rb032.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 273,
+
+    marca: "Ray-Ban",
+
+    nombre: "Ray-Ban Sol",
+
+    referencia: "RB017",
+
+    color: ["Azul"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/rayban/rb043.jpeg",
+},
+
+    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/rayban/rb043.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 274,
+
+    marca: "Ray-Ban",
+
+    nombre: "Ray-Ban Sol",
+
+    referencia: "RB018",
+
+    color: ["Azul"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Azul": "imagenes/monturas/rayban/rb044.jpeg",
+},
+
+    categorias: ["rayban", "clasicas", "sol", "unisex", "hombre", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/rayban/rb044.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
 ];
