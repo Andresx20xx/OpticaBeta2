@@ -1369,7 +1369,7 @@ const monturas = [
 
     marca: "Diesel",
 
-    nombre: "Diesel Traslucido rojo",
+    nombre: "Diesel",
 
     referencia: "DS005",
 
@@ -1421,7 +1421,7 @@ const monturas = [
 
     marca: "Nike",
 
-    nombre: "Nike Traslucido rojo",
+    nombre: "Nike",
 
     referencia: "NK002",
 
@@ -2109,7 +2109,7 @@ const monturas = [
 
     nombre: "Christian Dior",
 
-    referencia: "OM001",
+    referencia: "CD001",
 
     color: ["Carey"],
 
@@ -2135,7 +2135,7 @@ const monturas = [
 
     nombre: "Hugo Boss",
 
-    referencia: "OM002",
+    referencia: "HB001",
 
     color: ["metalico"],
 
@@ -2161,7 +2161,7 @@ const monturas = [
 
     nombre: "Dolce & Gabbana",
 
-    referencia: "OM003",
+    referencia: "DG001",
 
     color: ["Cafe"],
 
@@ -2187,7 +2187,7 @@ const monturas = [
 
     nombre: "Philipp Plein",
 
-    referencia: "OM004",
+    referencia: "PP001",
 
     color: ["Negro"],
 
@@ -2213,7 +2213,7 @@ const monturas = [
 
     nombre: "Chrome Hearts",
 
-    referencia: "OM005",
+    referencia: "CR001",
 
     color: ["Cristal"],
 
@@ -2239,7 +2239,7 @@ const monturas = [
 
     nombre: "Burberry",
 
-    referencia: "OM006",
+    referencia: "BU001",
 
     color: ["Carey"],
 
@@ -2265,7 +2265,7 @@ const monturas = [
 
     nombre: "Burberry",
 
-    referencia: "OM007",
+    referencia: "BU002",
 
     color: ["Negro"],
 
@@ -2291,7 +2291,7 @@ const monturas = [
 
     nombre: "Miu Miu",
 
-    referencia: "OM008",
+    referencia: "MM001",
 
     color: ["Negro"],
 
@@ -2317,7 +2317,7 @@ const monturas = [
 
     nombre: "Michael Kors",
 
-    referencia: "OM009",
+    referencia: "MK001",
 
     color: ["Carey"],
 
@@ -2343,7 +2343,7 @@ const monturas = [
 
     nombre: "Michael Kors",
 
-    referencia: "OM010",
+    referencia: "MK002",
 
     color: ["Carey"],
 
@@ -2369,7 +2369,7 @@ const monturas = [
 
     nombre: "Michael Kors",
 
-    referencia: "OM011",
+    referencia: "MK003",
 
     color: ["Carey"],
 
@@ -2395,7 +2395,7 @@ const monturas = [
 
     nombre: "Bvlgari",
 
-    referencia: "OM012",
+    referencia: "BV001",
 
     color: ["Carey"],
 
@@ -2421,7 +2421,7 @@ const monturas = [
 
     nombre: "Versace",
 
-    referencia: "OM013",
+    referencia: "VS001",
 
     color: ["Carey"],
 
@@ -2447,7 +2447,7 @@ const monturas = [
 
     nombre: "Hugo Boss",
 
-    referencia: "OM014",
+    referencia: "HB002",
 
     color: ["Gris Humo"],
 
@@ -2473,7 +2473,7 @@ const monturas = [
 
     nombre: "Puma",
 
-    referencia: "OM015",
+    referencia: "PM001",
 
     color: ["Verde"],
 
@@ -2499,7 +2499,7 @@ const monturas = [
 
     nombre: "Puma",
 
-    referencia: "OM016",
+    referencia: "PM002",
 
     color: ["Gris"],
 
@@ -2525,7 +2525,7 @@ const monturas = [
 
     nombre: "Tiffany & Co",
 
-    referencia: "OM017",
+    referencia: "TF001",
 
     color: ["Negro"],
 
@@ -2551,7 +2551,7 @@ const monturas = [
 
     nombre: "Gucci",
 
-    referencia: "OM018",
+    referencia: "GU001",
 
     color: ["Carey"],
 
@@ -2577,7 +2577,7 @@ const monturas = [
 
     nombre: "Gucci",
 
-    referencia: "OM019",
+    referencia: "GU002",
 
     color: ["Dorado"],
 
@@ -2603,7 +2603,7 @@ const monturas = [
 
     nombre: "Gucci",
 
-    referencia: "OM020",
+    referencia: "GU003",
 
     color: ["Carey"],
 
@@ -2630,7 +2630,7 @@ const monturas = [
 
     nombre: "Gucci",
 
-    referencia: "OM021",
+    referencia: "GU004",
 
     color: ["Rosa"],
 
@@ -2656,7 +2656,7 @@ const monturas = [
 
     nombre: "Nasa",
 
-    referencia: "OM022",
+    referencia: "NS001",
 
     color: ["Blanca-azul"],
 
@@ -2682,7 +2682,7 @@ const monturas = [
 
     nombre: "Montblanc",
 
-    referencia: "OM023",
+    referencia: "MB001",
 
     color: ["Negro"],
 
@@ -2708,7 +2708,7 @@ const monturas = [
 
     nombre: "Versace",
 
-    referencia: "OM024",
+    referencia: "VS002",
 
     color: ["Carey"],
 
@@ -2734,7 +2734,7 @@ const monturas = [
 
     nombre: "Chanel",
 
-    referencia: "OM025",
+    referencia: "CN001",
 
     color: ["Rojo"],
 
@@ -2760,7 +2760,7 @@ const monturas = [
 
     nombre: "Christian Dior",
 
-    referencia: "OM026",
+    referencia: "CD002",
 
     color: ["Carey"],
 
@@ -2786,7 +2786,7 @@ const monturas = [
 
     nombre: "Christian Dior",
 
-    referencia: "OM027",
+    referencia: "CD003",
 
     color: ["Rojo"],
 
@@ -2812,7 +2812,7 @@ const monturas = [
 
     nombre: "Celine",
 
-    referencia: "OM028",
+    referencia: "CE001",
 
     color: ["Carey"],
 
@@ -2839,7 +2839,7 @@ const monturas = [
 
     nombre: "Calvin Klein",
 
-    referencia: "OM029",
+    referencia: "CK001",
 
     color: ["Verde"],
 
@@ -2865,7 +2865,7 @@ const monturas = [
 
     nombre: "Dolce & Gabbana",
 
-    referencia: "OM030",
+    referencia: "DG002",
 
     color: ["Negro"],
 
@@ -2891,7 +2891,7 @@ const monturas = [
 
     nombre: "Marc Jacobs",
 
-    referencia: "OM031",
+    referencia: "MJ001",
 
     color: ["Negro"],
 
@@ -3440,7 +3440,7 @@ const monturas = [
 
     nombre: "Nasa",
 
-    referencia: "OM032",
+    referencia: "NS002",
 
     color: ["Gris"],
 
@@ -3466,7 +3466,7 @@ const monturas = [
 
     nombre: "Nasa",
 
-    referencia: "OM033",
+    referencia: "NS003",
 
     color: ["Azul"],
 
@@ -7735,7 +7735,7 @@ const monturas = [
 
     nombre: "Gucci Sol",
 
-    referencia: "GU001",
+    referencia: "GU005",
 
     color: ["Negro"],
 
@@ -7760,7 +7760,7 @@ const monturas = [
 
     nombre: "Gucci Sol",
 
-    referencia: "GU002",
+    referencia: "GU006",
 
     color: ["Negro"],
 
@@ -7785,7 +7785,7 @@ const monturas = [
 
     nombre: "Gucci Sol",
 
-    referencia: "GU003",
+    referencia: "GU007",
 
     color: ["Cafe"],
 
@@ -7810,7 +7810,7 @@ const monturas = [
 
     nombre: "Miu Miu Sol",
 
-    referencia: "MM001",
+    referencia: "MM002",
 
     color: ["Rosa"],
 
@@ -7835,7 +7835,7 @@ const monturas = [
 
     nombre: "Miu Miu Sol",
 
-    referencia: "MM002",
+    referencia: "MM003",
 
     color: ["Beige"],
 
