@@ -1,0 +1,88 @@
+/* 🎄 Navidad: tema temporal — quitar después de enero */
+
+/* Franja navideña superior */
+.nv-banner {
+  background: linear-gradient(90deg, #0b3d2e 0%, #14532d 45%, #7f1d1d 100%);
+  color: #fde68a;
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+  padding: 0.65rem 1rem;
+  position: relative;
+  z-index: 101;
+}
+
+.nv-banner .nv-sub {
+  display: block;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #fef3c7;
+  opacity: 0.9;
+  margin-top: 0.15rem;
+}
+
+/* Nieve cayendo sobre toda la página (sin bloquear clics) */
+.nv-nieve {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 90;
+  overflow: hidden;
+}
+
+.nv-nieve span {
+  position: absolute;
+  top: -2rem;
+  color: #ffffff;
+  opacity: 0.85;
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.6);
+  animation: nv-caer linear infinite;
+}
+
+.nv-nieve span:nth-child(1) { left: 3%; font-size: 14px; animation-duration: 11s; animation-delay: 0s; }
+.nv-nieve span:nth-child(2) { left: 11%; font-size: 20px; animation-duration: 15s; animation-delay: 2s; }
+.nv-nieve span:nth-child(3) { left: 19%; font-size: 12px; animation-duration: 9s; animation-delay: 4s; }
+.nv-nieve span:nth-child(4) { left: 27%; font-size: 18px; animation-duration: 13s; animation-delay: 1s; }
+.nv-nieve span:nth-child(5) { left: 36%; font-size: 14px; animation-duration: 10s; animation-delay: 3s; }
+.nv-nieve span:nth-child(6) { left: 44%; font-size: 22px; animation-duration: 16s; animation-delay: 0.5s; }
+.nv-nieve span:nth-child(7) { left: 53%; font-size: 13px; animation-duration: 9.5s; animation-delay: 5s; }
+.nv-nieve span:nth-child(8) { left: 61%; font-size: 19px; animation-duration: 14s; animation-delay: 1.5s; }
+.nv-nieve span:nth-child(9) { left: 69%; font-size: 15px; animation-duration: 11.5s; animation-delay: 2.5s; }
+.nv-nieve span:nth-child(10) { left: 77%; font-size: 21px; animation-duration: 15.5s; animation-delay: 0s; }
+.nv-nieve span:nth-child(11) { left: 86%; font-size: 13px; animation-duration: 10s; animation-delay: 4.5s; }
+.nv-nieve span:nth-child(12) { left: 94%; font-size: 17px; animation-duration: 12.5s; animation-delay: 3.5s; }
+
+@keyframes nv-caer {
+  0% { transform: translateY(0) translateX(0) rotate(0deg); }
+  100% { transform: translateY(105vh) translateX(3vw) rotate(180deg); }
+}
+
+/* Arbolito decorativo en el hero */
+.nv-arbol {
+  position: absolute;
+  right: 4%;
+  bottom: 6%;
+  width: 130px;
+  z-index: 2;
+  opacity: 0.95;
+  filter: drop-shadow(0 10px 24px rgba(0, 0, 0, 0.35));
+  animation: nv-balanceo 5s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+
+@keyframes nv-balanceo {
+  0%, 100% { transform: rotate(-1.5deg); }
+  50% { transform: rotate(1.5deg); }
+}
+
+@media (max-width: 768px) {
+  .nv-arbol { display: none; }
+  .nv-banner { font-size: 0.85rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nv-nieve span,
+  .nv-arbol { animation: none; }
+}
