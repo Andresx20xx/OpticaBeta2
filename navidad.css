@@ -146,12 +146,13 @@
   50% { transform: rotate(1.5deg); }
 }
 
+/* En el teléfono también se ven, más chiquitos para no tapar el contenido */
 @media (max-width: 900px) {
-  .nv-arbol,
-  .nv-santa,
-  .nv-muneco,
-  .nv-reno,
-  .nv-regalos { display: none; }
+  .nv-arbol { width: 72px; right: 2%; bottom: 3%; }
+  .nv-santa { width: 66px; left: 2%; bottom: 3%; }
+  .nv-muneco { width: 58px; left: 2%; bottom: 4%; }
+  .nv-reno { width: 64px; right: 2%; bottom: 4%; }
+  .nv-regalos { width: 62px; right: 2%; bottom: 8px; }
 }
 
 @media (max-width: 560px) {
