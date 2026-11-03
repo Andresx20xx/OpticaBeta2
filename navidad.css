@@ -1,26 +1,50 @@
 /* 🎄 Navidad: tema temporal — quitar después de enero */
 
-/* Franja navideña superior */
+/* Franja navideña FIJA arriba de todo (el sitio ya tiene topbar + header fijos) */
 .nv-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 44px;
+  z-index: 102;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
   background: linear-gradient(90deg, #0b3d2e 0%, #14532d 45%, #7f1d1d 100%);
   color: #fde68a;
-  text-align: center;
   font-family: "Manrope", sans-serif;
   font-weight: 800;
   font-size: 0.95rem;
   letter-spacing: 0.02em;
-  padding: 0.65rem 1rem;
-  position: relative;
-  z-index: 101;
+  padding: 0 1rem;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .nv-banner .nv-sub {
-  display: block;
   font-weight: 600;
   font-size: 0.8rem;
   color: #fef3c7;
   opacity: 0.9;
-  margin-top: 0.15rem;
+}
+
+/* Desplazar la pila fija del sitio (topbar 36px + header) debajo de la franja */
+.topbar {
+  top: 44px;
+}
+
+.topbar.oculta {
+  transform: translateY(calc(-100% - 44px));
+}
+
+.header {
+  top: 80px;
+}
+
+.header.encogido {
+  top: 44px;
 }
 
 /* Nieve cayendo sobre toda la página (sin bloquear clics) */
@@ -59,17 +83,62 @@
   100% { transform: translateY(105vh) translateX(3vw) rotate(180deg); }
 }
 
-/* Arbolito decorativo en el hero */
-.nv-arbol {
+/* Muñecos decorativos (ocultos en móvil y sin animación si se pide menos movimiento) */
+.nv-arbol,
+.nv-santa,
+.nv-muneco,
+.nv-reno,
+.nv-regalos {
   position: absolute;
+  z-index: 2;
+  pointer-events: none;
+  filter: drop-shadow(0 10px 24px rgba(0, 0, 0, 0.35));
+}
+
+.nv-arbol {
   right: 4%;
   bottom: 6%;
   width: 130px;
-  z-index: 2;
   opacity: 0.95;
-  filter: drop-shadow(0 10px 24px rgba(0, 0, 0, 0.35));
   animation: nv-balanceo 5s ease-in-out infinite;
   transform-origin: bottom center;
+}
+
+.nv-santa {
+  left: 3%;
+  bottom: 5%;
+  width: 120px;
+  opacity: 0.95;
+  animation: nv-balanceo 6s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+
+.nv-muneco {
+  left: 4%;
+  bottom: 8%;
+  width: 105px;
+  opacity: 0.95;
+}
+
+.nv-reno {
+  right: 4%;
+  bottom: 8%;
+  width: 115px;
+  opacity: 0.95;
+  animation: nv-balanceo 5.5s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+
+.footer {
+  position: relative;
+  overflow: hidden;
+}
+
+.nv-regalos {
+  right: 2%;
+  bottom: 12px;
+  width: 110px;
+  opacity: 0.9;
 }
 
 @keyframes nv-balanceo {
@@ -77,12 +146,22 @@
   50% { transform: rotate(1.5deg); }
 }
 
-@media (max-width: 768px) {
-  .nv-arbol { display: none; }
+@media (max-width: 900px) {
+  .nv-arbol,
+  .nv-santa,
+  .nv-muneco,
+  .nv-reno,
+  .nv-regalos { display: none; }
+}
+
+@media (max-width: 560px) {
   .nv-banner { font-size: 0.85rem; }
+  .nv-banner .nv-sub { display: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {
   .nv-nieve span,
-  .nv-arbol { animation: none; }
+  .nv-arbol,
+  .nv-santa,
+  .nv-reno { animation: none; }
 }
