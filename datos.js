@@ -3456,7 +3456,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om064.jpeg",
     ],
 
-    estado: "Disponible",
+    estado: "Agotado",
   },
 
   {
@@ -3482,7 +3482,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om066.jpeg",
     ],
 
-    estado: "Disponible",
+    estado: "Agotado",
   },
 
   {
@@ -7849,6 +7849,107 @@ const monturas = [
     imagenes: [
       "imagenes/monturas/otras-marcas/om109.jpeg",
       "imagenes/monturas/otras-marcas/om110.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 304,
+
+    marca: "Nasa",
+
+    nombre: "Nasa",
+
+    referencia: "NS004",
+
+    color: ["Verde"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Verde": "imagenes/monturas/otras-marcas/om127.jpeg",
+},
+
+    categorias: ["nasa", "clasicas", "oftalmica", "mujer"],
+
+    imagenes: [
+      "imagenes/monturas/otras-marcas/om127.jpeg",
+      "imagenes/monturas/otras-marcas/om128.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 305,
+
+    marca: "Nasa",
+
+    nombre: "Nasa",
+
+    referencia: "NS005",
+
+    color: ["Verde"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Verde": "imagenes/monturas/otras-marcas/om129.jpeg",
+},
+
+    categorias: ["nasa", "clasicas", "oftalmica", "hombre"],
+
+    imagenes: [
+      "imagenes/monturas/otras-marcas/om129.jpeg",
+      "imagenes/monturas/otras-marcas/om130.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+  {
+    id: 306,
+
+    marca: "oakley",
+
+    nombre: "Oakley",
+
+    referencia: "OK029",
+
+    color: ["Translucido"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Translucido": "imagenes/monturas/oakley/ok057.jpeg",
+},
+
+    categorias: ["oakley", "clasicas", "oftalmica", "hombre"],
+
+    imagenes: [
+      "imagenes/monturas/oakley/ok057.jpeg",
+      "imagenes/monturas/oakley/ok058.jpeg",
+    ],
+
+    estado: "Disponible",
+  },
+
+  {
+    id: 307,
+
+    marca: "Eyeon",
+
+    nombre: "Oftalmica",
+
+    referencia: "OE108",
+
+    color: ["Verde"],
+
+    // FOTO DE CADA COLOR: cambia aquí la imagen cuando quieras.
+    imagenesPorColor: {
+    "Verde": "imagenes/monturas/hombre/oe097.jpeg"
+},
+
+    categorias: ["eyeon-hombre", "oftalmica", "hombre"],
+
+    imagenes: [
+      "imagenes/monturas/hombre/oe097.jpeg",
+      "imagenes/monturas/hombre/oe098.jpeg",
     ],
 
     estado: "Disponible",
