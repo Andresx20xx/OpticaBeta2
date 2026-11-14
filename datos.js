@@ -22,7 +22,7 @@ const monturas = [
     imagenes: [
       "imagenes/monturas/rayban/rb001.jpeg",
       "imagenes/monturas/rayban/rb002.jpeg",
-      "imagenes/monturas/rayban/rb003.jpeg",
+      "imagenes/monturas/rayban/rb003.jpeg"
       "imagenes/monturas/rayban/rb004.jpeg",
       "imagenes/monturas/rayban/rb027.jpeg",
       "imagenes/monturas/rayban/rb028.jpeg",
