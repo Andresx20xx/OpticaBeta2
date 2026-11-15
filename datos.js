@@ -15,14 +15,14 @@ const monturas = [
     "Cafe": "imagenes/monturas/rayban/rb001.jpeg",
     "Negro": "imagenes/monturas/rayban/rb003.jpeg",
     "Carey": "imagenes/monturas/rayban/rb027.jpeg"
-}
+},
 
     categorias: ["ray-ban", "clasicas", "sol", "unisex", "hombre", "mujer"],
 
     imagenes: [
       "imagenes/monturas/rayban/rb001.jpeg",
       "imagenes/monturas/rayban/rb002.jpeg",
-      "imagenes/monturas/rayban/rb003.jpeg"
+      "imagenes/monturas/rayban/rb003.jpeg",
       "imagenes/monturas/rayban/rb004.jpeg",
       "imagenes/monturas/rayban/rb027.jpeg",
       "imagenes/monturas/rayban/rb028.jpeg",
