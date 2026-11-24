@@ -3794,7 +3794,7 @@ const monturas = [
       "imagenes/monturas/hombre/oe024.jpeg",
     ],
 
-    estado: "Disponible",
+    estado: "Agotado",
   },
 
   {
