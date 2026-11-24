@@ -3195,7 +3195,7 @@ const monturas = [
       "imagenes/monturas/cartier/ca022.jpeg",
     ],
 
-    estado: "Disponible",
+    estado: "Agotado",
   },
 
   {
