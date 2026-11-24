@@ -2672,7 +2672,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om044.jpeg",
     ],
 
-    estado: "Disponible",
+    estado: "Agotado",
   },
 
   {
