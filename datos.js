@@ -91,7 +91,7 @@ const monturas = [
       "imagenes/monturas/rayban/rb042.jpeg",
     ],
 
-    estado: "Disponible",
+    estado: "Agotado",
   },
 
   {
