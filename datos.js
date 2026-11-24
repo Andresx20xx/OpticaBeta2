@@ -7225,7 +7225,7 @@ const monturas = [
       "imagenes/monturas/otras-marcas/om076.jpeg",
     ],
 
-    estado: "Disponible",
+    estado: "Agotado",
   },
   {
     id: 279,
