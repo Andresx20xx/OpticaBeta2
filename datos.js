@@ -5591,7 +5591,7 @@ const monturas = [
       "imagenes/monturas/ciclismo/cc004.jpeg",
     ],
 
-    estado: "Disponible",
+    estado: "Agotado",
   },
 
   {
